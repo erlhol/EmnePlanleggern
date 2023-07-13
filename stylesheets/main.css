@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    text-align: left;
+    background-color: green;
+}
+
+footer {
+    width: auto;
+    text-align: center;
+    background-color: red;
+}
+
+p {
+    font: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: inline;
+}
+
+.contact_button {
+    width: 48px;
+    height: 48px;
+}
