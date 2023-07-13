@@ -10,7 +10,7 @@ header {
 footer {
     width: auto;
     text-align: center;
-    background-color: red;
+    background-color: aquamarine;
 }
 
 p {
@@ -25,4 +25,18 @@ li {
 .contact_button {
     width: 48px;
     height: 48px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+  
+th {
+    background-color: #f2f2f2;
 }
