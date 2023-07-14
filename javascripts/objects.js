@@ -6,7 +6,6 @@ class Emne {
       this.credits = credits;
       this.teaching = teaching; // Spring or Autumn
       this.examdate = examdate;
-
     }
   
     introduce() {
@@ -52,7 +51,7 @@ var currentPage = 1;
 function generateListItems(start, end, subjects) {
   listContainer.innerHTML = ""; // Clear the existing list items
 
-  for (var i = start; i <= end; i++) {
+  for (var i = start; i < end; i++) {
     var listItem = document.createElement("li");
     listItem.innerText = subjects[i].toString();
     listContainer.appendChild(listItem);
