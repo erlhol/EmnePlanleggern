@@ -16,12 +16,13 @@ class Emne {
         return `Emne { code: ${this.code}, description: ${this.description} }`;
     }
   }
-  
+
+// How to retrieve from JSON:
+/*
 const emne = new Emne("IN1000","Introduksjon til objektorientert programmering");
 
 const jsonData = '{"code_1": "IN1010", "description_1": "My description"}';
 const parsedData = JSON.parse(jsonData);
-
 console.log(parsedData);
 
 const emne2 = new Emne(parsedData.code_1, parsedData.description_1);
@@ -29,6 +30,8 @@ const emne2 = new Emne(parsedData.code_1, parsedData.description_1);
 console.log(emne2.code);
 console.log(emne2.description); 
 emne2.introduce();
+
+*/
 
 function create_dummy_subjects() {
     var array = [];
@@ -41,7 +44,7 @@ function create_dummy_subjects() {
 var subjects = create_dummy_subjects();
 
 var numItems = subjects.length;
-var listContainer = document.getElementById("list-container");
+var listContainer = document.getElementById("course");
 var paginationContainer = document.getElementById("pagination");
 
 var itemsPerPage = 10; // Number of items to display per page
@@ -49,13 +52,12 @@ var totalPages = Math.ceil(numItems / itemsPerPage);
 var currentPage = 1;
 
 function generateListItems(start, end, subjects) {
-  listContainer.innerHTML = ""; // Clear the existing list items
+    listContainer.innerHTML = "";
 
-  for (var i = start; i < end; i++) {
-    var listItem = document.createElement("li");
-    listItem.innerText = subjects[i].toString();
-    listContainer.appendChild(listItem);
-  }
+    for (var i = start; i < end; i++) {
+        var listItem = subjects[i];
+        addCourse(listItem);
+    }
 }
 
 function updatePaginationButtons(subjects) {
@@ -81,3 +83,32 @@ function updatePaginationButtons(subjects) {
 
 generateListItems(0, itemsPerPage,subjects); // Generate initial list
 updatePaginationButtons(subjects); // Generate initial pagination buttons
+
+function addCourse(courseObject) {
+    // Create a new <div> element with the class "course"
+    var newCourseDiv = document.createElement("div");
+    newCourseDiv.className = "course";
+
+    // Create and append the <h1> element for the course title
+    var courseTitle = document.createElement("h1");
+    courseTitle.textContent = courseObject.code;
+    newCourseDiv.appendChild(courseTitle);
+
+    // Create and append the first <p> element for the course details
+    var courseDetails = document.createElement("p");
+    courseDetails.innerHTML =
+        '<span style="color: #ff5722;">Level:</span> Bachelor | ' +
+        '<span style="color: #ff5722;">Credits:</span> 10 | ' +
+        '<span style="color: #ff5722;">Teaching:</span> Autumn | ' +
+        '<span style="color: #ff5722;">Examination:</span> Spring and autumn | ' +
+        '<span style="color: #ff5722;">Teaching language:</span> Norwegian';
+    newCourseDiv.appendChild(courseDetails);
+
+    // Create and append the second <p> element for the course description
+    var courseDescription = document.createElement("p");
+    courseDescription.textContent = courseObject.description;
+    newCourseDiv.appendChild(courseDescription);
+
+    // Append the new course <div> to the body of the document
+    document.body.appendChild(newCourseDiv);
+}
