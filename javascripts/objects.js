@@ -60,7 +60,7 @@ subjects.then((value) => {
     var totalPages = Math.ceil(numItems / itemsPerPage);
 
     generateListItems(0, itemsPerPage,value); // Generate initial list
-    updatePaginationButtons(value,numItems,totalPages); // Generate initial pagination buttons
+    updatePaginationButtons(value,numItems,itemsPerPage,totalPages); // Generate initial pagination buttons
   }).catch((error) => {
     // Handle any errors that occurred during the promise
     console.error(error);
@@ -75,7 +75,7 @@ function generateListItems(start, end, subjects) {
     }
 }
 
-function updatePaginationButtons(subjects,numItems,totalPages) {
+function updatePaginationButtons(subjects,numItems,itemsPerPage,totalPages) {
   paginationContainer.innerHTML = ""; // Clear the pagination buttons
 
   for (var i = 1; i <= totalPages; i++) {
@@ -84,12 +84,13 @@ function updatePaginationButtons(subjects,numItems,totalPages) {
 
     // Add an event listener to handle pagination button clicks
     button.addEventListener("click", function () {
+      console.log("Button pressed!");
       currentPage = parseInt(this.innerText.split(" ")[1]);
       generateListItems(
         (currentPage - 1) * itemsPerPage + 1,
         Math.min(currentPage * itemsPerPage, numItems), subjects
       );
-      updatePaginationButtons(subjects,numItems,totalPages);
+      updatePaginationButtons(subjects,numItems,itemsPerPage,totalPages);
     });
 
     paginationContainer.appendChild(button);
