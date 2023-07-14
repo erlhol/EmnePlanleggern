@@ -69,7 +69,7 @@ subjects.then((value) => {
 function generateListItems(start, end, subjects) {
     listContainer.innerHTML = "";
 
-    for (var i = start; i < end; i++) {
+    for (var i = start; i <= end; i++) {
         var listItem = subjects[i];
         addCourse(listItem, listContainer);
     }
