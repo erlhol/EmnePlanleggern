@@ -1,11 +1,13 @@
 class Emne {
-    constructor(code, description, level= "", credits="", teaching="", examdate="") {
+    constructor(code, description, level= "", credits="", teaching="", examdate="", teachingLanguage = "",about="") {
       this.code = code;
       this.description = description;
       this.level = level; // Bachelor or Master
       this.credits = credits;
       this.teaching = teaching; // Spring or Autumn
       this.examdate = examdate;
+      this.teachingLanguage = teachingLanguage;
+      this.about = about;
     }
   
     introduce() {
@@ -17,37 +19,41 @@ class Emne {
     }
   }
 
-// How to retrieve from JSON:
-/*
-const emne = new Emne("IN1000","Introduksjon til objektorientert programmering");
-
-const jsonData = '{"code_1": "IN1010", "description_1": "My description"}';
-const parsedData = JSON.parse(jsonData);
-console.log(parsedData);
-
-const emne2 = new Emne(parsedData.code_1, parsedData.description_1);
-
-console.log(emne2.code);
-console.log(emne2.description); 
-emne2.introduce();
-
-*/
-
-function create_dummy_subjects() {
-    var array = [];
-    for (var i = 0; i <= 51; i++) {
-        array.push(new Emne(i,"emne nummer "+i));
-    }
-    return array;
+function read_from_JSON() {
+    return fetch('data/subjects.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            var array = data.map(e => new Emne(
+                e.subjectCode,
+                e.subjectName,
+                e.level,
+                e.credits,
+                e.teaching,
+                e.examination,
+                e.teachingLanguage,
+                e.description
+            ));
+            return array;
+        })
+        .catch(error => {
+            console.log('Error:', error);
+            throw error; // Propagate the error for the caller to handle
+        });
 }
 
-var subjects = create_dummy_subjects();
+
+var subjects = read_from_JSON();
 
 var numItems = subjects.length;
 var listContainer = document.getElementById("course-container");
 var paginationContainer = document.getElementById("pagination");
 
-var itemsPerPage = 10; // Number of items to display per page
+var itemsPerPage = 5; // Number of items to display per page
 var totalPages = Math.ceil(numItems / itemsPerPage);
 var currentPage = 1;
 
@@ -97,16 +103,16 @@ function addCourse(courseObject,courseContainer) {
     // Create and append the first <p> element for the course details
     var courseDetails = document.createElement("p");
     courseDetails.innerHTML =
-        '<span style="color: #ff5722;">Level:</span> Bachelor | ' +
-        '<span style="color: #ff5722;">Credits:</span> 10 | ' +
-        '<span style="color: #ff5722;">Teaching:</span> Autumn | ' +
-        '<span style="color: #ff5722;">Examination:</span> Spring and autumn | ' +
-        '<span style="color: #ff5722;">Teaching language:</span> Norwegian';
+        `<span style="color: #ff5722;">Level:</span> ${courseObject.level} | ` +
+        `<span style="color: #ff5722;">Credits:</span> ${courseObject.credits} | ` +
+        `<span style="color: #ff5722;">Teaching:</span> ${courseObject.teaching} | ` +
+        `<span style="color: #ff5722;">Examination:</span> ${courseObject.examination} | ` +
+        `<span style="color: #ff5722;">Teaching language:</span> ${courseObject.teachingLanguage}n`;
     newCourseDiv.appendChild(courseDetails);
 
     // Create and append the second <p> element for the course description
     var courseDescription = document.createElement("p");
-    courseDescription.textContent = courseObject.description;
+    courseDescription.textContent = courseObject.about;
     newCourseDiv.appendChild(courseDescription);
 
     // Append the new course <div> to the body of the document
