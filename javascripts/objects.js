@@ -47,15 +47,24 @@ function read_from_JSON() {
 }
 
 
-var subjects = read_from_JSON();
-
-var numItems = subjects.length;
+var numItems = 0;
 var listContainer = document.getElementById("course-container");
 var paginationContainer = document.getElementById("pagination");
 
-var itemsPerPage = 5; // Number of items to display per page
+var itemsPerPage = 100; // Number of items to display per page
 var totalPages = Math.ceil(numItems / itemsPerPage);
 var currentPage = 1;
+
+var subjects = read_from_JSON();
+subjects.then((value) => {
+    // Handle the resolved value here
+    numItems = value.length;
+    generateListItems(0, itemsPerPage,value); // Generate initial list
+    updatePaginationButtons(value); // Generate initial pagination buttons
+  }).catch((error) => {
+    // Handle any errors that occurred during the promise
+    console.error(error);
+  });
 
 function generateListItems(start, end, subjects) {
     listContainer.innerHTML = "";
@@ -87,9 +96,6 @@ function updatePaginationButtons(subjects) {
   }
 }
 
-generateListItems(0, itemsPerPage,subjects); // Generate initial list
-updatePaginationButtons(subjects); // Generate initial pagination buttons
-
 function addCourse(courseObject,courseContainer) {
     // Create a new <div> element with the class "course"
     var newCourseDiv = document.createElement("div");
@@ -106,8 +112,8 @@ function addCourse(courseObject,courseContainer) {
         `<span style="color: #ff5722;">Level:</span> ${courseObject.level} | ` +
         `<span style="color: #ff5722;">Credits:</span> ${courseObject.credits} | ` +
         `<span style="color: #ff5722;">Teaching:</span> ${courseObject.teaching} | ` +
-        `<span style="color: #ff5722;">Examination:</span> ${courseObject.examination} | ` +
-        `<span style="color: #ff5722;">Teaching language:</span> ${courseObject.teachingLanguage}n`;
+        `<span style="color: #ff5722;">Examination:</span> ${courseObject.examdate} | ` +
+        `<span style="color: #ff5722;">Teaching language:</span> ${courseObject.teachingLanguage}`;
     newCourseDiv.appendChild(courseDetails);
 
     // Create and append the second <p> element for the course description
