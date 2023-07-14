@@ -42,5 +42,4 @@ function disqus() {
         (d.head || d.body).appendChild(s);
         })();
 }
-
 disqus();

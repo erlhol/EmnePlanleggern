@@ -18,10 +18,6 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-li {
-    display: inline;
-}
-
 .contact_button {
     width: 48px;
     height: 48px;
@@ -39,4 +35,18 @@ th, td {
   
 th {
     background-color: #f2f2f2;
+}
+
+#list-container {
+    margin-bottom: 20px;
+}
+
+#pagination {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pagination button {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
