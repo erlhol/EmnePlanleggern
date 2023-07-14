@@ -44,7 +44,7 @@ function create_dummy_subjects() {
 var subjects = create_dummy_subjects();
 
 var numItems = subjects.length;
-var listContainer = document.getElementById("course");
+var listContainer = document.getElementById("course-container");
 var paginationContainer = document.getElementById("pagination");
 
 var itemsPerPage = 10; // Number of items to display per page
@@ -56,7 +56,7 @@ function generateListItems(start, end, subjects) {
 
     for (var i = start; i < end; i++) {
         var listItem = subjects[i];
-        addCourse(listItem);
+        addCourse(listItem, listContainer);
     }
 }
 
@@ -84,7 +84,7 @@ function updatePaginationButtons(subjects) {
 generateListItems(0, itemsPerPage,subjects); // Generate initial list
 updatePaginationButtons(subjects); // Generate initial pagination buttons
 
-function addCourse(courseObject) {
+function addCourse(courseObject,courseContainer) {
     // Create a new <div> element with the class "course"
     var newCourseDiv = document.createElement("div");
     newCourseDiv.className = "course";
@@ -110,5 +110,5 @@ function addCourse(courseObject) {
     newCourseDiv.appendChild(courseDescription);
 
     // Append the new course <div> to the body of the document
-    document.body.appendChild(newCourseDiv);
+    courseContainer.appendChild(newCourseDiv);
 }
