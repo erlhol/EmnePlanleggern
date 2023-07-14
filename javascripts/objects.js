@@ -47,20 +47,20 @@ function read_from_JSON() {
 }
 
 
-var numItems = 0;
 var listContainer = document.getElementById("course-container");
 var paginationContainer = document.getElementById("pagination");
 
-var itemsPerPage = 100; // Number of items to display per page
-var totalPages = Math.ceil(numItems / itemsPerPage);
 var currentPage = 1;
 
 var subjects = read_from_JSON();
 subjects.then((value) => {
     // Handle the resolved value here
-    numItems = value.length;
+    var numItems = value.length;
+    var itemsPerPage = 5; // Number of items to display per page
+    var totalPages = Math.ceil(numItems / itemsPerPage);
+
     generateListItems(0, itemsPerPage,value); // Generate initial list
-    updatePaginationButtons(value); // Generate initial pagination buttons
+    updatePaginationButtons(value,numItems,totalPages); // Generate initial pagination buttons
   }).catch((error) => {
     // Handle any errors that occurred during the promise
     console.error(error);
@@ -75,7 +75,7 @@ function generateListItems(start, end, subjects) {
     }
 }
 
-function updatePaginationButtons(subjects) {
+function updatePaginationButtons(subjects,numItems,totalPages) {
   paginationContainer.innerHTML = ""; // Clear the pagination buttons
 
   for (var i = 1; i <= totalPages; i++) {
@@ -89,7 +89,7 @@ function updatePaginationButtons(subjects) {
         (currentPage - 1) * itemsPerPage + 1,
         Math.min(currentPage * itemsPerPage, numItems), subjects
       );
-      updatePaginationButtons(subjects);
+      updatePaginationButtons(subjects,numItems,totalPages);
     });
 
     paginationContainer.appendChild(button);
