@@ -1,7 +1,12 @@
 class Emne {
-    constructor(code, description) {
+    constructor(code, description, level= "", credits="", teaching="", examdate="") {
       this.code = code;
       this.description = description;
+      this.level = level; // Bachelor or Master
+      this.credits = credits;
+      this.teaching = teaching; // Spring or Autumn
+      this.examdate = examdate;
+
     }
   
     introduce() {
