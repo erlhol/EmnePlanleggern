@@ -2,6 +2,16 @@ body {
     background-color: lightblue;
 }
 
+/* Styles for devices with a maximum width of 600px */
+@media (max-width: 600px) {
+    /* CSS rules for smaller screens */
+  }
+  
+/* Styles for devices with a minimum width of 601px */
+@media (min-width: 601px) {
+    /* CSS rules for larger screens */
+}
+
 footer {
     width: auto;
     text-align: center;
@@ -33,8 +43,9 @@ th {
 }
 
 #list-container {
-    margin-bottom: 20px;
-}
+    height: 300px; /* Set a fixed height for the list container */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
 
 #pagination {
     display: flex;
@@ -66,4 +77,34 @@ th {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+.container {
+    display: flex; /* Use flexbox to align divs */
+    justify-content: space-between;
+  }
+
+.calendar {
+    flex-basis: 50%;
+    padding: 20px;
+}
+  
+.courses-section {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+  
+.chosen {
+    background-color: rgb(91, 112, 91);
+}
+  
+.not-chosen {
+    background-color: #ffffff;
 }

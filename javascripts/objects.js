@@ -51,16 +51,13 @@ var listContainer = document.getElementById("course-container");
 var paginationContainer = document.getElementById("pagination");
 
 var currentPage = 1;
+var itemsPerPage = 5; // Number of items to display per page
 
 var subjects = read_from_JSON();
 subjects.then((value) => {
     // Handle the resolved value here
-    var numItems = value.length;
-    var itemsPerPage = 5; // Number of items to display per page
-    var totalPages = Math.ceil(numItems / itemsPerPage);
-
     generateListItems(0, itemsPerPage,value); // Generate initial list
-    updatePaginationButtons(value,numItems,itemsPerPage,totalPages); // Generate initial pagination buttons
+    listContainer.addEventListener("scroll", loadMoreItems(value));
   }).catch((error) => {
     // Handle any errors that occurred during the promise
     console.error(error);
@@ -75,25 +72,18 @@ function generateListItems(start, end, subjects) {
     }
 }
 
-function updatePaginationButtons(subjects,numItems,itemsPerPage,totalPages) {
-  paginationContainer.innerHTML = ""; // Clear the pagination buttons
+// Function to generate more list items when scrolling to the bottom
+function loadMoreItems(subjects) {
+  var scrollTop = listContainer.scrollTop;
+  var scrollHeight = listContainer.scrollHeight;
+  var containerHeight = listContainer.clientHeight;
 
-  for (var i = 1; i <= totalPages; i++) {
-    var button = document.createElement("button");
-    button.innerText = "Page " + i;
-
-    // Add an event listener to handle pagination button clicks
-    button.addEventListener("click", function () {
-      console.log("Button pressed!");
-      currentPage = parseInt(this.innerText.split(" ")[1]);
-      generateListItems(
-        (currentPage - 1) * itemsPerPage + 1,
-        Math.min(currentPage * itemsPerPage, numItems), subjects
-      );
-      updatePaginationButtons(subjects,numItems,itemsPerPage,totalPages);
-    });
-
-    paginationContainer.appendChild(button);
+  if (scrollTop + containerHeight >= scrollHeight) {
+    // Reached the bottom of the list container
+    var start = currentPage * itemsPerPage + 1;
+    var end = (currentPage + 1) * itemsPerPage;
+    generateListItems(start, end,subjects);
+    currentPage++;
   }
 }
 
@@ -122,6 +112,17 @@ function addCourse(courseObject,courseContainer) {
     courseDescription.textContent = courseObject.about;
     newCourseDiv.appendChild(courseDescription);
 
+    newCourseDiv.addEventListener("click", function() {
+      if (newCourseDiv.classList.contains("chosen")) {
+        newCourseDiv.classList.remove("chosen");
+        newCourseDiv.classList.add("not-chosen");
+      } else {
+        newCourseDiv.classList.remove("not-chosen");
+        newCourseDiv.classList.add("chosen");
+      }
+    });
+
     // Append the new course <div> to the body of the document
     courseContainer.appendChild(newCourseDiv);
 }
+
