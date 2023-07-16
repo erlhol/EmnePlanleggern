@@ -88,6 +88,7 @@ function loadMoreItems(subjects) {
 }
 
 function addCourse(courseObject,courseContainer) {
+    var selectedItems = document.getElementById("selected-courses");
     // Create a new <div> element with the class "course"
     var newCourseDiv = document.createElement("div");
     newCourseDiv.className = "course";
@@ -115,9 +116,15 @@ function addCourse(courseObject,courseContainer) {
     newCourseDiv.addEventListener("click", function() {
       if (newCourseDiv.classList.contains("chosen")) {
         // Add to a div that displays selected
+        const elementToRemove = document.getElementById(courseObject.code);
+        elementToRemove.remove();
         newCourseDiv.classList.remove("chosen");
         newCourseDiv.classList.add("not-chosen");
       } else {
+        var subject = document.createElement("p");
+        subject.innerHTML = courseObject.code;
+        subject.setAttribute('id', courseObject.code);
+        selectedItems.appendChild(subject);
         newCourseDiv.classList.remove("not-chosen");
         newCourseDiv.classList.add("chosen");
       }
