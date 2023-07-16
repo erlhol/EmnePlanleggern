@@ -114,6 +114,7 @@ function addCourse(courseObject,courseContainer) {
 
     newCourseDiv.addEventListener("click", function() {
       if (newCourseDiv.classList.contains("chosen")) {
+        // Add to a div that displays selected
         newCourseDiv.classList.remove("chosen");
         newCourseDiv.classList.add("not-chosen");
       } else {
