@@ -1,6 +1,17 @@
 body {
     background-color: lightblue;
 }
+
+@media only screen and (max-width: 480px) {
+    /* CSS styles for smaller screens */
+    .scheduleTable {
+      font-size: 12px;
+    }
+    .scheduleTable th,
+    .scheduleTable td {
+      padding: 5px;
+    }
+  }
   
 h1 {
     font-family: 'Courier New', Courier, monospace;
