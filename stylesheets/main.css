@@ -2,12 +2,6 @@ body {
     background-color: lightblue;
 }
   
-header {
-    text-align: center;
-    background-color: aquamarine;
-    padding: 20px 0;
-}
-  
 h1 {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -89,10 +83,8 @@ th {
 
 .selected-course {
     background-color: #ffffffa5;
-    cursor: pointer;
 }
 
 .not-selected-course {
     background-color: #ffffff;
-    cursor: pointer;
 }
