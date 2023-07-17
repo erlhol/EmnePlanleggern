@@ -52,7 +52,7 @@ var listContainer = document.getElementById("course-container");
 var subjects = read_from_JSON();
 subjects.then((value) => {
     // Handle the resolved value here
-    generateListItems(0, value.length,value); // Generate initial list
+    generateListItems(0, value.length-1,value); // Generate initial list
   }).catch((error) => {
     // Handle any errors that occurred during the promise
     console.error(error);
