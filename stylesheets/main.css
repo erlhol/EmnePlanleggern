@@ -8,9 +8,9 @@ h1 {
 }
 
 footer {
+    width: auto;
     text-align: center;
-    background-color: aquamarine;
-    padding: 20px 0;
+    background-color: aliceblue;
 }
 
 p {
