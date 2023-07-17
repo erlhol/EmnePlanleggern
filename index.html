@@ -15,10 +15,13 @@
 
   <body>
 
-    <h1>EmnePlanleggern</h1>
+    <header>
+      <h1>EmnePlanleggern</h1>
+    </header>
 
       <div class="calendar">
         <table id="scheduleTable">
+          <caption>Course Schedule</caption>
           <tr>
             <th></th>
             <th>Monday</th>
@@ -79,15 +82,16 @@
       </div>
       
       <div class="courses-section">
-        <div id="selected-courses"><p>Selected modules</p></div>
+        <h2>Selected Modules</h2>
+        <div id="selected-courses"></div>
         <div class="course-grid" id="course-container"></div>
       </div>
 
-      <script src="javascripts/objects.js"></script>
     <footer>
       <p>Kontakt utvikleren</p>
       <a href="mailto:erlinhol@uio.no"><img class="contact_button" src="images/icons/mail.png" alt="Mail"></a>
     </footer>
+    <script src="javascripts/objects.js"></script>
   </body>
   
 </html>

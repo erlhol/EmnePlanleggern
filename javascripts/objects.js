@@ -48,10 +48,6 @@ function read_from_JSON() {
 
 
 var listContainer = document.getElementById("course-container");
-var paginationContainer = document.getElementById("pagination");
-
-var currentPage = 1;
-var itemsPerPage = 5; // Number of items to display per page
 
 var subjects = read_from_JSON();
 subjects.then((value) => {
