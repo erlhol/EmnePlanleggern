@@ -81,10 +81,10 @@ th {
     gap: 50px;
 }
 
-.selected-course {
+.chosen {
     background-color: #ffffff88;
 }
 
-.not-selected-course {
+.not-chosen {
     background-color: #ffffff;
 }
