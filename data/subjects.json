@@ -1,501 +1,629 @@
-[    {
-    "subjectCode": "IN1000",
-    "subjectName": "Introduction to Object-oriented Programming",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "Norwegian",
-    "description": "This course is an introduction to programming and gives a good base for further studies within computational science, but it's also suited for those who just wish to understand what programming is. The course doesn't presuppose any knowledge of programming. It'll be given a beginners introduction to Python and how to develop algorithms, including the use of lists, files, and communication with the user. Particular emphasis is placed on object-oriented programming."
+[
+    {
+        "subjectCode": "IN1000",
+        "subjectName": "Introduction to Object-oriented Programming",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "Norwegian",
+        "description": "This course is an introduction to programming and gives a good base for further studies within computational science, but it's also suited for those who just wish to understand what programming is. The course doesn't presuppose any knowledge of programming. It'll be given a beginners introduction to Python and how to develop algorithms, including the use of lists, files, and communication with the user. Particular emphasis is placed on object-oriented programming.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "8AM",
+                "weekday": "mon",
+                "place": "Sophus Lie",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "10AM",
+                "weekday": "wed",
+                "place": "Tutorial Room 1",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "MA2001",
-    "subjectName": "Calculus I",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces fundamental concepts of calculus, including limits, derivatives, and integrals. Students will learn various techniques for solving mathematical problems involving functions and their rates of change. Applications of calculus in physics, engineering, and economics will be explored."
+        "subjectCode": "MA2001",
+        "subjectName": "Calculus I",
+        "level": "Bachelor",
+        "credits": 8,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course introduces fundamental concepts of calculus, including limits, derivatives, and integrals. Students will learn various techniques for solving mathematical problems involving functions and their rates of change. Applications of calculus in physics, engineering, and economics will be explored.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall A",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Tutorial Room 2",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "PH3002",
-    "subjectName": "Quantum Mechanics",
-    "level": "Bachelor",
-    "credits": 12,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an introduction to the principles of quantum mechanics. Topics covered include wave-particle duality, Schrödinger's equation, operators, and the mathematical formalism of quantum mechanics. Applications of quantum mechanics in atomic and molecular systems will be discussed."
+        "subjectCode": "PH3002",
+        "subjectName": "Quantum Mechanics",
+        "level": "Bachelor",
+        "credits": 12,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course provides an introduction to the principles of quantum mechanics. Topics covered include wave-particle duality, Schrödinger's equation, operators, and the mathematical formalism of quantum mechanics. Applications of quantum mechanics in atomic and molecular systems will be discussed.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall B",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "2PM",
+                "weekday": "thu",
+                "place": "Physics Lab",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "4PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "CS2500",
-    "subjectName": "Data Structures and Algorithms",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course covers the fundamental data structures and algorithms used in computer science. Topics include arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, and searching algorithms. Students will analyze the efficiency and performance of different data structures and algorithms."
+        "subjectCode": "CS2500",
+        "subjectName": "Data Structures and Algorithms",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course covers the fundamental data structures and algorithms used in computer science. Topics include arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, and searching algorithms. Students will analyze the efficiency and performance of different data structures and algorithms.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "11AM",
+                "weekday": "mon",
+                "place": "Hall C",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "1PM",
+                "weekday": "wed",
+                "place": "Computer Lab 3",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "3PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "EC1001",
-    "subjectName": "Principles of Microeconomics",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles of microeconomics, which focus on individual economic agents such as consumers, firms, and markets. Topics include supply and demand, market equilibrium, consumer behavior, production and costs, and market structures. The course also explores the role of government in the economy."
+        "subjectCode": "EC1001",
+        "subjectName": "Principles of Microeconomics",
+        "level": "Bachelor",
+        "credits": 8,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course introduces the principles of microeconomics, which focus on individual economic agents such as consumers, firms, and markets. Topics include supply and demand, market equilibrium, consumer behavior, production and costs, and market structures. The course also explores the role of government in the economy.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall D",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "12PM",
+                "weekday": "thu",
+                "place": "Tutorial Room 3",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "PY4003",
-    "subjectName": "Experimental Psychology",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces students to experimental methods used in psychological research. Topics include research design, data collection techniques, statistical analysis, and ethical considerations. Students will conduct experiments and analyze data to gain practical experience in psychological research."
+        "subjectCode": "PY4003",
+        "subjectName": "Experimental Psychology",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course introduces students to the basic principles and methodologies of experimental psychology. Topics covered include research design, data collection, statistical analysis, and interpretation of psychological experiments. Students will gain hands-on experience in conducting experiments and analyzing data.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall E",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Psychology Lab",
+                "type": "Lab"
+            },
+            {
+                "name": "Discussion",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Seminar Room 1",
+                "type": "Discussion"
+            }
+        ]
     },
     {
-    "subjectCode": "ME3002",
-    "subjectName": "Mechanics of Materials",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores the behavior of materials under different loading conditions. Topics covered include stress, strain, elasticity, plasticity, and fracture mechanics. Students will learn to analyze and design structural components using the principles of mechanics of materials."
+        "subjectCode": "PH2002",
+        "subjectName": "Classical Mechanics",
+        "level": "Bachelor",
+        "credits": 12,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course provides an introduction to classical mechanics, which is the branch of physics that deals with the motion of macroscopic objects. Topics covered include Newton's laws of motion, conservation laws, rotational motion, oscillations, and gravitation. Applications of classical mechanics in engineering and astronomy will be discussed.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall F",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "2PM",
+                "weekday": "thu",
+                "place": "Physics Lab",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "4PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "AR2001",
-    "subjectName": "Art History",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an overview of the history of art from ancient civilizations to the present day. Students will study various art movements, styles, and artists, analyzing the cultural, social, and historical contexts in which artworks were created. The course includes visits to museums and galleries."
+        "subjectCode": "MA3004",
+        "subjectName": "Linear Algebra",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course introduces the fundamental concepts of linear algebra. Topics covered include vector spaces, matrices, systems of linear equations, determinants, eigenvalues, and eigenvectors. Applications of linear algebra in engineering, computer science, and physics will be discussed.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall G",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Tutorial Room 4",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "LW1002",
-    "subjectName": "Introduction to Law",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces students to the basic principles and concepts of law. Topics covered include legal systems, sources of law, legal reasoning, and the role of law in society. Students will develop critical thinking and legal analysis skills through case studies and discussions."
+        "subjectCode": "CS4001",
+        "subjectName": "Artificial Intelligence",
+        "level": "Bachelor",
+        "credits": 12,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course explores the principles and techniques of artificial intelligence. Topics covered include knowledge representation, problem-solving, search algorithms, machine learning, natural language processing, and intelligent agents. Students will develop AI systems and apply them to real-world problems.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall H",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "2PM",
+                "weekday": "thu",
+                "place": "Computer Lab 2",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "4PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "EE2004",
-    "subjectName": "Digital Electronics",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course covers the fundamentals of digital electronics and logic design. Students will learn about logic gates, Boolean algebra, combinational and sequential circuits, and memory devices. Practical applications of digital electronics in computer systems and other electronic devices will be explored."
+        "subjectCode": "EC2003",
+        "subjectName": "Macroeconomics",
+        "level": "Bachelor",
+        "credits": 8,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course introduces the principles of macroeconomics, which focus on aggregate economic variables such as national income, inflation, unemployment, and economic growth. Topics covered include national income accounting, monetary and fiscal policy, international trade, and exchange rates. The course also examines the impact of macroeconomic factors on businesses and individuals.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall I",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Tutorial Room 5",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "MS3001",
-    "subjectName": "Marketing Management",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an overview of marketing principles and strategies. Topics include market research, consumer behavior, product development, pricing, promotion, and distribution. Students will develop marketing plans and analyze case studies to understand the challenges and opportunities in marketing management."
+        "subjectCode": "BI3002",
+        "subjectName": "Molecular Biology",
+        "level": "Bachelor",
+        "credits": 12,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course provides an introduction to molecular biology, which is the study of biological macromolecules and their interactions in cellular processes. Topics covered include DNA replication, transcription, translation, gene regulation, and recombinant DNA technology. Students will gain practical laboratory skills in molecular biology techniques.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall J",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "2PM",
+                "weekday": "thu",
+                "place": "Biology Lab 1",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "4PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "PH2003",
-    "subjectName": "Classical Mechanics",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles of classical mechanics, which describe the motion of macroscopic objects. Topics covered include Newton's laws of motion, energy, momentum, rotational motion, and gravitation. Students will learn to apply these principles to analyze and solve mechanical problems."
+        "subjectCode": "MA4004",
+        "subjectName": "Discrete Mathematics",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course covers the fundamental concepts of discrete mathematics. Topics include logic, set theory, functions, relations, combinatorics, graph theory, and formal proof techniques. Students will develop problem-solving and critical thinking skills through the study of discrete mathematical structures.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall K",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Tutorial Room 6",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "CH1002",
-    "subjectName": "General Chemistry",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides a comprehensive introduction to the fundamental principles of chemistry. Topics covered include atomic structure, chemical bonding, stoichiometry, gas laws, solutions, acids and bases, and chemical reactions. Laboratory experiments will reinforce theoretical concepts."
+        "subjectCode": "HS1001",
+        "subjectName": "World History",
+        "level": "Bachelor",
+        "credits": 8,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course provides an overview of world history from prehistoric times to the present. Major civilizations, events, and historical processes will be examined, with a focus on political, social, cultural, and economic developments. The course aims to develop students' understanding of the interconnectedness of global history.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall L",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "12PM",
+                "weekday": "thu",
+                "place": "Tutorial Room 7",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Discussion",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Seminar Room 2",
+                "type": "Discussion"
+            }
+        ]
     },
     {
-    "subjectCode": "EC2002",
-    "subjectName": "Macroeconomics",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the study of macroeconomic principles and policies. Topics covered include national income determination, economic growth, unemployment, inflation, monetary policy, fiscal policy, and international trade. Students will analyze real-world economic scenarios and their impact on macroeconomic variables."
+        "subjectCode": "AR2002",
+        "subjectName": "Art History",
+        "level": "Bachelor",
+        "credits": 8,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course explores the history of art from ancient civilizations to the modern era. Major artistic movements, styles, and works of art will be examined, with an emphasis on understanding the cultural, social, and historical contexts in which they were created. Students will develop skills in visual analysis and interpretation.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall M",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Tutorial Room 8",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Discussion",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Seminar Room 3",
+                "type": "Discussion"
+            }
+        ]
     },
     {
-    "subjectCode": "CS3501",
-    "subjectName": "Database Systems",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles and techniques of database systems. Topics covered include relational database design, SQL querying, normalization, transaction management, and database security. Students will gain hands-on experience by designing and implementing database systems."
+        "subjectCode": "PS3003",
+        "subjectName": "International Relations",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course examines the theories and practices of international relations, focusing on the interactions between states and non-state actors in the global arena. Topics covered include international cooperation and conflict, diplomacy, international organizations, global governance, and security issues. The course also explores the impact of globalization on international relations.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall N",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "12PM",
+                "weekday": "thu",
+                "place": "Tutorial Room 9",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Discussion",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Seminar Room 4",
+                "type": "Discussion"
+            }
+        ]
     },
     {
-    "subjectCode": "HS2001",
-    "subjectName": "World History",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an overview of world history from ancient civilizations to the present day. Students will study major historical events, cultural developments, and the interactions between different societies. The course aims to develop a global perspective and an understanding of historical processes."
+        "subjectCode": "CH2002",
+        "subjectName": "Organic Chemistry",
+        "level": "Bachelor",
+        "credits": 12,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course provides an introduction to organic chemistry, which is the study of the structure, properties, composition, reactions, and synthesis of organic compounds. Topics covered include organic nomenclature, functional groups, stereochemistry, reaction mechanisms, and spectroscopic methods for structure determination. Students will gain hands-on experience in organic synthesis and characterization.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall O",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Chemistry Lab 1",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "PS3003",
-    "subjectName": "International Relations",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores the theories and practices of international relations. Topics covered include state sovereignty, power, diplomacy, globalization, international organizations, and conflict resolution. Students will analyze contemporary issues in international relations and evaluate different perspectives."
+        "subjectCode": "LW4004",
+        "subjectName": "Constitutional Law",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course explores the principles and institutions of constitutional law, focusing on the legal framework of government and the protection of individual rights and freedoms. Topics covered include constitutional interpretation, separation of powers, judicial review, fundamental rights, and constitutional amendments. The course also examines constitutional law in a comparative context.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall P",
+                "type": "Lecture"
+            },
+            {
+                "name": "Tutorial",
+                "time": "12PM",
+                "weekday": "thu",
+                "place": "Tutorial Room 10",
+                "type": "Tutorial"
+            },
+            {
+                "name": "Discussion",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Seminar Room 5",
+                "type": "Discussion"
+            }
+        ]
     },
     {
-    "subjectCode": "ME2004",
-    "subjectName": "Thermodynamics",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles of thermodynamics, which study the behavior of energy and heat transfer in systems. Topics covered include the laws of thermodynamics, properties of pure substances, work and heat interactions, and thermodynamic cycles. Applications in engineering and environmental sciences will be discussed."
+        "subjectCode": "ME2003",
+        "subjectName": "Thermodynamics",
+        "level": "Bachelor",
+        "credits": 12,
+        "teaching": "Spring",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course provides an introduction to thermodynamics, which is the study of energy and its transformations in physical systems. Topics covered include the laws of thermodynamics, thermodynamic properties, heat engines, entropy, and phase transitions. Applications of thermodynamics in engineering and environmental science will be discussed.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "9AM",
+                "weekday": "mon",
+                "place": "Hall Q",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "11AM",
+                "weekday": "wed",
+                "place": "Physics Lab",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "2PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     },
     {
-    "subjectCode": "PY1002",
-    "subjectName": "Introduction to Psychology",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an introduction to the field of psychology. Topics covered include the history of psychology, biological bases of behavior, perception, learning, memory, motivation, and social behavior. Students will gain a foundational understanding of psychological theories and research methods."
-    },
-    {
-    "subjectCode": "BA3001",
-    "subjectName": "Business Ethics",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course examines ethical issues and dilemmas in the business environment. Topics include ethical decision-making, corporate social responsibility, stakeholder theory, whistle-blowing, and sustainability. Students will analyze case studies and develop ethical frameworks for business practices."
-    },
-    {
-    "subjectCode": "CS4002",
-    "subjectName": "Artificial Intelligence",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles and techniques of artificial intelligence. Topics covered include problem-solving, knowledge representation, search algorithms, machine learning, natural language processing, and intelligent agents. Students will develop AI applications and explore the ethical implications of AI technology."
-    },
-    {
-    "subjectCode": "ME1001",
-    "subjectName": "Engineering Graphics",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on graphical communication in engineering. Students will learn to create technical drawings and models using computer-aided design (CAD) software. Topics covered include orthographic projections, dimensioning, sectioning, and assembly drawings."
-    },
-    {
-    "subjectCode": "EN2002",
-    "subjectName": "English Literature",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores major works of English literature from different periods and genres. Students will analyze literary techniques, themes, and historical contexts in selected texts. The course aims to develop critical reading and interpretation skills."
-    },
-    {
-    "subjectCode": "CM3001",
-    "subjectName": "Organic Chemistry",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the study of organic compounds and their reactions. Topics covered include nomenclature, structure, bonding, stereochemistry, functional groups, and reaction mechanisms. Laboratory experiments will reinforce theoretical concepts."
-    },
-    {
-    "subjectCode": "EC3003",
-    "subjectName": "Econometrics",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces statistical methods used in economic analysis. Topics covered include regression analysis, hypothesis testing, time series analysis, and panel data models. Students will learn to apply econometric techniques to real-world economic data."
-    },
-    {
-    "subjectCode": "CS4501",
-    "subjectName": "Computer Networks",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course covers the principles and protocols of computer networks. Topics include network architectures, network layers, routing algorithms, congestion control, and network security. Students will gain practical experience in configuring and managing network systems."
-    },
-    {
-    "subjectCode": "MA3004",
-    "subjectName": "Linear Algebra",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the study of vector spaces, linear transformations, and matrices. Topics covered include systems of linear equations, eigenvalues and eigenvectors, determinants, and orthogonality. Applications of linear algebra in various fields will be explored."
-    },
-    {
-    "subjectCode": "PY2003",
-    "subjectName": "Cognitive Psychology",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores the cognitive processes underlying perception, attention, memory, language, problem-solving, and decision-making. Students will learn about cognitive psychology theories and research methods through experimental studies and cognitive modeling."
-    },
-    {
-    "subjectCode": "CV4001",
-    "subjectName": "Computer Vision",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the theory and techniques of computer vision, which enable computers to understand and interpret visual data. Topics covered include image processing, feature extraction, object recognition, and image-based modeling. Applications of computer vision in robotics, augmented reality, and autonomous vehicles will be discussed."
-    },
-    {
-    "subjectCode": "BA2002",
-    "subjectName": "Financial Accounting",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles and practices of financial accounting. Topics covered include the accounting cycle, financial statements, revenue recognition, asset valuation, and financial analysis. Students will learn to prepare and interpret financial statements for decision-making."
-    },
-    {
-    "subjectCode": "ME4003",
-    "subjectName": "Fluid Mechanics",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the behavior of fluids at rest and in motion. Topics covered include fluid properties, fluid statics, fluid dynamics, flow measurement, and boundary layer theory. Applications in engineering, such as flow in pipes and around objects, will be discussed."
-    },
-    {
-    "subjectCode": "EC1003",
-    "subjectName": "Statistics",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an introduction to statistical methods and data analysis. Topics covered include descriptive statistics, probability, hypothesis testing, confidence intervals, regression analysis, and analysis of variance. Students will use statistical software to analyze real-world datasets."
-    },
-    {
-    "subjectCode": "PH4002",
-    "subjectName": "Electromagnetism",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores the principles of electromagnetism, which describe the behavior of electric and magnetic fields. Topics covered include electrostatics, magnetostatics, electromagnetic induction, Maxwell's equations, and electromagnetic waves. Applications in electrical circuits and devices will be discussed."
-    },
-    {
-    "subjectCode": "HS3001",
-    "subjectName": "Sociology",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course examines social behavior, institutions, and structures from a sociological perspective. Topics covered include socialization, culture, social inequality, social change, and sociological theories. Students will analyze social phenomena and apply sociological concepts to real-world issues."
-    },
-    {
-    "subjectCode": "ME2002",
-    "subjectName": "Materials Science",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the study of materials and their properties. Topics covered include atomic structure, crystallography, mechanical properties, phase diagrams, and materials processing. Students will learn about different types of materials, such as metals, ceramics, polymers, and composites."
-    },
-    {
-    "subjectCode": "AR3001",
-    "subjectName": "Modern Art",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course examines major art movements and trends in modern and contemporary art. Students will study the works of influential artists and analyze the cultural, social, and political contexts in which they were created. The course includes visits to galleries and exhibitions."
-    },
-    {
-    "subjectCode": "LW2003",
-    "subjectName": "Constitutional Law",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores the principles and concepts of constitutional law. Topics covered include the structure of government, individual rights and freedoms, judicial review, and constitutional interpretation. Students will analyze landmark constitutional cases and discuss contemporary issues in constitutional law."
-    },
-    {
-    "subjectCode": "CS5001",
-    "subjectName": "Software Engineering",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the principles and practices of software engineering. Topics covered include software development life cycle, requirements engineering, software design, testing, and project management. Students will work on a software project to apply the concepts and techniques learned."
-    },
-    {
-    "subjectCode": "PY3002",
-    "subjectName": "Abnormal Psychology",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores psychological disorders and their causes, symptoms, and treatments. Topics covered include anxiety disorders, mood disorders, personality disorders, schizophrenia, and substance abuse. Students will examine case studies and current research in abnormal psychology."
-    },
-    {
-    "subjectCode": "EE3004",
-    "subjectName": "Control Systems",
-    "level": "Bachelor",
-    "credits": 9,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the principles of control systems and their applications in engineering. Topics covered include modeling and analysis of dynamic systems, feedback control, stability, and system response. Students will design and analyze control systems in various engineering domains."
-    },
-    {
-    "subjectCode": "AR2005",
-    "subjectName": "Renaissance Art",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course examines the art and architecture of the Renaissance period. Students will study the works of prominent artists, such as Leonardo da Vinci, Michelangelo, and Raphael, and analyze the cultural, social, and intellectual transformations of the Renaissance era."
-    },
-    {
-    "subjectCode": "MS4002",
-    "subjectName": "Operations Management",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the principles and techniques of operations management in organizations. Topics covered include process design, capacity planning, inventory management, supply chain management, quality control, and project management. Students will analyze case studies and apply operations management concepts to real-world scenarios."
-    },
-    {
-    "subjectCode": "PH1001",
-    "subjectName": "Introduction to Physics",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course provides an introduction to the fundamental principles of physics. Topics covered include mechanics, thermodynamics, waves, optics, and electricity. Students will learn to apply physical laws and concepts to solve problems and understand natural phenomena."
-    },
-    {
-    "subjectCode": "CH2004",
-    "subjectName": "Physical Chemistry",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the study of chemical systems using principles of physics. Topics covered include thermodynamics, quantum mechanics, spectroscopy, and kinetics. Students will learn to apply physical chemistry principles to understand chemical phenomena and reactions."
-    },
-    {
-    "subjectCode": "CS5501",
-    "subjectName": "Machine Learning",
-    "level": "Bachelor",
-    "credits": 10,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles and algorithms of machine learning. Topics covered include supervised learning, unsupervised learning, reinforcement learning, and deep learning. Students will develop machine learning models and apply them to real-world datasets."
-    },
-    {
-    "subjectCode": "ME1004",
-    "subjectName": "Engineering Mechanics",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course introduces the principles of engineering mechanics, which study the behavior of objects under the action of forces. Topics covered include statics, dynamics, kinematics, and Newton's laws of motion. Students will apply these principles to analyze and solve engineering problems."
-    },
-    {
-    "subjectCode": "EN3003",
-    "subjectName": "Creative Writing",
-    "level": "Bachelor",
-    "credits": 6,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the development of creative writing skills in various genres, such as fiction, poetry, and drama. Students will explore different writing techniques and styles, participate in workshops, and receive feedback on their own creative writing projects."
-    },
-    {
-    "subjectCode": "CV2002",
-    "subjectName": "Image Processing",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course focuses on the theory and techniques of image processing, which enable the manipulation and analysis of digital images. Topics covered include image enhancement, restoration, segmentation, and feature extraction. Applications in computer vision, medical imaging, and multimedia will be discussed."
-    },
-    {
-    "subjectCode": "BA4001",
-    "subjectName": "Strategic Management",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Autumn",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course examines the principles and practices of strategic management in organizations. Topics covered include strategic analysis, formulation of business strategies, implementation of strategies, and evaluation of strategic performance. Students will analyze case studies and develop strategic plans."
-    },
-    {
-    "subjectCode": "PS2004",
-    "subjectName": "Political Theory",
-    "level": "Bachelor",
-    "credits": 8,
-    "teaching": "Spring",
-    "examination": "Spring and autumn",
-    "teachingLanguage": "English",
-    "description": "This course explores the major theories and ideologies of politics. Topics covered include liberalism, conservatism, socialism, feminism, and postcolonialism. Students will analyze political texts, engage in debates, and critically evaluate different political perspectives."
+        "subjectCode": "ST3002",
+        "subjectName": "Statistical Methods",
+        "level": "Bachelor",
+        "credits": 10,
+        "teaching": "Autumn",
+        "examination": "Spring and autumn",
+        "teachingLanguage": "English",
+        "description": "This course introduces the principles and techniques of statistical analysis. Topics covered include descriptive statistics, probability theory, hypothesis testing, confidence intervals, regression analysis, and analysis of variance. Students will learn to use statistical software to analyze and interpret data from various fields.",
+        "activities": [
+            {
+                "name": "Lecture",
+                "time": "10AM",
+                "weekday": "tue",
+                "place": "Hall R",
+                "type": "Lecture"
+            },
+            {
+                "name": "Lab",
+                "time": "2PM",
+                "weekday": "thu",
+                "place": "Computer Lab 4",
+                "type": "Lab"
+            },
+            {
+                "name": "Exercise",
+                "time": "4PM",
+                "weekday": "fri",
+                "place": "Exercise Hall",
+                "type": "Exercise"
+            }
+        ]
     }
 ]

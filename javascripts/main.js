@@ -1,5 +1,5 @@
-class Emne {
-    constructor(code, description, level= "", credits="", teaching="", examdate="", teachingLanguage = "",about="") {
+class Course {
+    constructor(code, description, level= "", credits="", teaching="", examdate="", teachingLanguage = "",about="", courseActivities=null) {
       this.code = code;
       this.description = description;
       this.level = level; // Bachelor or Master
@@ -8,6 +8,7 @@ class Emne {
       this.examdate = examdate;
       this.teachingLanguage = teachingLanguage;
       this.about = about;
+      this.courseActivities = courseActivities;
     }
   
     introduce() {
@@ -15,9 +16,23 @@ class Emne {
     }
 
     toString() {
-        return `Emne { code: ${this.code}, description: ${this.description} }`;
+        return `Course { code: ${this.code}, description: ${this.description} }`;
     }
   }
+
+class CourseActivity {
+    constructor(name, time, weekday, place, type) {
+        this.name = name; // for instance "Forelesning"
+        this.time = time; // for instance "8AM"
+        this.weekday = weekday; // for instance "mon"
+        this.place = place; // for instance "Sophus Lie"
+        this.type = type; // for instance Lecture or Tutorial (diffent color coding)
+    }
+
+    introduce() {
+      console.log(`The activity ${this.name} starts ${this.weekday}-${this.time} at ${this.place}.`);
+    }
+}
 
 function read_from_JSON() {
     return fetch('data/subjects.json')
@@ -28,7 +43,7 @@ function read_from_JSON() {
             return response.json();
         })
         .then(data => {
-            var array = data.map(e => new Emne(
+            var array = data.map(e => new Course(
                 e.subjectCode,
                 e.subjectName,
                 e.level,
@@ -36,7 +51,8 @@ function read_from_JSON() {
                 e.teaching,
                 e.examination,
                 e.teachingLanguage,
-                e.description
+                e.description,
+                e.activities
             ));
             return array;
         })
