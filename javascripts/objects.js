@@ -56,8 +56,7 @@ var itemsPerPage = 5; // Number of items to display per page
 var subjects = read_from_JSON();
 subjects.then((value) => {
     // Handle the resolved value here
-    generateListItems(0, itemsPerPage,value); // Generate initial list
-    listContainer.addEventListener("scroll", loadMoreItems(value));
+    generateListItems(0, value.length,value); // Generate initial list
   }).catch((error) => {
     // Handle any errors that occurred during the promise
     console.error(error);
@@ -70,21 +69,6 @@ function generateListItems(start, end, subjects) {
         var listItem = subjects[i];
         addCourse(listItem, listContainer);
     }
-}
-
-// Function to generate more list items when scrolling to the bottom
-function loadMoreItems(subjects) {
-  var scrollTop = listContainer.scrollTop;
-  var scrollHeight = listContainer.scrollHeight;
-  var containerHeight = listContainer.clientHeight;
-
-  if (scrollTop + containerHeight >= scrollHeight) {
-    // Reached the bottom of the list container
-    var start = currentPage * itemsPerPage + 1;
-    var end = (currentPage + 1) * itemsPerPage;
-    generateListItems(start, end,subjects);
-    currentPage++;
-  }
 }
 
 function addCourse(courseObject,courseContainer) {
