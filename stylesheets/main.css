@@ -2,16 +2,26 @@ body {
     background-color: lightblue;
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     /* CSS styles for smaller screens */
-    .scheduleTable {
-      font-size: 12px;
+    #scheduleTable {
+        font-size: 10px;
     }
-    .scheduleTable th,
-    .scheduleTable td {
-      padding: 5px;
+}
+  @media (min-width: 409px) {
+    /* CSS rules for larger screens */
+    #scheduleTable {
+        table-layout: fixed;
     }
-  }
+    
+    #scheduleTable th,
+    #scheduleTable td {
+        width: calc(100% / 6);
+        height: 60px;
+        padding: 10px;
+    }
+}   
+
   
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -73,17 +83,6 @@ th {
 
 .calendar {
     width: 100%;
-}
-
-#scheduleTable {
-    table-layout: fixed;
-}
-
-#scheduleTable th,
-#scheduleTable td {
-    width: calc(100% / 6);
-    height: 60px;
-    padding: 10px;
 }
 
 .course-grid {
