@@ -43,7 +43,15 @@ function read_from_JSON() {
             return response.json();
         })
         .then(data => {
-            var array = data.map(e => new Course(
+          var array = data.map(e => {
+            var activities = e.activities.map(activity => new CourseActivity(
+                activity.name,
+                activity.time,
+                activity.weekday,
+                activity.place,
+                activity.type
+            ));
+            return new Course(
                 e.subjectCode,
                 e.subjectName,
                 e.level,
@@ -52,9 +60,10 @@ function read_from_JSON() {
                 e.examination,
                 e.teachingLanguage,
                 e.description,
-                e.activities
-            ));
-            return array;
+                activities
+            );
+        });
+        return array;
         })
         .catch(error => {
             console.log('Error:', error);
@@ -117,6 +126,9 @@ function addCourse(courseObject,courseContainer) {
         newCourseDiv.classList.remove("chosen");
         newCourseDiv.classList.add("not-chosen");
       } else {
+        courseObject.courseActivities.forEach(element => {
+          element.introduce();
+        });
         var subject = document.createElement("p");
         subject.innerHTML = courseObject.code;
         subject.setAttribute('id', courseObject.code);
