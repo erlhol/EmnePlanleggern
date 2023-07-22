@@ -126,9 +126,7 @@ function addCourse(courseObject,courseContainer) {
         newCourseDiv.classList.remove("chosen");
         newCourseDiv.classList.add("not-chosen");
       } else {
-        courseObject.courseActivities.forEach(element => {
-          element.introduce();
-        });
+        // Add course to the calendar - based on activites
         var subject = document.createElement("p");
         subject.innerHTML = courseObject.code;
         subject.setAttribute('id', courseObject.code);
