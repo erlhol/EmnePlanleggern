@@ -35,6 +35,7 @@ class CourseActivity {
 }
 
 function read_from_JSON() {
+    /* Reads from the JSON file and creates the necessary objects */
     return fetch('data/subjects.json')
         .then(response => {
             if (!response.ok) {
