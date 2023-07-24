@@ -124,9 +124,12 @@ function addCourse(courseObject,courseContainer) {
     newCourseDiv.addEventListener("click", function() {
     if (newCourseDiv.classList.contains("chosen")) {
         onNotChosen(newCourseDiv);
-        removeFromChosenSubjects();
+        removeFromChosenSubjects(courseObject);
+        removeActivites(courseObject);
       } else {
-        onChosen(newCourseDiv,selectedItems);
+        onChosen(newCourseDiv);
+        addToChosenSubjects(courseObject,selectedItems);
+        addCourseActivites(courseObject);
       }
     });
 
@@ -164,14 +167,15 @@ function addCourseActivites(courseObject) {
 
 function onChosen(courseDiv) {
     /* Update the class so the subject will be reflected as chosen in CSS */
-    courseDiv.classList.remove("chosen");
-    courseDiv.classList.add("not-chosen");
+    courseDiv.classList.remove("not-chosen");
+    courseDiv.classList.add("chosen");
 }
 
 function onNotChosen(courseDiv) {
     /* Update the class so the subject will be reflected as not chosen in CSS */
-    courseDiv.classList.remove("not-chosen");
-    courseDiv.classList.add("chosen");
+    courseDiv.classList.remove("chosen");
+    courseDiv.classList.add("not-chosen");
+    
 }
 
 function addToChosenSubjects(courseObject,selectedItems) {
