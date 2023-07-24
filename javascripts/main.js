@@ -169,6 +169,7 @@ function addCourseActivites(courseObject) {
 
             activityElement.innerHTML = `
                 <h3>${activity.name}</h3>
+                <h4>${courseObject.code}</h4>
                 <p>${activity.weekday} ${activity.time}</p>
                 <p>${activity.place}</p>
             `;
