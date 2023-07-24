@@ -94,6 +94,7 @@ function generateListItems(start, end, subjects) {
 
 function addCourse(courseObject,courseContainer) {
     var selectedItems = document.getElementById("selected-courses");
+    var table = document.getElementById("scheduleTable");
     // Create a new <div> element with the class "course"
     var newCourseDiv = document.createElement("div");
     newCourseDiv.className = "course";
