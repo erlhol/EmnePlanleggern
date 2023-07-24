@@ -94,7 +94,6 @@ function generateListItems(start, end, subjects) {
 
 function addCourse(courseObject,courseContainer) {
     var selectedItems = document.getElementById("selected-courses");
-    var table = document.getElementById("scheduleTable");
     // Create a new <div> element with the class "course"
     var newCourseDiv = document.createElement("div");
     newCourseDiv.className = "course";
@@ -127,7 +126,19 @@ function addCourse(courseObject,courseContainer) {
         newCourseDiv.classList.remove("chosen");
         newCourseDiv.classList.add("not-chosen");
       } else {
-        // Add course to the calendar - based on activites
+        
+        courseObject.courseActivities.forEach(element => {
+          var weekday = element.weekday;
+          var time = element.time;
+          var to_update = document.getElementById(weekday+"-"+time);
+          if (to_update) {
+            to_update.textContent = element.name;
+          } else {
+            console.error("Element not found:", weekday + "-" + time);
+          }
+        });
+      
+
         var subject = document.createElement("p");
         subject.innerHTML = courseObject.code;
         subject.setAttribute('id', courseObject.code);
