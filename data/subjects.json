@@ -44,14 +44,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "10AM",
                 "weekday": "mon",
                 "place": "Hall A",
                 "type": "Lecture"
             },
             {
                 "name": "Tutorial",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Tutorial Room 2",
                 "type": "Tutorial"
@@ -110,21 +110,21 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "11AM",
+                "time": "10AM",
                 "weekday": "mon",
                 "place": "Hall C",
                 "type": "Lecture"
             },
             {
                 "name": "Lab",
-                "time": "1PM",
+                "time": "2PM",
                 "weekday": "wed",
                 "place": "Computer Lab 3",
                 "type": "Lab"
             },
             {
                 "name": "Exercise",
-                "time": "3PM",
+                "time": "4PM",
                 "weekday": "fri",
                 "place": "Exercise Hall",
                 "type": "Exercise"
@@ -176,14 +176,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall E",
                 "type": "Lecture"
             },
             {
                 "name": "Lab",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Psychology Lab",
                 "type": "Lab"
@@ -242,14 +242,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall G",
                 "type": "Lecture"
             },
             {
                 "name": "Tutorial",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Tutorial Room 4",
                 "type": "Tutorial"
@@ -308,14 +308,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall I",
                 "type": "Lecture"
             },
             {
                 "name": "Tutorial",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Tutorial Room 5",
                 "type": "Tutorial"
@@ -374,14 +374,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall K",
                 "type": "Lecture"
             },
             {
                 "name": "Tutorial",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Tutorial Room 6",
                 "type": "Tutorial"
@@ -440,14 +440,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall M",
                 "type": "Lecture"
             },
             {
                 "name": "Tutorial",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Tutorial Room 8",
                 "type": "Tutorial"
@@ -506,14 +506,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall O",
                 "type": "Lecture"
             },
             {
                 "name": "Lab",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Chemistry Lab 1",
                 "type": "Lab"
@@ -572,14 +572,14 @@
         "activities": [
             {
                 "name": "Lecture",
-                "time": "9AM",
+                "time": "8AM",
                 "weekday": "mon",
                 "place": "Hall Q",
                 "type": "Lecture"
             },
             {
                 "name": "Lab",
-                "time": "11AM",
+                "time": "12PM",
                 "weekday": "wed",
                 "place": "Physics Lab",
                 "type": "Lab"
@@ -619,7 +619,7 @@
             },
             {
                 "name": "Exercise",
-                "time": "4PM",
+                "time": "6PM",
                 "weekday": "fri",
                 "place": "Exercise Hall",
                 "type": "Exercise"
