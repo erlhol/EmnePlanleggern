@@ -84,6 +84,7 @@ subjects.then((value) => {
   });
 
 function generateListItems(start, end, subjects) {
+    /* Generates all the subjects */
     listContainer.innerHTML = "";
 
     for (var i = start; i <= end; i++) {
@@ -93,6 +94,8 @@ function generateListItems(start, end, subjects) {
 }
 
 function addCourse(courseObject,courseContainer) {
+    /* Add courseObject to the list of courses */
+
     var selectedItems = document.getElementById("selected-courses");
     // Create a new <div> element with the class "course"
     var newCourseDiv = document.createElement("div");
@@ -119,36 +122,69 @@ function addCourse(courseObject,courseContainer) {
     newCourseDiv.appendChild(courseDescription);
 
     newCourseDiv.addEventListener("click", function() {
-      if (newCourseDiv.classList.contains("chosen")) {
-        // Add to a div that displays selected
-        const elementToRemove = document.getElementById(courseObject.code);
-        elementToRemove.remove();
-        newCourseDiv.classList.remove("chosen");
-        newCourseDiv.classList.add("not-chosen");
+    if (newCourseDiv.classList.contains("chosen")) {
+        onNotChosen(newCourseDiv);
+        removeFromChosenSubjects();
       } else {
-        
-        courseObject.courseActivities.forEach(element => {
-          var weekday = element.weekday;
-          var time = element.time;
-          var to_update = document.getElementById(weekday+"-"+time);
-          if (to_update) {
-            to_update.textContent = element.name;
-          } else {
-            console.error("Element not found:", weekday + "-" + time);
-          }
-        });
-      
-
-        var subject = document.createElement("p");
-        subject.innerHTML = courseObject.code;
-        subject.setAttribute('id', courseObject.code);
-        selectedItems.appendChild(subject);
-        newCourseDiv.classList.remove("not-chosen");
-        newCourseDiv.classList.add("chosen");
+        onChosen(newCourseDiv,selectedItems);
       }
     });
 
     // Append the new course <div> to the body of the document
     courseContainer.appendChild(newCourseDiv);
+}
+
+function removeActivites(courseObject) {
+    /* Iterates over all activites for the course and removes it from the calendar */
+    courseObject.courseActivities.forEach(element => {
+        var weekday = element.weekday;
+        var time = element.time;
+        var to_update = document.getElementById(weekday+"-"+time);
+        if (to_update) {
+            to_update.textContent = "";
+        } else {
+            console.error("Element not found:", weekday + "-" + time);
+        }
+    });
+}
+
+function addCourseActivites(courseObject) {
+    /* Iterates over all activites for the course and adds it to the calendar */
+    courseObject.courseActivities.forEach(element => {
+        var weekday = element.weekday;
+        var time = element.time;
+        var to_update = document.getElementById(weekday+"-"+time);
+        if (to_update) {
+            to_update.textContent += element.name + "\n";
+        } else {
+        console.error("Element not found:", weekday + "-" + time);
+        }
+    });
+}
+
+function onChosen(courseDiv) {
+    /* Update the class so the subject will be reflected as chosen in CSS */
+    courseDiv.classList.remove("chosen");
+    courseDiv.classList.add("not-chosen");
+}
+
+function onNotChosen(courseDiv) {
+    /* Update the class so the subject will be reflected as not chosen in CSS */
+    courseDiv.classList.remove("not-chosen");
+    courseDiv.classList.add("chosen");
+}
+
+function addToChosenSubjects(courseObject,selectedItems) {
+    /*Adds the subject to the list of chosen subjects */
+    var subject = document.createElement("p");
+    subject.innerHTML = courseObject.code;
+    subject.setAttribute('id', courseObject.code);
+    selectedItems.appendChild(subject);
+}
+
+function removeFromChosenSubjects(courseObject) {
+    /* Removes the subject from the list of chosen subjects */
+    const elementToRemove = document.getElementById(courseObject.code);
+    elementToRemove.remove();
 }
 
