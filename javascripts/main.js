@@ -140,12 +140,12 @@ function addCourse(courseObject,courseContainer) {
 
 function removeActivites(courseObject) {
     /* Iterates over all activites for the course and removes it from the calendar */
-    courseObject.courseActivities.forEach(element => {
-        var weekday = element.weekday;
-        var time = element.time;
-        var to_update = document.getElementById(weekday+"-"+time);
-        if (to_update) {
-            to_update.textContent = "";
+    courseObject.courseActivities.forEach(activity => {
+        var weekday = activity.weekday;
+        var time = activity.time;
+        var scheduleContainer = document.getElementById(weekday+"-"+time);
+        if (scheduleContainer) {
+            scheduleContainer.innerHTML = "";
         } else {
             console.error("Element not found:", weekday + "-" + time);
         }
@@ -154,12 +154,26 @@ function removeActivites(courseObject) {
 
 function addCourseActivites(courseObject) {
     /* Iterates over all activites for the course and adds it to the calendar */
-    courseObject.courseActivities.forEach(element => {
-        var weekday = element.weekday;
-        var time = element.time;
-        var to_update = document.getElementById(weekday+"-"+time);
-        if (to_update) {
-            to_update.textContent += element.name + "\n";
+    courseObject.courseActivities.forEach(activity => {
+        var weekday = activity.weekday;
+        var time = activity.time;
+        var scheduleContainer = document.getElementById(weekday+"-"+time);
+        if (scheduleContainer) {
+            const activityElement = document.createElement("div");
+            activityElement.classList.add("activity");
+            if (activity.type === "Lecture") {
+                activityElement.classList.add("lecture");
+            } else if (activity.type === "Tutorial") {
+                activityElement.classList.add("tutorial");
+            }
+
+            activityElement.innerHTML = `
+                <h3>${activity.name}</h3>
+                <p>${activity.weekday} ${activity.time}</p>
+                <p>${activity.place}</p>
+            `;
+
+            scheduleContainer.appendChild(activityElement);
         } else {
         console.error("Element not found:", weekday + "-" + time);
         }

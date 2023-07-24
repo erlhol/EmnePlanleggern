@@ -98,3 +98,18 @@ th {
 .not-chosen {
     background-color: #ffffff;
 }
+
+.activity {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.lecture {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tutorial {
+    background-color: #28a745;
+    color: #fff;
+}
