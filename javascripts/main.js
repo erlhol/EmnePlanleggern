@@ -87,10 +87,10 @@ subjects.then((value) => {
 function generateListItems(start, end, subjects) {
     /* Generates all the subjects */
     listContainer.innerHTML = "";
-
+    chosenSubjects = [];
     for (var i = start; i <= end; i++) {
         var listItem = subjects[i];
-        addCourse(listItem, listContainer);
+        addCourse(listItem, listContainer,chosenSubjects);
     }
 }
 
@@ -128,9 +128,11 @@ function addCourse(courseObject,courseContainer) {
         removeFromChosenSubjects(courseObject);
         removeActivites(courseObject);
       } else {
+        chosenSubjects.push(courseObject);
         onChosen(newCourseDiv);
         addToChosenSubjects(courseObject,selectedItems);
         addCourseActivites(courseObject);
+        setTotalCredits(chosenSubjects);
       }
     });
 
@@ -196,8 +198,18 @@ function onNotChosen(courseDiv) {
 
 function addToChosenSubjects(courseObject,selectedItems) {
     /*Adds the subject to the list of chosen subjects */
-    var subject = document.createElement("p");
-    subject.innerHTML = courseObject.code;
+    var subject = document.createElement("div");
+    subject.classList.add("shown_subject");
+    subject.innerHTML = `
+        <h3>${courseObject.code}</h3>
+    `;
+
+    for (let i = 0; i < 10; i++) {
+        subject.innerHTML += `
+            <button>Button ${i + 1}</button>
+        `;
+    }
+
     subject.setAttribute('id', courseObject.code);
     selectedItems.appendChild(subject);
 }
@@ -208,3 +220,12 @@ function removeFromChosenSubjects(courseObject) {
     elementToRemove.remove();
 }
 
+function setTotalCredits(chosenSubjects) {
+    /* Subjects is a global variable. Be aware */
+    var credits = 0;
+    chosenSubjects.forEach(courseObject => {
+        credits += courseObject.credits;
+    });
+    var total_credits = document.getElementById("total-credits");
+    total_credits.innerHTML = `<h3>Total number of credits: ${credits}</h3>`
+}

@@ -113,3 +113,32 @@ th {
     background-color: #28a745;
     color: #fff;
 }
+
+.shown_subject {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+}
+
+.shown_subject h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.shown_subject button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.shown_subject button:hover {
+    background-color: #2980b9;
+}
