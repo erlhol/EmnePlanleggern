@@ -10,7 +10,7 @@ export default class CourseController {
             const newItem = document.getElementById('newItem').value;
             if (newItem) {
                 this.model.addToSelected(newItem);
-                this.view.render(this.model.data);
+                this.view.render(this.model.selectedCourses);
             }
         });
   
@@ -19,8 +19,8 @@ export default class CourseController {
         if (event.target.tagName === 'DIV') {
           const index = Array.from(this.view.app.children).indexOf(event.target);
           if (index >= 0) {
-            this.model.removeItem(index);
-            this.view.render(this.model.data);
+            this.model.removeItemFromSelected(index);
+            this.view.render(this.model.selectedCourses);
           }
         }
       });
