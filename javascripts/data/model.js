@@ -3,6 +3,7 @@ export default class CourseModel {
     constructor() {
         this.selectedCourses = [];
         this.allCourses = this.fetchCourses();
+        this.total_credits = 0;
     }
   
     // Example methods for manipulating data
@@ -12,6 +13,14 @@ export default class CourseModel {
   
     removeItemFromSelected(index) {
         this.selectedCourses.splice(index, 1);
+    }
+
+    incrementTotalCredits(courseObject) {
+        this.total_credits += courseObject.credits;
+    }
+
+    decrementTotalCredits(courseObject) {
+        this.total_credits -= courseObject.credits;
     }
 
     async fetchCourses() {

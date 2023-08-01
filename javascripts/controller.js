@@ -2,28 +2,36 @@ export default class CourseController {
     constructor(model, view) {
         this.model = model;
         this.view = view;
-        this.view.render(this.model.selectedCourses);
-  
-        // Example event handling for adding an item
-        const addButton = document.getElementById('addButton');
-        addButton.addEventListener('click', () => {
-            const newItem = document.getElementById('newItem').value;
-            if (newItem) {
-                this.model.addToSelected(newItem);
-                this.view.render(this.model.selectedCourses);
-            }
-        });
-  
-        // Example event handling for removing an item
-        this.view.app.addEventListener('click', (event) => {
-        if (event.target.tagName === 'DIV') {
-          const index = Array.from(this.view.app.children).indexOf(event.target);
-          if (index >= 0) {
-            this.model.removeItemFromSelected(index);
-            this.view.render(this.model.selectedCourses);
-          }
-        }
-      });
-    }
-  }
+        this.view.renderAllCourses(this.model.allCourses);
+        this.view.renderSetTotalCredits(this.model.total_credits);
+
+        const courseArray = this.view.courseContainer.childNodes;
+        courseArray.forEach((courseDiv, i) => {
+            const courseOject = this.model.allCourses[i];
+            courseDiv.addEventListener("click", function() {
+                if (courseDiv.classList.contains("chosen")) {
+                    this.view.renderNotChosen(courseDiv);
+                    
+                    this.model.removeItemFromSelected();
+                    this.model.incrementTotalCredits(courseOject); // but with - as parameter (decrement)
+
+                    this.view.renderRemoveFromSelectedCourses(courseOject);
+                    this.view.renderRemoveActivites(courseOject);
+                    
+                    this.view.renderSetTotalCourses(this.model.total_credits);
+                  } else {
+                    this.view.renderChosen(courseDiv);
+                    
+                    this.model.addToSelected(courseOject);
+                    this.model.decrementTotalCredits(courseOject);
+                    
+                    this.view.renderSelectedCourse(courseOject);
+                    this.view.renderAddCourseActivites(courseOject);
+
+                    this.view.renderSetTotalCourses(this.model.total_credits);
+                  }
+                });
+        })
+    } 
+}
   
