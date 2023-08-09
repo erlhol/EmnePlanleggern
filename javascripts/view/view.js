@@ -6,6 +6,12 @@ export default class CourseView {
         this.searchInput = document.getElementById("mySearchInput");
     }
 
+    /* TODO: find a way to handle recycling of rendered courses. 
+    renderCourse should be changed to initCourseDiv
+    Maybe have a list of current shown?
+    
+    Problem: in controller, the addEventListener is only called once*/
+
     async renderAllCourses(subjectsPromise) {
         console.log(subjectsPromise);
         try {
@@ -138,6 +144,5 @@ export default class CourseView {
         /* Update the class so the subject will be reflected as not chosen in CSS */
         courseDiv.classList.remove("chosen");
         courseDiv.classList.add("not-chosen");
-    
     }
 }
