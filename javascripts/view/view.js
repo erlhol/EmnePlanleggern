@@ -3,10 +3,13 @@ export default class CourseView {
         this.selectedItems = document.getElementById('selected-courses');
         this.courseContainer = document.getElementById('course-container');
         this.totalCredits = document.getElementById("total-credits");
+        this.searchInput = document.getElementById("mySearchInput");
     }
 
     async renderAllCourses(subjectsPromise) {
+        console.log(subjectsPromise);
         try {
+            this.renderRefreshList();
             const subjects = await subjectsPromise;
             /* Render all courses */
             subjects.forEach(courseObject => {
@@ -65,6 +68,10 @@ export default class CourseView {
 
         subject.setAttribute('id', courseObject.code);
         this.selectedItems.appendChild(subject);
+    }
+
+    renderRefreshList() {
+        this.courseContainer.innerHTML = ''; // bad solution. Should recycle elements
     }
 
     renderRemoveFromSelectedCourses(courseObject) {

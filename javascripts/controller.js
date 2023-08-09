@@ -32,5 +32,16 @@ export default class CourseController {
                 }
             });
         });
-    } 
+        this.addSearchEvent();
+    }
+
+    addSearchEvent() {
+        const searchInput = this.view.searchInput;
+        searchInput.addEventListener("input", async function(event) {
+            const inputValue = searchInput.value; // Store the input value
+            this.view.renderAllCourses(await this.model.searchForCourses(inputValue)); // Use the stored value
+        }.bind(this)); // Bind the current context to the event listener function
+    }
+    
+    
 }

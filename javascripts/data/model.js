@@ -3,6 +3,7 @@ export default class CourseModel {
     constructor() {
         this.selectedCourses = [];
         this.allCourses = this.fetchCourses();
+        /*this.currentShownCourses = [...this.allCourses]; */
         this.total_credits = 0;
     }
   
@@ -25,7 +26,7 @@ export default class CourseModel {
 
     searchForCourses(searchString) {
         const lowerSearchString = searchString.toLowerCase();
-        return this.allCourses.filter(course => course.code.toLowerCase().startsWith(lowerSearchString));
+        return this.allCourses.then(courses => courses.filter(course => course.code.toLowerCase().startsWith(lowerSearchString)));
     }
 
     async fetchCourses() {
