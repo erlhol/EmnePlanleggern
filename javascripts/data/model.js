@@ -23,6 +23,11 @@ export default class CourseModel {
         this.total_credits -= courseObject.credits;
     }
 
+    searchForCourses(searchString) {
+        const lowerSearchString = searchString.toLowerCase();
+        return this.allCourses.filter(course => course.code.toLowerCase().startsWith(lowerSearchString));
+    }
+
     async fetchCourses() {
         /* Reads from the JSON file and creates the necessary objects */
         try {
