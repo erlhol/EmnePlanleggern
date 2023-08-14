@@ -15,7 +15,6 @@ export default class CourseView {
     async renderAllCourses(subjectsPromise) {
         console.log(subjectsPromise);
         try {
-            this.renderRefreshList();
             const subjects = await subjectsPromise;
             /* Render all courses */
             subjects.forEach(courseObject => {
@@ -76,8 +75,18 @@ export default class CourseView {
         this.selectedItems.appendChild(subject);
     }
 
-    renderRefreshList() {
-        this.courseContainer.innerHTML = ''; // bad solution. Should recycle elements
+    async renderSearchedCourses(subjectsPromise) {
+        console.log(subjectsPromise);
+        try {
+            const subjects = await subjectsPromise;
+            /* Render all courses */
+            subjects.forEach(courseObject => {
+                this.renderCourse(courseObject);
+            });
+        } catch (error) {
+            // Handle the error if the promise is rejected
+            console.error('Error fetching subjects:', error);
+        }
     }
 
     renderRemoveFromSelectedCourses(courseObject) {
