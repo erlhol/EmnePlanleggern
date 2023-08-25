@@ -67,6 +67,12 @@ export default class CourseView {
         }
 
         subject.setAttribute('id', courseObject.code+"s"); // s for selected
+
+        /* Add delete button */
+        const deleteButton = document.createElement("button");
+        deleteButton.textContent = "X";
+        deleteButton.addEventListener("click", () => this.renderRemoveFromSelectedCourses(courseObject) );
+        subject.appendChild(deleteButton);
         this.selectedItems.appendChild(subject);
     }
 
@@ -95,6 +101,8 @@ export default class CourseView {
         /* Removes the subject from the list of chosen subjects */
         const elementToRemove = document.getElementById(courseObject.code+"s");
         elementToRemove.remove();
+
+        /* Make this more seamless */
     }
 
     renderRemoveActivites(courseObject) {
