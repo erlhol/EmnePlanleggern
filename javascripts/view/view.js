@@ -101,8 +101,9 @@ export default class CourseView {
         /* Removes the subject from the list of chosen subjects */
         const elementToRemove = document.getElementById(courseObject.code+"s");
         elementToRemove.remove();
-
-        /* Make this more seamless */
+        /* Make this more seamless
+        When this procedure is called, should also remove the highlighting 
+        Find the correct div, and remove the highlighting*/
     }
 
     renderRemoveActivites(courseObject) {
