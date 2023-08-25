@@ -6,14 +6,7 @@ export default class CourseView {
         this.searchInput = document.getElementById("mySearchInput");
     }
 
-    /* TODO: find a way to handle recycling of rendered courses. 
-    renderCourse should be changed to initCourseDiv
-    Maybe have a list of current shown?
-    
-    Problem: in controller, the addEventListener is only called once*/
-
     async renderAllCourses(subjectsPromise) {
-        console.log(subjectsPromise);
         try {
             const subjects = await subjectsPromise;
             /* Render all courses */
@@ -32,6 +25,8 @@ export default class CourseView {
         // Create a new <div> element with the class "course"
         var newCourseDiv = document.createElement("div");
         newCourseDiv.className = "course";
+
+        newCourseDiv.setAttribute('id', courseObject.code+"r"); // r for render
 
         // Create and append the <h1> element for the course title
         var courseTitle = document.createElement("h1");
@@ -71,18 +66,25 @@ export default class CourseView {
             `;
         }
 
-        subject.setAttribute('id', courseObject.code);
+        subject.setAttribute('id', courseObject.code+"s"); // s for selected
         this.selectedItems.appendChild(subject);
     }
 
-    async renderSearchedCourses(subjectsPromise) {
-        console.log(subjectsPromise);
+    async renderSearchedCourses(searched) {
+
+        /* First set all courses to invisible */
+        Array.from(this.courseContainer.children).forEach(element => {
+            element.style.display = 'none';
+        });
         try {
-            const subjects = await subjectsPromise;
-            /* Render all courses */
-            subjects.forEach(courseObject => {
-                this.renderCourse(courseObject);
+            
+            const searched_subjects = await searched;
+            /* Render the searched courses */
+            searched_subjects.forEach(courseObject => {
+                const subject = document.getElementById(courseObject.code+"r");
+                subject.style.display = 'block';
             });
+            
         } catch (error) {
             // Handle the error if the promise is rejected
             console.error('Error fetching subjects:', error);
@@ -91,12 +93,13 @@ export default class CourseView {
 
     renderRemoveFromSelectedCourses(courseObject) {
         /* Removes the subject from the list of chosen subjects */
-        const elementToRemove = document.getElementById(courseObject.code);
+        const elementToRemove = document.getElementById(courseObject.code+"s");
         elementToRemove.remove();
     }
 
     renderRemoveActivites(courseObject) {
         /* Iterates over all activites for the course and removes it from the calendar */
+        /*
         courseObject.courseActivities.forEach(activity => {
             var weekday = activity.weekday;
             var time = activity.time;
@@ -107,10 +110,12 @@ export default class CourseView {
                 console.error("Element not found:", weekday + "-" + time);
             }
         });
+        */
     }
 
     renderAddCourseActivites(courseObject) {
         /* Iterates over all activites for the course and adds it to the calendar */
+        /*
         courseObject.courseActivities.forEach(activity => {
             var weekday = activity.weekday;
             var time = activity.time;
@@ -136,6 +141,7 @@ export default class CourseView {
             console.error("Element not found:", weekday + "-" + time);
             }
         });
+        */
     }
 
     renderSetTotalCredits(credits) {

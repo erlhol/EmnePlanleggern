@@ -51,7 +51,7 @@ export default class CourseModel {
                     e.subjectCode,
                     e.subjectName,
                     e.level,
-                    e.credits,
+                    parseInt(e.credits),
                     e.teaching,
                     e.examination,
                     e.teachingLanguage,
