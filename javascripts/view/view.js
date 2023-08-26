@@ -52,10 +52,11 @@ export default class CourseView {
         this.courseContainer.appendChild(newCourseDiv);
     }
     
-    renderSelectedCourse(courseObject) {
+    renderSelectedCourseInit(courseObject) {
         /*Adds the subject to the list of chosen subjects */
         var subject = document.createElement("div");
-        subject.classList.add("shown_subject");
+        subject.style.display = 'none';
+        subject.classList.add("shown_subject"); // Add styling
         subject.innerHTML = `
             <h3>${courseObject.code}</h3>
         `;
@@ -71,13 +72,12 @@ export default class CourseView {
         /* Add delete button */
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "X";
-        deleteButton.addEventListener("click", () => this.renderRemoveFromSelectedCourses(courseObject) );
         subject.appendChild(deleteButton);
+
         this.selectedItems.appendChild(subject);
     }
 
     async renderSearchedCourses(searched) {
-
         /* First set all courses to invisible */
         Array.from(this.courseContainer.children).forEach(element => {
             element.style.display = 'none';
@@ -100,10 +100,12 @@ export default class CourseView {
     renderRemoveFromSelectedCourses(courseObject) {
         /* Removes the subject from the list of chosen subjects */
         const elementToRemove = document.getElementById(courseObject.code+"s");
-        elementToRemove.remove();
-        /* Make this more seamless
-        When this procedure is called, should also remove the highlighting 
-        Find the correct div, and remove the highlighting*/
+        elementToRemove.style.display = 'none';
+    }
+
+    renderSelectedCourse(courseObject) {
+        const elementToShow = document.getElementById(courseObject.code+"s");
+        elementToShow.style.display = 'block';
     }
 
     renderRemoveActivites(courseObject) {

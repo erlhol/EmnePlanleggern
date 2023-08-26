@@ -3,7 +3,6 @@ export default class CourseModel {
     constructor() {
         this.selectedCourses = [];
         this.allCourses = this.fetchCourses();
-        /*this.currentShownCourses = [...this.allCourses]; */
         this.total_credits = 0;
     }
   

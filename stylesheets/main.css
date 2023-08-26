@@ -115,6 +115,7 @@ th {
 }
 
 .shown_subject {
+    /* TODO: fix this styling! */
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
