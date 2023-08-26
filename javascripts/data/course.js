@@ -1,13 +1,13 @@
 export class Course {
-    constructor(code, description, level= "", credits="", teaching="", examdate="", teachingLanguage = "",about="", courseActivities=null) {
+    constructor(code, name, level= "", credits="", teaching="", examdate="", teachingLanguage = "",description="", courseActivities=null) {
         this.code = code;
-        this.description = description;
+        this.name = name;
         this.level = level; // Bachelor or Master
         this.credits = credits;
         this.teaching = teaching; // Spring or Autumn
         this.examdate = examdate;
         this.teachingLanguage = teachingLanguage;
-        this.about = about;
+        this.description = description;
         this.courseActivities = courseActivities;
     }
 

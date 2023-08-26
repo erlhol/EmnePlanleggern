@@ -33,6 +33,10 @@ export default class CourseView {
         courseTitle.textContent = courseObject.code;
         newCourseDiv.appendChild(courseTitle);
 
+        var courseName = document.createElement("h2");
+        courseName.textContent = courseObject.name;
+        newCourseDiv.appendChild(courseName);
+
         // Create and append the first <p> element for the course details
         var courseDetails = document.createElement("p");
         courseDetails.innerHTML =
@@ -45,7 +49,7 @@ export default class CourseView {
 
         // Create and append the second <p> element for the course description
         var courseDescription = document.createElement("p");
-        courseDescription.textContent = courseObject.about;
+        courseDescription.textContent = courseObject.description;
         newCourseDiv.appendChild(courseDescription);
 
         // Append the new course <div> to the body of the document

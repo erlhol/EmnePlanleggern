@@ -62,9 +62,9 @@ th {
 .course {
     background-color: #ffffff;
     border-radius: 8px;
-    padding: 40px;
+    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .course h1 {
@@ -88,7 +88,7 @@ th {
 .course-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 50px;
+    gap: 20px;
 }
 
 .chosen {
