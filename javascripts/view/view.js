@@ -105,7 +105,7 @@ export default class CourseView {
 
     renderSelectedCourse(courseObject) {
         const elementToShow = document.getElementById(courseObject.code+"s");
-        elementToShow.style.display = 'block';
+        elementToShow.style.display = 'flex';
     }
 
     renderRemoveActivites(courseObject) {

@@ -119,8 +119,7 @@ th {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
-    display: flex; /* Use flexbox */
-    flex-wrap: wrap; /* Allow wrapping to the next line */
+    width: 100%;
 }
 
 .shown_subject h3 {
