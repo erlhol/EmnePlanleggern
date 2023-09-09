@@ -6,6 +6,7 @@ function App() {
 
     return (
         <div className="App">
+        <p>Test</p>
         <Courses subjects={courses}></Courses>
         <a href="mailto:erlinhol@uio.no">Kontakt Erling Holte på mail</a>
         </div>
