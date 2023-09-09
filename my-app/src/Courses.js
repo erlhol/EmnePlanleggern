@@ -1,8 +1,8 @@
-function renderCourse(courseObject) {
+function Course(courseObject) {
     /* Render one course */
-    // Add style if preferable: style="color: #ff5722
+    // Add style if preferable - to span elements: style="color: #ff5722
     return (
-        <div className={"course"} id={courseObject.code+"r"}>
+        <div className={"course"}>
             <h1>{courseObject.code}</h1>
             <h2>{courseObject.name}</h2>
             <p>
@@ -17,11 +17,19 @@ function renderCourse(courseObject) {
     )
 }
 
-function Course(props) {
-    return <h1>Course</h1>
+function Courses(props) {
+    return (
+        <div>
+        {props.subjects.map( (courseObj, i) =>
+            <Course key={i} courseObject={courseObj}></Course>
+            )
+        }
+        </div>
+        
+    )
 
 }
-export default Course;
+export default Courses;
 
 // TODO: include map of all courses
 // Include search element with bound component input
