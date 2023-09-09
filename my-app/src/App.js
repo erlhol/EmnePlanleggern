@@ -7,6 +7,7 @@ function App() {
     return (
         <div className="App">
         <Courses subjects={courses}></Courses>
+        <a href="mailto:erlinhol@uio.no">Kontakt Erling Holte på mail</a>
         </div>
     );
 }
