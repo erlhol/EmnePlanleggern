@@ -1,36 +1,55 @@
-function Course(courseObject) {
+import { useState, useEffect } from 'react';
+function Course(props) {
     /* Render one course */
     // Add style if preferable - to span elements: style="color: #ff5722
     return (
         <div className={"course"}>
-            <h1>{courseObject.code}</h1>
-            <h2>{courseObject.name}</h2>
+            <h1>{props.courseObject.subjectCode}</h1>
+            <h2>{props.courseObject.subjectName}</h2>
             <p>
-                <span>{courseObject.level}</span>
-                <span>{courseObject.credits}</span>
-                <span>{courseObject.teaching}</span>
-                <span>{courseObject.examdate}</span>
-                <span>{courseObject.teachingLanguage}</span>
+                <span>{props.courseObject.level}</span>
+                <span>{props.courseObject.credits}</span>
+                <span>{props.courseObject.teaching}</span>
+                <span>{props.courseObject.teachingLanguage}</span>
             </p>
-            <p>{courseObject.description}</p>
+            <p>{props.courseObject.description}</p>
         </div>
     )
 }
 
+function search(element, searchWord) {
+    return element.toLowerCase().startsWith(searchWord.toLowerCase());
+}
+
 function Courses(props) {
+
+    const [searchInput, setSearchInput] = useState('');
+    const [chosenSubjects, setChosenSubjects] = useState(props.subjects);
+
+    const onSearchChange = (event) => {
+        setSearchInput(event.target.value);
+      }
+    
+    useEffect( () => {
+        setChosenSubjects(props.subjects.filter(x => search(x.subjectCode,searchInput)))
+
+    }, [searchInput,props.subjects]);
+
+
     return (
-        <div>
-        {props.subjects.map( (courseObj, i) =>
+        <>
+        <h1>Search for courses:</h1>
+        <input value={searchInput} onChange={onSearchChange}></input>
+        {chosenSubjects.map((courseObj, i) =>
             <Course key={i} courseObject={courseObj}></Course>
             )
         }
-        </div>
+        </>
+        
         
     )
-
 }
 export default Courses;
 
 // TODO: include map of all courses
 // Include search element with bound component input
-// fetch from API in the parent component
