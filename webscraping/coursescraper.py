@@ -93,12 +93,50 @@ def crawl_course(link,url,json_list):
                 json_list.append(fact_dict)
             else:
                 print("No <p> element found after the header with id 'learning_outcomes'.")
+        
+        crawl_calendar_info(page_soup)
 
-def crawl_calendar_info():
+def find_timeplan(href):
+    response = requests.get(href)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        target_element = soup.find('a', string="Timeplan")
+        if target_element != None:
+            ref = target_element.get('href')
+            print(ref)
+        
+        target_element2 = soup.find('a', string="Schedule")
+        if target_element2 != None:
+            ref2 = target_element2.get('href')
+            print(ref2)
+
+def crawl_calendar_info(soup):
     # First: select the first link, that is the most recent semester
     # Then: follow link to "Timeplan / schedule"
     # Last: Crawl the page for all the "forelesninger"
-    pass
+    # This should be a dictionary with two key-value pairs.
+    # One is "Forelesninger, the other is "Gruppeundervisning"
+    target_element = soup.find('a', string="""
+          
+            Autumn 2023
+            
+          
+          """)
+    target_element2 = soup.find('a', string="""
+          
+            Høst 2023
+            
+          
+          """)
+    if target_element != None:
+        href = target_element.get('href')
+        find_timeplan(href)
+    if target_element2 != None:
+        href2 = target_element2.get('href')
+        find_timeplan(href2)
+    
+
 
 if __name__ == '__main__':
     start_url = 'https://www.uio.no/studier/emner/alle/?filter.semester=h23'
