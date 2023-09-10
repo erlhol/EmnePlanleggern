@@ -49,7 +49,10 @@ def extract_day_info(text):
 
     for match in matches:
         parts = match.split(' ')
-        days.append((translations[parts[0]],parts[1]))
+        if parts[0] in translations:
+            days.append((translations[parts[0]],parts[1]))
+        else:
+            days.append((parts[0],parts[1]))
 
     print(days)
     return days
@@ -126,7 +129,7 @@ def crawl_course(link,url,json_list):
                 print("No <p> element found after the header with id 'learning_outcomes'.")
         
         fact_dict["lectures"] = crawl_calendar_info(page_soup)
-        fact_dict["credits"] = int(fact_dict["credits"])
+        fact_dict["credits"] = float(fact_dict["credits"])
 
 def find_activites(ref):
 
