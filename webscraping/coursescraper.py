@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin  # Import urljoin for constructing absolute URLs
 import json
+import re
 
 def crawl_pages(current_url):
     json_list = []
@@ -22,6 +23,36 @@ def crawl_pages(current_url):
     
     with open('courses.json', 'w', encoding='utf-8') as f:
         json.dump(json_list, f, ensure_ascii=False, indent=4)
+
+def extract_day_info(text):
+    translations = {"mon.": "mon", "man.": "mon", "mon": "mon",
+                    "tue.": "tue", "tir.": "tue", "tue": "tue",
+                    "wed.": "wed", "ons.": "wed", "wed": "wed",
+                    "thu.": "thu", "tor.": "thu", "thu": "thu",
+                    "fri.": "fri", "fre.": "fri", "fri": "fri",
+                    "sat.": "sat", "lør.": "sat", "sat": "sat",
+                    "sun.": "sun", "søn.": "søn", "sun": "sun"}
+
+    # Define a regular expression pattern to match weekdays and times
+    pattern = r'(\w+\.\s+\d{2}:\d{2}-\d{2}:\d{2})'
+
+    # Use the findall function to extract all matches
+    matches = re.findall(pattern, text.lower())
+    if not matches:
+        pattern = r'(\w+\s+\d{2}:\d{2}-\d{2}:\d{2})'
+        matches = re.findall(pattern, text.lower())
+    
+    print(matches,text.lower())
+
+    # Split the matches into separate weekday and time parts
+    days = []
+
+    for match in matches:
+        parts = match.split(' ')
+        days.append((translations[parts[0]],parts[1]))
+
+    print(days)
+    return days
 
 def crawl_courses(soup,url,json_list):
     # Find all <a> elements within <td> elements with class 'vrtx-course-description-name'
@@ -64,7 +95,7 @@ def crawl_course(link,url,json_list):
         subjectName = courseInfoTitle[1].strip()
         fact_dict["subjectCode"] = subjectCode
         fact_dict["subjectName"] = subjectName
-        fact_dict["activites"] = []
+        fact_dict["lectures"] = []
 
         # Find all divs with class 'vrtx-distach-bottom vrtx-facts'
         facts_divs = page_soup.find_all('div', id='vrtx-additional-content')
@@ -94,7 +125,24 @@ def crawl_course(link,url,json_list):
             else:
                 print("No <p> element found after the header with id 'learning_outcomes'.")
         
-        crawl_calendar_info(page_soup)
+        fact_dict["lectures"] = crawl_calendar_info(page_soup)
+        fact_dict["credits"] = int(fact_dict["credits"])
+
+def find_activites(ref):
+
+    print("Getting:",ref)
+    response = requests.get(ref)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        target_elem = soup.find('a',class_='cs-toc-section-link')
+        if target_elem != None:
+            span = target_elem.find('span')
+            if span != None:
+                print(span.text)
+                return extract_day_info(span.text)
+    
+    return []
 
 def find_timeplan(href):
     response = requests.get(href)
@@ -104,12 +152,13 @@ def find_timeplan(href):
         target_element = soup.find('a', string="Timeplan")
         if target_element != None:
             ref = target_element.get('href')
-            print(ref)
+            return find_activites(ref)
         
         target_element2 = soup.find('a', string="Schedule")
         if target_element2 != None:
             ref2 = target_element2.get('href')
-            print(ref2)
+            return find_activites(ref2)
+    return []
 
 def crawl_calendar_info(soup):
     # First: select the first link, that is the most recent semester
@@ -131,13 +180,16 @@ def crawl_calendar_info(soup):
           """)
     if target_element != None:
         href = target_element.get('href')
-        find_timeplan(href)
+        return find_timeplan(href)
     if target_element2 != None:
         href2 = target_element2.get('href')
-        find_timeplan(href2)
+        return find_timeplan(href2)
+    
+    return []
     
 
 
 if __name__ == '__main__':
     start_url = 'https://www.uio.no/studier/emner/alle/?filter.semester=h23'
+    #ifi_url = 'https://www.uio.no/studier/emner/matnat/ifi/?filter.semester=h23'
     crawl_pages(start_url)
