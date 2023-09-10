@@ -54,7 +54,6 @@ def extract_day_info(text):
         else:
             days.append((parts[0],parts[1]))
 
-    print(days)
     return days
 
 def crawl_courses(soup,url,json_list):
