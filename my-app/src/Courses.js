@@ -1,9 +1,27 @@
 import { useState, useEffect } from 'react';
 function Course(props) {
+    const [checkedState, setCheckedState] = useState(false);
+
+    const chosenBackgroundColor = {
+       // backgroundColor: '#ffffff88', // Change this to the desired background color
+       backgroundColor: '#ffff88'
+    };
+
+    const notChosenBackgroundColor = {
+        backgroundColor: '#ffffff'
+    }
+
+    const onCheckedStateChange = () => {
+        setCheckedState(previousValue => {
+            return !previousValue
+      });
+    }
+
     /* Render one course */
     // Add style if preferable - to span elements: style="color: #ff5722
     return (
-        <div className={"course"}>
+        <div style={checkedState ? chosenBackgroundColor : notChosenBackgroundColor} 
+        onClick={onCheckedStateChange} className={"course"}>
             <h1>{props.courseObject.subjectCode}</h1>
             <h2>{props.courseObject.subjectName}</h2>
             <p>
