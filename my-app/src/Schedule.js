@@ -79,10 +79,18 @@ function Schedule(props) {
     // myEventsList can be a state.
     // Each course can be a button, and when you click on it, 
     // it will be displayed. With a color
+
+    const minDate = new Date();
+    minDate.setHours(10);
+
+    const maxDate = new Date();
+    maxDate.setHours(20);
       
       const MyCalendar = () => (
         <div className="myCustomHeight">
           <Calendar
+            min={minDate}
+            max={maxDate}
             localizer={localizer}
             events={allevents}
             startAccessor="start"
