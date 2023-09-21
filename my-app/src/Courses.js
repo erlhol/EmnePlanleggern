@@ -1,17 +1,27 @@
 import { useState, useEffect } from 'react';
 
 function SelectedCourses(props) {
+    /* Displays a list of selected courses 
+    And the total number of credits*/
+    
+    const totalCredits = props.selected.reduce((accumulator, courseObj) => {
+        return accumulator + courseObj.credits;
+      }, 0);
+
     return <><h2>Selected Courses </h2>
     {props.selected.map((courseObj, i) =>
         <p key={i} >{courseObj.subjectCode} {courseObj.subjectName}</p>
         )
     }
+    <p>Total credits: {totalCredits}</p>
     </>
 }
 
 function Course(props) {
-    const [checkedState, setCheckedState] = useState(false);
+    /* Handles logic for one specific course
+    Uses a state to keep track of it is pressed or not */
 
+    const [checkedState, setCheckedState] = useState(false);
 
     const chosenBackgroundColor = {
        // backgroundColor: '#ffffff88', // Change this to the desired background color
@@ -46,14 +56,16 @@ function Course(props) {
 }
 
 function search(element, searchWord) {
+    /* Returns the elements that start with searchWord */
     return element.toLowerCase().startsWith(searchWord.toLowerCase());
 }
 
 function Courses(props) {
+    /* Display all the courses and handle searchInput */
 
     const [searchInput, setSearchInput] = useState('');
     const [searchedSubjects, setSearchedSubjects] = useState(props.subjects);
-    // have to fix searchedCourses lagging with the selected color.
+    // TODO: have to fix searchedCourses lagging with the selected color.
 
     const onSearchChange = (event) => {
         setSearchInput(event.target.value);

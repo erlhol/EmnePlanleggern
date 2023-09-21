@@ -7,6 +7,10 @@ import { useState } from 'react';
 
 function App() {
 
+    /* The entry point for the webapp 
+    Handles selected subjects (the subjects you have chosen)
+    Renders all of the needed components*/
+
     const [selectedSubjects, setSelectedSubjects] = useState([]);
 
     const onSetSelectedSubjects = (subject,should_add) => {
