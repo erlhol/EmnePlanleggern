@@ -1,5 +1,6 @@
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
+import { useEffect, useState } from 'react';
 
 function createDates(lectures,subjectCode) {
     var events = []
@@ -60,6 +61,17 @@ function weekDayToDate(activity) {
 }
 
 function Schedule(props) {
+  const [allevents, setAllEvents] = useState([]);
+
+  useEffect(() => {
+    const updatedEvents = [];
+    props.subjects.forEach((courseObject, i) => {
+      const events = createDates(courseObject.lectures, courseObject.subjectCode);
+      updatedEvents.push(...events); 
+    });
+    setAllEvents(updatedEvents);
+  }, [props.subjects]);
+
     // Setup the localizer by providing the moment (or globalize, or Luxon) Object
     // to the correct localizer.
     const localizer = momentLocalizer(moment) // or globalizeLocalizer
@@ -67,16 +79,12 @@ function Schedule(props) {
     // myEventsList can be a state.
     // Each course can be a button, and when you click on it, 
     // it will be displayed. With a color
-
-    const chosenSubject = props.subjects[6]
-
-    const events = createDates(chosenSubject.lectures,chosenSubject.subjectCode)
       
-      const MyCalendar = (props) => (
+      const MyCalendar = () => (
         <div className="myCustomHeight">
           <Calendar
             localizer={localizer}
-            events={events}
+            events={allevents}
             startAccessor="start"
             endAccessor="end"
             views={['week']} // Set to display only the week view
@@ -90,4 +98,4 @@ function Schedule(props) {
 
 export default Schedule;
 
-// TODO: create a smart schedule where
+// TODO: create a smart schedule where we use AI

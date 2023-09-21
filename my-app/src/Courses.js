@@ -1,6 +1,17 @@
 import { useState, useEffect } from 'react';
+
+function SelectedCourses(props) {
+    return <><h2>Selected Courses </h2>
+    {props.selected.map((courseObj, i) =>
+        <p key={i} >{courseObj.subjectCode} {courseObj.subjectName}</p>
+        )
+    }
+    </>
+}
+
 function Course(props) {
     const [checkedState, setCheckedState] = useState(false);
+
 
     const chosenBackgroundColor = {
        // backgroundColor: '#ffffff88', // Change this to the desired background color
@@ -12,9 +23,8 @@ function Course(props) {
     }
 
     const onCheckedStateChange = () => {
-        setCheckedState(previousValue => {
-            return !previousValue
-      });
+        setCheckedState((previousValue) => !previousValue);
+        props.changeSelected(props.courseObject, !checkedState);
     }
 
     /* Render one course */
@@ -25,10 +35,10 @@ function Course(props) {
             <h1>{props.courseObject.subjectCode}</h1>
             <h2>{props.courseObject.subjectName}</h2>
             <p>
-                <span>{props.courseObject.level}</span>
-                <span>{props.courseObject.credits}</span>
-                <span>{props.courseObject.teaching}</span>
-                <span>{props.courseObject.teachingLanguage}</span>
+                <span style= {{color: '#ff5722'}}> Level: {props.courseObject.level} | </span>
+                <span style= {{color: '#ff5722'}}>Credits: {props.courseObject.credits} | </span>
+                <span style= {{color: '#ff5722'}}>Teaching: {props.courseObject.teaching} | </span>
+                <span style= {{color: '#ff5722'}}>Teaching language: {props.courseObject.teachingLanguage}</span>
             </p>
             <p>{props.courseObject.description}</p>
         </div>
@@ -42,32 +52,34 @@ function search(element, searchWord) {
 function Courses(props) {
 
     const [searchInput, setSearchInput] = useState('');
-    const [chosenSubjects, setChosenSubjects] = useState(props.subjects);
+    const [searchedSubjects, setSearchedSubjects] = useState(props.subjects);
+    // have to fix searchedCourses lagging with the selected color.
 
     const onSearchChange = (event) => {
         setSearchInput(event.target.value);
-      }
+    }
     
     useEffect( () => {
-        setChosenSubjects(props.subjects.filter(x => search(x.subjectCode,searchInput)))
+        setSearchedSubjects(props.subjects.filter(x => search(x.subjectCode,searchInput)))
 
     }, [searchInput,props.subjects]);
+
+    const onSetSelectedSubjects = (subject,should_add) => {
+        props.changeSelected(subject,should_add)
+    }
 
 
     return (
         <>
+        <SelectedCourses selected = {props.selected}></SelectedCourses>
         <h1>Search for courses:</h1>
         <input value={searchInput} onChange={onSearchChange}></input>
-        {chosenSubjects.map((courseObj, i) =>
-            <Course key={i} courseObject={courseObj}></Course>
+        {searchedSubjects.map((courseObj, i) =>
+            <Course key={i} courseObject={courseObj} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
+            // The key should be unique and not dependent on searchedSubjects!
             )
         }
         </>
-        
-        
     )
 }
 export default Courses;
-
-// TODO: include map of all courses
-// Include search element with bound component input
