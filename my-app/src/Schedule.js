@@ -1,8 +1,20 @@
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import { useEffect, useState } from 'react';
+import chroma from 'chroma-js';
+
+function generateRandomColor() {
+  let color;
+  do {
+    // Generate a random color
+    color = chroma.random();
+  } while (!chroma.contrast(color, 'white') >= 4.5); // Ensure sufficient contrast with white (you can change this value as needed)
+
+  return color.hex();
+}
 
 function createDates(lectures,subjectCode) {
+    const unique = generateRandomColor();
     var events = []
     lectures.forEach((activity,i) => {
         console.log(activity)
@@ -11,7 +23,8 @@ function createDates(lectures,subjectCode) {
             id: i,
             title: "Lecture: "+subjectCode,
             start: dateStart,
-            end: dateEnd
+            end: dateEnd,
+            backgroundColor: unique
         })
     });
     return events
@@ -85,6 +98,15 @@ function Schedule(props) {
 
     const maxDate = new Date();
     maxDate.setHours(20);
+
+    const eventPropGetter = (event) => {
+      // Customize event properties based on your logic
+      return {
+        style: {
+          backgroundColor: event.backgroundColor, // You can set other styles as well
+        }
+      };
+    };
       
       const MyCalendar = () => (
         <div className="myCustomHeight">
@@ -97,6 +119,7 @@ function Schedule(props) {
             endAccessor="end"
             views={['week']} // Set to display only the week view
             defaultView="week" // Set the initial view to week
+            eventPropGetter={eventPropGetter}
           />
         </div>
       )
