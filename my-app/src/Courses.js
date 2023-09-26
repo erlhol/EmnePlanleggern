@@ -10,7 +10,10 @@ function SelectedCourses(props) {
 
     return <><h2>Selected Courses </h2>
     {props.selected.map((courseObj, i) =>
-        <p key={i} >{courseObj.subjectCode} {courseObj.subjectName}</p>
+        <p>
+            <span key={i} >{courseObj.subjectCode} {courseObj.subjectName}</span>
+            <button onClick={() => props.editSelected(courseObj,false)}>Delete!</button>
+        </p>
         )
     }
     <p>Total credits: {totalCredits}</p>
@@ -83,7 +86,7 @@ function Courses(props) {
 
     return (
         <>
-        <SelectedCourses selected = {props.selected}></SelectedCourses>
+        <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
         <h1>Search for courses:</h1>
         <input value={searchInput} onChange={onSearchChange}></input>
         {searchedSubjects.map((courseObj, i) =>
