@@ -88,6 +88,7 @@ function Schedule(props) {
 
     // Setup the localizer by providing the moment (or globalize, or Luxon) Object
     // to the correct localizer.
+    moment.locale('en-GB');
     const localizer = momentLocalizer(moment) // or globalizeLocalizer
 
     // myEventsList can be a state.
@@ -108,8 +109,6 @@ function Schedule(props) {
         }
       };
     };
-    moment.locale('en-GB');
-    momentLocalizer(moment);
 
       const MyCalendar = () => (
         <div className="myCustomHeight">
