@@ -2,6 +2,7 @@ import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import { useEffect, useState } from 'react';
 import chroma from 'chroma-js';
+import 'moment/locale/en-gb';
 
 function generateRandomColor() {
   let color;
@@ -107,7 +108,9 @@ function Schedule(props) {
         }
       };
     };
-      
+    moment.locale('en-GB');
+    momentLocalizer(moment);
+
       const MyCalendar = () => (
         <div className="myCustomHeight">
           <Calendar
@@ -117,8 +120,8 @@ function Schedule(props) {
             events={allevents}
             startAccessor="start"
             endAccessor="end"
-            views={['week']} // Set to display only the week view
-            defaultView="week" // Set the initial view to week
+            defaultView={'work_week'}
+            views={['work_week']}
             eventPropGetter={eventPropGetter}
           />
         </div>
