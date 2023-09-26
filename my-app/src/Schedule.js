@@ -94,7 +94,7 @@ function Schedule(props) {
     // it will be displayed. With a color
 
     const minDate = new Date();
-    minDate.setHours(10);
+    minDate.setHours(7);
 
     const maxDate = new Date();
     maxDate.setHours(20);
