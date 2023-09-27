@@ -18,7 +18,6 @@ function createDates(lectures,subjectCode) {
     const unique = generateRandomColor();
     var events = []
     lectures.forEach((activity,i) => {
-        console.log(activity)
         const [dateStart,dateEnd] = weekDayToDate(activity)
         events.push({
             id: i,
@@ -50,6 +49,19 @@ function parseWeekDay(activity) {
     return [dayMap[activity[0]],startTimeParts,endTimeParts]
 }
 
+function getPreviousSunday() {
+  const currentDate = new Date();
+  const currentDay = currentDate.getDay(); // 0 for Sunday, 1 for Monday, ..., 6 for Saturday
+  const daysUntilPreviousSunday = currentDay === 0 ? 7 : currentDay; // Calculate how many days to subtract to reach the previous Sunday
+
+  const sundayDate = new Date(currentDate);
+  sundayDate.setDate(currentDate.getDate() - daysUntilPreviousSunday);
+
+  // Set the time to midnight (00:00:00) to get the start of Sunday
+  sundayDate.setHours(0, 0, 0, 0);
+
+  return sundayDate;
+}
 
 function weekDayToDate(activity) {
     const arr = parseWeekDay(activity)
@@ -60,16 +72,14 @@ function weekDayToDate(activity) {
     let endHours = parseInt(arr[2][0]);
     let endMinutes = parseInt(arr[2][1]);
 
-    let dateStart = new Date();
+    let dateStart = getPreviousSunday();
     dateStart.setDate(dateStart.getDate() + (day !== dateStart.getDay() ? (day + 7 - dateStart.getDay()) % 7 : 7));
     dateStart.setHours(startHours, startMinutes, 0, 0)
-    console.log(dateStart)
 
     // get the end of the period
-    let dateEnd = new Date();
+    let dateEnd = getPreviousSunday();
     dateEnd.setDate(dateEnd.getDate() + (day !== dateEnd.getDay() ? (day + 7 - dateEnd.getDay()) % 7 : 7));
     dateEnd.setHours(endHours, endMinutes, 0, 0)
-    console.log(dateEnd)
 
     return [dateStart,dateEnd]
 }
