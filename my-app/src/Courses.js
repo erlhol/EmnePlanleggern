@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
 
 function SelectedCourses(props) {
     /* Displays a list of selected courses 
@@ -20,30 +22,59 @@ function SelectedCourses(props) {
     </>
 }
 
+function FilterButtons(props) {
+    const searchFilters = ["Bachelor", "Master", "PhD", "Exam", "Norsk", "English"];
+    const [checkedState, setCheckedState] = useState(
+        new Array(searchFilters.length).fill(false)
+      );
+    const [sliderInput, setSliderInput] = useState([0,60])
+
+    const onSliderInputChange = (value) => {
+        setSliderInput(value)
+    }
+  
+      const handleOnChange = (position) => {
+          const updatedCheckedState = checkedState.map((item, index) =>
+            index === position ? !item : item
+          );
+          setCheckedState(updatedCheckedState);
+        };
+  
+      const filter_buttons = searchFilters.map((element,i) => (
+          <div> 
+          <input checked={checkedState[i]} onChange={() => handleOnChange(i)} type="checkbox" id={element} name={element} value={element} />{element}
+        </div>))
+  
+      const flex_style = {
+          display: "flex",
+          justifyContent: "space-around"
+      };
+      
+      return ( <><div style={flex_style}>{filter_buttons}</div>
+      <p>From {sliderInput[0]} til {sliderInput[1]}</p>
+        <Slider 
+            range
+            min={0}
+            max={60}
+            value={[sliderInput[0], sliderInput[1]]}
+            onChange={onSliderInputChange}
+         /></>)   
+}
+
 function Course(props) {
     /* Handles logic for one specific course
     Uses a state to keep track of it is pressed or not */
 
-    const [checkedState, setCheckedState] = useState(false);
-
-    const chosenBackgroundColor = {
-       // backgroundColor: '#ffffff88', // Change this to the desired background color
-       backgroundColor: '#ffff88'
-    };
-
-    const notChosenBackgroundColor = {
-        backgroundColor: '#ffffff'
-    }
-
     const onCheckedStateChange = () => {
-        setCheckedState((previousValue) => !previousValue);
-        props.changeSelected(props.courseObject, !checkedState);
+        if (props.selected.includes(props.courseObject) === false) {
+            props.changeSelected(props.courseObject, true);
+        }
     }
 
     /* Render one course */
     // Add style if preferable - to span elements: style="color: #ff5722
     return (
-        <div style={checkedState ? chosenBackgroundColor : notChosenBackgroundColor} 
+        <div
         onClick={onCheckedStateChange} className={"course"}>
             <h1>{props.courseObject.subjectCode}</h1>
             <h2>{props.courseObject.subjectName}</h2>
@@ -81,16 +112,17 @@ function Courses(props) {
 
     const onSetSelectedSubjects = (subject,should_add) => {
         props.changeSelected(subject,should_add)
-    }
-
+    }  
 
     return (
         <>
-        <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
+        <FilterButtons></FilterButtons>
         <h1>Search for courses:</h1>
         <input value={searchInput} onChange={onSearchChange}></input>
+        <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
+        
         {searchedSubjects.map((courseObj, i) =>
-            <Course key={i} courseObject={courseObj} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
+            <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
             // The key should be unique and not dependent on searchedSubjects!
             )
         }
