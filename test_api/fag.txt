@@ -1,0 +1,1086 @@
+{
+  "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag",
+  "rel" : [ "collection" ],
+  "page" : 1,
+  "limit" : 0,
+  "size" : 535,
+  "first" : {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag?page=1&limit=0",
+    "rel" : [ "collection" ]
+  },
+  "last" : {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag?page=1&limit=0",
+    "rel" : [ "collection" ]
+  },
+  "items" : [ {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/011"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/012"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/012OSS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/018"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/019"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/020"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/021"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/024"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/026"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/027POR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/028"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/032"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/033HIN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/033URD"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/035HES"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/039"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/039STEK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/042"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/043"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/044"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/045"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/046"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/047"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/048"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/049"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/049POR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/050"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/054"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/059LITF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/060SEB"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/061"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/062TYS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/063"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/063FRA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/064RUS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/067%C3%98AS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/068GBR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/068NAM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/069ASS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/069LAM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/069M%C3%98NA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/069SAS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/114"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/151"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/152"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/153"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/161"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/162"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/164"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/171"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/212"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/220"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/241"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/250"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/260"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/261"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/262"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/263"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/264"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/265"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/267"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/268"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/279"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/280"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/281"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/282"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/283"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/289"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/320"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/340"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/341"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/341ALM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/342"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/343"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/344"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/345"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/346REINF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/347"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/348"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349ARB"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349BARN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349BOLIG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349BYGG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349COMM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349EKSPR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349ERSTAT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349EUROPA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349FLYKT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349FORS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349GAR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349HELSE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349INFO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349INTLEG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349INTMEN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349KOMMUN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349KONTRA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349KRIM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349KVINNE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349ODEL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349OKF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349PATENT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349REHIS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349RESOS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349RE%C3%98K"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349SAME"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349SELSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349SIPRO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349SJ%C3%98"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349SKATT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349STATF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349STRAFF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349SVERN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349TRYGD"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349UTLER"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/349VASS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/410"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/411"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/412"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/413"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/414"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/415"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/416"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/417"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/420"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/421"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/422"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/423"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/424"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/425"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/426"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/427"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/428"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/429"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/430"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/431"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/433"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/434"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/435"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/436"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/437"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/438"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/440"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/441"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/442"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/443"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/444"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/445"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/446"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/447"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/448"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/450"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/451"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/452"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/453"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/454"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/455"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/456"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/461"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/462"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/463"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/464"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/465"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/466"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/467"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/468"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/469"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/470"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/471"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/472"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/473"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/474"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/475"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/476"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/477"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/478"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/480"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/481"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/482"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/483"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/484"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/485"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/486"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/487"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/488"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/489"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/491"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/492"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/493"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/495"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/496"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/497"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/498"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/510"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/513"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/520"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/540"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/550"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/551"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/553"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/560"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/710"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/711"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/714"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/715"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/716"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/717"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/718"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/719MED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/719OD"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/720A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/721"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/725"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/725B"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/726"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/728A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/728MED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/730"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/736"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/736A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/738"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/739"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/750"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/751"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/752"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/753"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/754"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/755"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/756"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/757"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/759"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/760"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/762"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/763"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/764"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/765"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/770"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/771"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/772"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/772A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/772B"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/773"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/774"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/775"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/776"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/777"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/778"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/780"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/781"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/782"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/782A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/782B"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/783"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/784"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/785"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/786"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/787"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/788"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/788A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/799"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/799A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/801"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/801A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/802"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/803A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/803B"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/803C"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/804"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/805A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/805B"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/805C"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/806"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/806B"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/807"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/809"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/811"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/812"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/829A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/830"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/831"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/831A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/832"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/833"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/834"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/834A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/835"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/835A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/836"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/837"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/849"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/849A"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/849C"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/849OD"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ADMORG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/AKVAKULTUR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ALLE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANDREFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANDREREAL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANDRESPRAK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANDREYRK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANINMA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANINMAIN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANMAT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANTKULT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ANVLINGV"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ARABISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ARBEIDSLIV"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ARKEOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ARKIVKUNN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ASTRONOMI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BALTISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BIOINFO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BIOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BIOTEKNO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BOSKROSER"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BOTANIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BULGARSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/BYGG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/CES"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/DEMOGRAFI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/DESIGN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/DIDAKTIKMN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/DIG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/EDBHUM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ELD"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ELEKTRO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ENGELSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ENTREPREN%C3%98"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ERN%C3%86RING"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ESTETIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ETNOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/EXPHIL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FARMASI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FILOSOFI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FINSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FINSKUGR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FOLKLORIST"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FONETIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FORM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FORVINF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FRANSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FULFULDE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/FYSIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEOFYSIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEOGRAFI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEOGRAFIHF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEOGRAFIMN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEOGRAFISV"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GEOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GERMANSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/GRESK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/G%C3%86LISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HADM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HAGEBRUK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HEBRAISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HELSE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HELSEFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HELSESOSIA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HISTORIE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HLED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HMED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HUMFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HUMIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/HUSDYRFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/H%C3%98KON"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/IBSEN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/IDEHISTORI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/IKT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/INDEUROP"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/INDISKFIL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/INFIS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/INFORMATIK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/INGENI%C3%98R"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/INTER"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/IRSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ISLANDSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ITALIENSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/JAPANSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/JORDGEO"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/JORDVANN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/JOURNALIST"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/JUS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KARTFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KELTISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KINESISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KJEMI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KJ%C3%98NN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KLASARKEOL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KOMINFOVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KONSERVER"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KOREANSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KRIMINOLOG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KRISTENDOM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KROPP"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KULKOMM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KULTURHIST"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KUNSTHIST"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/KVAM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LANDBRUK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LANDSARK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LANDSKPLAN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LATAM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LATIN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LATVISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LEKSIKOGRA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LIMNOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LINGVISTIK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LITAUISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LITTERATUR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LITTVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LIVSETIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/LOGIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MARINEFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MAS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MASKBYGG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MATEMATIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MBV"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MEAST"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MEDIEKOMM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MEDIEVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MEDISIN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MEF"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MEKANIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MENA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MNFELLES"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MNHFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MOD"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSEOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSKIRKE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSKOMP"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSKUL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSPED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSST%C3%98TTE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/MUSUT%C3%98V"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/M%C3%98NAFKUNN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NATURBRUK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NATURFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NATURFORV"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NAVNEGRANS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NEDERLANSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORAMKUNN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORAS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORDARKEOL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORDID"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORDISKDID"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORDISKNSL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORDISKSPR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORINT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORIUTLAND"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORR%C3%98NFIL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NORSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NUMISMATIK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/NYGRESK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/N%C3%86RMIDDEL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ODONTOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PECOS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PEDAGOGIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PERSISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PLANFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PLANTEFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/POLSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PORTUGISIS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PPU"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/PSYKOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RDID"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/REALFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/REALFAGSDI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RELIGIONSH"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RESA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RESTAURANT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RETKOM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RETTSSOS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ROMANSKFIL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RUMENSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RUNOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RUSEBA"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RUSSISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/RUS%C3%98STKUNN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SAMFFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SAMFGEOGR"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SAMF%C3%98K"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SAMISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SANSKRIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SEMITTISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SERBOKROAT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SERVICE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SIVING"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SKOGFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SLAVISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SLI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SOSIALANT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SOSIALFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SOSIALPED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SOSIAL%C3%98KON"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SOSIOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SPANSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SPESPED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SPR%C3%85KFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/STATISTIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/STATSVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/SYKVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/S%C3%98RASKUNN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TANNPLEIE"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TEATERVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TEGNSPR%C3%85K"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TEKNIKK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TEKNOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TEOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TILMED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TOLKING"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TOOL"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TRANS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TSJEKKISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TVERRFAG"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TYRKISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/TYSK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/UNIK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/UNIS"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/URDU"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/URDUHINDI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/USPES"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/UTLED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/UTVIKLING"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/UTVIT"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/UT%C3%98VKUNST"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/VETMED"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/VEUROKUNN"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/WALISISK"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/ZOOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/%C3%98KADM"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/%C3%98KOLOGI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/%C3%98KONOMI"
+  }, {
+    "href" : "https://gw-uio.intark.uh-it.no/fs-api/fag/%C3%98STASIA"
+  } ]
+}

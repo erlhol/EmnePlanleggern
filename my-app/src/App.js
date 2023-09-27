@@ -18,7 +18,7 @@ function App() {
 
     function activePageHandler(page) {
         setActivePage(page);
-      }
+    }
 
     const onSetSelectedSubjects = (subject,should_add) => {
         if (should_add) {

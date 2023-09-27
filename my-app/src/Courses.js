@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 
@@ -24,21 +24,55 @@ function SelectedCourses(props) {
 
 function FilterButtons(props) {
     const searchFilters = ["Bachelor", "Master", "PhD", "Exam", "Norsk", "English"];
+
+    const [searchInput, setSearchInput] = useState('');
+    const [searchedSubjects, setSearchedSubjects] = useState(props.subjects);
+
+    const onSearchChange = (event) => {
+        setSearchInput(event.target.value);
+        setSearchedSubjects(props.subjects.filter(x => search(x.subjectCode,event.target.value)))
+    }
+
+    const onSearcedSubjectsChange = (new_arr) => {
+        setSearchedSubjects(new_arr)
+    }
+
     const [checkedState, setCheckedState] = useState(
         new Array(searchFilters.length).fill(false)
       );
     const [sliderInput, setSliderInput] = useState([0,60])
 
     const onSliderInputChange = (value) => {
+        props.changeSearch(filterCredits(props.searchedSubjects,value[0],value[1])) // This is a vicious circle
+        // We need to get back the original search somehow
         setSliderInput(value)
     }
+
+    const filterCredits = (subjects,low,high) => {
+        return subjects.filter(courseObj => courseObj.credits >= low && courseObj.credits <= high)
+    }
+
+    const filterLevel = (subjects, filter) => {
+        return subjects.filter(courseObj => courseObj.level.includes(filter))
+    }
+
+    const filterExam = (subjects) => {
+        return subjects.filter(courseObj => courseObj.grading != null && courseObj.grading)
+    }
+
+    const filterLanguage = (subjects, filter) => {
+        return subjects.filter(courseObj => courseObj.teachingLanguage.includes(filter))
+    }
+
   
-      const handleOnChange = (position) => {
-          const updatedCheckedState = checkedState.map((item, index) =>
+    const handleOnChange = (position) => {
+        const updatedCheckedState = checkedState.map((item, index) =>
             index === position ? !item : item
-          );
-          setCheckedState(updatedCheckedState);
-        };
+        );
+        setCheckedState(updatedCheckedState)
+        var subjects = props.searchedSubjects
+        props.changeSearch(subjects)
+    };
   
       const filter_buttons = searchFilters.map((element,i) => (
           <div> 
@@ -58,7 +92,9 @@ function FilterButtons(props) {
             max={60}
             value={[sliderInput[0], sliderInput[1]]}
             onChange={onSliderInputChange}
-         /></>)   
+         />
+        <h1>Search for courses:</h1>
+        <input value={searchInput} onChange={onSearchChange}></input></>)   
 }
 
 function Course(props) {
@@ -95,33 +131,18 @@ function search(element, searchWord) {
 }
 
 function Courses(props) {
-    /* Display all the courses and handle searchInput */
-
-    const [searchInput, setSearchInput] = useState('');
-    const [searchedSubjects, setSearchedSubjects] = useState(props.subjects);
-    // TODO: have to fix searchedCourses lagging with the selected color.
-
-    const onSearchChange = (event) => {
-        setSearchInput(event.target.value);
-    }
-    
-    useEffect( () => {
-        setSearchedSubjects(props.subjects.filter(x => search(x.subjectCode,searchInput)))
-
-    }, [searchInput,props.subjects]);
+    /* Display all the courses */
+    const [retrievedSubjects, setRetrievedSubjects] = useState(props.subjects)
 
     const onSetSelectedSubjects = (subject,should_add) => {
         props.changeSelected(subject,should_add)
-    }  
+    }
 
     return (
         <>
-        <FilterButtons></FilterButtons>
-        <h1>Search for courses:</h1>
-        <input value={searchInput} onChange={onSearchChange}></input>
+        <FilterButtons subjects={props.subjects}></FilterButtons>
         <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
-        
-        {searchedSubjects.map((courseObj, i) =>
+        {retrievedSubjects.map((courseObj, i) =>
             <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
             // The key should be unique and not dependent on searchedSubjects!
             )
