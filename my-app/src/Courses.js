@@ -22,19 +22,18 @@ function SelectedCourses(props) {
     </>
 }
 
+function search(element, searchWord) {
+    /* Returns the elements that start with searchWord */
+    return element.toLowerCase().startsWith(searchWord.toLowerCase());
+}
+
 function FilterButtons(props) {
     const searchFilters = ["Bachelor", "Master", "PhD", "Exam", "Norsk", "English"];
 
     const [searchInput, setSearchInput] = useState('');
-    const [searchedSubjects, setSearchedSubjects] = useState(props.subjects);
 
     const onSearchChange = (event) => {
         setSearchInput(event.target.value);
-        setSearchedSubjects(props.subjects.filter(x => search(x.subjectCode,event.target.value)))
-    }
-
-    const onSearcedSubjectsChange = (new_arr) => {
-        setSearchedSubjects(new_arr)
     }
 
     const [checkedState, setCheckedState] = useState(
@@ -43,9 +42,13 @@ function FilterButtons(props) {
     const [sliderInput, setSliderInput] = useState([0,60])
 
     const onSliderInputChange = (value) => {
-        props.changeSearch(filterCredits(props.searchedSubjects,value[0],value[1])) // This is a vicious circle
+        filterCredits(props.subjects,value[0],value[1]) // This is a vicious circle
         // We need to get back the original search somehow
         setSliderInput(value)
+    }
+
+    const filterSearch = (subjects, query) => {
+        return subjects.filter(x => search(x.subjectCode,query))
     }
 
     const filterCredits = (subjects,low,high) => {
@@ -70,8 +73,6 @@ function FilterButtons(props) {
             index === position ? !item : item
         );
         setCheckedState(updatedCheckedState)
-        var subjects = props.searchedSubjects
-        props.changeSearch(subjects)
     };
   
       const filter_buttons = searchFilters.map((element,i) => (
@@ -125,11 +126,6 @@ function Course(props) {
     )
 }
 
-function search(element, searchWord) {
-    /* Returns the elements that start with searchWord */
-    return element.toLowerCase().startsWith(searchWord.toLowerCase());
-}
-
 function Courses(props) {
     /* Display all the courses */
     const [retrievedSubjects, setRetrievedSubjects] = useState(props.subjects)
@@ -140,7 +136,7 @@ function Courses(props) {
 
     return (
         <>
-        <FilterButtons subjects={props.subjects}></FilterButtons>
+        <FilterButtons subjects={retrievedSubjects}></FilterButtons>
         <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
         {retrievedSubjects.map((courseObj, i) =>
             <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
