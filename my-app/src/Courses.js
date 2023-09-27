@@ -10,8 +10,8 @@ function SelectedCourses(props) {
 
     return <><h2>Selected Courses </h2>
     {props.selected.map((courseObj, i) =>
-        <p>
-            <span key={i} >{courseObj.subjectCode} {courseObj.subjectName}</span>
+        <p key={i}>
+            <span>{courseObj.subjectCode} {courseObj.subjectName}</span>
             <button onClick={() => props.editSelected(courseObj,false)}>Delete!</button>
         </p>
         )
