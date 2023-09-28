@@ -1,49 +1,148 @@
 import { useState, useEffect } from 'react';
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
+import { SelectedCourses } from './SelectedCourses';
 
-function SelectedCourses(props) {
-    /* Displays a list of selected courses 
-    And the total number of credits*/
+function search(element, searchWord) {
+    /* Returns the elements that start with searchWord */
+    return element.toLowerCase().startsWith(searchWord.toLowerCase());
+}
+
+function FilterButtons(props) {
+    // TODO: add grouping of the buttons
+    // Should not filter for both master and bachelor
+    const searchFilters = ["Bachelor", "Master", "PhD", "Pass/fail", "Norsk", "English"];
+    const { subjects, changeRetrieved } = props;
+
+    const [searchInput, setSearchInput] = useState('');
+
+    const [checkedState, setCheckedState] = useState(
+        new Array(searchFilters.length).fill(false)
+      );
     
-    const totalCredits = props.selected.reduce((accumulator, courseObj) => {
-        return accumulator + courseObj.credits;
-      }, 0);
+    const [sliderInput, setSliderInput] = useState([0,60])
 
-    return <><h2>Selected Courses </h2>
-    {props.selected.map((courseObj, i) =>
-        <p key={i}>
-            <span>{courseObj.subjectCode} {courseObj.subjectName}</span>
-            <button onClick={() => props.editSelected(courseObj,false)}>Delete!</button>
-        </p>
-        )
+    useEffect(() => {
+        changeRetrieved(applyFilters(subjects));
+      }, [checkedState,searchInput,sliderInput,subjects]); 
+
+    const onSearchChange = (event) => {
+        setSearchInput(event.target.value);
     }
-    <p>Total credits: {totalCredits}</p>
-    </>
+
+    const onSliderInputChange = (value) => {
+        setSliderInput(value)
+    }
+
+    const handleOnCheckedChange = (i) => {
+        const updatedCheckedState = checkedState.map((item, index) =>
+            index === i ? !item : item
+        );
+        setCheckedState(updatedCheckedState)
+        props.changeRetrieved(applyFilters(props.subjects))
+    };
+
+    const filterSearch = (subjects, query) => {
+        return subjects.filter(x => search(x.subjectCode,query))
+    }
+
+    const filterCredits = (subjects,low,high) => {
+        return subjects.filter(courseObj => courseObj.credits >= low && courseObj.credits <= high)
+    }
+
+    const filterLevel = (subjects, filter) => {
+        return subjects.filter(courseObj => courseObj.level.includes(filter))
+    }
+
+    const filterExam = (subjects) => {
+        return subjects.filter(courseObj => courseObj.grading !== null && courseObj.grading === false )
+    }
+
+    const filterLanguage = (subjects, filter) => {
+        return subjects.filter(courseObj => courseObj.teachingLanguage !== undefined && courseObj.teachingLanguage.includes(filter) ) 
+    }
+
+    const applyFilters = (subjects) => {
+        const bachelor_i = searchFilters.indexOf("Bachelor")
+        const master_i = searchFilters.indexOf("Master")
+        const phd_i = searchFilters.indexOf("PhD")
+        const exam_i = searchFilters.indexOf("Pass/fail")
+        const norwegian_i = searchFilters.indexOf("Norsk")
+        const english_i = searchFilters.indexOf("English")
+
+        let filteredSubjects = [...subjects];
+      
+        // Apply search filter
+        filteredSubjects = filterSearch(filteredSubjects,searchInput)
+      
+        // Apply credit range filter
+        filteredSubjects = filterCredits(
+          filteredSubjects,
+          sliderInput[0],
+          sliderInput[1]
+        );
+
+        // Apply level filter
+        const arr = [bachelor_i,master_i,phd_i]
+        arr.forEach( (index) => {
+            if (checkedState[index]) {
+                filteredSubjects = filterLevel(filteredSubjects, searchFilters[index]);
+            }
+        })
+      
+        // Apply exam filter
+        if (checkedState[exam_i]) {
+          filteredSubjects = filterExam(filteredSubjects);
+        }
+        
+        const languages = [norwegian_i,english_i]
+
+        // Apply language filter
+        languages.forEach((index) => {
+          if (checkedState[index]) {
+            filteredSubjects = filterLanguage(filteredSubjects, searchFilters[index]);
+          }
+        });
+        return filteredSubjects;
+      };
+  
+      const filter_buttons = searchFilters.map((element,i) => (
+          <div key={i}> 
+          <input checked={checkedState[i]} onChange={() => handleOnCheckedChange(i)} type="checkbox" id={element} name={element} value={element} />{element}
+        </div>))
+  
+      const flex_style = {
+          display: "flex",
+          justifyContent: "space-around"
+      };
+      
+      return ( <div><div style={flex_style}>{filter_buttons}</div>
+      <p>From {sliderInput[0]} til {sliderInput[1]}</p>
+        <Slider 
+            range
+            min={0}
+            max={60}
+            value={[sliderInput[0], sliderInput[1]]}
+            onChange={onSliderInputChange}
+         />
+        <h1>Search for courses:</h1>
+        <input value={searchInput} onChange={onSearchChange}></input></div>)   
 }
 
 function Course(props) {
     /* Handles logic for one specific course
     Uses a state to keep track of it is pressed or not */
 
-    const [checkedState, setCheckedState] = useState(false);
-
-    const chosenBackgroundColor = {
-       // backgroundColor: '#ffffff88', // Change this to the desired background color
-       backgroundColor: '#ffff88'
-    };
-
-    const notChosenBackgroundColor = {
-        backgroundColor: '#ffffff'
-    }
-
     const onCheckedStateChange = () => {
-        setCheckedState((previousValue) => !previousValue);
-        props.changeSelected(props.courseObject, !checkedState);
+        if (props.selected.includes(props.courseObject) === false) {
+            props.changeSelected(props.courseObject, true);
+        }
     }
 
     /* Render one course */
     // Add style if preferable - to span elements: style="color: #ff5722
     return (
-        <div style={checkedState ? chosenBackgroundColor : notChosenBackgroundColor} 
+        <div
         onClick={onCheckedStateChange} className={"course"}>
             <h1>{props.courseObject.subjectCode}</h1>
             <h2>{props.courseObject.subjectName}</h2>
@@ -58,43 +157,24 @@ function Course(props) {
     )
 }
 
-function search(element, searchWord) {
-    /* Returns the elements that start with searchWord */
-    return element.toLowerCase().startsWith(searchWord.toLowerCase());
-}
-
 function Courses(props) {
-    /* Display all the courses and handle searchInput */
-
-    const [searchInput, setSearchInput] = useState('');
-    const [searchedSubjects, setSearchedSubjects] = useState(props.subjects);
-    // TODO: have to fix searchedCourses lagging with the selected color.
-
-    const onSearchChange = (event) => {
-        setSearchInput(event.target.value);
-    }
-    
-    useEffect( () => {
-        setSearchedSubjects(props.subjects.filter(x => search(x.subjectCode,searchInput)))
-
-    }, [searchInput,props.subjects]);
+    /* Display all the courses */
+    const [retrievedSubjects, setRetrievedSubjects] = useState(props.subjects)
 
     const onSetSelectedSubjects = (subject,should_add) => {
         props.changeSelected(subject,should_add)
     }
 
-
     return (
-        <>
+        <div>
+        <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
         <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
-        <h1>Search for courses:</h1>
-        <input value={searchInput} onChange={onSearchChange}></input>
-        {searchedSubjects.map((courseObj, i) =>
-            <Course key={i} courseObject={courseObj} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
+        {retrievedSubjects.map((courseObj, i) =>
+            <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
             // The key should be unique and not dependent on searchedSubjects!
             )
         }
-        </>
+        </div>
     )
 }
 export default Courses;

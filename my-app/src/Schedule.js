@@ -3,6 +3,7 @@ import moment from 'moment'
 import { useEffect, useState } from 'react';
 import chroma from 'chroma-js';
 import 'moment/locale/en-gb';
+import { SelectedCourses } from './SelectedCourses';
 
 function generateRandomColor() {
   let color;
@@ -89,12 +90,12 @@ function Schedule(props) {
 
   useEffect(() => {
     const updatedEvents = [];
-    props.subjects.forEach((courseObject, i) => {
+    props.selected.forEach((courseObject, i) => {
       const events = createDates(courseObject.lectures, courseObject.subjectCode);
       updatedEvents.push(...events); 
     });
     setAllEvents(updatedEvents);
-  }, [props.subjects]);
+  }, [props.selected]);
 
     // Setup the localizer by providing the moment (or globalize, or Luxon) Object
     // to the correct localizer.
@@ -120,6 +121,10 @@ function Schedule(props) {
       };
     };
 
+    const onSetSelectedSubjects = (subject,should_add) => {
+      props.changeSelected(subject,false)
+  }
+
       const MyCalendar = () => (
         <div className="myCustomHeight">
           <Calendar
@@ -136,7 +141,9 @@ function Schedule(props) {
         </div>
       )
 
-    return <MyCalendar></MyCalendar>
+    return <><MyCalendar></MyCalendar>
+    <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
+    </>
 }
 
 export default Schedule;

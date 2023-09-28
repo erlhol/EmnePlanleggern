@@ -64,6 +64,19 @@ def crawl_courses(soup,url,json_list):
             
         print("-" * 30)  # Print a separator between pages
 
+def get_grading_scale(page_soup):
+    h3 = page_soup.find('h3', {'id': 'grading_scale'})
+    if h3:
+        paragraph = h3.find_next('p').text
+        if "pass" in paragraph:
+            return False
+        elif "bestått" in paragraph:
+            return False
+        elif "A" in paragraph:
+            return True
+        elif "F" in paragraph:
+            return True
+
 def crawl_course(link,url,json_list):
     translations = {
     "Nivå": "level",
@@ -93,11 +106,14 @@ def crawl_course(link,url,json_list):
         fact_dict = dict()
 
         courseInfoTitle = page_soup.title.string.split("–")
+
         subjectCode = courseInfoTitle[0].strip()
         subjectName = courseInfoTitle[1].strip()
         fact_dict["subjectCode"] = subjectCode
         fact_dict["subjectName"] = subjectName
         fact_dict["lectures"] = []
+        fact_dict["grading"] = get_grading_scale(page_soup)
+        print(fact_dict["grading"])
 
         # Find all divs with class 'vrtx-distach-bottom vrtx-facts'
         facts_divs = page_soup.find_all('div', id='vrtx-additional-content')
