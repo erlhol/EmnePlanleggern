@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 
@@ -28,24 +28,36 @@ function search(element, searchWord) {
 }
 
 function FilterButtons(props) {
-    const searchFilters = ["Bachelor", "Master", "PhD", "Exam", "Norsk", "English"];
+    const searchFilters = ["Bachelor", "Master", "PhD", "Pass/fail", "Norsk", "English"];
+    const { subjects, changeRetrieved } = props;
 
     const [searchInput, setSearchInput] = useState('');
+
+    const [checkedState, setCheckedState] = useState(
+        new Array(searchFilters.length).fill(false)
+      );
+    
+    const [sliderInput, setSliderInput] = useState([0,60])
+
+    useEffect(() => {
+        changeRetrieved(applyFilters(subjects));
+      }, [checkedState,searchInput,sliderInput,subjects]); 
 
     const onSearchChange = (event) => {
         setSearchInput(event.target.value);
     }
 
-    const [checkedState, setCheckedState] = useState(
-        new Array(searchFilters.length).fill(false)
-      );
-    const [sliderInput, setSliderInput] = useState([0,60])
-
     const onSliderInputChange = (value) => {
-        filterCredits(props.subjects,value[0],value[1]) // This is a vicious circle
-        // We need to get back the original search somehow
         setSliderInput(value)
     }
+
+    const handleOnCheckedChange = (i) => {
+        const updatedCheckedState = checkedState.map((item, index) =>
+            index === i ? !item : item
+        );
+        setCheckedState(updatedCheckedState)
+        props.changeRetrieved(applyFilters(props.subjects))
+    };
 
     const filterSearch = (subjects, query) => {
         return subjects.filter(x => search(x.subjectCode,query))
@@ -60,24 +72,60 @@ function FilterButtons(props) {
     }
 
     const filterExam = (subjects) => {
-        return subjects.filter(courseObj => courseObj.grading != null && courseObj.grading)
+        return subjects.filter(courseObj => courseObj.grading !== null && courseObj.grading === false )
     }
 
     const filterLanguage = (subjects, filter) => {
-        return subjects.filter(courseObj => courseObj.teachingLanguage.includes(filter))
+        return subjects.filter(courseObj => courseObj.teachingLanguage !== undefined && courseObj.teachingLanguage.includes(filter) ) 
     }
 
-  
-    const handleOnChange = (position) => {
-        const updatedCheckedState = checkedState.map((item, index) =>
-            index === position ? !item : item
+    const applyFilters = (subjects) => {
+        const bachelor_i = searchFilters.indexOf("Bachelor")
+        const master_i = searchFilters.indexOf("Master")
+        const phd_i = searchFilters.indexOf("PhD")
+        const exam_i = searchFilters.indexOf("Pass/fail")
+        const norwegian_i = searchFilters.indexOf("Norsk")
+        const english_i = searchFilters.indexOf("English")
+
+        let filteredSubjects = [...subjects];
+      
+        // Apply search filter
+        filteredSubjects = filterSearch(filteredSubjects,searchInput)
+      
+        // Apply credit range filter
+        filteredSubjects = filterCredits(
+          filteredSubjects,
+          sliderInput[0],
+          sliderInput[1]
         );
-        setCheckedState(updatedCheckedState)
-    };
+
+        // Apply level filter
+        const arr = [bachelor_i,master_i,phd_i]
+        arr.forEach( (index) => {
+            if (checkedState[index]) {
+                filteredSubjects = filterLevel(filteredSubjects, searchFilters[index]);
+            }
+        })
+      
+        // Apply exam filter
+        if (checkedState[exam_i]) {
+          filteredSubjects = filterExam(filteredSubjects);
+        }
+        
+        const languages = [norwegian_i,english_i]
+
+        // Apply language filter
+        languages.forEach((index) => {
+          if (checkedState[index]) {
+            filteredSubjects = filterLanguage(filteredSubjects, searchFilters[index]);
+          }
+        });
+        return filteredSubjects;
+      };
   
       const filter_buttons = searchFilters.map((element,i) => (
           <div> 
-          <input checked={checkedState[i]} onChange={() => handleOnChange(i)} type="checkbox" id={element} name={element} value={element} />{element}
+          <input checked={checkedState[i]} onChange={() => handleOnCheckedChange(i)} type="checkbox" id={element} name={element} value={element} />{element}
         </div>))
   
       const flex_style = {
@@ -136,7 +184,7 @@ function Courses(props) {
 
     return (
         <>
-        <FilterButtons subjects={retrievedSubjects}></FilterButtons>
+        <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
         <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
         {retrievedSubjects.map((courseObj, i) =>
             <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
