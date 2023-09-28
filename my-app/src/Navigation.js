@@ -2,13 +2,20 @@ import React from "react";
 
 export function Navigation(props) {
   return (
-    <div>
-      <p
+    <div style={ {
+      display: 'flex',
+      flexDirection: 'column'}}>
+      <p>
+      <button
         onClick={() => props.activePageHandler("Calendar")}
-      >Calendar</p>
-      <p
+      >Calendar</button>
+      </p>
+      <p>
+      <button
         onClick={() => props.activePageHandler("Courses")}
-      >Courses </p>
+      >Courses </button>
+      </p>
+      
     </div>
   );
 }
