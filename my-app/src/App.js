@@ -36,16 +36,16 @@ function App() {
     return (
         <div className='App'>
             <div className={classes.container}>
-            <div className={classes.left}>
-                <Navigation
-                activePage={activePage}
-                activePageHandler={activePageHandler}
-                />
-            </div>
-            <div className={classes.right}>
-                {activePage === "Calendar" && <><p>Calendar</p><Schedule allSubjects={courses} subjects={selectedSubjects}></Schedule></>}
-                {activePage === "Courses" && <Courses subjects={courses} selected={selectedSubjects} changeSelected={onSetSelectedSubjects}></Courses>}
-            </div>
+                <div className={classes.left}>
+                    <Navigation
+                    activePage={activePage}
+                    activePageHandler={activePageHandler}
+                    />
+                </div>
+                <div className={classes.right}>
+                    {activePage === "Calendar" && <div><p>Calendar</p><Schedule allSubjects={courses} selected={selectedSubjects} changeSelected={onSetSelectedSubjects}></Schedule></div>}
+                    {activePage === "Courses" && <Courses subjects={courses} selected={selectedSubjects} changeSelected={onSetSelectedSubjects}></Courses>}
+                </div>
             </div>
         <a href="mailto:erlinhol@uio.no">Kontakt Erling Holte på mail</a>
         </div>

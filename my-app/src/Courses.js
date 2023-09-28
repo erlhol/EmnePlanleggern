@@ -1,26 +1,7 @@
 import { useState, useEffect } from 'react';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
-
-function SelectedCourses(props) {
-    /* Displays a list of selected courses 
-    And the total number of credits*/
-    
-    const totalCredits = props.selected.reduce((accumulator, courseObj) => {
-        return accumulator + courseObj.credits;
-      }, 0);
-
-    return <><h2>Selected Courses </h2>
-    {props.selected.map((courseObj, i) =>
-        <p key={i}>
-            <span>{courseObj.subjectCode} {courseObj.subjectName}</span>
-            <button onClick={() => props.editSelected(courseObj,false)}>Delete!</button>
-        </p>
-        )
-    }
-    <p>Total credits: {totalCredits}</p>
-    </>
-}
+import { SelectedCourses } from './SelectedCourses';
 
 function search(element, searchWord) {
     /* Returns the elements that start with searchWord */
@@ -28,6 +9,8 @@ function search(element, searchWord) {
 }
 
 function FilterButtons(props) {
+    // TODO: add grouping of the buttons
+    // Should not filter for both master and bachelor
     const searchFilters = ["Bachelor", "Master", "PhD", "Pass/fail", "Norsk", "English"];
     const { subjects, changeRetrieved } = props;
 
@@ -124,7 +107,7 @@ function FilterButtons(props) {
       };
   
       const filter_buttons = searchFilters.map((element,i) => (
-          <div> 
+          <div key={i}> 
           <input checked={checkedState[i]} onChange={() => handleOnCheckedChange(i)} type="checkbox" id={element} name={element} value={element} />{element}
         </div>))
   
@@ -133,7 +116,7 @@ function FilterButtons(props) {
           justifyContent: "space-around"
       };
       
-      return ( <><div style={flex_style}>{filter_buttons}</div>
+      return ( <div><div style={flex_style}>{filter_buttons}</div>
       <p>From {sliderInput[0]} til {sliderInput[1]}</p>
         <Slider 
             range
@@ -143,7 +126,7 @@ function FilterButtons(props) {
             onChange={onSliderInputChange}
          />
         <h1>Search for courses:</h1>
-        <input value={searchInput} onChange={onSearchChange}></input></>)   
+        <input value={searchInput} onChange={onSearchChange}></input></div>)   
 }
 
 function Course(props) {
@@ -183,7 +166,7 @@ function Courses(props) {
     }
 
     return (
-        <>
+        <div>
         <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
         <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
         {retrievedSubjects.map((courseObj, i) =>
@@ -191,7 +174,7 @@ function Courses(props) {
             // The key should be unique and not dependent on searchedSubjects!
             )
         }
-        </>
+        </div>
     )
 }
 export default Courses;
