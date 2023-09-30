@@ -43,7 +43,7 @@ function App() {
                     />
                 </div>
                 <div className={classes.right}>
-                    {activePage === "Calendar" && <div><p>Calendar</p><Schedule allSubjects={courses} selected={selectedSubjects} changeSelected={onSetSelectedSubjects}></Schedule></div>}
+                    {activePage === "Calendar" && <div><Schedule allSubjects={courses} selected={selectedSubjects} changeSelected={onSetSelectedSubjects}></Schedule></div>}
                     {activePage === "Courses" && <Courses subjects={courses} selected={selectedSubjects} changeSelected={onSetSelectedSubjects}></Courses>}
                 </div>
             </div>

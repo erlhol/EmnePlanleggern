@@ -9,22 +9,15 @@ function search(element, searchWord) {
 }
 
 function FilterButtons(props) {
-    // TODO: add grouping of the buttons
-    // Should not filter for both master and bachelor
-    const searchFilters = ["Bachelor", "Master", "PhD", "Pass/fail", "Norsk", "English"];
-    const { subjects, changeRetrieved } = props;
-
+    const [levelFilter,setLevelFilter] = useState('')
+    const [passFail, setPassFail] = useState(false)
+    const [languageFilter,setLanguageFilter] = useState('')
     const [searchInput, setSearchInput] = useState('');
-
-    const [checkedState, setCheckedState] = useState(
-        new Array(searchFilters.length).fill(false)
-      );
-    
     const [sliderInput, setSliderInput] = useState([0,60])
 
     useEffect(() => {
-        changeRetrieved(applyFilters(subjects));
-      }, [checkedState,searchInput,sliderInput,subjects]); 
+        props.changeRetrieved(applyFilters(props.subjects));
+      }, [levelFilter,passFail,languageFilter,searchInput,sliderInput,props.subjects]); 
 
     const onSearchChange = (event) => {
         setSearchInput(event.target.value);
@@ -34,13 +27,18 @@ function FilterButtons(props) {
         setSliderInput(value)
     }
 
-    const handleOnCheckedChange = (i) => {
-        const updatedCheckedState = checkedState.map((item, index) =>
-            index === i ? !item : item
-        );
-        setCheckedState(updatedCheckedState)
-        props.changeRetrieved(applyFilters(props.subjects))
-    };
+    const onPassFailChange = () => {
+        setPassFail((prev) => !prev)
+    }
+
+    const onLevelChange = (event) => {
+        setLevelFilter(event.target.value);
+    }
+
+    const onLanguageChange = (event) => {
+        setLanguageFilter(event.target.value);
+    }
+
 
     const filterSearch = (subjects, query) => {
         return subjects.filter(x => search(x.subjectCode,query))
@@ -51,6 +49,9 @@ function FilterButtons(props) {
     }
 
     const filterLevel = (subjects, filter) => {
+        if (filter === "") {
+            return subjects
+        }
         return subjects.filter(courseObj => courseObj.level.includes(filter))
     }
 
@@ -59,17 +60,13 @@ function FilterButtons(props) {
     }
 
     const filterLanguage = (subjects, filter) => {
+        if (filter === "") {
+            return subjects
+        }
         return subjects.filter(courseObj => courseObj.teachingLanguage !== undefined && courseObj.teachingLanguage.includes(filter) ) 
     }
 
     const applyFilters = (subjects) => {
-        const bachelor_i = searchFilters.indexOf("Bachelor")
-        const master_i = searchFilters.indexOf("Master")
-        const phd_i = searchFilters.indexOf("PhD")
-        const exam_i = searchFilters.indexOf("Pass/fail")
-        const norwegian_i = searchFilters.indexOf("Norsk")
-        const english_i = searchFilters.indexOf("English")
-
         let filteredSubjects = [...subjects];
       
         // Apply search filter
@@ -83,50 +80,61 @@ function FilterButtons(props) {
         );
 
         // Apply level filter
-        const arr = [bachelor_i,master_i,phd_i]
-        arr.forEach( (index) => {
-            if (checkedState[index]) {
-                filteredSubjects = filterLevel(filteredSubjects, searchFilters[index]);
-            }
-        })
+        filteredSubjects = filterLevel(filteredSubjects, levelFilter);
       
         // Apply exam filter
-        if (checkedState[exam_i]) {
+        if (passFail) {
           filteredSubjects = filterExam(filteredSubjects);
         }
-        
-        const languages = [norwegian_i,english_i]
 
         // Apply language filter
-        languages.forEach((index) => {
-          if (checkedState[index]) {
-            filteredSubjects = filterLanguage(filteredSubjects, searchFilters[index]);
-          }
-        });
+        filteredSubjects = filterLanguage(filteredSubjects, languageFilter);
+    
         return filteredSubjects;
       };
-  
-      const filter_buttons = searchFilters.map((element,i) => (
-          <div key={i}> 
-          <input checked={checkedState[i]} onChange={() => handleOnCheckedChange(i)} type="checkbox" id={element} name={element} value={element} />{element}
-        </div>))
-  
-      const flex_style = {
-          display: "flex",
-          justifyContent: "space-around"
-      };
-      
-      return ( <div><div style={flex_style}>{filter_buttons}</div>
-      <p>From {sliderInput[0]} til {sliderInput[1]}</p>
-        <Slider 
-            range
-            min={0}
-            max={60}
-            value={[sliderInput[0], sliderInput[1]]}
-            onChange={onSliderInputChange}
-         />
-        <h1>Search for courses:</h1>
-        <input value={searchInput} onChange={onSearchChange}></input></div>)   
+      return (
+        <div className='filter_row'>
+          <div>
+            <label>Select Level:</label>
+            <select onChange={onLevelChange}>
+              <option value={""}>All levels</option>
+              <option value={"Bachelor"}>Bachelor</option>
+              <option value={"Master"}>Master</option>
+              <option value={"PhD"}>PhD</option>
+            </select>
+          </div>
+          <div>
+            <label>
+              <input onChange={onPassFailChange} type='checkbox' />Pass/fail
+            </label>
+          </div>
+            <div>
+              <label>
+                From {sliderInput[0]} til {sliderInput[1]}
+              </label>
+              <Slider
+                range
+                min={0}
+                max={60}
+                value={[sliderInput[0], sliderInput[1]]}
+                onChange={onSliderInputChange}
+              />
+            </div>
+            <div>
+              <label>Select language: </label>
+              <select onChange={onLanguageChange}>
+                <option value={""}>All languages</option>
+                <option value={"Norsk"}>Norwegian</option>
+                <option value={"English"}>English</option>
+              </select>
+            </div>
+            <div>
+              <label>Search for courses:</label>
+              <input value={searchInput} onChange={onSearchChange}></input>
+            </div>
+        </div>
+      );
+        
 }
 
 function Course(props) {
@@ -167,6 +175,7 @@ function Courses(props) {
 
     return (
         <div>
+        <h1>Find courses!</h1>
         <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
         <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
         {retrievedSubjects.map((courseObj, i) =>
