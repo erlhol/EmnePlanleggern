@@ -14,10 +14,15 @@ function FilterButtons(props) {
     const [languageFilter,setLanguageFilter] = useState('')
     const [searchInput, setSearchInput] = useState('');
     const [sliderInput, setSliderInput] = useState([0,60])
+    const [selectedYears, setSelectedYears] = useState([])
+
+    const start = 1
+    const end = 9
+    const years = Array.from({ length: end - start + 1 }, (_, index) => (start + index).toString());
 
     useEffect(() => {
         props.changeRetrieved(applyFilters(props.subjects));
-      }, [levelFilter,passFail,languageFilter,searchInput,sliderInput,props.subjects]); 
+      }, [levelFilter,passFail,languageFilter,searchInput,sliderInput,selectedYears,props.subjects]); 
 
     const onSearchChange = (event) => {
         setSearchInput(event.target.value);
@@ -37,6 +42,25 @@ function FilterButtons(props) {
 
     const onLanguageChange = (event) => {
         setLanguageFilter(event.target.value);
+    }
+
+    const onSelectedYears = (newYear) => {
+        // Create a copy of the selectedYears array
+        const updatedYears = [...selectedYears];
+
+        // Check if newYear is already in the selectedYears array
+        const yearIndex = updatedYears.indexOf(newYear);
+
+        if (yearIndex !== -1) {
+            // If newYear is already in the array, remove it
+            updatedYears.splice(yearIndex, 1);
+        } else {
+            // If newYear is not in the array, add it
+            updatedYears.push(newYear);
+        }
+
+        // Set the updatedYears array as the new selectedYears
+        setSelectedYears(updatedYears);
     }
 
 
@@ -65,6 +89,15 @@ function FilterButtons(props) {
         }
         return subjects.filter(courseObj => courseObj.teachingLanguage !== undefined && courseObj.teachingLanguage.includes(filter) ) 
     }
+    
+    const filterYears = (subjects, filter) => {
+        if (filter.length == 0)
+            return subjects
+        return subjects.filter(courseObj => {
+            const firstDigit = courseObj.subjectCode.match(/\d/); // Get the first digit in the subject code
+            return firstDigit && filter.includes(firstDigit[0]); // Check if it's in the filter array
+        });
+    };
 
     const applyFilters = (subjects) => {
         let filteredSubjects = [...subjects];
@@ -89,12 +122,15 @@ function FilterButtons(props) {
 
         // Apply language filter
         filteredSubjects = filterLanguage(filteredSubjects, languageFilter);
+
+        // Apply year filter
+        filteredSubjects = filterYears(filteredSubjects,selectedYears)
     
         return filteredSubjects;
       };
-      return (
-        <div className='filter_row'>
-          <div>
+
+      const levels = 
+        (<div>
             <label>Select Level:</label>
             <select onChange={onLevelChange}>
               <option value={""}>All levels</option>
@@ -102,12 +138,9 @@ function FilterButtons(props) {
               <option value={"Master"}>Master</option>
               <option value={"PhD"}>PhD</option>
             </select>
-          </div>
-          <div>
-            <label>
-              <input onChange={onPassFailChange} type='checkbox' />Pass/fail
-            </label>
-          </div>
+          </div>)
+
+        const slider = (
             <div>
               <label>
                 From {sliderInput[0]} til {sliderInput[1]}
@@ -119,7 +152,9 @@ function FilterButtons(props) {
                 value={[sliderInput[0], sliderInput[1]]}
                 onChange={onSliderInputChange}
               />
-            </div>
+            </div>)
+        
+        const languages = (
             <div>
               <label>Select language: </label>
               <select onChange={onLanguageChange}>
@@ -128,10 +163,34 @@ function FilterButtons(props) {
                 <option value={"English"}>English</option>
               </select>
             </div>
+        )
+
+      return (
+        <div className='filter_row'>
+            {levels}
             <div>
-              <label>Search for courses:</label>
-              <input value={searchInput} onChange={onSearchChange}></input>
+                <label>
+                    <input onChange={onPassFailChange} type='checkbox' />Pass/fail
+                </label>
             </div>
+            {slider}
+            {languages}
+            <div>
+                <label>Search for courses:</label>
+                <input value={searchInput} onChange={onSearchChange}></input>
+            </div>
+
+            <div>
+                <label>Select year: </label>
+                {years.map((lvl) => (
+                    <label key={lvl}>
+                        <input onChange={()=> onSelectedYears(lvl)} type='checkbox' />{lvl}000
+                    </label>
+                ))}
+            </div>
+
+
+
         </div>
       );
         
@@ -150,10 +209,9 @@ function Course(props) {
     /* Render one course */
     // Add style if preferable - to span elements: style="color: #ff5722
     return (
-        <div
-        onClick={onCheckedStateChange} className={"course"}>
-            <h1>{props.courseObject.subjectCode}</h1>
-            <h2>{props.courseObject.subjectName}</h2>
+        <div className={"course"}>
+            <h3>{props.courseObject.subjectCode}</h3>
+            <h4>{props.courseObject.subjectName}</h4>
             <p>
                 <span style= {{color: '#ff5722'}}> Level: {props.courseObject.level} | </span>
                 <span style= {{color: '#ff5722'}}>Credits: {props.courseObject.credits} | </span>
@@ -161,7 +219,11 @@ function Course(props) {
                 <span style= {{color: '#ff5722'}}>Teaching language: {props.courseObject.teachingLanguage}</span>
             </p>
             <p>{props.courseObject.description}</p>
+            <button onClick={onCheckedStateChange}>Add course</button>
+            <button onClick={() => console.log("Open new webpage")}>Learn more</button>
+            <button onClick={() => window.open(`https://www.karakterweb.no/uio/${props.courseObject.subjectCode.toLowerCase()}`, "_blank", "noreferrer")}>Grading information</button>
         </div>
+        
     )
 }
 
