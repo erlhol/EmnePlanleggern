@@ -29,6 +29,11 @@ body {
   margin-bottom: 20px;
 }
 
+.filter_row {
+  display: flex;
+  gap: 20px;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

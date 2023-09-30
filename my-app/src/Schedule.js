@@ -141,7 +141,9 @@ function Schedule(props) {
         </div>
       )
 
-    return <><MyCalendar></MyCalendar>
+    return <>
+    <h1>Calendar of selected courses!</h1>
+    <MyCalendar></MyCalendar>
     <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
     </>
 }
