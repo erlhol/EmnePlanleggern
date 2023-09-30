@@ -13,25 +13,27 @@ body {
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+  width: 50%;
 }
 
-.course h1 {
+.course h3 {
   color: #007bff;
-  font-size: 32px;
   margin-top: 0;
   margin-bottom: 20px;
 }
 
 .course p {
   color: #666666;
-  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
 .filter_row {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 
