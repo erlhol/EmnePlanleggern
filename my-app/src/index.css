@@ -13,7 +13,6 @@ body {
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  width: 50%;
 }
 
 .course h3 {
@@ -30,10 +29,16 @@ body {
 
 .filter_row {
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  padding: 20px;
+}
+
+.split_view {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 

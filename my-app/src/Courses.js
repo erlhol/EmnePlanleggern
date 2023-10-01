@@ -91,7 +91,7 @@ function FilterButtons(props) {
     }
     
     const filterYears = (subjects, filter) => {
-        if (filter.length == 0)
+        if (filter.length === 0)
             return subjects
         return subjects.filter(courseObj => {
             const firstDigit = courseObj.subjectCode.match(/\d/); // Get the first digit in the subject code
@@ -143,7 +143,7 @@ function FilterButtons(props) {
         const slider = (
             <div>
               <label>
-                From {sliderInput[0]} til {sliderInput[1]}
+                Number of credits from {sliderInput[0]} til {sliderInput[1]}
               </label>
               <Slider
                 range
@@ -166,7 +166,8 @@ function FilterButtons(props) {
         )
 
       return (
-        <div className='filter_row'>
+        <div className='wrapping'>
+            <div className='filter_row'>
             {levels}
             <div>
                 <label>
@@ -183,15 +184,16 @@ function FilterButtons(props) {
             <div>
                 <label>Select year: </label>
                 {years.map((lvl) => (
-                    <label key={lvl}>
-                        <input onChange={()=> onSelectedYears(lvl)} type='checkbox' />{lvl}000
-                    </label>
+                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                    <label key={lvl} >
+                        <input onChange={() => onSelectedYears(lvl)} type='checkbox' />{lvl}000
+                  </label>
+                  </div>
                 ))}
             </div>
-
-
-
         </div>
+        </div>
+        
       );
         
 }
@@ -237,14 +239,18 @@ function Courses(props) {
 
     return (
         <div>
-        <h1>Find courses!</h1>
-        <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
-        <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
-        {retrievedSubjects.map((courseObj, i) =>
-            <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course> // The problem is with the key
-            // The key should be unique and not dependent on searchedSubjects!
-            )
-        }
+            <h1>Find courses!</h1>
+            <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
+            <div className='split_view'>
+                <div>
+                    {retrievedSubjects.map((courseObj, i) =>
+                            <Course key={i} courseObject={courseObj} selected= {props.selected} changeSelected={onSetSelectedSubjects}></Course>
+                            )
+                        }
+                </div>
+                
+                <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
+            </div>
         </div>
     )
 }
