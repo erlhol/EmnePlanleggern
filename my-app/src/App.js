@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import Courses from './Courses';
 import Schedule from './Schedule';
 import courses from './jsonfiles/courses.json'
@@ -14,7 +15,23 @@ function App() {
     Renders all of the needed components*/
 
     const [activePage, setActivePage] = useState("Calendar");
-    const [selectedSubjects, setSelectedSubjects] = useState([]);
+    const [selectedSubjects, setSelectedSubjects] = useState(
+        JSON.parse(localStorage.getItem('selectedSubjects')) || []
+    );
+
+     // Load selectedSubjects from localStorage when the component mounts
+     useEffect(() => {
+        const savedSubjects = localStorage.getItem('selectedSubjects');
+        if (savedSubjects) {
+            setSelectedSubjects(JSON.parse(savedSubjects));
+        }
+    }, []);
+
+    // Save selectedSubjects to localStorage whenever it changes
+    useEffect(() => {
+        localStorage.setItem('selectedSubjects', JSON.stringify(selectedSubjects));
+    }, [selectedSubjects]);
+
 
     function activePageHandler(page) {
         setActivePage(page);
@@ -22,11 +39,10 @@ function App() {
 
     const onSetSelectedSubjects = (subject,should_add) => {
         if (should_add) {
-            setSelectedSubjects( previousValue => 
-                [...previousValue, subject]
-            )}
+            setSelectedSubjects(previousValue => 
+            [...previousValue, subject]);}
         else {
-            setSelectedSubjects ( previousValue =>
+            setSelectedSubjects(previousValue =>
                 previousValue.filter((s) =>
                 s !== subject)
             )
@@ -55,4 +71,3 @@ function App() {
 }
 
 export default App;
-// 
