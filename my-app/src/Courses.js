@@ -193,7 +193,13 @@ function Course(props) {
     Uses a state to keep track of it is pressed or not */
 
     const onCheckedStateChange = () => {
-        if (props.selected.includes(props.courseObject) === false) {
+        var found = false
+        props.selected.forEach(element => {
+            if (element[0] === props.courseObject) {
+                found = true
+            }
+        });
+        if (found === false) {
             props.changeSelected(props.courseObject, true);
         }
     }

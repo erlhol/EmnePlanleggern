@@ -7,6 +7,17 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 import { useState } from 'react';
 import { Navigation } from './Navigation';
 import classes from "./App.module.css";
+import chroma from 'chroma-js';
+
+function generateRandomColor() {
+    let color;
+    do {
+      // Generate a random color
+      color = chroma.random();
+    } while (!chroma.contrast(color, 'white') >= 4.5); // Ensure sufficient contrast with white (you can change this value as needed)
+  
+    return color.hex();
+  }
 
 function App() {
 
@@ -40,11 +51,11 @@ function App() {
     const onSetSelectedSubjects = (subject,should_add) => {
         if (should_add) {
             setSelectedSubjects(previousValue => 
-            [...previousValue, subject]);}
+            [...previousValue, [subject,generateRandomColor()]]);}
         else {
             setSelectedSubjects(previousValue =>
                 previousValue.filter((s) =>
-                s !== subject)
+                s[0] !== subject)
             )
         }
     }

@@ -1,22 +1,10 @@
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import { useEffect, useState } from 'react';
-import chroma from 'chroma-js';
 import 'moment/locale/en-gb';
 import { SelectedCourses } from './SelectedCourses';
 
-function generateRandomColor() {
-  let color;
-  do {
-    // Generate a random color
-    color = chroma.random();
-  } while (!chroma.contrast(color, 'white') >= 4.5); // Ensure sufficient contrast with white (you can change this value as needed)
-
-  return color.hex();
-}
-
-function createDates(lectures,subjectCode) {
-    const unique = generateRandomColor();
+function createDates(lectures,subjectCode,color) {
     var events = []
     lectures.forEach((activity,i) => {
         const [dateStart,dateEnd] = weekDayToDate(activity)
@@ -25,7 +13,7 @@ function createDates(lectures,subjectCode) {
             title: "Lecture: "+subjectCode,
             start: dateStart,
             end: dateEnd,
-            backgroundColor: unique
+            backgroundColor: color
         })
     });
     return events
@@ -91,7 +79,7 @@ function Schedule(props) {
   useEffect(() => {
     const updatedEvents = [];
     props.selected.forEach((courseObject, i) => {
-      const events = createDates(courseObject.lectures, courseObject.subjectCode);
+      const events = createDates(courseObject[0].lectures, courseObject[0].subjectCode,courseObject[1]);
       updatedEvents.push(...events); 
     });
     setAllEvents(updatedEvents);
