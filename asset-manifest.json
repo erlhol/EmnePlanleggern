@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/EmnePlanleggern/static/css/main.ae3a6e4b.css",
-    "main.js": "/EmnePlanleggern/static/js/main.c551f116.js",
+    "main.css": "/EmnePlanleggern/static/css/main.c26cb183.css",
+    "main.js": "/EmnePlanleggern/static/js/main.b4f90445.js",
     "static/js/787.28cb0dcd.chunk.js": "/EmnePlanleggern/static/js/787.28cb0dcd.chunk.js",
+    "static/media/calendar-clock.png": "/EmnePlanleggern/static/media/calendar-clock.76f507d12e66657a0e9d.png",
+    "static/media/learning.png": "/EmnePlanleggern/static/media/learning.5322bc5b4cc632bd6f0f.png",
     "index.html": "/EmnePlanleggern/index.html",
-    "main.ae3a6e4b.css.map": "/EmnePlanleggern/static/css/main.ae3a6e4b.css.map",
-    "main.c551f116.js.map": "/EmnePlanleggern/static/js/main.c551f116.js.map",
+    "main.c26cb183.css.map": "/EmnePlanleggern/static/css/main.c26cb183.css.map",
+    "main.b4f90445.js.map": "/EmnePlanleggern/static/js/main.b4f90445.js.map",
     "787.28cb0dcd.chunk.js.map": "/EmnePlanleggern/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae3a6e4b.css",
-    "static/js/main.c551f116.js"
+    "static/css/main.c26cb183.css",
+    "static/js/main.b4f90445.js"
   ]
 }
