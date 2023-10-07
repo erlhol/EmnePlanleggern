@@ -11,6 +11,7 @@ export function SelectedCourses(props) {
         <p key={i}>
             <span>{courseObj[0].subjectCode} {courseObj[0].subjectName}</span>
             <button onClick={() => props.editSelected(courseObj[0],false)}>Delete!</button>
+            <div style={{backgroundColor: courseObj[1]}}>Color</div>
         </p>
         )
     }
