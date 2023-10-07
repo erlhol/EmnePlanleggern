@@ -12,7 +12,6 @@ function FilterButtons(props) {
     const [levelFilter,setLevelFilter] = useState('')
     const [passFail, setPassFail] = useState(false)
     const [languageFilter,setLanguageFilter] = useState('')
-    const [searchInput, setSearchInput] = useState('');
     const [sliderInput, setSliderInput] = useState([0,60])
     const [selectedYears, setSelectedYears] = useState([])
 
@@ -22,11 +21,7 @@ function FilterButtons(props) {
 
     useEffect(() => {
         props.changeRetrieved(applyFilters(props.subjects));
-      }, [levelFilter,passFail,languageFilter,searchInput,sliderInput,selectedYears,props.subjects]); 
-
-    const onSearchChange = (event) => {
-        setSearchInput(event.target.value);
-    }
+      }, [levelFilter,passFail,languageFilter,props.currentSearch,sliderInput,selectedYears,props.subjects]); 
 
     const onSliderInputChange = (value) => {
         setSliderInput(value)
@@ -102,15 +97,15 @@ function FilterButtons(props) {
     const applyFilters = (subjects) => {
         let filteredSubjects = [...subjects];
       
-        // Apply search filter
-        filteredSubjects = filterSearch(filteredSubjects,searchInput)
-      
         // Apply credit range filter
         filteredSubjects = filterCredits(
           filteredSubjects,
           sliderInput[0],
           sliderInput[1]
         );
+
+        // Apply search filter
+        filteredSubjects = filterSearch(filteredSubjects,props.currentSearch)
 
         // Apply level filter
         filteredSubjects = filterLevel(filteredSubjects, levelFilter);
@@ -177,15 +172,10 @@ function FilterButtons(props) {
             {slider}
             {languages}
             <div>
-                <label>Search for courses:</label>
-                <input value={searchInput} onChange={onSearchChange}></input>
-            </div>
-
-            <div>
                 <label>Select year: </label>
                 {years.map((lvl) => (
-                    <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <label key={lvl} >
+                    <div key={lvl} style={{ display: 'flex', flexDirection: 'column' }}>
+                    <label>
                         <input onChange={() => onSelectedYears(lvl)} type='checkbox' />{lvl}000
                   </label>
                   </div>
@@ -232,15 +222,24 @@ function Course(props) {
 function Courses(props) {
     /* Display all the courses */
     const [retrievedSubjects, setRetrievedSubjects] = useState(props.subjects)
+    const [searchInput, setSearchInput] = useState('');
 
     const onSetSelectedSubjects = (subject,should_add) => {
         props.changeSelected(subject,should_add)
+    }
+
+    const onSearchChange = (event) => {
+        setSearchInput(event.target.value);
     }
 
     return (
         <div>
             <h1>Find courses!</h1>
             <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
+            <div style={{padding: '20px'}}>
+                <label>Search for courses:</label>
+                <input value={searchInput} onChange={onSearchChange}></input>
+            </div>
             <div className='split_view'>
                 <div>
                     {retrievedSubjects.map((courseObj, i) =>
@@ -249,7 +248,7 @@ function Courses(props) {
                         }
                 </div>
                 
-                <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects}></FilterButtons>
+                <FilterButtons subjects={props.subjects} changeRetrieved={setRetrievedSubjects} currentSearch={searchInput}></FilterButtons>
             </div>
         </div>
     )

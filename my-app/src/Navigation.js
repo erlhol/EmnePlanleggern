@@ -15,7 +15,6 @@ export function Navigation(props) {
         onClick={() => props.activePageHandler("Courses")}
       >Courses </button>
       </p>
-      
     </div>
   );
 }
