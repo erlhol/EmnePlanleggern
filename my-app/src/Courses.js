@@ -171,17 +171,17 @@ function FilterButtons(props) {
             </div>
             {slider}
             {languages}
-            <div>
-                <label>Select year: </label>
-                {years.map((lvl) => (
-                    <div key={lvl} style={{ display: 'flex', flexDirection: 'column' }}>
-                    <label>
-                        <input onChange={() => onSelectedYears(lvl)} type='checkbox' />{lvl}000
-                  </label>
-                  </div>
-                ))}
+                <div>
+                    <label>Select year: </label>
+                    {years.map((lvl) => (
+                        <div key={lvl} style={{ display: 'flex', flexDirection: 'column' }}>
+                        <label>
+                            <input onChange={() => onSelectedYears(lvl)} type='checkbox' />{lvl}000
+                        </label>
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
         </div>
         
       );
