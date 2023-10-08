@@ -7,6 +7,7 @@ import { SelectedCourses } from './SelectedCourses';
 function SmallSearch( {data} ) {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleInputChange = (e) => {
     const query = e.target.value;
@@ -17,24 +18,28 @@ function SmallSearch( {data} ) {
   useEffect(() => {
     const filteredResults = data.filter(courseObject =>
       courseObject.subjectCode.toLowerCase().startsWith(searchTerm.toLowerCase())
-    ).map(courseObject => courseObject.subjectCode).slice(0,5);
+    ).map(courseObject => [courseObject.subjectCode, courseObject.subjectName]).slice(0,5);
     setSearchResults(filteredResults);
+    setShowDropdown(filteredResults.length > 0); 
   },[searchTerm])
 
-  return (<div>
-    <input
-      type="text"
-      placeholder="Search..."
-      value={searchTerm}
-      onChange={handleInputChange}
-    />
-    {/* Render search suggestions dropdown here */}
-    <ul>
-      {searchResults.map((result, index) => (
-        <li key={index}>{result}</li>
-      ))}
-    </ul>
-  </div>)
+  return (<div className="search-bar">
+  <input
+    type="text"
+    placeholder="Search..."
+    value={searchTerm}
+    onChange={handleInputChange}
+  />
+  {showDropdown && (
+    <div className="dropdown">
+      <ul>
+        {searchResults.map((result, index) => (
+          <li key={index} onClick={() => console.log(result)}>{result[0]} - {result[1]}</li>
+        ))}
+      </ul>
+    </div>
+  )}
+</div>)
 }
 
 function createDates(lectures,subjectCode,color) {
