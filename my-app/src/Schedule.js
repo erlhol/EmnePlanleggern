@@ -4,6 +4,39 @@ import { useEffect, useState } from 'react';
 import 'moment/locale/en-gb';
 import { SelectedCourses } from './SelectedCourses';
 
+function SmallSearch( {data} ) {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+
+  const handleInputChange = (e) => {
+    const query = e.target.value;
+    setSearchTerm(query);
+    // Filter data based on the query and update searchResults
+  };
+
+  useEffect(() => {
+    const filteredResults = data.filter(courseObject =>
+      courseObject.subjectCode.toLowerCase().startsWith(searchTerm.toLowerCase())
+    ).map(courseObject => courseObject.subjectCode).slice(0,5);
+    setSearchResults(filteredResults);
+  },[searchTerm])
+
+  return (<div>
+    <input
+      type="text"
+      placeholder="Search..."
+      value={searchTerm}
+      onChange={handleInputChange}
+    />
+    {/* Render search suggestions dropdown here */}
+    <ul>
+      {searchResults.map((result, index) => (
+        <li key={index}>{result}</li>
+      ))}
+    </ul>
+  </div>)
+}
+
 function createDates(lectures,subjectCode,color) {
     var events = []
     lectures.forEach((activity,i) => {
@@ -133,6 +166,7 @@ function Schedule(props) {
     <h1>Calendar of selected courses!</h1>
     <MyCalendar></MyCalendar>
     <SelectedCourses editSelected = {onSetSelectedSubjects} selected = {props.selected}></SelectedCourses>
+    <SmallSearch data= {props.allSubjects}></SmallSearch>
     </>
 }
 
