@@ -1,16 +1,16 @@
 .container {
-    display: flex;
-    min-height: 100vh;
+  display: flex;
+  min-height: 100vh;
 }
 
 .left {
-    min-height: 100vh;
-    padding-top: 20px;
+  min-height: 100vh;
+  padding-top: 20px;
 }
 
 .right {
-    flex-grow: 1;
-    min-height: 100vh;
-    padding: 26px 16px 0;
-    background: #c8d4f7b8;
+  flex-grow: 1;
+  min-height: 100vh;
+  padding: 26px 16px 0;
+  background: #c8d4f7b8;
 }

@@ -1,36 +1,32 @@
-import React from 'react';
-import calendar_icon from './icons/calendar-clock.png';
-import learning_icon from './icons/learning.png';
+import React from "react";
+import calendar_icon from "./icons/calendar-clock.png";
+import learning_icon from "./icons/learning.png";
 
 function ImageWithStyle({ pageHandler, icon, isActive, name }) {
   const imageStyle = {
-    maxWidth: '60px',
-    maxHeight: '60px',
-    width: 'auto',
-    height: 'auto',
+    maxWidth: "60px",
+    maxHeight: "60px",
+    width: "auto",
+    height: "auto",
   };
 
   return (
-    <div style={{backgroundColor: isActive ? 'lightblue' : 'transparent'}}>
-      <img
-      onClick={pageHandler}
-      style={imageStyle}
-      src={icon}
-      alt="img"
-    />
-    <p>{name}</p>
+    <div style={{ backgroundColor: isActive ? "lightblue" : "transparent" }}>
+      <img onClick={pageHandler} style={imageStyle} src={icon} alt="img" />
+      <p>{name}</p>
     </div>
-    
   );
 }
 
 export function Navigation(props) {
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '20px',
-    }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "20px",
+      }}
+    >
       <ImageWithStyle
         pageHandler={() => props.activePageHandler("Calendar")}
         icon={calendar_icon}

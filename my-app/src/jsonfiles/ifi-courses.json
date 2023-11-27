@@ -1,1877 +1,1399 @@
 [
-    {
-        "subjectCode": "DIGHEL4350",
-        "subjectName": "Helsetjenester og informasjonsbehov",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en introduksjon til relevante temaer innen helsevitenskap for informatikkstudenter. Det gis en bred introduksjon til helsesektoren for å gi en forståelse av ulike informasjonsbehov relatert til klinisk og administrativ bruk, forskning og mer. Emnet tilnærmer seg dette ved å gi en grunnleggende introduksjon til helse, inkludert store sykdomsgrupper og organisering av helsetjenester. Emnet gir en oversikt over helsesektoren både i Norge og internasjonalt, og forholdet mellom disse."
-    },
-    {
-        "subjectCode": "DIGHEL4360",
-        "subjectName": "Informatikk for helsearbeidere",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en introduksjon til relevante temaer innen informatikk for studenter med helsebakgrunn. Emnet dekker grunnleggende deler innen informatikk som programmering, databaser, nettverk, programvareutvikling og brukermedvirkning. Emnet gir studentene et sosio-teknisk perspektiv på digitale teknologier og informasjonssystemer med et fokus på informasjonsbehov i helsesektoren. Studentene får god basiskunnskap for å bygge videre kompetanse innen digital helse."
-    },
-    {
-        "subjectCode": "IN-GEO1900",
-        "subjectName": "Introduksjon i programmering for geofagstudenter",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en innføring i programmering med programmeringsspråket Python. Programmeringsoppgavene handler i stor grad om matematiske beregninger knyttet til temaer fra naturvitenskapen og geofaglige problemstillinger."
-    },
-    {
-        "subjectCode": "IN-KJM1900",
-        "subjectName": "Introduksjon i programmering for kjemikere",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "14:15-16:00"
-            ],
-            [
-                "thu",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en innføring i programmering med programmeringsspråket Python. Programmeringsoppgavene handler i stor grad om matematiske beregninger knyttet til temaer fra naturvitenskapen og kjemifaglige problemstillinger."
-    },
-    {
-        "subjectCode": "IN-STK5000",
-        "subjectName": "Adaptive metoder for data-baserte beslutninger",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Klassisike tilnærminger til data analyse er basert på en statisk (eller forhåndsbestemt) prosedyre for både innsamling og prosessering av data. Moderne tilnærminger forholder seg til adaptive prosedyrer som i praksis nesten alltid blir brukt."
-    },
-    {
-        "subjectCode": "IN-STK9000",
-        "subjectName": "Adaptive metoder for data-baserte beslutninger",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Klassisike tilnærminger til data analyse er basert på en statisk (eller forhåndsbestemt) prosedyre for både innsamling og prosessering av data. Moderne tilnærminger forholder seg til adaptive prosedyrer som i praksis nesten alltid blir brukt."
-    },
-    {
-        "subjectCode": "IN1000",
-        "subjectName": "Introduksjon til objektorientert programmering",
-        "lectures": [
-            [
-                "tue",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Vår og høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet er en introduksjon til programmering og gir en god basis for videre studier i informatikk, men det er også egnet for deg som kun ønsker å forstå hva programmering er. Emnet forutsetter ingen forkunnskaper i programmering. Det gir en første innføring i Python og hvordan man utvikler algoritmer, inkludert bruk av lister, filer og kommunikasjon med bruker. Det blir lagt spesiell vekt på objektorientert programmering."
-    },
-    {
-        "subjectCode": "IN1020",
-        "subjectName": "Introduksjon til datateknologi",
-        "lectures": [
-            [
-                "wed",
-                "12:15-14:00"
-            ],
-            [
-                "thu",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Et grunnlag for utdanning i informatikk er en forståelse av hva en datamaskin er og hvordan den fungerer. Dette emnet gir denne forståelsen. Det tar for seg hvilke elementer en moderne datamaskin består av og hva de kan gjøre, og hvordan kombinasjonen av dem gir et kraftig verktøy."
-    },
-    {
-        "subjectCode": "IN1050",
-        "subjectName": "Introduksjon til design, bruk, interaksjon",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en introduksjon til design, bruk og interaksjon, hvor fokuset er på interaksjon og samspillet mellom mennesker og digital teknologi. Emnet tar for seg undersøkelser av bruk av teknologi. Begreper og metoder for design, prototyping og evaluering introduseres."
-    },
-    {
-        "subjectCode": "IN1140",
-        "subjectName": "Introduksjon til språkteknologi",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en innføring i språkteknologi: metoder for automatisk analyse av språklige data. Det vil videre gi en innføring i lingvistisk teori og relatere denne til språkteknologiske problemområder. Det gis vil et første møte med noen språkteknologiske oppgaver som eksempelvis tokenisering, n-grammodeller, tagging og klassifisering."
-    },
-    {
-        "subjectCode": "IN1150",
-        "subjectName": "Logiske metoder",
-        "lectures": [
-            [
-                "thu",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Vår og høst",
-        "examination": "Vår og høst",
-        "teachingLanguage": "Norsk",
-        "description": "Dette er et emne i grunnleggende matematiske og logiske metoder. Det legges vekt på forståelse og tilvenning av matematiske begreper og notasjon som er relevante for et studium i informatikk. Emnet øver opp evnen til å tenke systematisk fra antakelser, løse teoretiske problemer, samt formalisere og gjennomføre matematiske resonnementer selv."
-    },
-    {
-        "subjectCode": "IN1900",
-        "subjectName": "Introduksjon i programmering for naturvitenskapelige anvendelser",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet introduserer grunnleggende programmering i programmeringsspråket Python. Programmeringstemaene illustreres i en serie av matematiske eksempler. Matematikktemaene er synkronisert med MAT-INF1100 - Modellering og beregninger og MAT1100 - Kalkulus. Eksempler og oppgaver er hentet fra naturvitenskap, og viser hvordan problemer i fysikk, statistikk, biologi, medisin, kjemi og økonomi kan løses ved hjelp av matematikk og programmering."
-    },
-    {
-        "subjectCode": "IN1910",
-        "subjectName": "Programmering for naturvitenskapelige anvendelser",
-        "lectures": [
-            [
-                "thu",
-                "12:15-14:00"
-            ],
-            [
-                "fri",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet er en fortsettelse av emnet IN1900, og gir en innføring i mer avanserte begreper innenfor programmering og programvareutvikling. Sentrale mål i emnet er å introdusere nyttige verktøy og konsepter for vitenskapelig programmering."
-    },
-    {
-        "subjectCode": "IN2010",
-        "subjectName": "Algoritmer og datastrukturer",
-        "lectures": [
-            [
-                "mon",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en gjennomgang av datastrukturer som stakker, trær, grafer, hashtabeller og prioritetskøer, samt algoritmer for sortering, søking, innsetting og så videre knyttet til disse. Ulike implementasjoner vurderes med vekt på effektivitet, programstruktur og abstrakte datatyper. Viktige elementer i emnet er rekursiv programmering samt vurdering og beskrivelse av programmers effektivitet."
-    },
-    {
-        "subjectCode": "IN2020",
-        "subjectName": "Metoder i interaksjonsdesign",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "I dette emnet lærer du om forskning i HCI (Human-Computer Interaction). Vi går gjennom forskjellige tilnærminger til design innenfor HCI-feltet, og du får inngående kunnskap om metoder, verktøy og teknikker for HCI-forskning. Vi legger spesiell vekt på kvantitativ analyse og design av eksperimenter. Du skal kunne øve deg på metodene gjennom tre obligatoriske oppgaver."
-    },
-    {
-        "subjectCode": "IN2030",
-        "subjectName": "Prosjektoppgave i programmering",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnets kjerne er en større programmeringsoppgave som studentene skal løse i små grupper."
-    },
-    {
-        "subjectCode": "IN2040",
-        "subjectName": "Funksjonell programmering",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Programmering i et funksjonelt programmeringsspråk. Rekursjon. Abstrakte datastrukturer. Datastyrt programmering, memoisering, objektorientering, lister og strømmer. Styrker og svakheter ved funksjonell programmering sammenlignet med imperativ programmering. Semantikk for evaluering av funksjonskall og interpretering av funksjonelle programmer."
-    },
-    {
-        "subjectCode": "IN2060",
-        "subjectName": "Digitalteknikk og datamaskinarkitektur",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet tar for seg prinsipper i digital design, som kombinatorisk og sekvensiell logikk, tilstandsmaskiner og digitale byggeblokker, og bygger på dette for å introdusere prosessorarkitekturer, pipelining, cache, og grensesnittet mellom maskinvare og programkode."
-    },
-    {
-        "subjectCode": "IN2070",
-        "subjectName": "Digital bildebehandling",
-        "lectures": [],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst\n      \n      \n        Emnet endret 2023 semester fra Vår til Høst.",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet tar for seg digitale bilder og deres egenskaper, fargemodeller og persepsjon, representasjons-metoder for digitale bilder, histogramtransformasjoner og 2-dimensjonal digital konvolusjon og filtrering, segmentering samt bildekoding og kompresjon."
-    },
-    {
-        "subjectCode": "IN2090",
-        "subjectName": "Databaser og datamodellering",
-        "lectures": [
-            [
-                "tue",
-                "14:15-16:00"
-            ],
-            [
-                "thu",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Dette emnet gir en grundig innføring i en metode for semantisk datamodellering og hvordan en slik modell kan realiseres som en fysisk database. Emnet gir inngående trening i bruk av SQL til å formulere spørringer mot relasjonsdatabaser. Det gis en enkel introduksjon til teorien for relasjonsdatabaser."
-    },
-    {
-        "subjectCode": "IN2120",
-        "subjectName": "Informasjonssikkerhet",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "fri",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Dette emnet gir en bred innføring i informasjonssikkerhet og cybersikkerhet, som grunnlag for å forstå, vurdere og anvende ulike tiltak på teknisk og organisatorisk nivå som kan gi adekvat beskyttelse av informasjonsressurser mot skade. Cybersikkerhet handler også om beskyttelse av fysiske systemer mot skade som følge av angrep gjennom Internett. Emnet danner grunnlag for å ta andre sikkerhetsemner på bachelor- og masternivå."
-    },
-    {
-        "subjectCode": "IN3015",
-        "subjectName": "Ultralydavbildning",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Avbildning ved bruk av ultralyd benyttes innen blant annet medisin, sonar og ikke-destruktiv testing. Dette emnet forklarer de grunnleggende prinsippene for akustisk avbildning, stråleforming og avbildningsmodaliteter innen ultralyd. Det legges særlig vekt på medisinsk ultralydavbildning, men teknikkene og metodene som gjennomgås brukes også innen andre fagfelt."
-    },
-    {
-        "subjectCode": "IN3040",
-        "subjectName": "Programmeringsspråk",
-        "lectures": [
-            [
-                "fri",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "I dette emnet diskuterer vi syntaks og semantikk for programmeringsspråk generelt, inkludert statiske og dynamiske aspekter, typer og type-inferens, høyere-ordens funksjoner, polymorfisme, implementasjon og kjøretidssystemer. Vi kommer også innom forskjellige klasser av programmeringsspråk, slik som objektorienterte, funksjonelle, dynamiske og logiske språk, og vi diskuterer disse i relasjon til hverandre."
-    },
-    {
-        "subjectCode": "IN3070",
-        "subjectName": "Logikk",
-        "lectures": [
-            [
-                "mon",
-                "10:15-12:00"
-            ],
-            [
-                "wed",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Dette er et videregående emne i logikk. Emnet fokuserer på sammenhengen mellom sannhet og bevisbarhet, og går gjennom mange grunnleggende begreper. Flere anvendelser av logikk innen informatikk blir gjennomgått."
-    },
-    {
-        "subjectCode": "IN3090",
-        "subjectName": "Prosjektoppgave i informatikk: Digital økonomi og ledelse",
-        "lectures": [],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Vår og høst\n      \n      \n        Vår",
-        "examination": "Vår",
-        "teachingLanguage": "Norsk",
-        "description": "I dette emnet vil studenten sammen med en veileder utforske og rapportere om et tema innen digital økonomi og ledelse. Oppgaven som skal utføres vil vanligvis ha en praktisk del der studenten skal innhente data hos en organisasjon og lage en selvstendig analyse."
-    },
-    {
-        "subjectCode": "IN3110",
-        "subjectName": "Problemløsning med høynivå-språk",
-        "lectures": [
-            [
-                "wed",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en innføring i mer avanserte sider ved script- og programmeringsspråket Python, bl.a. objektorientert programmering, regulære uttrykk, interaksjon med operativsystemet, plattform-uavhengig kode, effektiv design av programsystemer med tidskritiske operasjoner, utvidelser i kompilerte språk som C/C++, data-analyse og web-programmering. Emnet gir også en grunnleggende innføring i script-språket Bash, testing og dokumentering av kode, og versjonskontrollsystem git. Spesiell vekt legges på praktisk problemløsning med et fokus på interessante og studierelevante oppgaver."
-    },
-    {
-        "subjectCode": "IN3120",
-        "subjectName": "Søketeknologi",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ],
-            [
-                "wed",
-                "08:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en innføring i teknologier for søk og informasjonsgjenfinning i stor skala over tekst. Du vil få en presentasjon av indeksstrukturer, relevans og ranking av dokumenter, samt prosessering av dokumenter og spørringer. Utvalgte anvendelser av språkteknologi og algoritmer relevante for søk blir gjennomgått."
-    },
-    {
-        "subjectCode": "IN3130",
-        "subjectName": "Algoritmer: Design og effektivitet",
-        "lectures": [
-            [
-                "tue",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en gjennomgang av generelle algoritme-klasser som dynamisk programmering, heuristiske algoritmer, probabilistiske algoritmer, samt et representativt utvalg av enkeltalgoritmer som løser aktuelle problemer. Det legges vekt på effektivitetsvurdering. Videre gjennomgås teorien for NP-kompletthet og for uavgjørbarhet - problemer uten en løsningsalgoritme."
-    },
-    {
-        "subjectCode": "IN3190",
-        "subjectName": "Digital signalbehandling",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ],
-            [
-                "tue",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Digital signalbehandling er en sentral drivkraft i den raske utviklingen av nye metoder innen områder som telekommunikasjon (mobiltelefoni), multimedia (MP3), medisin (ultralyd), sonar, seismikk, fjernanalyse og måleteknikk. Signalbehandling kan defineres som det matematiske verktøyet som brukes for å analysere, modellere og utføre operasjoner på fysiske signaler og deres kilder. Emnet er en innføring i basismetoder som sampling, filtrering og frekvensanalyse."
-    },
-    {
-        "subjectCode": "IN3210",
-        "subjectName": "Network and Communications Security",
-        "lectures": [
-            [
-                "tue",
-                "12:15-14:00"
-            ],
-            [
-                "wed",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "Network and communications security is an important part of information security: a large portion of IT-related attacks are performed either using network connections or are directed at network infrastructures. ."
-    },
-    {
-        "subjectCode": "IN3230",
-        "subjectName": "Nettverk",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Dette emnet gir en grunnleggende innføring i sentrale funksjoner i kommunikasjonssystemer, herunder adressering, ruting, flytkontroll, feilhåndtering, pålitelighet og synkronisering. Det blir gitt eksempler på hvordan disse funksjonene anvendes i dagens kommunikasjonssystemer, og mer spesifikt hvordan disse anvendes innen ulike nettverksteknologier. Sentrale arkitekturer og protokoller gjennomgås."
-    },
-    {
-        "subjectCode": "IN3250",
-        "subjectName": "Prosjektoppgave i informatikk: interaksjonsdesign",
-        "lectures": [],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "I dette emnet vil studenten sammen med veileder utforske og rapportere om et tema innen interaksjonsdesign. Oppgaven som skal utføres vil involvere design og utvikling av høyoppløselige designartefakter i samråd med sluttbrukere hvor datainnsamling, utvikling og evaluering inngår som en del av eksperimentet. Emnet egner seg for studenter som ønsker å jobbe med enten etablerte næringslivscase eller pågående forskningsprosjekter som utgangspunkt for en faglig fordypning innen interaksjonsdesign. Emnet gir derfor rom for utforskning i både fagprofesjonell og akademisk retning. Prosjektet utføres i veilederens forskningsgruppe som også vil tilføre nødvendige ressurser og tilganger."
-    },
-    {
-        "subjectCode": "IN3260",
-        "subjectName": "Prosjektoppgave i informatikk: datakommunikasjon",
-        "lectures": [],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Vår og høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "I dette emnet vil studenten sammen med veileder utforske og rapportere om et tema innen datakommunikasjon. Oppgaven som skal utføres vil vanligvis ha en praktisk komponent der studenten skal programmere og evaluere et eksperiment eller en applikasjon."
-    },
-    {
-        "subjectCode": "IN3280",
-        "subjectName": "Forskerlinjen I",
-        "lectures": [],
-        "credits": 30,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Vår",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Dette er et bacheloremne for deg som synes forskning er spennende. Emnet består av fellessamlinger med teori og praktisk oppgaveløsning, samt en prosjektoppgave. Teoridelen gir en innføring i forskning (problemstillinger, metoder, etikk, reproduserbarhet, litteratursøk og -lesing) og forskningsformidling (artikkelskriving, poster, og presentasjon). Prosjektoppgaven består av prosjektplanlegging, prosjektgjennomføring og prosjektrapportering."
-    },
-    {
-        "subjectCode": "IN4015",
-        "subjectName": "Ultralydavbildning",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ],
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Avbildning ved bruk av ultralyd benyttes innen blant annet medisin, sonar og ikke-destruktiv testing. Dette kurset forklarer de grunnleggende prinsippene for akustisk avbildning, ståleforming og avbildningsmodaliteter innen ultralyd. Det legges særlig vekt på medisinsk ultralydavbildning, men teknikkene og metodene som gjennomgås brukes også innen andre fagfelt."
-    },
-    {
-        "subjectCode": "IN4080",
-        "subjectName": "Natural Language Processing",
-        "lectures": [
-            [
-                "tue",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course gives a comprehensive overview over modern Natural Language Processing (NLP) with main emphasis on probabilistic and machine learning techniques. Methodology for experiments based on machine learning applied to language data together with evaluation of such experiments is central. The course includes an overview over typical NLP applications, like information extraction, machine translation, question-answering systems, and a more in-depth study of one such application. In addition, the steps in a typical NLP system, like tagging, parsing, named entity recognition, relation extraction will be considered. The course will prepare the students for a master´s thesis in Informatics: Language Technology."
-    },
-    {
-        "subjectCode": "IN4110",
-        "subjectName": "Problemløsning med høynivå-språk",
-        "lectures": [
-            [
-                "wed",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en innføring i mer avanserte sider ved script- og programmeringsspråket Python, bl.a. objektorientert programmering, regulære uttrykk, interaksjon med operativsystemet, plattform-uavhengig kode, effektiv design av programsystemer med tidskritiske operasjoner, utvidelser i kompilerte språk som C/C++, data-analyse og web-programmering. Emnet gir også en grunnleggende innføring i script-språket Bash, testing og dokumentering av kode, og versjonskontrollsystem git. Spesiell vekt legges på praktisk problemløsning med et fokus på interessante og studierelevante oppgaver."
-    },
-    {
-        "subjectCode": "IN4120",
-        "subjectName": "Søketeknologi",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ],
-            [
-                "wed",
-                "08:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en innføring i teknologier for søk og informasjonsgjenfinning i stor skala over tekst. Du vil få en presentasjon av indeksstrukturer, relevans og ranking av dokumenter, samt prosessering av dokumenter og spørringer. Utvalgte anvendelser av språkteknologi og algoritmer relevante for søk blir gjennomgått."
-    },
-    {
-        "subjectCode": "IN4150",
-        "subjectName": "Digitale økosystemer",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir en innføring i avansert teori for å sette studentene i stand til å analysere og kritisk reflektere over digitale økosystemer. Emnet skal også presentere ulike caser som illustrerer ulike typer digitale plattformer og økosystemer, og hvordan disse økosystemene kan styres og videreutvikles."
-    },
-    {
-        "subjectCode": "IN4190",
-        "subjectName": "Digital signalbehandling",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ],
-            [
-                "tue",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Digital signalbehandling er en sentral drivkraft i den raske utviklingen av nye metoder innen områder som telekommunikasjon (mobiltelefoni), multimedia (MP3), medisin (ultralyd), sonar, seismikk, fjernanalyse og måleteknikk. Signalbehandling kan defineres som det matematiske verktøyet som brukes for å analysere, modellere og utføre operasjoner på fysiske signaler og deres kilder. Emnet er en innføring i basismetoder som sampling, filtrering og frekvensanalyse."
-    },
-    {
-        "subjectCode": "IN4210",
-        "subjectName": "Network and Communications Security",
-        "lectures": [
-            [
-                "tue",
-                "12:15-14:00"
-            ],
-            [
-                "wed",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "Network and communications security is an important part of information security: a large portion of IT-related attacks are performed either using network connections or are directed at network infrastructures. . A majority of modern systems also depend on communication over networks. This course focuses on the application of cryptographic protocols and network protection techniques to secure computer networks and communication."
-    },
-    {
-        "subjectCode": "IN4230",
-        "subjectName": "Nettverk",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Dette emnet gir en grunnleggende innføring i sentrale funksjoner i kommunikasjonssystemer, herunder adressering, ruting, flytkontroll, feilhåndtering, pålitelighet og synkronisering. Det blir gitt eksempler på hvordan disse funksjonene anvendes i dagens kommunikasjonssystemer, og mer spesifikt hvordan disse anvendes innen ulike nettverksteknologier. Sentrale arkitekturer og protokoller gjennomgås."
-    },
-    {
-        "subjectCode": "IN4260MCT",
-        "subjectName": "Networked Systems and Creative Computing",
-        "lectures": [
-            [
-                "fri",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "In this course, the student will explore and report on a topic in networked systems or creative computing in cooperation with a supervisor. The project will usually have a practical component where the student will program and evaluate an experiment or an application."
-    },
-    {
-        "subjectCode": "IN4270",
-        "subjectName": "Digital Business Development",
-        "lectures": [
-            [
-                "fri",
-                "08:15-10:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This course focuses on strategic and operational business development in technology-based companies. Through case discussions, theory exploration and interaction with companies the student will attain an understanding and appreciation of the challenges in managing high-tech organisations in rapidly developing technology environments."
-    },
-    {
-        "subjectCode": "IN4340",
-        "subjectName": "Deltakende kvalitative forskningsmetoder",
-        "lectures": [
-            [
-                "wed",
-                "12:15-14:00"
-            ],
-            [
-                "thu",
-                "14:15-15:45"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Dette emnet gir en introduksjon til deltakende forskningsmetoder, med et fokus på bruk av slike metoder i studentenes masteroppgave. Emnet begynner med en introduksjon til konseptet deltakende forskning og hvordan det kan brukes til å studere komplekse problemstillinger fra perspektivet til sentrale aktører. Emnet fokuserer deretter på ulike metoder for datainnsamling som gir studenten epistemologiske og metodologiske ferdigheter for masteroppgaven. Et viktig del av emnet vil være konkrete eksempler, case-studier og ulike felt-scenarier rundt digital helse."
-    },
-    {
-        "subjectCode": "IN5020",
-        "subjectName": "Distribuerte systemer",
-        "lectures": [
-            [
-                "mon",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en introduksjon til prinsipper og praksis for konstruksjon av distribuerte system. Tema inkluderer fundamentale modeller for distribuerte system, distribuert mellomvare med fokus på objektbasert mellomvare og komponentbaserte arkitekturer, distribuerte algoritmer for konsensus og andre problemer, og nyere utfordringer til distribuert prosesseringsteknologi som cloud, multimedia og IoT. Emnet inkluderer obligatoriske programmeringsoppgaver."
-    },
-    {
-        "subjectCode": "IN5040",
-        "subjectName": "Advanced Database Systems for Big Data",
-        "lectures": [
-            [
-                "fri",
-                "12:15-15:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "Norwegian (English on request)",
-        "description": "In this course you´ll learn about new database technologies to handle Big Data: Data Stream Management Systems, Complex Event Processing, Distributed and Heterogeneous Database Systems, Data Warehousing and Data Mining, Web Data Management, and Cloud Data Management."
-    },
-    {
-        "subjectCode": "IN5060",
-        "subjectName": "Kvantitativ ytelsesanalyse",
-        "lectures": [
-            [
-                "wed",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Å forstå grensene for systemytelsen og flaskehalsene i dagens systemer er utfordrende og meget viktig for utplasseringen av ethvert moderne høyytelsessystem. Emnet tar for seg teknikker du kan bruke for å korrekt analysere systemytelsen og videre finne flaskehalsene i systemet."
-    },
-    {
-        "subjectCode": "IN5070",
-        "subjectName": "The future internet protocols",
-        "lectures": [
-            [
-                "mon",
-                "12:15-15:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "In this course you´ll learn about Multicast and CacheCast, as well as streaming through firewalls and NATS. In addition you´ll work with Mobile Ad-Hoc Networks (MANETs) and Wireless Sensor Networks (WSN), with Data Center Networks and Network Virtualization, and with Delay Tolerant Networks (DTNs) and Autonomous Networking."
-    },
-    {
-        "subjectCode": "IN5100",
-        "subjectName": "Utvalgte emner i omskrivningslogikk",
-        "lectures": [
-            [
-                "fri",
-                "09:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet tar for seg utvalgte videregående temaer innen omskrivningslogikk og formelle metoder som metaprogrammering, sanntidssystemer og probabilistiske systemer. Eksempler på bruk av omskrivingslogikk til formell modellering og analyse av applikasjoner som for eksempel transportprotokoller, web-browsere og datasikkerhet, cloud-baserte databaser og transaksjonshåndtering, biokjemiske prosesser, kognitive prosesser, flysystemer og semantikk og analyse av standard programmerings- og modellingsspråk."
-    },
-    {
-        "subjectCode": "IN5110",
-        "subjectName": "Specification and Verification of Parallel Systems",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "wed",
-                "16:15-18:00"
-            ],
-            [
-                "wed",
-                "08:15-10:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course covers principles and techniques central to the automatic and formal verification of parallel and concurrent systems. In particular, logics that allow to concisely specify expected behavior, often in terms of temporal logic or related formalism. Furthermore, the lecture tackles the verification or model-checking problem, i.e. how to establish that a system model adheres to a given specification. The lecture also introduces various algorithmic approaches to battle the state-space explosion problem to handle systems with large state spaces."
-    },
-    {
-        "subjectCode": "IN5130",
-        "subjectName": "Uangripelige IT-systemer",
-        "lectures": [
-            [
-                "fri",
-                "09:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Modelleringsteknikkene som blir gjennomgått har lenge vært benyttet ved design av sanntidssystemer og andre distribuerte systemer. Vi konsentrerer oss om systemer av samhandlende aktører og modellerer i UML. Sekvensdiagrammer i UML står sentralt som notasjon for intuitiv og formell beskrivelse av samhandlingsmønstre. Temaer som inngår er:"
-    },
-    {
-        "subjectCode": "IN5140",
-        "subjectName": "Smarte prosesser og smidige metoder i systemutvikling",
-        "lectures": [
-            [
-                "wed",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet skal gi et solid grunnlag for å kunne delta i og lede en organisasjons utviklingsprosjekter og arbeide med å forbedre gjennomføring av slike prosjekter."
-    },
-    {
-        "subjectCode": "IN5150",
-        "subjectName": "Recent Advancements in Internet Protocols",
-        "lectures": [
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This research-oriented seminar explores state-of-the art developments in Internet protocols, especially transport-, network-, and application-layer protocols. The seminar offers a critical look at these Internet protocols. This will allow participants to better understand protocol shortcomings, and how new solutions try to address these shortcomings. Specific seminar topics will focus on recent Internet standards."
-    },
-    {
-        "subjectCode": "IN5170",
-        "subjectName": "Modeller for parallellitet",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir et innblikk i noen grunnleggende begreper og teknikker for spesifikasjon og resonnering om parallelle prosesser, med henblikk på tett samarbeidende tråder så vel som distribuerte og objektorienterte systemer."
-    },
-    {
-        "subjectCode": "IN5180",
-        "subjectName": "Analog Microelectronics Design",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ],
-            [
-                "wed",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course provides the know-how and skills needed to design analog CMOS integrated circuits using modern EDA tools. An introduction is given to CMOS technology and methods in order to implement key circuit components such as transistors ans passive components. In addition, matching, optimization and noise are key aspects. A central part of the course will be a design project where students will get a hands-on experience designing a typical CMOS circuit from specification to layout."
-    },
-    {
-        "subjectCode": "IN5200",
-        "subjectName": "Avansert digital systemkonstruksjon",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en grundig dekning av systematisk utvikling, simulering, syntese av avanserte digitale System-on-Chip (SoC) integrerte kretser med vekt på FPGA-teknologi (Field Programmable Gate Array). Lab-oppgaver gir praktisk erfaring i hvordan SoC design simuleres og implementeres i FPGA-hardware."
-    },
-    {
-        "subjectCode": "IN5210",
-        "subjectName": "Information Systems",
-        "lectures": [
-            [
-                "thu",
-                "10:15-12:00"
-            ],
-            [
-                "fri",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This course offers a broad introduction to information systems theories. In lectures and seminars these theories are used to discuss and analyse information systems practices in organizations, such as design, development, implementation, and management. The course is based on a socio-technical understanding of information systems. A particular focus is on the complexity caused by the many user groups, stakeholders, information technologies, standards, practices etc. found in organizations. The curriculum is designed to cover classical information systems readings as well as current information systems research."
-    },
-    {
-        "subjectCode": "IN5230",
-        "subjectName": "Elektrisk støy - beregning og mottiltak",
-        "lectures": [
-            [
-                "mon",
-                "09:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Tettere integrasjon, mindre størrelser, høyere frekvenser og mer elektronikk fører til at elektrisk støy er en voksende utfordring for all elektronikkonstruksjon. Emnet dekker koblingsstøy (interferens) og komponentstøy (intern egenstøy). Emnet omfatter både analog og digital kretskonstruksjon fra integrert kretskonstruksjonsnivå til kretskort og valg av kabler og strømforsyning."
-    },
-    {
-        "subjectCode": "IN5240",
-        "subjectName": "Design av CMOS RF-integrete kretser",
-        "lectures": [
-            [
-                "tue",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet fokuserer på konstruksjon av CMOS RF-kretser og systemer. Det gis en grunnleggende innføring i RF kretser (matching, støy og forvrengning) med fokus på design og analyse av CMOS RF kretser som filtre (passive), forsterkere (LNA, PA), miksere, oscillatorer (VCO, ILO) og faselåste sløyfer."
-    },
-    {
-        "subjectCode": "IN5290",
-        "subjectName": "Ethical Hacking",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ],
-            [
-                "thu",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "Ethical hacking covers vulnerability and penetration testing, which are essential elements in modern cybersecurity. Ethical hacking consists of testing the security of IT systems by trying to find and exploit security vulnerabilities."
-    },
-    {
-        "subjectCode": "IN5310",
-        "subjectName": "Advanced Deep Learning for Image Analysis",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This course presents advanced methods in deep learning to work with image data, covering key advanced deep learning algorithms and concepts for training neural networks. This course will complement the introductory concepts presented in IN4310, and will build practical skills on application of deep learning to image data. The course’s focus is on advanced learning and representations techniques for image analysis and understanding, such as visual transformers, graph-based models, adversarial networks, diffusion models, recurrent networks, among others. The course will also cover self-, semi-, and unsupervised learning regimes. "
-    },
-    {
-        "subjectCode": "IN5320",
-        "subjectName": "Development in platform ecosystems",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "In this course, you will learn the principles and practice of application design and development within platform ecosystems. Conceptually, you will learn about the socio-technical complexities related to large-scale information systems, and how platform architectures and ecosystems attempt to address these. Further, we look at how such architectures may enable user participation in the development of applications and user interfaces that are sensitive to local requirements within a larger system. Practically, you will develop web applications with JavaScript and HTML using modern, open-source frameworks and APIs with an emphasis on requirements derived from user needs."
-    },
-    {
-        "subjectCode": "IN5350",
-        "subjectName": "Design av CMOS bildesensor",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir en introduksjon til CMOS bildesensorbrikker brukt i digitalkamera. Hele signalkjeden fra lys inn til jpeg-komprimert bilde vil bli dekket, inkl. piksler og avlesningskretser, A/D-konvertering, digital bildebehandling og input/output grensesnitt."
-    },
-    {
-        "subjectCode": "IN5360",
-        "subjectName": "Forskerlinjen II",
-        "lectures": [],
-        "credits": 15,
-        "level": "Master",
-        "teaching": "Høst\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          høst 2022",
-        "examination": "Vår\n      \n      \n        \n          \n        \n\n        \n          Eksamen tilbys siste gang\n          høst 2022",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Dette er et masteremne for deg som synes forskning er spennende. Emnet består av fellessamlinger med teori og praktisk oppgaveløsning, samt en prosjektoppgave. Teoridelen gir en innføring i forskning (problemstillinger, metoder, etikk, reproduserbarhet, litteratursøk og - lesing) og forskningsformidling (artikkelskriving, poster og presentasjon). Prosjektoppgaven består i prosjektplanlegging, prosjektgjennomføring og prosjektrapportering."
-    },
-    {
-        "subjectCode": "IN5390",
-        "subjectName": "ICT for Development: Building a Better World?",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ],
-            [
-                "wed",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course concerns understanding the relationship between ICTs and development. This is an important sub-discipline within Information Systems research, and is especially relevant in current times given the new range of developmental challenges (eg humanitarian crisis, migration, security etc) being experienced and also the wide variety of new ICTs (eg internet, social media, cloud, big data etc) avaliable even in the poor countries. In this course, students will learn about different conceptual and empirical approaches to analyze ICTs, development and their relationship, to try and answer the question \"are ICTs creating a better world in which we live?\""
-    },
-    {
-        "subjectCode": "IN5460",
-        "subjectName": "Kunstig intelligens for energiinformatikk",
-        "lectures": [
-            [
-                "wed",
-                "13:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir en introduksjon til hvordan teknikker for kunstig intelligens og algoritmer for datadrevne intelligente beslutninger vil anvendes i fremtidens smarte og bærekraftige energi- og transportsystemer. Hovedfokus er på anvendelsen av dyp læring og avanserte maskinlæringsteknikker. Tema i emnet inkluderer grunnleggende begreper relatert til smarte og bærekraftige energi- og transportsystemer, for eksempel etterspørselsstyring, energiforvaltning, energiinformatikk, elektrisk mobilitet og energieffektivitet, og anvendelse av dyplæringsalgoritmer og avanserte maskinlæringsbegreper for å løse typiske beslutningsproblemer for dette området."
-    },
-    {
-        "subjectCode": "IN5470",
-        "subjectName": "Avansert forskningstema i design av IT",
-        "lectures": [
-            [
-                "thu",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Vår og høst",
-        "examination": "Vår og høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir grunnleggende innføring i et tema der forskere fra Design-gruppen er aktive, og vil derfor kunne variere fra år til år. Emnet gjennomgår grunnleggende litteratur og viktige rammeverk innenfor det valgte temaet slik at studentene får et godt grunnlag for å skrive sin masteroppgave innenfor temaet. Målet er at masteroppgaven kan bidra i forskningen i Design-gruppen. Emnet legger vekt på teoretisk forståelse og praktiske eksperimenter innenfor det aktuelle fagfeltet."
-    },
-    {
-        "subjectCode": "IN5480",
-        "subjectName": "Spesialisering innen forskning i design av IT",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir et grunnlag for spesialisering i et forskningstema innen design av informasjonssystemer. Temaet vil kunne variere fra år til år. Emnet gjennomgår forskningslitteratur innenfor det valgte temaet slik at studentene får et godt grunnlag for å skrive sin masteroppgave i en gitt spesialisering. Målet er at masteroppgaven kan bidra i forskningen i Design-gruppen. Emnet legger vekt på teoretisk forståelse og praktiske eksperimenter innenfor det aktuelle fagfeltet."
-    },
-    {
-        "subjectCode": "IN5490",
-        "subjectName": "Advanced Topics in Artificial Intelligence for Intelligent Systems",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course covers various methods within artificial intelligence (AI) and machine learning (ML), and their applications. Examples include algorithms for search, optimization and classification, which to a large extent consist of bio-inspired approaches. Examples of relevant applications include robotics, music, and health and medicine. The course syllabus will continuously be updated with methods from state-of-the-art research. The content is based on presentations from ROBIN group staff, the course participants and invited guests, and will vary depending on who is involved. Students will explore the scientific literature on a selected topic of their interest and proceed to own implementation and conducting experiments under supervision of a ROBIN staff member. The experiments will be disseminated through writing a paper and giving presentations.  "
-    },
-    {
-        "subjectCode": "IN5510",
-        "subjectName": "Deltakende eksperimentell design",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ],
-            [
-                "tue",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir teoretisk og praktisk kunnskap om deltakende design i linje med design tradisjonen som stammer fra IFI der det legges vekt på at brukere involveres i designprosessen. Du vil lære å designe IT som en integrert del av bruksmiljøene og aktivitetene med vekt på verktøy og teknikker for å involvere brukere i utformingen av en IT-basert tjeneste eller et system. Målet er å designe bedre teknologier basert på brukerens ideer og tilpasset deres krav og behov, noe som gir bedre passform mellom teknologien og aktiviteten som den vil være en del av. I tillegg til forelesninger og øvelser lærer du om deltakende design gjennom et stort prosjektarbeid som involverer virkelige brukere. Studentprosjektets emner varierer hvert år, eksempler fra tidligere år er roboter i hjemmet, offentlige tjenester eller velferdsteknologi."
-    },
-    {
-        "subjectCode": "IN5520",
-        "subjectName": "Digital bildeanalyse",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet tar for seg metoder for analyse av digitale bilder, segmentering og beskrivelse av objekter i bilder.  Sentrale temaer er egenskapsuttrekking og klassifikasjon av objekter i bilder."
-    },
-    {
-        "subjectCode": "IN5530",
-        "subjectName": "Research Through Design",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "In this course, you learn about Research through Design, an approach that is gaining traction in Human-Computer Interaction.  As the name implies, the aim is to design a digital artifact, a service or a system that helps you answer a research question, understand a certain research domain better, or study the use of the designed prototype. While the methodology remains the same, different research and application areas are used every year. This implies a theme change for practical explorations. Some examples of course focus in the past are: machine learning in HCI, sustainable design in HCI, wearable technology, technology and dance."
-    },
-    {
-        "subjectCode": "IN5540",
-        "subjectName": "Privacy by Design",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "Privacy by Design is a fundamental requirement of the GDPR for all systems operating on personal information. This course provides an introduction to privacy and data protection legislation including the GDPR, privacy enhancing technologies, privacy management, designing for privacy, and privacy patterns in software design."
-    },
-    {
-        "subjectCode": "IN5620",
-        "subjectName": "Interaction with AI and autonomous systems",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "Norwegian",
-        "description": "The course introduces the evolving interdisciplinary research area of Interaction with Artificial Intelligence and autonomous systems to students who are interested in interaction, design, and use of digital systems."
-    },
-    {
-        "subjectCode": "IN5700",
-        "subjectName": "Tåke og Sky Databehandling",
-        "lectures": [
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet vil gi et solid grunnlag for å forstå utfordringene og problemene som ligger til grunn for design og utvikling av tåkeberegningssystemer og applikasjoner. Dermed vil dette emnet lære å spesifisere, designe, programmere, analysere og implementere slike systemer og applikasjoner. Emnet har en betydelig programmerings komponent."
-    },
-    {
-        "subjectCode": "IN9010",
-        "subjectName": "Design, Technology and Society",
-        "lectures": [],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Spring and autumn",
-        "examination": "Spring",
-        "teachingLanguage": "English",
-        "description": "In this course we explore the relations between technology and society, with a focus on the ethical, political, and enviromental dimensions of technology and how these, in turn, intersect with society. We explore in particular the linkages between design, technological change, and current societal challenges, such as artificial intelligence, climate change, digitalisation, inequality, privacy, surveillance, and sustainablility."
-    },
-    {
-        "subjectCode": "IN9020",
-        "subjectName": "Distributed Systems",
-        "lectures": [
-            [
-                "mon",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "Norwegian (English on request)",
-        "description": "The course is an introduction to principles and practice of the design of distributed systems. The course covers fundamental models for distributed systems, distributed middleware with the focus on object-based middleware and component-based architectures, distributed algorithms for consensus and other underlying problems, and modern-day challenges of distributed processing technology such as cloud, multimedia and IoT. The course includes mandatory programming exercises."
-    },
-    {
-        "subjectCode": "IN9040",
-        "subjectName": "Advanced Database Systems for Big Data",
-        "lectures": [
-            [
-                "fri",
-                "12:15-15:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "Norwegian (English on request)",
-        "description": "In this course you´ll learn about new database technologies to handle Big Data: Data Stream Management Systems, Complex Event Processing, Distributed and Heterogeneous Database Systems, Data Warehousing and Data Mining, Web Data Management, and Cloud Data Management."
-    },
-    {
-        "subjectCode": "IN9060",
-        "subjectName": "Kvantitativ ytelsesanalyse",
-        "lectures": [
-            [
-                "wed",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Å forstå grensene for systemytelsen og flaskehalsene i dagens systemer er utfordrende og vitalt for utplasseringen av ethvert moderne høyytelsessystem. Emnet tar for seg teknikker du kan bruke for å korrekt analysere systemytelsen og videre finne flaskehalsene i systemet."
-    },
-    {
-        "subjectCode": "IN9070",
-        "subjectName": "The Future Internet Protocols",
-        "lectures": [
-            [
-                "mon",
-                "12:15-15:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "In this course you´ll learn about Multicast and CacheCast, as well as streaming through firewalls and NATS. In addition you´ll work with Mobile Ad-Hoc Networks (MANETs) and Wireless Sensor Networks (WSN), with Data Center Networks and Network Virtualization, and with Delay Tolerant Networks (DTNs) and Autonomous Networking. You´ll also learn about Software Defined Networks."
-    },
-    {
-        "subjectCode": "IN9100",
-        "subjectName": "Utvalgte emner i omskrivningslogikk",
-        "lectures": [
-            [
-                "fri",
-                "09:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet tar for seg utvalgte videregående temaer innen omskrivningslogikk og formelle metoder som metaprogrammering, sanntidssystemer og probabilistiske systemer. Eksempler på bruk av omskrivingslogikk til formell modellering og analyse av applikasjoner som for eksempel transportprotokoller, web-browsere og datasikkerhet, cloud-baserte databaser og transaksjonshåndtering, biokjemiske prosesser, kognitive prosesser, flysystemer og semantikk og analyse av standard programmerings- og modellingsspråk."
-    },
-    {
-        "subjectCode": "IN9110",
-        "subjectName": "Specification and Verification of Parallel Systems",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ],
-            [
-                "wed",
-                "16:15-18:00"
-            ],
-            [
-                "wed",
-                "08:15-10:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course covers principles and techniques central to the automatic and formal verification of parallel and concurrent systems. In particular, logics that allow to concisely specify expected behavior, often in terms of temporal logic or related formalism. Furthermore, the lecture tackles the verification or model-checking problem, i.e. how to establish that a system model adheres to a given specification. The lecture also introduces various algorithmic approaches to battle the state-space explosion problem to handle systems with large state spaces."
-    },
-    {
-        "subjectCode": "IN9120",
-        "subjectName": "Tangible interaction",
-        "lectures": [],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Vår og høst",
-        "examination": "Vår",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir grunnleggende innføring i forskningsfeltet Tangible Interaction og gjennomgår grunnleggende litteratur og viktige rammeverk innenfor TI. Emnet gir studenter et grunnlag for å skrive masteroppgaver der de bruker eller utforsker TI som interaksjonsmekanisme. Emnet legger vekt på teoretisk forståelse av TI som forskningsfelt innenfor HCI. Mye av arbeidet i emnet fokuserer på eksperimenter med ulike deler av TI-feltet. Hvert år gis det et tema som studentene utforsker i et prosjekt som går over størstedelen av de fem ukene dette intensiv-kurset varer."
-    },
-    {
-        "subjectCode": "IN9130",
-        "subjectName": "Unassailable IT-systems",
-        "lectures": [
-            [
-                "fri",
-                "09:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The techniques presented have for several years been used in design of real time systems and other distributed systems. We concentrate on systems of interacting actors and model such systems in UML. Sequence Diagrams of UML are the core notation for intuitive and formal description of interaction patterns. Topics of the course include:"
-    },
-    {
-        "subjectCode": "IN9140",
-        "subjectName": "Smarte prosesser og smidige metoder i systemutvikling",
-        "lectures": [
-            [
-                "wed",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet skal gi et solid grunnlag for å kunne delta i og lede en organisasjons utviklingsprosjekter og arbeide med å forbedre gjennomføring av slike prosjekter."
-    },
-    {
-        "subjectCode": "IN9150",
-        "subjectName": "Recent Advancements in Internet Protocols",
-        "lectures": [
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This research-oriented seminar explores state-of-the art developments in Internet protocols, especially transport-, network-, and application-layer protocols. The seminar offers a critical look at these Internet protocols. This will allow participants to better understand protocol shortcomings, and how new solutions try to address these shortcomings. Specific seminar topics will focus on recent Internet standards."
-    },
-    {
-        "subjectCode": "IN9170",
-        "subjectName": "Modeller for parallellitet",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir et innblikk i noen grunnleggende begreper og teknikker for spesifikasjon og resonnering om parallelle prosesser, med henblikk på tett samarbeidende tråder så vel som distribuerte og objektorienterte systemer."
-    },
-    {
-        "subjectCode": "IN9200",
-        "subjectName": "Avansert digital systemkonstruksjon",
-        "lectures": [],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet gir en grundig dekning av systematisk utvikling, simulering, syntese av avanserte digitale System-on-Chip (SoC) integrerte kretser med vekt på FPGA-teknologi (Field Programmable Gate Array). Lab-oppgaver gir praktisk erfaring i hvordan SoC design simuleres og implementeres i FPGA-hardware."
-    },
-    {
-        "subjectCode": "IN9210",
-        "subjectName": "Information Systems",
-        "lectures": [
-            [
-                "thu",
-                "10:15-12:00"
-            ],
-            [
-                "fri",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This course offers a broad introduction to information systems theories. In lectures and seminars these theories are used to discuss and analyse information systems practices in organizations, such as design, development, implementation, and management. The course is based on a socio-technical understanding of information systems. A particular focus is on the complexity caused by the many user groups, stakeholders, information technologies, standards, practices etc. found in organizations. The curriculum is designed to cover classical information systems readings as well as current information systems research."
-    },
-    {
-        "subjectCode": "IN9230",
-        "subjectName": "Elektrisk støy - beregning og mottiltak",
-        "lectures": [
-            [
-                "mon",
-                "09:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Tettere integrasjon, mindre størrelser, høyere frekvenser og mer elektronikk fører til at elektrisk støy er en voksende utfordring for all elektronikkonstruksjon. Emnet dekker koblingsstøy (interferens) og komponentstøy (intern egenstøy). Kurset omfatter både analog og digital kretskonstruksjon fra integrert kretskonstruksjonsnivå til kretskort og valg av kabler og strømforsyning."
-    },
-    {
-        "subjectCode": "IN9240",
-        "subjectName": "Design av CMOS RF-integrete kretser",
-        "lectures": [
-            [
-                "tue",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet fokuserer på konstruksjon av CMOS RF-kretser og systemer. Det gis en grunnleggende innføring i RF kretser (matching, støy og forvrengning) med fokus på design og analyse av CMOS RF kretser som filtre (passive), forsterkere (LNA, PA), miksere, oscillatorer (VCO, ILO) og faselåste sløyfer."
-    },
-    {
-        "subjectCode": "IN9290",
-        "subjectName": "Ethical Hacking",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ],
-            [
-                "thu",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "Ethical hacking covers vulnerability and penetration testing, which are essential elements in modern cybersecurity. This course introduces the concept of ethical hacking which is a crucial component in modern security management. Ethical hacking consists of testing the security of IT systems by trying to find and exploit security vulnerabilities."
-    },
-    {
-        "subjectCode": "IN9310",
-        "subjectName": "Advanced Deep Learning for Image Analysis",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "This course presents advanced methods in deep learning to work with image data, covering key advanced deep learning algorithms and concepts for training neural networks. This course will complement the introductory concepts presented in IN4310, and will build practical skills on application of deep learning to image data. The course’s focus is on advanced learning and representations techniques for image analysis and understanding, such as visual transformers, graph-based models, adversarial networks, diffusion models, recurrent networks, among others. The course will also cover self-, semi-, and unsupervised learning regimes. "
-    },
-    {
-        "subjectCode": "IN9350",
-        "subjectName": "Design av CMOS bildesensor",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir en introduksjon til CMOS bildesensorbrikker brukt i digitalkamera. Hele signalkjeden fra lys inn til jpeg-komprimert bilde vil bli dekket, inkl. piksler og avlesningskretser, A/D-konvertering, digital bildebehandling og input/output grensesnitt."
-    },
-    {
-        "subjectCode": "IN9390",
-        "subjectName": "ICT for Development: Building a Better World?",
-        "lectures": [
-            [
-                "mon",
-                "12:15-14:00"
-            ],
-            [
-                "wed",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course concerns understanding the relationship between ICTs and development. This is an important sub-discipline within Information Systems research, and is especially relevant in current times given the new range of developmental challenges (eg humanitarian crisis, migration, security etc) being experienced and also the wide variety of new ICTs (eg internet, social media, cloud, big data etc) avaliable even in the poor countries. In this course, students will learn about different conceptual and empirical approaches to analyze ICTs, development and their relationship, to try and answer the question \"Are ICTs creating a better world in which we live?\""
-    },
-    {
-        "subjectCode": "IN9440",
-        "subjectName": "Selected Topics in Static Analysis",
-        "lectures": [],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course covers principles and techniques central to the static analysis phase of a compiler, also known as semantic analysis. Static analysis comes after the syntactic program analysis, and is concerned with the behavior of the program when later run, i.e. trying to predict the program's run-time behavior before it is actually running. The course covers techniques such as data and control flow analyses, including secure information flow and other security-related aspects, standard and non-standard type-system, and algorithmic questions."
-    },
-    {
-        "subjectCode": "IN9460",
-        "subjectName": "Kunstig intelligens for energiinformatikk",
-        "lectures": [
-            [
-                "wed",
-                "13:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet gir en introduksjon til hvordan teknikker for kunstig intelligens og algoritmer for datadrevne intelligente beslutninger vil anvendes i fremtidens smarte og bærekraftige energi- og transportsystemer. Hovedfokus er på anvendelsen av dyp læring og avanserte maskinlæringsteknikker. Tema i emnet inkluderer grunnleggende begreper relatert til smarte og bærekraftige energi- og transportsystemer, for eksempel etterspørselsstyring, energiforvaltning, energiinformatikk, elektrisk mobilitet og energieffektivitet, og anvendelse av dyplæringsalgoritmer og avanserte maskinlæringsbegreper for å løse typiske beslutningsproblemer for dette området."
-    },
-    {
-        "subjectCode": "IN9490",
-        "subjectName": "Advanced Topics in Artificial Intelligence for Intelligent Systems",
-        "lectures": [],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The course covers various methods within artificial intelligence (AI) and machine learning (ML), and their applications. Examples include algorithms for search, optimization and classification, which to a large extent consist of bio-inspired approaches. Examples of relevant applications include robotics, music, and health and medicine. The course syllabus will continuously be updated with methods from state-of-the-art research. The content is based on presentations from ROBIN group staff, the course participants and invited guests, and will vary depending on who is involved. Students will explore the scientific literature on a selected topic of their interest and proceed to own implementation and conducting thorough experiments under supervision of a ROBIN staff member. The experiments will be disseminated through writing a scientific paper and giving presentations. "
-    },
-    {
-        "subjectCode": "IN9520",
-        "subjectName": "Digital bildeanalyse",
-        "lectures": [],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet tar for seg metoder for analyse av digitale bilder, segmentering og beskrivelse av objekter i bilder.  Sentrale temaer er egenskapsuttrekking og klassifikasjon av objekter i bilder."
-    },
-    {
-        "subjectCode": "IN9530",
-        "subjectName": "Research Through Design",
-        "lectures": [],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "In this course, you learn about Research through Design, an approach that is gaining traction in Human-Computer Interaction.  As the name implies, the aim is to design a digital artifact, a service or a system that helps you answer a research question, understand a certain research domain better, or study the use of the designed prototype. While the methodology remains the same, different research and application areas are used every year. This implies a theme change for practical explorations. Some examples of course focus in the past are: machine learning in HCI, sustainable design in HCI, wearable technology, technology and dance."
-    },
-    {
-        "subjectCode": "IN9540",
-        "subjectName": "Privacy by Design",
-        "lectures": [
-            [
-                "tue",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "Privacy by Design is a fundamental requirement of the GDPR for all systems operating on personal information. This course provides an introduction to privacy and data protection legislation including the GDPR, privacy enhancing technologies, privacy management, designing for privacy, and privacy patterns in software design."
-    },
-    {
-        "subjectCode": "IN9620",
-        "subjectName": "Interaction with AI and autonomous systems",
-        "lectures": [
-            [
-                "mon",
-                "14:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "Norwegian",
-        "description": "The course introduces the evolving interdisciplinary research area of Interaction with Artificial Intelligence and autonomous systems to students who are interested in interaction, design, and use of digital systems."
-    },
-    {
-        "subjectCode": "IN9700",
-        "subjectName": "Tåke og Sky Databehandling",
-        "lectures": [
-            [
-                "thu",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Engelsk",
-        "description": "Emnet vil gi et solid grunnlag for å forstå utfordringene og problemene som ligger til grunn for design og utvikling av tåkeberegningssystemer og applikasjoner. Dermed vil dette emnet lære å spesifisere, designe, programmere, analysere og implementere slike systemer og applikasjoner. Emnet har en betydelig programmerings komponent."
-    },
-    {
-        "subjectCode": "IN9900",
-        "subjectName": "Selected Theoretical Topics in Information Systems Development",
-        "lectures": [],
-        "credits": 10,
-        "level": "PhD",
-        "teaching": "Autumn",
-        "examination": "Autumn",
-        "teachingLanguage": "English",
-        "description": "The objective of this course is to provide a theoretical foundation for research in information systems. The course introduces core theories and current research streams in the field of information systems. It provides an understanding of the micro and macro perspectives on the utilization of information systems, and the mutual relationship between information systems and organizational and social structure and behaviour. This includes:"
-    },
-    {
-        "subjectCode": "INEC1810",
-        "subjectName": "Marknad, markedsføring og produktutvikling",
-        "lectures": [
-            [
-                "mon",
-                "12:15-16:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "I dette emnet lærer du hvordan kunder skapes og betjenes. Hva kunden ønsker, utforming av produkter og tjenester tilpasset dette, og kommunikasjon om det som tilbys til kunder og andre interessenter - samt hvordan forholde seg til kortsiktig og langsiktig lønnsomhet i markeder. Spesiell oppmerksomhet er viet informasjonsøkonomi - hvordan kjøp og salg av informasjonsvarer - som data og programvare - skiller seg fra fysiske varer og tjenester, samt hvordan bedriften kan styre forholdet mellom produktutvikling og markedsføring ved å tilpasse kundekrav og teknologiske muligheter i en dialog."
-    },
-    {
-        "subjectCode": "INEC1821",
-        "subjectName": "Digital økonomi, organisering og ledelse",
-        "lectures": [
-            [
-                "wed",
-                "10:15-12:00"
-            ]
-        ],
-        "credits": 10,
-        "level": "Bachelor",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Digital økonomi, organisering og ledelse handler om å forstå hvordan moderne organisasjoner er bygget opp og fungerer, og hvordan ledere oppnår resultater. Gjennom emnet får du grunnleggende innsikt i organisasjons- og ledelsesteori, nye digitale organisasjonsformer, og transformasjonsledelse. Det vil gis en innføring i digital økonomi, herunder digitalisering, digitale plattformer og økosystemer. Emnet vil også ta for seg hvordan bedrifter bruker regnskapsdata for å ta beslutninger."
-    },
-    {
-        "subjectCode": "INF0010",
-        "subjectName": "Forkurs i informatikk",
-        "lectures": [],
-        "credits": 0,
-        "level": "level-VS",
-        "teaching": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Forkurset i informatikk er opprettet for å gi en mykere studiestart for nye studenter på informatikkstudiet. Forkurset er for alle som skal ta IN1000, IN1900, IN-KJM1900 eller MAT-IN1105."
-    },
-    {
-        "subjectCode": "INF9571",
-        "subjectName": "Seminar i aksjonsforskning",
-        "lectures": [],
-        "credits": 10,
-        "level": "Ph.d.",
-        "teaching": "Vår og høst",
-        "examination": "Vår",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Seminar i kvalitativ forskningsmetode innen Information Systems, med vekt på aksjonsforskning."
-    },
-    {
-        "subjectCode": "ITEVU4020",
-        "subjectName": "IT Governance",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en oversikt over sentrale problemstillinger, teorier og rammeverk i forbindelse med styring av moderne IT-løsninger. Emnets kunnskapsgrunnlag er teorier og rammeverk om IT Governance, supplert med empirisk forskning om praktiske erfaringer. Hovedmålet er å gi deltakerne et bedre grunnlag for arbeid i lederposisjoner med IT-ansvar. Det legges vekt på å utvikle deltakernes evne til å være kritisk konstruktiv i forhold til rammeverkene."
-    },
-    {
-        "subjectCode": "ITEVU4040",
-        "subjectName": "Gjennomføring av prosjekter i egen virksomhet",
-        "lectures": [],
-        "credits": 5,
-        "level": "Master",
-        "teaching": "Vår og høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet skal gi en oversikt over sentrale metoder, verktøy og utfordringer for problemutredning og problemløsning i forbindelse med forskning og allment analytisk arbeid. Emnet skal gi studentene tilstrekkelig metodekunnskap for å kunne skrive gode prosjektoppgaver i de andre Etter- og Videreutdannings-emnene, og det anbefales derfor at emnet tas tidlig i studieløpet, gjerne som første emne. ITEVU4040 er en videreføring av ITLED4041, og erstatter sammen med ITLED4050 det tidligere metodeemnet ITLED4040 ."
-    },
-    {
-        "subjectCode": "ITEVU4261",
-        "subjectName": "IT-arkitektur",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en oversikt over moderne IT-arkitekturer, på ulike nivåer som plattform økosystemer, virksomhetsarkitektur og programvarearkitektur. Det legges vekt på forholdet mellom arkitektur og innovasjon, både i privat og offentlig sektor. Emnets kunnskapsgrunnlag er forskning og teorier om arkitektur, supplert med empirisk forskning om praktiske erfaringer. Emnet behandler også transisjon - hvordan kombinere det gamle med det nye. Hovedmålet er å gi studentene et helhetlig grunnlag for arbeid med IT-arkitektur. Det legges vekt på å utvikle studentens evne til å være kritisk konstruktiv i forhold til rammeverkene. Deltakernes egen erfaringsbakgrunn og jobbutfordringer vil bli trukket inn i undervisningen."
-    },
-    {
-        "subjectCode": "ITEVU4330",
-        "subjectName": "Robusthet i store og komplekse software systemer",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet inngår i det erfaringsbaserte fagtilbudet (EVU) ved Institutt for Informatikk, og er et obligatorisk emne i årsenheten for IT-arkitektur."
-    },
-    {
-        "subjectCode": "ITEVU4360",
-        "subjectName": "IT-arkitektur og Digital innovasjon",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet inngår i det erfaringsbaserte fagtilbudet (EVU) ved Institutt for informatikk, og er et obligatorisk emne i årsenheten for IT-arkitektur. Emnet gir en oversikt over forskning på digital innovasjon og forretningsutvikling. Spesifikt tar emnet opp design av god IT-arkitektur for å muliggjøre ny forretningsutvikling. Det vil også bli gjennomgått hvordan digital teknologi kan understøtte nye forretningsmodeller ved hjelp av data-drevne løsninger og arkitekturer. Eksempler og læringscase vil bli gjennomgått i undervisningen."
-    },
-    {
-        "subjectCode": "ITLED4050",
-        "subjectName": "Design av masteroppgaven",
-        "lectures": [],
-        "credits": 5,
-        "level": "Master",
-        "teaching": "Vår og høst",
-        "examination": "Vår og høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en grundig innføring i muligheter og begrensninger ved ulike typer forskningsstrategier og forskningsdesign."
-    },
-    {
-        "subjectCode": "ITLED4230",
-        "subjectName": "Ledelse av informasjonssikkerhet",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Dette emnet gir kunnskap om sikkerhetsledelse samt en bred innføring i informasjonssikkerhet."
-    },
-    {
-        "subjectCode": "ITLED4290",
-        "subjectName": "Teknologi og innovasjonsledelse",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet har et tverrfaglig kunnskapsgrunnlag hentet fra innovasjonsstudier, organisasjonsteori, sosiologi, antropologi, informatikk, økonomi og STS (science, technology and society/science and technology studies). Praktiske eksempler kombineres med teori for å gi en dypere forståelse av mulighetene som ligger i samspillet mellom teknologi, organisering og forretning. På et forskningsbasert grunnlag vil studentene lære å forholde seg konstruktivt kritisk til hva det faktisk innebærer for en organisasjon å være innovativ og lærende. Temaer som gjennomgås er blant annet: hva er innovasjon, typer innovasjon, kilder til innovasjon, innovasjonsstrategier, innovasjonsledelse, prosessmodeller og innovasjon i ulike kontekster."
-    },
-    {
-        "subjectCode": "ITLED4310",
-        "subjectName": "Digitalisering",
-        "lectures": [],
-        "credits": 10,
-        "level": "Master",
-        "teaching": "Vår og høst",
-        "examination": "Vår",
-        "teachingLanguage": "Norsk",
-        "description": "Emnet gir en oversikt over sentrale problemstillinger, teorier og teknologier i forbindelse med digitalisering og digital transformasjon. Emnets kunnskapsgrunnlag er i hovedsak forskningsartikler om digitalisering og digital transformasjon, supplert med empirisk forskning om erfaringer med digitalisering i praksis. Hovedmålet er å gi deltakerne et bedre grunnlag for arbeid med digitaliseringsprosjekter - hva er mulighetene og hva er fallgruvene? Hva innebærer digitalisering for dine ansatte, kunder og for samfunnet forøvrig? Det legges vekt på å utvikle deltakernes evne til å være kritisk konstruktiv i forhold til begreper og teorier. Deltakernes egen erfaringsbakgrunn og jobbutfordringer vil bli trukket frem."
-    },
-    {
-        "subjectCode": "ITLED4420",
-        "subjectName": "Digital Innovasjon",
-        "lectures": [],
-        "credits": 5,
-        "level": "Master",
-        "teaching": "Vår og høst",
-        "examination": "Høst",
-        "teachingLanguage": "Norsk (engelsk på forespørsel)",
-        "description": "Emnet inngår i det erfaringsbaserte fagtilbudet (EVU) ved Institutt for Informatikk. Emnet gir en innsikt og oversikt over forskning innen digital innovasjon: Digitale innovasjonsprosesser og -ressurser, forretningsmodell innovasjon (fra produktbasert til ytelsesbasert), bruk av teknologi for faktabaserte beslutninger og fra kalenderbaserte til behovsbaserte tjenester, digitaliserings- og tjenestefiseringsprosesser og produkt-tjeneste-systemer. "
-    }
+  {
+    "subjectCode": "DIGHEL4350",
+    "subjectName": "Helsetjenester og informasjonsbehov",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en introduksjon til relevante temaer innen helsevitenskap for informatikkstudenter. Det gis en bred introduksjon til helsesektoren for å gi en forståelse av ulike informasjonsbehov relatert til klinisk og administrativ bruk, forskning og mer. Emnet tilnærmer seg dette ved å gi en grunnleggende introduksjon til helse, inkludert store sykdomsgrupper og organisering av helsetjenester. Emnet gir en oversikt over helsesektoren både i Norge og internasjonalt, og forholdet mellom disse."
+  },
+  {
+    "subjectCode": "DIGHEL4360",
+    "subjectName": "Informatikk for helsearbeidere",
+    "lectures": [["wed", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en introduksjon til relevante temaer innen informatikk for studenter med helsebakgrunn. Emnet dekker grunnleggende deler innen informatikk som programmering, databaser, nettverk, programvareutvikling og brukermedvirkning. Emnet gir studentene et sosio-teknisk perspektiv på digitale teknologier og informasjonssystemer med et fokus på informasjonsbehov i helsesektoren. Studentene får god basiskunnskap for å bygge videre kompetanse innen digital helse."
+  },
+  {
+    "subjectCode": "IN-GEO1900",
+    "subjectName": "Introduksjon i programmering for geofagstudenter",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "14:15-16:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en innføring i programmering med programmeringsspråket Python. Programmeringsoppgavene handler i stor grad om matematiske beregninger knyttet til temaer fra naturvitenskapen og geofaglige problemstillinger."
+  },
+  {
+    "subjectCode": "IN-KJM1900",
+    "subjectName": "Introduksjon i programmering for kjemikere",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "14:15-16:00"],
+      ["thu", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en innføring i programmering med programmeringsspråket Python. Programmeringsoppgavene handler i stor grad om matematiske beregninger knyttet til temaer fra naturvitenskapen og kjemifaglige problemstillinger."
+  },
+  {
+    "subjectCode": "IN-STK5000",
+    "subjectName": "Adaptive metoder for data-baserte beslutninger",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Klassisike tilnærminger til data analyse er basert på en statisk (eller forhåndsbestemt) prosedyre for både innsamling og prosessering av data. Moderne tilnærminger forholder seg til adaptive prosedyrer som i praksis nesten alltid blir brukt."
+  },
+  {
+    "subjectCode": "IN-STK9000",
+    "subjectName": "Adaptive metoder for data-baserte beslutninger",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Klassisike tilnærminger til data analyse er basert på en statisk (eller forhåndsbestemt) prosedyre for både innsamling og prosessering av data. Moderne tilnærminger forholder seg til adaptive prosedyrer som i praksis nesten alltid blir brukt."
+  },
+  {
+    "subjectCode": "IN1000",
+    "subjectName": "Introduksjon til objektorientert programmering",
+    "lectures": [["tue", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Vår og høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet er en introduksjon til programmering og gir en god basis for videre studier i informatikk, men det er også egnet for deg som kun ønsker å forstå hva programmering er. Emnet forutsetter ingen forkunnskaper i programmering. Det gir en første innføring i Python og hvordan man utvikler algoritmer, inkludert bruk av lister, filer og kommunikasjon med bruker. Det blir lagt spesiell vekt på objektorientert programmering."
+  },
+  {
+    "subjectCode": "IN1020",
+    "subjectName": "Introduksjon til datateknologi",
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["thu", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Et grunnlag for utdanning i informatikk er en forståelse av hva en datamaskin er og hvordan den fungerer. Dette emnet gir denne forståelsen. Det tar for seg hvilke elementer en moderne datamaskin består av og hva de kan gjøre, og hvordan kombinasjonen av dem gir et kraftig verktøy."
+  },
+  {
+    "subjectCode": "IN1050",
+    "subjectName": "Introduksjon til design, bruk, interaksjon",
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en introduksjon til design, bruk og interaksjon, hvor fokuset er på interaksjon og samspillet mellom mennesker og digital teknologi. Emnet tar for seg undersøkelser av bruk av teknologi. Begreper og metoder for design, prototyping og evaluering introduseres."
+  },
+  {
+    "subjectCode": "IN1140",
+    "subjectName": "Introduksjon til språkteknologi",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en innføring i språkteknologi: metoder for automatisk analyse av språklige data. Det vil videre gi en innføring i lingvistisk teori og relatere denne til språkteknologiske problemområder. Det gis vil et første møte med noen språkteknologiske oppgaver som eksempelvis tokenisering, n-grammodeller, tagging og klassifisering."
+  },
+  {
+    "subjectCode": "IN1150",
+    "subjectName": "Logiske metoder",
+    "lectures": [["thu", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Vår og høst",
+    "examination": "Vår og høst",
+    "teachingLanguage": "Norsk",
+    "description": "Dette er et emne i grunnleggende matematiske og logiske metoder. Det legges vekt på forståelse og tilvenning av matematiske begreper og notasjon som er relevante for et studium i informatikk. Emnet øver opp evnen til å tenke systematisk fra antakelser, løse teoretiske problemer, samt formalisere og gjennomføre matematiske resonnementer selv."
+  },
+  {
+    "subjectCode": "IN1900",
+    "subjectName": "Introduksjon i programmering for naturvitenskapelige anvendelser",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "14:15-16:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet introduserer grunnleggende programmering i programmeringsspråket Python. Programmeringstemaene illustreres i en serie av matematiske eksempler. Matematikktemaene er synkronisert med MAT-INF1100 - Modellering og beregninger og MAT1100 - Kalkulus. Eksempler og oppgaver er hentet fra naturvitenskap, og viser hvordan problemer i fysikk, statistikk, biologi, medisin, kjemi og økonomi kan løses ved hjelp av matematikk og programmering."
+  },
+  {
+    "subjectCode": "IN1910",
+    "subjectName": "Programmering for naturvitenskapelige anvendelser",
+    "lectures": [
+      ["thu", "12:15-14:00"],
+      ["fri", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet er en fortsettelse av emnet IN1900, og gir en innføring i mer avanserte begreper innenfor programmering og programvareutvikling. Sentrale mål i emnet er å introdusere nyttige verktøy og konsepter for vitenskapelig programmering."
+  },
+  {
+    "subjectCode": "IN2010",
+    "subjectName": "Algoritmer og datastrukturer",
+    "lectures": [["mon", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en gjennomgang av datastrukturer som stakker, trær, grafer, hashtabeller og prioritetskøer, samt algoritmer for sortering, søking, innsetting og så videre knyttet til disse. Ulike implementasjoner vurderes med vekt på effektivitet, programstruktur og abstrakte datatyper. Viktige elementer i emnet er rekursiv programmering samt vurdering og beskrivelse av programmers effektivitet."
+  },
+  {
+    "subjectCode": "IN2020",
+    "subjectName": "Metoder i interaksjonsdesign",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "I dette emnet lærer du om forskning i HCI (Human-Computer Interaction). Vi går gjennom forskjellige tilnærminger til design innenfor HCI-feltet, og du får inngående kunnskap om metoder, verktøy og teknikker for HCI-forskning. Vi legger spesiell vekt på kvantitativ analyse og design av eksperimenter. Du skal kunne øve deg på metodene gjennom tre obligatoriske oppgaver."
+  },
+  {
+    "subjectCode": "IN2030",
+    "subjectName": "Prosjektoppgave i programmering",
+    "lectures": [["mon", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnets kjerne er en større programmeringsoppgave som studentene skal løse i små grupper."
+  },
+  {
+    "subjectCode": "IN2040",
+    "subjectName": "Funksjonell programmering",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Programmering i et funksjonelt programmeringsspråk. Rekursjon. Abstrakte datastrukturer. Datastyrt programmering, memoisering, objektorientering, lister og strømmer. Styrker og svakheter ved funksjonell programmering sammenlignet med imperativ programmering. Semantikk for evaluering av funksjonskall og interpretering av funksjonelle programmer."
+  },
+  {
+    "subjectCode": "IN2060",
+    "subjectName": "Digitalteknikk og datamaskinarkitektur",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet tar for seg prinsipper i digital design, som kombinatorisk og sekvensiell logikk, tilstandsmaskiner og digitale byggeblokker, og bygger på dette for å introdusere prosessorarkitekturer, pipelining, cache, og grensesnittet mellom maskinvare og programkode."
+  },
+  {
+    "subjectCode": "IN2070",
+    "subjectName": "Digital bildebehandling",
+    "lectures": [],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst\n      \n      \n        Emnet endret 2023 semester fra Vår til Høst.",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet tar for seg digitale bilder og deres egenskaper, fargemodeller og persepsjon, representasjons-metoder for digitale bilder, histogramtransformasjoner og 2-dimensjonal digital konvolusjon og filtrering, segmentering samt bildekoding og kompresjon."
+  },
+  {
+    "subjectCode": "IN2090",
+    "subjectName": "Databaser og datamodellering",
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["thu", "14:15-16:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Dette emnet gir en grundig innføring i en metode for semantisk datamodellering og hvordan en slik modell kan realiseres som en fysisk database. Emnet gir inngående trening i bruk av SQL til å formulere spørringer mot relasjonsdatabaser. Det gis en enkel introduksjon til teorien for relasjonsdatabaser."
+  },
+  {
+    "subjectCode": "IN2120",
+    "subjectName": "Informasjonssikkerhet",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["fri", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Dette emnet gir en bred innføring i informasjonssikkerhet og cybersikkerhet, som grunnlag for å forstå, vurdere og anvende ulike tiltak på teknisk og organisatorisk nivå som kan gi adekvat beskyttelse av informasjonsressurser mot skade. Cybersikkerhet handler også om beskyttelse av fysiske systemer mot skade som følge av angrep gjennom Internett. Emnet danner grunnlag for å ta andre sikkerhetsemner på bachelor- og masternivå."
+  },
+  {
+    "subjectCode": "IN3015",
+    "subjectName": "Ultralydavbildning",
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Avbildning ved bruk av ultralyd benyttes innen blant annet medisin, sonar og ikke-destruktiv testing. Dette emnet forklarer de grunnleggende prinsippene for akustisk avbildning, stråleforming og avbildningsmodaliteter innen ultralyd. Det legges særlig vekt på medisinsk ultralydavbildning, men teknikkene og metodene som gjennomgås brukes også innen andre fagfelt."
+  },
+  {
+    "subjectCode": "IN3040",
+    "subjectName": "Programmeringsspråk",
+    "lectures": [["fri", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "I dette emnet diskuterer vi syntaks og semantikk for programmeringsspråk generelt, inkludert statiske og dynamiske aspekter, typer og type-inferens, høyere-ordens funksjoner, polymorfisme, implementasjon og kjøretidssystemer. Vi kommer også innom forskjellige klasser av programmeringsspråk, slik som objektorienterte, funksjonelle, dynamiske og logiske språk, og vi diskuterer disse i relasjon til hverandre."
+  },
+  {
+    "subjectCode": "IN3070",
+    "subjectName": "Logikk",
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["wed", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Dette er et videregående emne i logikk. Emnet fokuserer på sammenhengen mellom sannhet og bevisbarhet, og går gjennom mange grunnleggende begreper. Flere anvendelser av logikk innen informatikk blir gjennomgått."
+  },
+  {
+    "subjectCode": "IN3090",
+    "subjectName": "Prosjektoppgave i informatikk: Digital økonomi og ledelse",
+    "lectures": [],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Vår og høst\n      \n      \n        Vår",
+    "examination": "Vår",
+    "teachingLanguage": "Norsk",
+    "description": "I dette emnet vil studenten sammen med en veileder utforske og rapportere om et tema innen digital økonomi og ledelse. Oppgaven som skal utføres vil vanligvis ha en praktisk del der studenten skal innhente data hos en organisasjon og lage en selvstendig analyse."
+  },
+  {
+    "subjectCode": "IN3110",
+    "subjectName": "Problemløsning med høynivå-språk",
+    "lectures": [["wed", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en innføring i mer avanserte sider ved script- og programmeringsspråket Python, bl.a. objektorientert programmering, regulære uttrykk, interaksjon med operativsystemet, plattform-uavhengig kode, effektiv design av programsystemer med tidskritiske operasjoner, utvidelser i kompilerte språk som C/C++, data-analyse og web-programmering. Emnet gir også en grunnleggende innføring i script-språket Bash, testing og dokumentering av kode, og versjonskontrollsystem git. Spesiell vekt legges på praktisk problemløsning med et fokus på interessante og studierelevante oppgaver."
+  },
+  {
+    "subjectCode": "IN3120",
+    "subjectName": "Søketeknologi",
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["wed", "08:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en innføring i teknologier for søk og informasjonsgjenfinning i stor skala over tekst. Du vil få en presentasjon av indeksstrukturer, relevans og ranking av dokumenter, samt prosessering av dokumenter og spørringer. Utvalgte anvendelser av språkteknologi og algoritmer relevante for søk blir gjennomgått."
+  },
+  {
+    "subjectCode": "IN3130",
+    "subjectName": "Algoritmer: Design og effektivitet",
+    "lectures": [["tue", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en gjennomgang av generelle algoritme-klasser som dynamisk programmering, heuristiske algoritmer, probabilistiske algoritmer, samt et representativt utvalg av enkeltalgoritmer som løser aktuelle problemer. Det legges vekt på effektivitetsvurdering. Videre gjennomgås teorien for NP-kompletthet og for uavgjørbarhet - problemer uten en løsningsalgoritme."
+  },
+  {
+    "subjectCode": "IN3190",
+    "subjectName": "Digital signalbehandling",
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Digital signalbehandling er en sentral drivkraft i den raske utviklingen av nye metoder innen områder som telekommunikasjon (mobiltelefoni), multimedia (MP3), medisin (ultralyd), sonar, seismikk, fjernanalyse og måleteknikk. Signalbehandling kan defineres som det matematiske verktøyet som brukes for å analysere, modellere og utføre operasjoner på fysiske signaler og deres kilder. Emnet er en innføring i basismetoder som sampling, filtrering og frekvensanalyse."
+  },
+  {
+    "subjectCode": "IN3210",
+    "subjectName": "Network and Communications Security",
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "Network and communications security is an important part of information security: a large portion of IT-related attacks are performed either using network connections or are directed at network infrastructures. ."
+  },
+  {
+    "subjectCode": "IN3230",
+    "subjectName": "Nettverk",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Dette emnet gir en grunnleggende innføring i sentrale funksjoner i kommunikasjonssystemer, herunder adressering, ruting, flytkontroll, feilhåndtering, pålitelighet og synkronisering. Det blir gitt eksempler på hvordan disse funksjonene anvendes i dagens kommunikasjonssystemer, og mer spesifikt hvordan disse anvendes innen ulike nettverksteknologier. Sentrale arkitekturer og protokoller gjennomgås."
+  },
+  {
+    "subjectCode": "IN3250",
+    "subjectName": "Prosjektoppgave i informatikk: interaksjonsdesign",
+    "lectures": [],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "I dette emnet vil studenten sammen med veileder utforske og rapportere om et tema innen interaksjonsdesign. Oppgaven som skal utføres vil involvere design og utvikling av høyoppløselige designartefakter i samråd med sluttbrukere hvor datainnsamling, utvikling og evaluering inngår som en del av eksperimentet. Emnet egner seg for studenter som ønsker å jobbe med enten etablerte næringslivscase eller pågående forskningsprosjekter som utgangspunkt for en faglig fordypning innen interaksjonsdesign. Emnet gir derfor rom for utforskning i både fagprofesjonell og akademisk retning. Prosjektet utføres i veilederens forskningsgruppe som også vil tilføre nødvendige ressurser og tilganger."
+  },
+  {
+    "subjectCode": "IN3260",
+    "subjectName": "Prosjektoppgave i informatikk: datakommunikasjon",
+    "lectures": [],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Vår og høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "I dette emnet vil studenten sammen med veileder utforske og rapportere om et tema innen datakommunikasjon. Oppgaven som skal utføres vil vanligvis ha en praktisk komponent der studenten skal programmere og evaluere et eksperiment eller en applikasjon."
+  },
+  {
+    "subjectCode": "IN3280",
+    "subjectName": "Forskerlinjen I",
+    "lectures": [],
+    "credits": 30,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Vår",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Dette er et bacheloremne for deg som synes forskning er spennende. Emnet består av fellessamlinger med teori og praktisk oppgaveløsning, samt en prosjektoppgave. Teoridelen gir en innføring i forskning (problemstillinger, metoder, etikk, reproduserbarhet, litteratursøk og -lesing) og forskningsformidling (artikkelskriving, poster, og presentasjon). Prosjektoppgaven består av prosjektplanlegging, prosjektgjennomføring og prosjektrapportering."
+  },
+  {
+    "subjectCode": "IN4015",
+    "subjectName": "Ultralydavbildning",
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Avbildning ved bruk av ultralyd benyttes innen blant annet medisin, sonar og ikke-destruktiv testing. Dette kurset forklarer de grunnleggende prinsippene for akustisk avbildning, ståleforming og avbildningsmodaliteter innen ultralyd. Det legges særlig vekt på medisinsk ultralydavbildning, men teknikkene og metodene som gjennomgås brukes også innen andre fagfelt."
+  },
+  {
+    "subjectCode": "IN4080",
+    "subjectName": "Natural Language Processing",
+    "lectures": [["tue", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course gives a comprehensive overview over modern Natural Language Processing (NLP) with main emphasis on probabilistic and machine learning techniques. Methodology for experiments based on machine learning applied to language data together with evaluation of such experiments is central. The course includes an overview over typical NLP applications, like information extraction, machine translation, question-answering systems, and a more in-depth study of one such application. In addition, the steps in a typical NLP system, like tagging, parsing, named entity recognition, relation extraction will be considered. The course will prepare the students for a master´s thesis in Informatics: Language Technology."
+  },
+  {
+    "subjectCode": "IN4110",
+    "subjectName": "Problemløsning med høynivå-språk",
+    "lectures": [["wed", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en innføring i mer avanserte sider ved script- og programmeringsspråket Python, bl.a. objektorientert programmering, regulære uttrykk, interaksjon med operativsystemet, plattform-uavhengig kode, effektiv design av programsystemer med tidskritiske operasjoner, utvidelser i kompilerte språk som C/C++, data-analyse og web-programmering. Emnet gir også en grunnleggende innføring i script-språket Bash, testing og dokumentering av kode, og versjonskontrollsystem git. Spesiell vekt legges på praktisk problemløsning med et fokus på interessante og studierelevante oppgaver."
+  },
+  {
+    "subjectCode": "IN4120",
+    "subjectName": "Søketeknologi",
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["wed", "08:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en innføring i teknologier for søk og informasjonsgjenfinning i stor skala over tekst. Du vil få en presentasjon av indeksstrukturer, relevans og ranking av dokumenter, samt prosessering av dokumenter og spørringer. Utvalgte anvendelser av språkteknologi og algoritmer relevante for søk blir gjennomgått."
+  },
+  {
+    "subjectCode": "IN4150",
+    "subjectName": "Digitale økosystemer",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir en innføring i avansert teori for å sette studentene i stand til å analysere og kritisk reflektere over digitale økosystemer. Emnet skal også presentere ulike caser som illustrerer ulike typer digitale plattformer og økosystemer, og hvordan disse økosystemene kan styres og videreutvikles."
+  },
+  {
+    "subjectCode": "IN4190",
+    "subjectName": "Digital signalbehandling",
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Digital signalbehandling er en sentral drivkraft i den raske utviklingen av nye metoder innen områder som telekommunikasjon (mobiltelefoni), multimedia (MP3), medisin (ultralyd), sonar, seismikk, fjernanalyse og måleteknikk. Signalbehandling kan defineres som det matematiske verktøyet som brukes for å analysere, modellere og utføre operasjoner på fysiske signaler og deres kilder. Emnet er en innføring i basismetoder som sampling, filtrering og frekvensanalyse."
+  },
+  {
+    "subjectCode": "IN4210",
+    "subjectName": "Network and Communications Security",
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "Network and communications security is an important part of information security: a large portion of IT-related attacks are performed either using network connections or are directed at network infrastructures. . A majority of modern systems also depend on communication over networks. This course focuses on the application of cryptographic protocols and network protection techniques to secure computer networks and communication."
+  },
+  {
+    "subjectCode": "IN4230",
+    "subjectName": "Nettverk",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Dette emnet gir en grunnleggende innføring i sentrale funksjoner i kommunikasjonssystemer, herunder adressering, ruting, flytkontroll, feilhåndtering, pålitelighet og synkronisering. Det blir gitt eksempler på hvordan disse funksjonene anvendes i dagens kommunikasjonssystemer, og mer spesifikt hvordan disse anvendes innen ulike nettverksteknologier. Sentrale arkitekturer og protokoller gjennomgås."
+  },
+  {
+    "subjectCode": "IN4260MCT",
+    "subjectName": "Networked Systems and Creative Computing",
+    "lectures": [["fri", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "In this course, the student will explore and report on a topic in networked systems or creative computing in cooperation with a supervisor. The project will usually have a practical component where the student will program and evaluate an experiment or an application."
+  },
+  {
+    "subjectCode": "IN4270",
+    "subjectName": "Digital Business Development",
+    "lectures": [["fri", "08:15-10:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This course focuses on strategic and operational business development in technology-based companies. Through case discussions, theory exploration and interaction with companies the student will attain an understanding and appreciation of the challenges in managing high-tech organisations in rapidly developing technology environments."
+  },
+  {
+    "subjectCode": "IN4340",
+    "subjectName": "Deltakende kvalitative forskningsmetoder",
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["thu", "14:15-15:45"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Dette emnet gir en introduksjon til deltakende forskningsmetoder, med et fokus på bruk av slike metoder i studentenes masteroppgave. Emnet begynner med en introduksjon til konseptet deltakende forskning og hvordan det kan brukes til å studere komplekse problemstillinger fra perspektivet til sentrale aktører. Emnet fokuserer deretter på ulike metoder for datainnsamling som gir studenten epistemologiske og metodologiske ferdigheter for masteroppgaven. Et viktig del av emnet vil være konkrete eksempler, case-studier og ulike felt-scenarier rundt digital helse."
+  },
+  {
+    "subjectCode": "IN5020",
+    "subjectName": "Distribuerte systemer",
+    "lectures": [["mon", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en introduksjon til prinsipper og praksis for konstruksjon av distribuerte system. Tema inkluderer fundamentale modeller for distribuerte system, distribuert mellomvare med fokus på objektbasert mellomvare og komponentbaserte arkitekturer, distribuerte algoritmer for konsensus og andre problemer, og nyere utfordringer til distribuert prosesseringsteknologi som cloud, multimedia og IoT. Emnet inkluderer obligatoriske programmeringsoppgaver."
+  },
+  {
+    "subjectCode": "IN5040",
+    "subjectName": "Advanced Database Systems for Big Data",
+    "lectures": [["fri", "12:15-15:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "Norwegian (English on request)",
+    "description": "In this course you´ll learn about new database technologies to handle Big Data: Data Stream Management Systems, Complex Event Processing, Distributed and Heterogeneous Database Systems, Data Warehousing and Data Mining, Web Data Management, and Cloud Data Management."
+  },
+  {
+    "subjectCode": "IN5060",
+    "subjectName": "Kvantitativ ytelsesanalyse",
+    "lectures": [["wed", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Å forstå grensene for systemytelsen og flaskehalsene i dagens systemer er utfordrende og meget viktig for utplasseringen av ethvert moderne høyytelsessystem. Emnet tar for seg teknikker du kan bruke for å korrekt analysere systemytelsen og videre finne flaskehalsene i systemet."
+  },
+  {
+    "subjectCode": "IN5070",
+    "subjectName": "The future internet protocols",
+    "lectures": [["mon", "12:15-15:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "In this course you´ll learn about Multicast and CacheCast, as well as streaming through firewalls and NATS. In addition you´ll work with Mobile Ad-Hoc Networks (MANETs) and Wireless Sensor Networks (WSN), with Data Center Networks and Network Virtualization, and with Delay Tolerant Networks (DTNs) and Autonomous Networking."
+  },
+  {
+    "subjectCode": "IN5100",
+    "subjectName": "Utvalgte emner i omskrivningslogikk",
+    "lectures": [["fri", "09:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet tar for seg utvalgte videregående temaer innen omskrivningslogikk og formelle metoder som metaprogrammering, sanntidssystemer og probabilistiske systemer. Eksempler på bruk av omskrivingslogikk til formell modellering og analyse av applikasjoner som for eksempel transportprotokoller, web-browsere og datasikkerhet, cloud-baserte databaser og transaksjonshåndtering, biokjemiske prosesser, kognitive prosesser, flysystemer og semantikk og analyse av standard programmerings- og modellingsspråk."
+  },
+  {
+    "subjectCode": "IN5110",
+    "subjectName": "Specification and Verification of Parallel Systems",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "16:15-18:00"],
+      ["wed", "08:15-10:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course covers principles and techniques central to the automatic and formal verification of parallel and concurrent systems. In particular, logics that allow to concisely specify expected behavior, often in terms of temporal logic or related formalism. Furthermore, the lecture tackles the verification or model-checking problem, i.e. how to establish that a system model adheres to a given specification. The lecture also introduces various algorithmic approaches to battle the state-space explosion problem to handle systems with large state spaces."
+  },
+  {
+    "subjectCode": "IN5130",
+    "subjectName": "Uangripelige IT-systemer",
+    "lectures": [["fri", "09:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Modelleringsteknikkene som blir gjennomgått har lenge vært benyttet ved design av sanntidssystemer og andre distribuerte systemer. Vi konsentrerer oss om systemer av samhandlende aktører og modellerer i UML. Sekvensdiagrammer i UML står sentralt som notasjon for intuitiv og formell beskrivelse av samhandlingsmønstre. Temaer som inngår er:"
+  },
+  {
+    "subjectCode": "IN5140",
+    "subjectName": "Smarte prosesser og smidige metoder i systemutvikling",
+    "lectures": [["wed", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet skal gi et solid grunnlag for å kunne delta i og lede en organisasjons utviklingsprosjekter og arbeide med å forbedre gjennomføring av slike prosjekter."
+  },
+  {
+    "subjectCode": "IN5150",
+    "subjectName": "Recent Advancements in Internet Protocols",
+    "lectures": [["thu", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This research-oriented seminar explores state-of-the art developments in Internet protocols, especially transport-, network-, and application-layer protocols. The seminar offers a critical look at these Internet protocols. This will allow participants to better understand protocol shortcomings, and how new solutions try to address these shortcomings. Specific seminar topics will focus on recent Internet standards."
+  },
+  {
+    "subjectCode": "IN5170",
+    "subjectName": "Modeller for parallellitet",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir et innblikk i noen grunnleggende begreper og teknikker for spesifikasjon og resonnering om parallelle prosesser, med henblikk på tett samarbeidende tråder så vel som distribuerte og objektorienterte systemer."
+  },
+  {
+    "subjectCode": "IN5180",
+    "subjectName": "Analog Microelectronics Design",
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course provides the know-how and skills needed to design analog CMOS integrated circuits using modern EDA tools. An introduction is given to CMOS technology and methods in order to implement key circuit components such as transistors ans passive components. In addition, matching, optimization and noise are key aspects. A central part of the course will be a design project where students will get a hands-on experience designing a typical CMOS circuit from specification to layout."
+  },
+  {
+    "subjectCode": "IN5200",
+    "subjectName": "Avansert digital systemkonstruksjon",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en grundig dekning av systematisk utvikling, simulering, syntese av avanserte digitale System-on-Chip (SoC) integrerte kretser med vekt på FPGA-teknologi (Field Programmable Gate Array). Lab-oppgaver gir praktisk erfaring i hvordan SoC design simuleres og implementeres i FPGA-hardware."
+  },
+  {
+    "subjectCode": "IN5210",
+    "subjectName": "Information Systems",
+    "lectures": [
+      ["thu", "10:15-12:00"],
+      ["fri", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This course offers a broad introduction to information systems theories. In lectures and seminars these theories are used to discuss and analyse information systems practices in organizations, such as design, development, implementation, and management. The course is based on a socio-technical understanding of information systems. A particular focus is on the complexity caused by the many user groups, stakeholders, information technologies, standards, practices etc. found in organizations. The curriculum is designed to cover classical information systems readings as well as current information systems research."
+  },
+  {
+    "subjectCode": "IN5230",
+    "subjectName": "Elektrisk støy - beregning og mottiltak",
+    "lectures": [["mon", "09:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Tettere integrasjon, mindre størrelser, høyere frekvenser og mer elektronikk fører til at elektrisk støy er en voksende utfordring for all elektronikkonstruksjon. Emnet dekker koblingsstøy (interferens) og komponentstøy (intern egenstøy). Emnet omfatter både analog og digital kretskonstruksjon fra integrert kretskonstruksjonsnivå til kretskort og valg av kabler og strømforsyning."
+  },
+  {
+    "subjectCode": "IN5240",
+    "subjectName": "Design av CMOS RF-integrete kretser",
+    "lectures": [["tue", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet fokuserer på konstruksjon av CMOS RF-kretser og systemer. Det gis en grunnleggende innføring i RF kretser (matching, støy og forvrengning) med fokus på design og analyse av CMOS RF kretser som filtre (passive), forsterkere (LNA, PA), miksere, oscillatorer (VCO, ILO) og faselåste sløyfer."
+  },
+  {
+    "subjectCode": "IN5290",
+    "subjectName": "Ethical Hacking",
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["thu", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "Ethical hacking covers vulnerability and penetration testing, which are essential elements in modern cybersecurity. Ethical hacking consists of testing the security of IT systems by trying to find and exploit security vulnerabilities."
+  },
+  {
+    "subjectCode": "IN5310",
+    "subjectName": "Advanced Deep Learning for Image Analysis",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This course presents advanced methods in deep learning to work with image data, covering key advanced deep learning algorithms and concepts for training neural networks. This course will complement the introductory concepts presented in IN4310, and will build practical skills on application of deep learning to image data. The course’s focus is on advanced learning and representations techniques for image analysis and understanding, such as visual transformers, graph-based models, adversarial networks, diffusion models, recurrent networks, among others. The course will also cover self-, semi-, and unsupervised learning regimes. "
+  },
+  {
+    "subjectCode": "IN5320",
+    "subjectName": "Development in platform ecosystems",
+    "lectures": [["mon", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "In this course, you will learn the principles and practice of application design and development within platform ecosystems. Conceptually, you will learn about the socio-technical complexities related to large-scale information systems, and how platform architectures and ecosystems attempt to address these. Further, we look at how such architectures may enable user participation in the development of applications and user interfaces that are sensitive to local requirements within a larger system. Practically, you will develop web applications with JavaScript and HTML using modern, open-source frameworks and APIs with an emphasis on requirements derived from user needs."
+  },
+  {
+    "subjectCode": "IN5350",
+    "subjectName": "Design av CMOS bildesensor",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir en introduksjon til CMOS bildesensorbrikker brukt i digitalkamera. Hele signalkjeden fra lys inn til jpeg-komprimert bilde vil bli dekket, inkl. piksler og avlesningskretser, A/D-konvertering, digital bildebehandling og input/output grensesnitt."
+  },
+  {
+    "subjectCode": "IN5360",
+    "subjectName": "Forskerlinjen II",
+    "lectures": [],
+    "credits": 15,
+    "level": "Master",
+    "teaching": "Høst\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          høst 2022",
+    "examination": "Vår\n      \n      \n        \n          \n        \n\n        \n          Eksamen tilbys siste gang\n          høst 2022",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Dette er et masteremne for deg som synes forskning er spennende. Emnet består av fellessamlinger med teori og praktisk oppgaveløsning, samt en prosjektoppgave. Teoridelen gir en innføring i forskning (problemstillinger, metoder, etikk, reproduserbarhet, litteratursøk og - lesing) og forskningsformidling (artikkelskriving, poster og presentasjon). Prosjektoppgaven består i prosjektplanlegging, prosjektgjennomføring og prosjektrapportering."
+  },
+  {
+    "subjectCode": "IN5390",
+    "subjectName": "ICT for Development: Building a Better World?",
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course concerns understanding the relationship between ICTs and development. This is an important sub-discipline within Information Systems research, and is especially relevant in current times given the new range of developmental challenges (eg humanitarian crisis, migration, security etc) being experienced and also the wide variety of new ICTs (eg internet, social media, cloud, big data etc) avaliable even in the poor countries. In this course, students will learn about different conceptual and empirical approaches to analyze ICTs, development and their relationship, to try and answer the question \"are ICTs creating a better world in which we live?\""
+  },
+  {
+    "subjectCode": "IN5460",
+    "subjectName": "Kunstig intelligens for energiinformatikk",
+    "lectures": [["wed", "13:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir en introduksjon til hvordan teknikker for kunstig intelligens og algoritmer for datadrevne intelligente beslutninger vil anvendes i fremtidens smarte og bærekraftige energi- og transportsystemer. Hovedfokus er på anvendelsen av dyp læring og avanserte maskinlæringsteknikker. Tema i emnet inkluderer grunnleggende begreper relatert til smarte og bærekraftige energi- og transportsystemer, for eksempel etterspørselsstyring, energiforvaltning, energiinformatikk, elektrisk mobilitet og energieffektivitet, og anvendelse av dyplæringsalgoritmer og avanserte maskinlæringsbegreper for å løse typiske beslutningsproblemer for dette området."
+  },
+  {
+    "subjectCode": "IN5470",
+    "subjectName": "Avansert forskningstema i design av IT",
+    "lectures": [["thu", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Vår og høst",
+    "examination": "Vår og høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir grunnleggende innføring i et tema der forskere fra Design-gruppen er aktive, og vil derfor kunne variere fra år til år. Emnet gjennomgår grunnleggende litteratur og viktige rammeverk innenfor det valgte temaet slik at studentene får et godt grunnlag for å skrive sin masteroppgave innenfor temaet. Målet er at masteroppgaven kan bidra i forskningen i Design-gruppen. Emnet legger vekt på teoretisk forståelse og praktiske eksperimenter innenfor det aktuelle fagfeltet."
+  },
+  {
+    "subjectCode": "IN5480",
+    "subjectName": "Spesialisering innen forskning i design av IT",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir et grunnlag for spesialisering i et forskningstema innen design av informasjonssystemer. Temaet vil kunne variere fra år til år. Emnet gjennomgår forskningslitteratur innenfor det valgte temaet slik at studentene får et godt grunnlag for å skrive sin masteroppgave i en gitt spesialisering. Målet er at masteroppgaven kan bidra i forskningen i Design-gruppen. Emnet legger vekt på teoretisk forståelse og praktiske eksperimenter innenfor det aktuelle fagfeltet."
+  },
+  {
+    "subjectCode": "IN5490",
+    "subjectName": "Advanced Topics in Artificial Intelligence for Intelligent Systems",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course covers various methods within artificial intelligence (AI) and machine learning (ML), and their applications. Examples include algorithms for search, optimization and classification, which to a large extent consist of bio-inspired approaches. Examples of relevant applications include robotics, music, and health and medicine. The course syllabus will continuously be updated with methods from state-of-the-art research. The content is based on presentations from ROBIN group staff, the course participants and invited guests, and will vary depending on who is involved. Students will explore the scientific literature on a selected topic of their interest and proceed to own implementation and conducting experiments under supervision of a ROBIN staff member. The experiments will be disseminated through writing a paper and giving presentations.  "
+  },
+  {
+    "subjectCode": "IN5510",
+    "subjectName": "Deltakende eksperimentell design",
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "14:15-16:00"]
+    ],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir teoretisk og praktisk kunnskap om deltakende design i linje med design tradisjonen som stammer fra IFI der det legges vekt på at brukere involveres i designprosessen. Du vil lære å designe IT som en integrert del av bruksmiljøene og aktivitetene med vekt på verktøy og teknikker for å involvere brukere i utformingen av en IT-basert tjeneste eller et system. Målet er å designe bedre teknologier basert på brukerens ideer og tilpasset deres krav og behov, noe som gir bedre passform mellom teknologien og aktiviteten som den vil være en del av. I tillegg til forelesninger og øvelser lærer du om deltakende design gjennom et stort prosjektarbeid som involverer virkelige brukere. Studentprosjektets emner varierer hvert år, eksempler fra tidligere år er roboter i hjemmet, offentlige tjenester eller velferdsteknologi."
+  },
+  {
+    "subjectCode": "IN5520",
+    "subjectName": "Digital bildeanalyse",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet tar for seg metoder for analyse av digitale bilder, segmentering og beskrivelse av objekter i bilder.  Sentrale temaer er egenskapsuttrekking og klassifikasjon av objekter i bilder."
+  },
+  {
+    "subjectCode": "IN5530",
+    "subjectName": "Research Through Design",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "In this course, you learn about Research through Design, an approach that is gaining traction in Human-Computer Interaction.  As the name implies, the aim is to design a digital artifact, a service or a system that helps you answer a research question, understand a certain research domain better, or study the use of the designed prototype. While the methodology remains the same, different research and application areas are used every year. This implies a theme change for practical explorations. Some examples of course focus in the past are: machine learning in HCI, sustainable design in HCI, wearable technology, technology and dance."
+  },
+  {
+    "subjectCode": "IN5540",
+    "subjectName": "Privacy by Design",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "Privacy by Design is a fundamental requirement of the GDPR for all systems operating on personal information. This course provides an introduction to privacy and data protection legislation including the GDPR, privacy enhancing technologies, privacy management, designing for privacy, and privacy patterns in software design."
+  },
+  {
+    "subjectCode": "IN5620",
+    "subjectName": "Interaction with AI and autonomous systems",
+    "lectures": [["mon", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "Norwegian",
+    "description": "The course introduces the evolving interdisciplinary research area of Interaction with Artificial Intelligence and autonomous systems to students who are interested in interaction, design, and use of digital systems."
+  },
+  {
+    "subjectCode": "IN5700",
+    "subjectName": "Tåke og Sky Databehandling",
+    "lectures": [["thu", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet vil gi et solid grunnlag for å forstå utfordringene og problemene som ligger til grunn for design og utvikling av tåkeberegningssystemer og applikasjoner. Dermed vil dette emnet lære å spesifisere, designe, programmere, analysere og implementere slike systemer og applikasjoner. Emnet har en betydelig programmerings komponent."
+  },
+  {
+    "subjectCode": "IN9010",
+    "subjectName": "Design, Technology and Society",
+    "lectures": [],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Spring and autumn",
+    "examination": "Spring",
+    "teachingLanguage": "English",
+    "description": "In this course we explore the relations between technology and society, with a focus on the ethical, political, and enviromental dimensions of technology and how these, in turn, intersect with society. We explore in particular the linkages between design, technological change, and current societal challenges, such as artificial intelligence, climate change, digitalisation, inequality, privacy, surveillance, and sustainablility."
+  },
+  {
+    "subjectCode": "IN9020",
+    "subjectName": "Distributed Systems",
+    "lectures": [["mon", "10:15-12:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "Norwegian (English on request)",
+    "description": "The course is an introduction to principles and practice of the design of distributed systems. The course covers fundamental models for distributed systems, distributed middleware with the focus on object-based middleware and component-based architectures, distributed algorithms for consensus and other underlying problems, and modern-day challenges of distributed processing technology such as cloud, multimedia and IoT. The course includes mandatory programming exercises."
+  },
+  {
+    "subjectCode": "IN9040",
+    "subjectName": "Advanced Database Systems for Big Data",
+    "lectures": [["fri", "12:15-15:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "Norwegian (English on request)",
+    "description": "In this course you´ll learn about new database technologies to handle Big Data: Data Stream Management Systems, Complex Event Processing, Distributed and Heterogeneous Database Systems, Data Warehousing and Data Mining, Web Data Management, and Cloud Data Management."
+  },
+  {
+    "subjectCode": "IN9060",
+    "subjectName": "Kvantitativ ytelsesanalyse",
+    "lectures": [["wed", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Å forstå grensene for systemytelsen og flaskehalsene i dagens systemer er utfordrende og vitalt for utplasseringen av ethvert moderne høyytelsessystem. Emnet tar for seg teknikker du kan bruke for å korrekt analysere systemytelsen og videre finne flaskehalsene i systemet."
+  },
+  {
+    "subjectCode": "IN9070",
+    "subjectName": "The Future Internet Protocols",
+    "lectures": [["mon", "12:15-15:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "In this course you´ll learn about Multicast and CacheCast, as well as streaming through firewalls and NATS. In addition you´ll work with Mobile Ad-Hoc Networks (MANETs) and Wireless Sensor Networks (WSN), with Data Center Networks and Network Virtualization, and with Delay Tolerant Networks (DTNs) and Autonomous Networking. You´ll also learn about Software Defined Networks."
+  },
+  {
+    "subjectCode": "IN9100",
+    "subjectName": "Utvalgte emner i omskrivningslogikk",
+    "lectures": [["fri", "09:15-12:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet tar for seg utvalgte videregående temaer innen omskrivningslogikk og formelle metoder som metaprogrammering, sanntidssystemer og probabilistiske systemer. Eksempler på bruk av omskrivingslogikk til formell modellering og analyse av applikasjoner som for eksempel transportprotokoller, web-browsere og datasikkerhet, cloud-baserte databaser og transaksjonshåndtering, biokjemiske prosesser, kognitive prosesser, flysystemer og semantikk og analyse av standard programmerings- og modellingsspråk."
+  },
+  {
+    "subjectCode": "IN9110",
+    "subjectName": "Specification and Verification of Parallel Systems",
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "16:15-18:00"],
+      ["wed", "08:15-10:00"]
+    ],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course covers principles and techniques central to the automatic and formal verification of parallel and concurrent systems. In particular, logics that allow to concisely specify expected behavior, often in terms of temporal logic or related formalism. Furthermore, the lecture tackles the verification or model-checking problem, i.e. how to establish that a system model adheres to a given specification. The lecture also introduces various algorithmic approaches to battle the state-space explosion problem to handle systems with large state spaces."
+  },
+  {
+    "subjectCode": "IN9120",
+    "subjectName": "Tangible interaction",
+    "lectures": [],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Vår og høst",
+    "examination": "Vår",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir grunnleggende innføring i forskningsfeltet Tangible Interaction og gjennomgår grunnleggende litteratur og viktige rammeverk innenfor TI. Emnet gir studenter et grunnlag for å skrive masteroppgaver der de bruker eller utforsker TI som interaksjonsmekanisme. Emnet legger vekt på teoretisk forståelse av TI som forskningsfelt innenfor HCI. Mye av arbeidet i emnet fokuserer på eksperimenter med ulike deler av TI-feltet. Hvert år gis det et tema som studentene utforsker i et prosjekt som går over størstedelen av de fem ukene dette intensiv-kurset varer."
+  },
+  {
+    "subjectCode": "IN9130",
+    "subjectName": "Unassailable IT-systems",
+    "lectures": [["fri", "09:15-12:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The techniques presented have for several years been used in design of real time systems and other distributed systems. We concentrate on systems of interacting actors and model such systems in UML. Sequence Diagrams of UML are the core notation for intuitive and formal description of interaction patterns. Topics of the course include:"
+  },
+  {
+    "subjectCode": "IN9140",
+    "subjectName": "Smarte prosesser og smidige metoder i systemutvikling",
+    "lectures": [["wed", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet skal gi et solid grunnlag for å kunne delta i og lede en organisasjons utviklingsprosjekter og arbeide med å forbedre gjennomføring av slike prosjekter."
+  },
+  {
+    "subjectCode": "IN9150",
+    "subjectName": "Recent Advancements in Internet Protocols",
+    "lectures": [["thu", "10:15-12:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This research-oriented seminar explores state-of-the art developments in Internet protocols, especially transport-, network-, and application-layer protocols. The seminar offers a critical look at these Internet protocols. This will allow participants to better understand protocol shortcomings, and how new solutions try to address these shortcomings. Specific seminar topics will focus on recent Internet standards."
+  },
+  {
+    "subjectCode": "IN9170",
+    "subjectName": "Modeller for parallellitet",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir et innblikk i noen grunnleggende begreper og teknikker for spesifikasjon og resonnering om parallelle prosesser, med henblikk på tett samarbeidende tråder så vel som distribuerte og objektorienterte systemer."
+  },
+  {
+    "subjectCode": "IN9200",
+    "subjectName": "Avansert digital systemkonstruksjon",
+    "lectures": [],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet gir en grundig dekning av systematisk utvikling, simulering, syntese av avanserte digitale System-on-Chip (SoC) integrerte kretser med vekt på FPGA-teknologi (Field Programmable Gate Array). Lab-oppgaver gir praktisk erfaring i hvordan SoC design simuleres og implementeres i FPGA-hardware."
+  },
+  {
+    "subjectCode": "IN9210",
+    "subjectName": "Information Systems",
+    "lectures": [
+      ["thu", "10:15-12:00"],
+      ["fri", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This course offers a broad introduction to information systems theories. In lectures and seminars these theories are used to discuss and analyse information systems practices in organizations, such as design, development, implementation, and management. The course is based on a socio-technical understanding of information systems. A particular focus is on the complexity caused by the many user groups, stakeholders, information technologies, standards, practices etc. found in organizations. The curriculum is designed to cover classical information systems readings as well as current information systems research."
+  },
+  {
+    "subjectCode": "IN9230",
+    "subjectName": "Elektrisk støy - beregning og mottiltak",
+    "lectures": [["mon", "09:15-12:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Tettere integrasjon, mindre størrelser, høyere frekvenser og mer elektronikk fører til at elektrisk støy er en voksende utfordring for all elektronikkonstruksjon. Emnet dekker koblingsstøy (interferens) og komponentstøy (intern egenstøy). Kurset omfatter både analog og digital kretskonstruksjon fra integrert kretskonstruksjonsnivå til kretskort og valg av kabler og strømforsyning."
+  },
+  {
+    "subjectCode": "IN9240",
+    "subjectName": "Design av CMOS RF-integrete kretser",
+    "lectures": [["tue", "14:15-16:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet fokuserer på konstruksjon av CMOS RF-kretser og systemer. Det gis en grunnleggende innføring i RF kretser (matching, støy og forvrengning) med fokus på design og analyse av CMOS RF kretser som filtre (passive), forsterkere (LNA, PA), miksere, oscillatorer (VCO, ILO) og faselåste sløyfer."
+  },
+  {
+    "subjectCode": "IN9290",
+    "subjectName": "Ethical Hacking",
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["thu", "12:15-14:00"]
+    ],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "Ethical hacking covers vulnerability and penetration testing, which are essential elements in modern cybersecurity. This course introduces the concept of ethical hacking which is a crucial component in modern security management. Ethical hacking consists of testing the security of IT systems by trying to find and exploit security vulnerabilities."
+  },
+  {
+    "subjectCode": "IN9310",
+    "subjectName": "Advanced Deep Learning for Image Analysis",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "This course presents advanced methods in deep learning to work with image data, covering key advanced deep learning algorithms and concepts for training neural networks. This course will complement the introductory concepts presented in IN4310, and will build practical skills on application of deep learning to image data. The course’s focus is on advanced learning and representations techniques for image analysis and understanding, such as visual transformers, graph-based models, adversarial networks, diffusion models, recurrent networks, among others. The course will also cover self-, semi-, and unsupervised learning regimes. "
+  },
+  {
+    "subjectCode": "IN9350",
+    "subjectName": "Design av CMOS bildesensor",
+    "lectures": [["mon", "12:15-14:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir en introduksjon til CMOS bildesensorbrikker brukt i digitalkamera. Hele signalkjeden fra lys inn til jpeg-komprimert bilde vil bli dekket, inkl. piksler og avlesningskretser, A/D-konvertering, digital bildebehandling og input/output grensesnitt."
+  },
+  {
+    "subjectCode": "IN9390",
+    "subjectName": "ICT for Development: Building a Better World?",
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course concerns understanding the relationship between ICTs and development. This is an important sub-discipline within Information Systems research, and is especially relevant in current times given the new range of developmental challenges (eg humanitarian crisis, migration, security etc) being experienced and also the wide variety of new ICTs (eg internet, social media, cloud, big data etc) avaliable even in the poor countries. In this course, students will learn about different conceptual and empirical approaches to analyze ICTs, development and their relationship, to try and answer the question \"Are ICTs creating a better world in which we live?\""
+  },
+  {
+    "subjectCode": "IN9440",
+    "subjectName": "Selected Topics in Static Analysis",
+    "lectures": [],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course covers principles and techniques central to the static analysis phase of a compiler, also known as semantic analysis. Static analysis comes after the syntactic program analysis, and is concerned with the behavior of the program when later run, i.e. trying to predict the program's run-time behavior before it is actually running. The course covers techniques such as data and control flow analyses, including secure information flow and other security-related aspects, standard and non-standard type-system, and algorithmic questions."
+  },
+  {
+    "subjectCode": "IN9460",
+    "subjectName": "Kunstig intelligens for energiinformatikk",
+    "lectures": [["wed", "13:15-16:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet gir en introduksjon til hvordan teknikker for kunstig intelligens og algoritmer for datadrevne intelligente beslutninger vil anvendes i fremtidens smarte og bærekraftige energi- og transportsystemer. Hovedfokus er på anvendelsen av dyp læring og avanserte maskinlæringsteknikker. Tema i emnet inkluderer grunnleggende begreper relatert til smarte og bærekraftige energi- og transportsystemer, for eksempel etterspørselsstyring, energiforvaltning, energiinformatikk, elektrisk mobilitet og energieffektivitet, og anvendelse av dyplæringsalgoritmer og avanserte maskinlæringsbegreper for å løse typiske beslutningsproblemer for dette området."
+  },
+  {
+    "subjectCode": "IN9490",
+    "subjectName": "Advanced Topics in Artificial Intelligence for Intelligent Systems",
+    "lectures": [],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The course covers various methods within artificial intelligence (AI) and machine learning (ML), and their applications. Examples include algorithms for search, optimization and classification, which to a large extent consist of bio-inspired approaches. Examples of relevant applications include robotics, music, and health and medicine. The course syllabus will continuously be updated with methods from state-of-the-art research. The content is based on presentations from ROBIN group staff, the course participants and invited guests, and will vary depending on who is involved. Students will explore the scientific literature on a selected topic of their interest and proceed to own implementation and conducting thorough experiments under supervision of a ROBIN staff member. The experiments will be disseminated through writing a scientific paper and giving presentations. "
+  },
+  {
+    "subjectCode": "IN9520",
+    "subjectName": "Digital bildeanalyse",
+    "lectures": [],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet tar for seg metoder for analyse av digitale bilder, segmentering og beskrivelse av objekter i bilder.  Sentrale temaer er egenskapsuttrekking og klassifikasjon av objekter i bilder."
+  },
+  {
+    "subjectCode": "IN9530",
+    "subjectName": "Research Through Design",
+    "lectures": [],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "In this course, you learn about Research through Design, an approach that is gaining traction in Human-Computer Interaction.  As the name implies, the aim is to design a digital artifact, a service or a system that helps you answer a research question, understand a certain research domain better, or study the use of the designed prototype. While the methodology remains the same, different research and application areas are used every year. This implies a theme change for practical explorations. Some examples of course focus in the past are: machine learning in HCI, sustainable design in HCI, wearable technology, technology and dance."
+  },
+  {
+    "subjectCode": "IN9540",
+    "subjectName": "Privacy by Design",
+    "lectures": [["tue", "10:15-12:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "Privacy by Design is a fundamental requirement of the GDPR for all systems operating on personal information. This course provides an introduction to privacy and data protection legislation including the GDPR, privacy enhancing technologies, privacy management, designing for privacy, and privacy patterns in software design."
+  },
+  {
+    "subjectCode": "IN9620",
+    "subjectName": "Interaction with AI and autonomous systems",
+    "lectures": [["mon", "14:15-16:00"]],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "Norwegian",
+    "description": "The course introduces the evolving interdisciplinary research area of Interaction with Artificial Intelligence and autonomous systems to students who are interested in interaction, design, and use of digital systems."
+  },
+  {
+    "subjectCode": "IN9700",
+    "subjectName": "Tåke og Sky Databehandling",
+    "lectures": [["thu", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Engelsk",
+    "description": "Emnet vil gi et solid grunnlag for å forstå utfordringene og problemene som ligger til grunn for design og utvikling av tåkeberegningssystemer og applikasjoner. Dermed vil dette emnet lære å spesifisere, designe, programmere, analysere og implementere slike systemer og applikasjoner. Emnet har en betydelig programmerings komponent."
+  },
+  {
+    "subjectCode": "IN9900",
+    "subjectName": "Selected Theoretical Topics in Information Systems Development",
+    "lectures": [],
+    "credits": 10,
+    "level": "PhD",
+    "teaching": "Autumn",
+    "examination": "Autumn",
+    "teachingLanguage": "English",
+    "description": "The objective of this course is to provide a theoretical foundation for research in information systems. The course introduces core theories and current research streams in the field of information systems. It provides an understanding of the micro and macro perspectives on the utilization of information systems, and the mutual relationship between information systems and organizational and social structure and behaviour. This includes:"
+  },
+  {
+    "subjectCode": "INEC1810",
+    "subjectName": "Marknad, markedsføring og produktutvikling",
+    "lectures": [["mon", "12:15-16:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "I dette emnet lærer du hvordan kunder skapes og betjenes. Hva kunden ønsker, utforming av produkter og tjenester tilpasset dette, og kommunikasjon om det som tilbys til kunder og andre interessenter - samt hvordan forholde seg til kortsiktig og langsiktig lønnsomhet i markeder. Spesiell oppmerksomhet er viet informasjonsøkonomi - hvordan kjøp og salg av informasjonsvarer - som data og programvare - skiller seg fra fysiske varer og tjenester, samt hvordan bedriften kan styre forholdet mellom produktutvikling og markedsføring ved å tilpasse kundekrav og teknologiske muligheter i en dialog."
+  },
+  {
+    "subjectCode": "INEC1821",
+    "subjectName": "Digital økonomi, organisering og ledelse",
+    "lectures": [["wed", "10:15-12:00"]],
+    "credits": 10,
+    "level": "Bachelor",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Digital økonomi, organisering og ledelse handler om å forstå hvordan moderne organisasjoner er bygget opp og fungerer, og hvordan ledere oppnår resultater. Gjennom emnet får du grunnleggende innsikt i organisasjons- og ledelsesteori, nye digitale organisasjonsformer, og transformasjonsledelse. Det vil gis en innføring i digital økonomi, herunder digitalisering, digitale plattformer og økosystemer. Emnet vil også ta for seg hvordan bedrifter bruker regnskapsdata for å ta beslutninger."
+  },
+  {
+    "subjectCode": "INF0010",
+    "subjectName": "Forkurs i informatikk",
+    "lectures": [],
+    "credits": 0,
+    "level": "level-VS",
+    "teaching": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Forkurset i informatikk er opprettet for å gi en mykere studiestart for nye studenter på informatikkstudiet. Forkurset er for alle som skal ta IN1000, IN1900, IN-KJM1900 eller MAT-IN1105."
+  },
+  {
+    "subjectCode": "INF9571",
+    "subjectName": "Seminar i aksjonsforskning",
+    "lectures": [],
+    "credits": 10,
+    "level": "Ph.d.",
+    "teaching": "Vår og høst",
+    "examination": "Vår",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Seminar i kvalitativ forskningsmetode innen Information Systems, med vekt på aksjonsforskning."
+  },
+  {
+    "subjectCode": "ITEVU4020",
+    "subjectName": "IT Governance",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en oversikt over sentrale problemstillinger, teorier og rammeverk i forbindelse med styring av moderne IT-løsninger. Emnets kunnskapsgrunnlag er teorier og rammeverk om IT Governance, supplert med empirisk forskning om praktiske erfaringer. Hovedmålet er å gi deltakerne et bedre grunnlag for arbeid i lederposisjoner med IT-ansvar. Det legges vekt på å utvikle deltakernes evne til å være kritisk konstruktiv i forhold til rammeverkene."
+  },
+  {
+    "subjectCode": "ITEVU4040",
+    "subjectName": "Gjennomføring av prosjekter i egen virksomhet",
+    "lectures": [],
+    "credits": 5,
+    "level": "Master",
+    "teaching": "Vår og høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet skal gi en oversikt over sentrale metoder, verktøy og utfordringer for problemutredning og problemløsning i forbindelse med forskning og allment analytisk arbeid. Emnet skal gi studentene tilstrekkelig metodekunnskap for å kunne skrive gode prosjektoppgaver i de andre Etter- og Videreutdannings-emnene, og det anbefales derfor at emnet tas tidlig i studieløpet, gjerne som første emne. ITEVU4040 er en videreføring av ITLED4041, og erstatter sammen med ITLED4050 det tidligere metodeemnet ITLED4040 ."
+  },
+  {
+    "subjectCode": "ITEVU4261",
+    "subjectName": "IT-arkitektur",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en oversikt over moderne IT-arkitekturer, på ulike nivåer som plattform økosystemer, virksomhetsarkitektur og programvarearkitektur. Det legges vekt på forholdet mellom arkitektur og innovasjon, både i privat og offentlig sektor. Emnets kunnskapsgrunnlag er forskning og teorier om arkitektur, supplert med empirisk forskning om praktiske erfaringer. Emnet behandler også transisjon - hvordan kombinere det gamle med det nye. Hovedmålet er å gi studentene et helhetlig grunnlag for arbeid med IT-arkitektur. Det legges vekt på å utvikle studentens evne til å være kritisk konstruktiv i forhold til rammeverkene. Deltakernes egen erfaringsbakgrunn og jobbutfordringer vil bli trukket inn i undervisningen."
+  },
+  {
+    "subjectCode": "ITEVU4330",
+    "subjectName": "Robusthet i store og komplekse software systemer",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet inngår i det erfaringsbaserte fagtilbudet (EVU) ved Institutt for Informatikk, og er et obligatorisk emne i årsenheten for IT-arkitektur."
+  },
+  {
+    "subjectCode": "ITEVU4360",
+    "subjectName": "IT-arkitektur og Digital innovasjon",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet inngår i det erfaringsbaserte fagtilbudet (EVU) ved Institutt for informatikk, og er et obligatorisk emne i årsenheten for IT-arkitektur. Emnet gir en oversikt over forskning på digital innovasjon og forretningsutvikling. Spesifikt tar emnet opp design av god IT-arkitektur for å muliggjøre ny forretningsutvikling. Det vil også bli gjennomgått hvordan digital teknologi kan understøtte nye forretningsmodeller ved hjelp av data-drevne løsninger og arkitekturer. Eksempler og læringscase vil bli gjennomgått i undervisningen."
+  },
+  {
+    "subjectCode": "ITLED4050",
+    "subjectName": "Design av masteroppgaven",
+    "lectures": [],
+    "credits": 5,
+    "level": "Master",
+    "teaching": "Vår og høst",
+    "examination": "Vår og høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en grundig innføring i muligheter og begrensninger ved ulike typer forskningsstrategier og forskningsdesign."
+  },
+  {
+    "subjectCode": "ITLED4230",
+    "subjectName": "Ledelse av informasjonssikkerhet",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Dette emnet gir kunnskap om sikkerhetsledelse samt en bred innføring i informasjonssikkerhet."
+  },
+  {
+    "subjectCode": "ITLED4290",
+    "subjectName": "Teknologi og innovasjonsledelse",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet har et tverrfaglig kunnskapsgrunnlag hentet fra innovasjonsstudier, organisasjonsteori, sosiologi, antropologi, informatikk, økonomi og STS (science, technology and society/science and technology studies). Praktiske eksempler kombineres med teori for å gi en dypere forståelse av mulighetene som ligger i samspillet mellom teknologi, organisering og forretning. På et forskningsbasert grunnlag vil studentene lære å forholde seg konstruktivt kritisk til hva det faktisk innebærer for en organisasjon å være innovativ og lærende. Temaer som gjennomgås er blant annet: hva er innovasjon, typer innovasjon, kilder til innovasjon, innovasjonsstrategier, innovasjonsledelse, prosessmodeller og innovasjon i ulike kontekster."
+  },
+  {
+    "subjectCode": "ITLED4310",
+    "subjectName": "Digitalisering",
+    "lectures": [],
+    "credits": 10,
+    "level": "Master",
+    "teaching": "Vår og høst",
+    "examination": "Vår",
+    "teachingLanguage": "Norsk",
+    "description": "Emnet gir en oversikt over sentrale problemstillinger, teorier og teknologier i forbindelse med digitalisering og digital transformasjon. Emnets kunnskapsgrunnlag er i hovedsak forskningsartikler om digitalisering og digital transformasjon, supplert med empirisk forskning om erfaringer med digitalisering i praksis. Hovedmålet er å gi deltakerne et bedre grunnlag for arbeid med digitaliseringsprosjekter - hva er mulighetene og hva er fallgruvene? Hva innebærer digitalisering for dine ansatte, kunder og for samfunnet forøvrig? Det legges vekt på å utvikle deltakernes evne til å være kritisk konstruktiv i forhold til begreper og teorier. Deltakernes egen erfaringsbakgrunn og jobbutfordringer vil bli trukket frem."
+  },
+  {
+    "subjectCode": "ITLED4420",
+    "subjectName": "Digital Innovasjon",
+    "lectures": [],
+    "credits": 5,
+    "level": "Master",
+    "teaching": "Vår og høst",
+    "examination": "Høst",
+    "teachingLanguage": "Norsk (engelsk på forespørsel)",
+    "description": "Emnet inngår i det erfaringsbaserte fagtilbudet (EVU) ved Institutt for Informatikk. Emnet gir en innsikt og oversikt over forskning innen digital innovasjon: Digitale innovasjonsprosesser og -ressurser, forretningsmodell innovasjon (fra produktbasert til ytelsesbasert), bruk av teknologi for faktabaserte beslutninger og fra kalenderbaserte til behovsbaserte tjenester, digitaliserings- og tjenestefiseringsprosesser og produkt-tjeneste-systemer. "
+  }
 ]
