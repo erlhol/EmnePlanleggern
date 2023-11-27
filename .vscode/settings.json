@@ -1,0 +1,37 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "files.trimFinalNewlines": true,
+      "files.trimTrailingWhitespace": true,
+      "editor.wordWrap": "bounded",
+      "editor.tabSize": 2,
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "diffEditor.ignoreTrimWhitespace": false,
+      "eslint.alwaysShowStatus": true,
+      "eslint.format.enable": true,
+      "eslint.packageManager": "yarn",
+      "eslint.workingDirectories": [],
+      "prettier.arrowParens": "avoid",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+      "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+      "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+      "files.autoSave": "afterDelay"
+}
