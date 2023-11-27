@@ -8,6 +8,15 @@ import { useState } from "react";
 import { Navigation } from "./Navigation";
 import classes from "./App.module.css";
 import chroma from "chroma-js";
+import Drawer from "@mui/material/Drawer";
+import Toolbar from "@mui/material/Toolbar";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import SchoolIcon from "@mui/icons-material/School";
+import ListItemText from "@mui/material/ListItemText";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 function generateRandomColor() {
   let color;
@@ -62,6 +71,27 @@ function App() {
   return (
     <div className="App">
       <div className={classes.container}>
+        <Drawer variant="permanent" anchor="left">
+          <Toolbar />
+          <List>
+            <ListItem key={"Calendar"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <CalendarMonthIcon />
+                </ListItemIcon>
+                <ListItemText primary={"Calendar"} />
+              </ListItemButton>
+            </ListItem>
+            <ListItem key={"Courses"} disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <SchoolIcon />
+                </ListItemIcon>
+                <ListItemText primary={"Courses"} />
+              </ListItemButton>
+            </ListItem>
+          </List>
+        </Drawer>
         <div className={classes.left}>
           <Navigation
             activePage={activePage}
