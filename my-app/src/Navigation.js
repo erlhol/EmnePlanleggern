@@ -1,8 +1,9 @@
 import React from "react";
 import calendar_icon from "./icons/calendar-clock.png";
 import learning_icon from "./icons/learning.png";
+import { useNavigate, useLocation } from "react-router-dom";
 
-function ImageWithStyle({ pageHandler, icon, isActive, name }) {
+function ImageWithStyle({ onClick, icon, isActive, name }) {
   const imageStyle = {
     maxWidth: "60px",
     maxHeight: "60px",
@@ -12,13 +13,18 @@ function ImageWithStyle({ pageHandler, icon, isActive, name }) {
 
   return (
     <div style={{ backgroundColor: isActive ? "lightblue" : "transparent" }}>
-      <img onClick={pageHandler} style={imageStyle} src={icon} alt="img" />
+      <img onClick={onClick} style={imageStyle} src={icon} alt="img" />
       <p>{name}</p>
     </div>
   );
 }
 
-export function Navigation(props) {
+export function Navigation() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const handleClick = value => {
+    navigate(value);
+  };
   return (
     <div
       style={{
@@ -28,15 +34,15 @@ export function Navigation(props) {
       }}
     >
       <ImageWithStyle
-        pageHandler={() => props.activePageHandler("Calendar")}
+        onClick={() => handleClick("/schedule")}
         icon={calendar_icon}
-        isActive={props.activePage === "Calendar"}
-        name={"Calendar"}
+        isActive={location.pathname === "/schedule"}
+        name={"Schedule"}
       />
       <ImageWithStyle
-        pageHandler={() => props.activePageHandler("Courses")}
+        onClick={() => handleClick("/courses")}
         icon={learning_icon}
-        isActive={props.activePage === "Courses"}
+        isActive={location.pathname === "/courses"}
         name={"Courses"}
       />
     </div>
