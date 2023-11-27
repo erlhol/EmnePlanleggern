@@ -1,23 +1,13 @@
 import React from "react";
-import calendar_icon from "./icons/calendar-clock.png";
-import learning_icon from "./icons/learning.png";
 import { useNavigate, useLocation } from "react-router-dom";
-
-function ImageWithStyle({ onClick, icon, isActive, name }) {
-  const imageStyle = {
-    maxWidth: "60px",
-    maxHeight: "60px",
-    width: "auto",
-    height: "auto",
-  };
-
-  return (
-    <div style={{ backgroundColor: isActive ? "lightblue" : "transparent" }}>
-      <img onClick={onClick} style={imageStyle} src={icon} alt="img" />
-      <p>{name}</p>
-    </div>
-  );
-}
+import Drawer from "@mui/material/Drawer";
+import Toolbar from "@mui/material/Toolbar";
+import List from "@mui/material/List";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import SchoolIcon from "@mui/icons-material/School";
+import ListItemText from "@mui/material/ListItemText";
+import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
 export function Navigation() {
   const location = useLocation();
@@ -26,25 +16,29 @@ export function Navigation() {
     navigate(value);
   };
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "20px",
-      }}
-    >
-      <ImageWithStyle
-        onClick={() => handleClick("/schedule")}
-        icon={calendar_icon}
-        isActive={location.pathname === "/schedule"}
-        name={"Schedule"}
-      />
-      <ImageWithStyle
-        onClick={() => handleClick("/courses")}
-        icon={learning_icon}
-        isActive={location.pathname === "/courses"}
-        name={"Courses"}
-      />
-    </div>
+    <Drawer variant="permanent" anchor="left">
+      <Toolbar />
+      <List>
+        <ListItemButton
+          onClick={() => handleClick("/schedule")}
+          selected={location.pathname === "/schedule"}
+        >
+          <ListItemIcon>
+            <CalendarMonthIcon />
+          </ListItemIcon>
+          <ListItemText primary={"Calendar"} />
+        </ListItemButton>
+
+        <ListItemButton
+          onClick={() => handleClick("/courses")}
+          selected={location.pathname === "/courses"}
+        >
+          <ListItemIcon>
+            <SchoolIcon />
+          </ListItemIcon>
+          <ListItemText primary={"Courses"} />
+        </ListItemButton>
+      </List>
+    </Drawer>
   );
 }
