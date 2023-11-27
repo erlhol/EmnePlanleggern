@@ -23,7 +23,6 @@ export function Navigation() {
   const location = useLocation();
   const navigate = useNavigate();
   const handleClick = value => {
-    console.log("Hei");
     navigate(value);
   };
   return (
