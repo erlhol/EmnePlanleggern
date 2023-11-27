@@ -8,13 +8,13 @@ import { useState } from "react";
 import { Navigation } from "./Navigation";
 import classes from "./App.module.css";
 import { generateRandomColor } from "./utilities/utility";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   /* The entry point for the webapp
     Handles selected subjects (the subjects you have chosen)
     Renders all of the needed components*/
 
-  const [activePage, setActivePage] = useState("Calendar");
   const [selectedSubjects, setSelectedSubjects] = useState(
     JSON.parse(localStorage.getItem("selectedSubjects")) || []
   );
@@ -31,10 +31,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem("selectedSubjects", JSON.stringify(selectedSubjects));
   }, [selectedSubjects]);
-
-  function activePageHandler(page) {
-    setActivePage(page);
-  }
 
   const onSetSelectedSubjects = (subject, should_add) => {
     if (should_add) {
@@ -53,28 +49,32 @@ function App() {
     <div className="App">
       <div className={classes.container}>
         <div className={classes.left}>
-          <Navigation
-            activePage={activePage}
-            activePageHandler={activePageHandler}
-          />
+          <Navigation />
         </div>
         <div className={classes.right}>
-          {activePage === "Calendar" && (
-            <div>
-              <Schedule
-                allSubjects={courses}
-                selected={selectedSubjects}
-                changeSelected={onSetSelectedSubjects}
-              ></Schedule>
-            </div>
-          )}
-          {activePage === "Courses" && (
-            <Courses
-              subjects={courses}
-              selected={selectedSubjects}
-              changeSelected={onSetSelectedSubjects}
-            ></Courses>
-          )}
+          <Routes>
+            <Route
+              path="/schedule"
+              element={
+                <Schedule
+                  allSubjects={courses}
+                  selected={selectedSubjects}
+                  changeSelected={onSetSelectedSubjects}
+                ></Schedule>
+              }
+            />
+            <Route
+              path="/courses"
+              element={
+                <Courses
+                  subjects={courses}
+                  selected={selectedSubjects}
+                  changeSelected={onSetSelectedSubjects}
+                ></Courses>
+              }
+            />
+            <Route path="*" element={<Navigate to="/schedule" />} />
+          </Routes>
         </div>
       </div>
       <a href="mailto:erlinhol@uio.no">Kontakt Erling Holte på mail</a>
