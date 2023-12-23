@@ -20,9 +20,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
-  "eslint.packageManager": "yarn",
   "eslint.workingDirectories": [],
   "prettier.arrowParens": "avoid",
   "editor.formatOnPaste": true,
