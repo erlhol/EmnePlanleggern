@@ -4,13 +4,16 @@
 }
 
 .left {
-  min-height: 100vh;
-  padding-top: 20px;
+  width: 160px;
+  height: 100%;
+  padding-top: 24px;
+  position: fixed;
 }
 
 .right {
   flex-grow: 1;
-  min-height: 100vh;
+  margin-left: 160px;
   padding: 26px 16px 0;
-  background: #c8d4f7b8;
+  background: #f8f9fa;
+  padding-bottom: 24px;
 }
