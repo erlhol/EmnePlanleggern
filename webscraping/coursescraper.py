@@ -130,7 +130,7 @@ def crawl_course(link, url, json_list):
         fact_dict["subjectName"] = subjectName
         fact_dict["lectures"] = []
         fact_dict["grading"] = get_grading_scale(page_soup)
-        print(fact_dict["grading"])
+        fact_dict["examinationdate"] = ""
 
         # Find all divs with class 'vrtx-distach-bottom vrtx-facts'
         facts_divs = page_soup.find_all("div", id="vrtx-additional-content")
@@ -161,9 +161,10 @@ def crawl_course(link, url, json_list):
                 print(
                     "No <p> element found after the header with id 'learning_outcomes'."
                 )
-
-        fact_dict["lectures"] = crawl_calendar_info(page_soup)
+        lectures, examdate = crawl_info(page_soup)
+        fact_dict["lectures"] = lectures
         fact_dict["credits"] = float(fact_dict["credits"])
+        fact_dict["examinationdate"] = examdate
 
 
 def find_activites(ref):
@@ -199,41 +200,58 @@ def find_timeplan(href):
     return []
 
 
-def crawl_calendar_info(soup):
+def find_time_and_place(ref):
+    print("EXAM Info 3")
+    print("Getting:", ref)
+    response = requests.get(ref)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, "html.parser")
+        exam_date = soup.find("p", class_="exam-date")
+        if exam_date:
+            print(exam_date)
+            return exam_date.text
+    return ""
+
+
+def find_examdate(href):
+    print("EXAM Info 2")
+    response = requests.get(href)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        target_element = soup.find("a", string="Eksamen: Tid og sted")
+        if target_element != None:
+            ref = target_element.get("href")
+            return find_time_and_place(ref)
+
+        target_element2 = soup.find("a", string="Examination: Time and place")
+        if target_element2 != None:
+            ref2 = target_element2.get("href")
+            return find_time_and_place(ref2)
+    return []
+
+
+def crawl_info(soup):
     # First: select the first link, that is the most recent semester
     # Then: follow link to "Timeplan / schedule"
     # Last: Crawl the page for all the "forelesninger"
     # This should be a dictionary with two key-value pairs.
     # One is "Forelesninger, the other is "Gruppeundervisning"
-    target_element = soup.find(
-        "a",
-        string="""
-
-            Autumn 2023
-
-
-          """,
-    )
+    target_element = soup.find("a", string=re.compile(r"Spring\s*2024"))
     target_element2 = soup.find(
         "a",
-        string="""
-
-            Høst 2023
-
-
-          """,
+        string=re.compile(r"Vår\s*2024"),
     )
     if target_element != None:
         href = target_element.get("href")
-        return find_timeplan(href)
+        return find_timeplan(href), find_examdate(href)
     if target_element2 != None:
         href2 = target_element2.get("href")
-        return find_timeplan(href2)
+        return find_timeplan(href2), find_examdate(href2)
 
-    return []
+    return [], ""
 
 
 if __name__ == "__main__":
-    start_url = "https://www.uio.no/studier/emner/alle/?filter.semester=h23"
-    # ifi_url = 'https://www.uio.no/studier/emner/matnat/ifi/?filter.semester=h23'
+    start_url = "https://www.uio.no/studier/emner/matnat/?filter.semester=v24"
     crawl_pages(start_url)

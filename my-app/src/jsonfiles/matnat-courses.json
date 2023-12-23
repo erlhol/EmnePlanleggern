@@ -2,8 +2,12 @@
   {
     "subjectCode": "AST1010",
     "subjectName": "Astronomi - en kosmisk reise",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      22. april \n      \n      \n      kl. 09:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -14,8 +18,12 @@
   {
     "subjectCode": "AST3220",
     "subjectName": "Kosmologi I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -26,8 +34,9 @@
   {
     "subjectCode": "AST3310",
     "subjectName": "Astrofysiske plasma og stjernenes indre",
-    "lectures": [],
+    "lectures": [["thu", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -40,6 +49,7 @@
     "subjectName": "Numerisk modellering",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Undervisning og eksamen tilbys kun om våren fra og med våren 2023.Dersom emnet tilbys kreves det at minst 3 studenter melder seg på for å ha ordinær undervisning. Hvis det er færre enn 3 studenter som deltar kan emnet organiseres som spesialpensum, men man kan ikke påregne ordinær undervisning. Ta kontakt med studieadministrasjonen dersom du er interessert i å ta dette emnet.",
@@ -50,8 +60,12 @@
   {
     "subjectCode": "AST5220",
     "subjectName": "Kosmologi II",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -62,8 +76,12 @@
   {
     "subjectCode": "AST5770",
     "subjectName": "Sol- og stjernefysikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -76,6 +94,7 @@
     "subjectName": "Numerisk modellering",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Undervisning og eksamen tilbys kun om våren fra og med våren 2023.Dersom emnet tilbys kreves det at minst 3 studenter melder seg på for å ha ordinær undervisning. Hvis det er færre enn 3 studenter som deltar kan emnet organiseres som spesialpensum, men man kan ikke påregne ordinær undervisning. Ta kontakt med studieadministrasjonen dersom du er interessert i å ta dette emnet.",
@@ -86,8 +105,9 @@
   {
     "subjectCode": "AST9310",
     "subjectName": "Stjerneatmosfærer II",
-    "lectures": [],
+    "lectures": [["wed", "14:15-15:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -98,8 +118,12 @@
   {
     "subjectCode": "AST9420",
     "subjectName": "Kosmologi II",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -112,6 +136,7 @@
     "subjectName": "Bioinformatics for Environmental Sequencing (DNA metabarcoding)",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Every other spring",
@@ -122,8 +147,12 @@
   {
     "subjectCode": "BIOS1010",
     "subjectName": "Introduksjon i rettsmedisin",
-    "lectures": [],
+    "lectures": [
+      ["mon", "08:15-10:00"],
+      ["tue", "08:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      11. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -134,8 +163,9 @@
   {
     "subjectCode": "BIOS1120",
     "subjectName": "Fysiologi",
-    "lectures": [],
+    "lectures": [["mon", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      19. februar \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -146,8 +176,12 @@
   {
     "subjectCode": "BIOS1130",
     "subjectName": "Biokjemi 1",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      22. mars \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -158,8 +192,12 @@
   {
     "subjectCode": "BIOS2100",
     "subjectName": "Generell økologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["fri", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      29. april \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -170,8 +208,12 @@
   {
     "subjectCode": "BIOS2220",
     "subjectName": "Akvatisk biomangfold",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -182,8 +224,13 @@
   {
     "subjectCode": "BIOS2910",
     "subjectName": "Molekylærbiologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "10:15-11:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 3 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -196,6 +243,7 @@
     "subjectName": "Design og analyse av biologiske studier",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Kurset undervises ikke i vårsemesteret 2024. Kurset undervises neste gang våren 2025.",
@@ -206,8 +254,12 @@
   {
     "subjectCode": "BIOS3010",
     "subjectName": "Bioinformatikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -218,8 +270,13 @@
   {
     "subjectCode": "BIOS3050",
     "subjectName": "Arbeidspraksis i biovitenskap",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-17:00"],
+      ["thu", "08:15-10:00"],
+      ["fri", "08:15-11:00"]
+    ],
     "grading": false,
+    "examinationdate": "Tid: \n      18. juni \n      \n      \n      kl. 10:30\n      \n       (5 timer 30 minutter).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Høst 2019, så hvert vårsemester fra våren 2020.",
@@ -230,8 +287,9 @@
   {
     "subjectCode": "BIOS3060",
     "subjectName": "Forskningspraksis i biovitenskap",
-    "lectures": [],
+    "lectures": [["fri", "08:15-10:00"]],
     "grading": false,
+    "examinationdate": "Tid: \n      23. mai \n      \n      \n      kl. 13:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -242,8 +300,13 @@
   {
     "subjectCode": "BIOS3100",
     "subjectName": "Evolusjon",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "08:15-10:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -254,8 +317,12 @@
   {
     "subjectCode": "BIOS3700",
     "subjectName": "Cellebiologi 2",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -266,8 +333,12 @@
   {
     "subjectCode": "BIOS3910",
     "subjectName": "Mikrobiologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "08:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -278,8 +349,12 @@
   {
     "subjectCode": "BIOS3920",
     "subjectName": "Forskningslitteratur i kreftbiologi",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      May 28 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -292,6 +367,7 @@
     "subjectName": "Design og analyse av biologiske studier",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet undervises ikke i vårsemesteret 2024. Emnet undervises neste gang våren 2025.",
@@ -302,8 +378,13 @@
   {
     "subjectCode": "BIOS4100",
     "subjectName": "Evolusjon",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "08:15-10:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -316,6 +397,7 @@
     "subjectName": "Norsk naturvariasjon - typeinndeling, beskrivelse og kartlegging av natur basert på Natur i Norge (NiN)",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Vår og høst samme år",
@@ -328,6 +410,7 @@
     "subjectName": "Evolusjon og systematikk i utvalgte grupper: dyreriket",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Annenhver vår",
@@ -338,8 +421,12 @@
   {
     "subjectCode": "BIOS4216",
     "subjectName": "Evolusjon og systematikk i utvalgte grupper: planteriket",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Annenhver vår",
@@ -350,8 +437,12 @@
   {
     "subjectCode": "BIOS4315",
     "subjectName": "Fiskeøkologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -362,8 +453,12 @@
   {
     "subjectCode": "BIOS4400",
     "subjectName": "Pelagisk økologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      21. mai \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -376,6 +471,7 @@
     "subjectName": "Elektronmikroskopi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -388,6 +484,7 @@
     "subjectName": "Gradientanalyseteknikker",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -400,6 +497,7 @@
     "subjectName": "Fylogeni og klassifikasjon",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      3. april \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -410,8 +508,9 @@
   {
     "subjectCode": "BIOS5214",
     "subjectName": "Biogeografi og biodiversitet",
-    "lectures": [],
+    "lectures": [["fri", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      17. april \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Annenhver vår",
@@ -424,6 +523,7 @@
     "subjectName": "Evolusjon og systematikk i utvalgte grupper: soppriket",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Annenhver vår. Emnet går neste gang våren 2025.",
@@ -436,6 +536,7 @@
     "subjectName": "Marine algers systematikk og økologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      12. april \n      \n      \n      kl. 09:00\n      \n       (1 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -448,6 +549,7 @@
     "subjectName": "Identification of Marine Microalgae and Macroalgae",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n      \n        \n          \n        \n\n        \n          The course is last held\n          spring 2023",
@@ -460,6 +562,7 @@
     "subjectName": "Regulatorisk toksikologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -470,8 +573,12 @@
   {
     "subjectCode": "BIOS5610",
     "subjectName": "Eukaryote gener og genomer",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "08:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      April 19 \n      \n      \n      at 9:00 AM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -482,8 +589,12 @@
   {
     "subjectCode": "BIOS5710",
     "subjectName": "Advanced Cancer Biology",
-    "lectures": [],
+    "lectures": [
+      ["fri", "10:15-12:00"],
+      ["fri", "10:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      April 5 \n      \n      \n      at 9:00 AM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -494,8 +605,12 @@
   {
     "subjectCode": "BIOS5812",
     "subjectName": "Avansert fysiologi og nevrobiologi",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-15:00"],
+      ["thu", "10:15-15:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      11. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -506,8 +621,12 @@
   {
     "subjectCode": "BIOS5910",
     "subjectName": "Molecular biology of microbes - host interactions",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      May 15 \n      \n      \n      at 9:00 AM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -520,6 +639,7 @@
     "subjectName": "Masteroppgave i biovitenskap, Lektorprogrammet",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -532,6 +652,7 @@
     "subjectName": "Biovitenskap. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -544,6 +665,7 @@
     "subjectName": "Elektronmikroskopi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -556,6 +678,7 @@
     "subjectName": "Gradientanalyseteknikker",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -568,6 +691,7 @@
     "subjectName": "Fylogeni og klassifikasjon",
     "lectures": [],
     "grading": false,
+    "examinationdate": "Tid: \n      3. april \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -578,8 +702,9 @@
   {
     "subjectCode": "BIOS9214",
     "subjectName": "Biogeografi og biodiversitet",
-    "lectures": [],
+    "lectures": [["fri", "09:15-12:00"]],
     "grading": false,
+    "examinationdate": "Tid: \n      17. april \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Annenhver vår",
@@ -592,6 +717,7 @@
     "subjectName": "Evolusjon og systematikk i utvalgte grupper: soppriket",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Annenhver vår. Emnet går neste gang våren 2025.",
@@ -604,6 +730,7 @@
     "subjectName": "Marine algers systematikk og økologi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "Tid: \n      12. april \n      \n      \n      kl. 09:00\n      \n       (1 timer).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -616,6 +743,7 @@
     "subjectName": "Regulatorisk toksikologi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -626,8 +754,12 @@
   {
     "subjectCode": "BIOS9500",
     "subjectName": "Scientific Writing",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-15:00"],
+      ["wed", "12:15-15:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -640,6 +772,7 @@
     "subjectName": "Biomolecular NMR",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -649,8 +782,12 @@
   {
     "subjectCode": "BIOS9610",
     "subjectName": "Eukaryote gener og genomer",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "08:15-10:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      April 19 \n      \n      \n      at 9:00 AM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -661,8 +798,12 @@
   {
     "subjectCode": "BIOS9710",
     "subjectName": "Advanced Cancer Biology",
-    "lectures": [],
+    "lectures": [
+      ["fri", "10:15-12:00"],
+      ["fri", "10:15-16:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      April 5 \n      \n      \n      at 9:00 AM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -673,8 +814,12 @@
   {
     "subjectCode": "BIOS9812",
     "subjectName": "Avansert fysiologi og nevrobiologi",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-15:00"],
+      ["thu", "10:15-15:00"]
+    ],
     "grading": false,
+    "examinationdate": "Tid: \n      11. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -685,8 +830,12 @@
   {
     "subjectCode": "BIOS9910",
     "subjectName": "Molecular biology of microbes - host interactions",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      May 15 \n      \n      \n      at 9:00 AM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -699,6 +848,7 @@
     "subjectName": "CS: Materials Science. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -711,6 +861,7 @@
     "subjectName": "CS: Materials Science. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -723,6 +874,7 @@
     "subjectName": "CS: Physics. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -735,6 +887,7 @@
     "subjectName": "Fra idé til virksomhet - intensivt",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår",
@@ -747,6 +900,7 @@
     "subjectName": "Entrepreneurship and Internationalisation",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -757,8 +911,9 @@
   {
     "subjectCode": "ENT4340",
     "subjectName": "Managing New Venture Growth",
-    "lectures": [],
+    "lectures": [["wed", "12:15-15:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -769,8 +924,9 @@
   {
     "subjectCode": "ENT4350",
     "subjectName": "Entrepreneurial Sales and Marketing",
-    "lectures": [],
+    "lectures": [["thu", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -783,6 +939,7 @@
     "subjectName": "Student Venture Creation Project",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Master",
     "teaching": "Spring",
@@ -793,8 +950,12 @@
   {
     "subjectCode": "ENT4505",
     "subjectName": "Sosialt entreprenørskap",
-    "lectures": [],
+    "lectures": [
+      ["fri", "10:15-17:00"],
+      ["fri", "10:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår",
@@ -807,6 +968,7 @@
     "subjectName": "Innovation and Intellectual Property Rights",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -819,6 +981,7 @@
     "subjectName": "Bioanalytisk kjemi I: Avansert bioanalyse i livsvitenskap",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      30. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -831,6 +994,7 @@
     "subjectName": "Bioanalytisk kjemi I: Avansert bioanalyse i livsvitenskap",
     "lectures": [],
     "grading": false,
+    "examinationdate": "Tid: \n      30. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -843,6 +1007,7 @@
     "subjectName": "Farmasøytisk rettet organisk kjemi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      3. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -855,6 +1020,7 @@
     "subjectName": "Farmakologi, fysiologi og cellebiologi 2",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -867,6 +1033,7 @@
     "subjectName": "Farmasøytisk rettet biokjemi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      6. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -879,6 +1046,7 @@
     "subjectName": "Legemiddelanalyse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 09:00\n      \n       (7 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -891,6 +1059,7 @@
     "subjectName": "OE i legemiddelananlyse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Emnet avholdes ved behov.\n\n          Undervisning tilbys siste gang\n          vår 2019",
@@ -903,6 +1072,7 @@
     "subjectName": "Farmasøytisk mikrobiologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -915,6 +1085,7 @@
     "subjectName": "OE i farmasøytisk mikrobiologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Emnet avholdes ved behov.\n\n          Undervisning tilbys siste gang\n          vår 2019",
@@ -926,6 +1097,7 @@
     "subjectName": "Legemiddelformulering og kvalitetssikring ved produksjon",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -938,6 +1110,7 @@
     "subjectName": "Farmasøytisk praksis",
     "lectures": [],
     "grading": false,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 08:00\n      \n       (9 timer).",
     "credits": 30.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -950,6 +1123,7 @@
     "subjectName": "Anvendt statistikk for farmasøyter",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -962,6 +1136,7 @@
     "subjectName": "Kvalitetssikring ved produksjon og klinisk utprøvning av legemidler",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      25. april \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -974,6 +1149,7 @@
     "subjectName": "Industriell farmasi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      13. mai \n      \n      \n      kl. 09:00\n      \n       (7 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -986,6 +1162,7 @@
     "subjectName": "Klinisk- og sykehusfarmasi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet avholdes ikke våren 2024.",
@@ -998,6 +1175,7 @@
     "subjectName": "Idrettsfarmasi og antidoping",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1010,6 +1188,7 @@
     "subjectName": "Anvendt farmakokinetikk og dosering i klinisk praksis",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      24. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1022,6 +1201,7 @@
     "subjectName": "Legemidler ved behandling av degenerative- og livsstilssykdommer",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      14. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1034,6 +1214,7 @@
     "subjectName": "Nye legemiddelformer",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet avholdes ikke våren 2024.",
@@ -1046,6 +1227,7 @@
     "subjectName": "Farmakoepidemiologi og legemiddelovervåkning i praksis",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Time: \n      May 29 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1058,6 +1240,7 @@
     "subjectName": "Masteroppgave i farmasi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 45.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -1070,6 +1253,7 @@
     "subjectName": "Avansert molekylær og farmasøytisk mikrobiologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Time: \n      May 21 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1082,6 +1266,7 @@
     "subjectName": "Planlegging av masteroppgaven i klinisk farmasi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -1094,6 +1279,7 @@
     "subjectName": "Pharmaceutical research project",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Master",
     "teaching": "Spring and autumn",
@@ -1106,6 +1292,7 @@
     "subjectName": "Klinisk biokjemi i relasjon til legemiddelbruk",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1118,6 +1305,7 @@
     "subjectName": "Persontilpasset legemiddeladministrasjon",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Maksimalt antall deltakere er 15. Ved få påmeldte kan emnet bli avlyst.",
@@ -1130,6 +1318,7 @@
     "subjectName": "Videregående emne i farmakoterapi i psykiatri og nevrologi med vekt på eldre pasienter",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet avholdes ikke våren 2024.",
@@ -1142,6 +1331,7 @@
     "subjectName": "Videregående farmakoterapi med vekt på antimikrobielle midler",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -1154,6 +1344,7 @@
     "subjectName": "Photobiology",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        The course is held irregularly. It is uncertain when the course will be held next time.",
@@ -1165,6 +1356,7 @@
     "subjectName": "Introduction to and Application of Propensity Scores",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        The course is held irregularly. It is uncertain when the course will be held next time.",
@@ -1177,6 +1369,7 @@
     "subjectName": "Real World Research - Qualitative Methods",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring and autumn\n      \n      \n        The course is held irregularly. It is uncertain when the course will be held next time.",
@@ -1188,6 +1381,7 @@
     "subjectName": "Mekanikk",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Emnet undervises siste gang våren 2022.\n\n          Undervisning tilbys siste gang\n          vår 2022",
@@ -1198,8 +1392,9 @@
   {
     "subjectCode": "FYS1001",
     "subjectName": "Innføring i fysikk",
-    "lectures": [],
+    "lectures": [["fri", "08:15-10:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      20. mars \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1210,8 +1405,13 @@
   {
     "subjectCode": "FYS1030",
     "subjectName": "Fysikk og energiressurser",
-    "lectures": [],
+    "lectures": [
+      ["fri", "12:15-14:00"],
+      ["fri", "12:15-15:00"],
+      ["fri", "12:15-16:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1222,8 +1422,9 @@
   {
     "subjectCode": "FYS1040",
     "subjectName": "Introduksjon til nukleærteknologi",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Dette emnet vil bli undervist fra våren 2024.",
@@ -1234,8 +1435,12 @@
   {
     "subjectCode": "FYS1100",
     "subjectName": "Mekanikk og modellering",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      20. mars \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -1248,6 +1453,7 @@
     "subjectName": "Klassisk mekanikk",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1258,8 +1464,12 @@
   {
     "subjectCode": "FYS1210",
     "subjectName": "Elektronikk med prosjektoppgaver",
-    "lectures": [],
+    "lectures": [
+      ["mon", "08:15-10:00"],
+      ["tue", "12:15-13:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1270,8 +1480,12 @@
   {
     "subjectCode": "FYS2130",
     "subjectName": "Svingninger og bølger",
-    "lectures": [],
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "10:15-11:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      14. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1282,8 +1496,12 @@
   {
     "subjectCode": "FYS2140",
     "subjectName": "Kvantefysikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1294,8 +1512,9 @@
   {
     "subjectCode": "FYS2150",
     "subjectName": "Eksperimentalfysikk",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1308,6 +1527,7 @@
     "subjectName": "Statistisk mekanikk og termisk fysikk - Seminarvariant",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1320,6 +1540,7 @@
     "subjectName": "Romteknologi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Bachelor",
     "teaching": "Vår og høst\n      \n      \n        Emnet er et samarbeid mellom norske og kanadiske universiteter og gjennomføres med forbehold om finansiering.",
@@ -1331,6 +1552,7 @@
     "subjectName": "Prosjektoppgave I",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -1343,6 +1565,7 @@
     "subjectName": "Prosjektoppgave II",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -1355,6 +1578,7 @@
     "subjectName": "Prosjektoppgave III",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -1365,8 +1589,12 @@
   {
     "subjectCode": "FYS3120",
     "subjectName": "Klassisk mekanikk og elektrodynamikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1377,8 +1605,12 @@
   {
     "subjectCode": "FYS3140",
     "subjectName": "Matematiske metoder i fysikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "08:15-10:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1389,8 +1621,9 @@
   {
     "subjectCode": "FYS3220",
     "subjectName": "Lineær kretsteori",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1401,8 +1634,9 @@
   {
     "subjectCode": "FYS3240",
     "subjectName": "Datainnsamling og kontroll",
-    "lectures": [],
+    "lectures": [["fri", "08:15-10:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1413,8 +1647,12 @@
   {
     "subjectCode": "FYS3260",
     "subjectName": "Mikrosystemer og elektronikk byggemetoder",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      May 29 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1425,8 +1663,12 @@
   {
     "subjectCode": "FYS3400",
     "subjectName": "Kondenserte fasers fysikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1437,8 +1679,12 @@
   {
     "subjectCode": "FYS3500",
     "subjectName": "Innføring i kjerne- og partikkelfysikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1449,8 +1695,12 @@
   {
     "subjectCode": "FYS3810",
     "subjectName": "Fysikkdidaktikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-15:00"],
+      ["fri", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1463,6 +1713,7 @@
     "subjectName": "Arbeidspraksis",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -1473,8 +1724,12 @@
   {
     "subjectCode": "FYS4130",
     "subjectName": "Statistisk mekanikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1485,8 +1740,12 @@
   {
     "subjectCode": "FYS4160",
     "subjectName": "Generell relativitetsteori",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1499,6 +1758,7 @@
     "subjectName": "Elektrisk bioimpedans",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1509,8 +1769,9 @@
   {
     "subjectCode": "FYS4240",
     "subjectName": "Datainnsamling og kontroll",
-    "lectures": [],
+    "lectures": [["fri", "08:15-10:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1521,8 +1782,12 @@
   {
     "subjectCode": "FYS4260",
     "subjectName": "Mikrosystemer og elektronikk byggemetoder",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      May 29 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1533,8 +1798,12 @@
   {
     "subjectCode": "FYS4310",
     "subjectName": "Material Science of Semiconductors",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n        If the course is offered, a minimum of four students is required for ordinary lectures to take place. If less than four students participate, an exam will be given, but one should not expect ordinary teaching.",
@@ -1545,8 +1814,9 @@
   {
     "subjectCode": "FYS4411",
     "subjectName": "Computational Physics II: Quantum Mechanical Systems",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n        If the course is offered, a minimum of four students is required for ordinary lectures to take place. If less than four students participate, an exam will be given, but one should not expect ordinary teaching.",
@@ -1557,8 +1827,9 @@
   {
     "subjectCode": "FYS4460",
     "subjectName": "Uordnede systemer og perkolasjon",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1569,8 +1840,12 @@
   {
     "subjectCode": "FYS4530",
     "subjectName": "Subatomær mange-partikkelteori II",
-    "lectures": [],
+    "lectures": [
+      ["mon", "08:15-10:00"],
+      ["tue", "09:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1581,8 +1856,12 @@
   {
     "subjectCode": "FYS4535",
     "subjectName": "Medisinske anvendelser av kjernefysikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1593,8 +1872,9 @@
   {
     "subjectCode": "FYS4565",
     "subjectName": "Virkemåter og bruksområder for moderne partikkelakseleratorer",
-    "lectures": [],
+    "lectures": [["tue", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forente ordinær undervisning.",
@@ -1605,8 +1885,12 @@
   {
     "subjectCode": "FYS4620",
     "subjectName": "Grunnleggende plasmafysikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1619,6 +1903,7 @@
     "subjectName": "Medisinsk strålingsfysikk for stråleterapi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet tilbys som veiledet selvstudium våren 2024.",
@@ -1629,8 +1914,12 @@
   {
     "subjectCode": "FYS4740",
     "subjectName": "MR-teori og medisinsk diagnostikk",
-    "lectures": [],
+    "lectures": [
+      ["thu", "10:15-12:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1643,6 +1932,7 @@
     "subjectName": "CT- og røntgendiagnostikk",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.\n\n          Undervisning tilbys siste gang\n          vår 2021",
@@ -1653,8 +1943,12 @@
   {
     "subjectCode": "FYS4762",
     "subjectName": "Medisinsk avbildning med ioniserende stråling",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1665,8 +1959,12 @@
   {
     "subjectCode": "FYS4810",
     "subjectName": "Fysikkdidaktikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-15:00"],
+      ["fri", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1677,8 +1975,12 @@
   {
     "subjectCode": "FYS5120",
     "subjectName": "Videregående kvantefeltteori",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      20. mars \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1689,8 +1991,9 @@
   {
     "subjectCode": "FYS5310",
     "subjectName": "Elektronmikroskopi, -diffraksjon og spektroskopi II",
-    "lectures": [],
+    "lectures": [["tue", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet undervises ikke vår 2024. \nDersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1701,8 +2004,9 @@
   {
     "subjectCode": "FYS5419",
     "subjectName": "Kvanteberegninger og kvantemaskinlæring",
-    "lectures": [],
+    "lectures": [["wed", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1713,8 +2017,9 @@
   {
     "subjectCode": "FYS5429",
     "subjectName": "Avansert maskinlæring og dataanalyse for fysiske fag",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1725,8 +2030,9 @@
   {
     "subjectCode": "FYS5555",
     "subjectName": "Forskningsbasert partikkelfysikk",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1739,6 +2045,7 @@
     "subjectName": "Masteroppgave i fysikk, Lektorprogrammet",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -1751,6 +2058,7 @@
     "subjectName": "Fysikk. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -1761,8 +2069,12 @@
   {
     "subjectCode": "FYS9120",
     "subjectName": "Videregående kvantefeltteori",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "Tid: \n      20. mars \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1775,6 +2087,7 @@
     "subjectName": "Condensed Matter Field Theory",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        The course is not offered spring 2020.\n\n          The course is last held\n          spring 2019",
@@ -1787,6 +2100,7 @@
     "subjectName": "Elektrisk bioimpedans",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår og høst\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1799,6 +2113,7 @@
     "subjectName": "Mikrosystemer og elektronikk byggemetoder",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.\n\n          Undervisning tilbys siste gang\n          vår 2022",
@@ -1809,8 +2124,12 @@
   {
     "subjectCode": "FYS9310",
     "subjectName": "Material Science of Semiconductors",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        This course is not offered spring 2024. \nIf the course is offered, a minimum of four students is required for ordinary lectures to take place. If less than four students participate, an exam will be given, but one should not expect ordinary teaching.",
@@ -1821,8 +2140,9 @@
   {
     "subjectCode": "FYS9320",
     "subjectName": "Elektronmikroskopi, -diffraksjon og spektroskopi II",
-    "lectures": [],
+    "lectures": [["tue", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1833,8 +2153,9 @@
   {
     "subjectCode": "FYS9411",
     "subjectName": "Computational Physics II: Quantum Mechanical Systems",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        If the course is offered, a minimum of four students is required for ordinary lectures to take place. If less than four students participate, an exam will be given, but one should not expect ordinary teaching. Courses with less than three students registrered will normally be cancelled.",
@@ -1845,8 +2166,9 @@
   {
     "subjectCode": "FYS9419",
     "subjectName": "Kvanteberegninger og kvantemaskinlæring",
-    "lectures": [],
+    "lectures": [["wed", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1857,8 +2179,9 @@
   {
     "subjectCode": "FYS9429",
     "subjectName": "Avansert maskinlæring og dataanalyse for fysiske fag",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1869,8 +2192,9 @@
   {
     "subjectCode": "FYS9460",
     "subjectName": "Uordnede systemer og perkolasjon",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1881,8 +2205,12 @@
   {
     "subjectCode": "FYS9530",
     "subjectName": "Subatomær mange-partikkelteori II",
-    "lectures": [],
+    "lectures": [
+      ["mon", "08:15-10:00"],
+      ["tue", "09:15-10:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1893,8 +2221,12 @@
   {
     "subjectCode": "FYS9535",
     "subjectName": "Medisinske anvendelser av kjernefysikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1905,8 +2237,9 @@
   {
     "subjectCode": "FYS9555",
     "subjectName": "Forskningsbasert partikkelfysikk",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1917,8 +2250,9 @@
   {
     "subjectCode": "FYS9565",
     "subjectName": "Virkemåter og bruksområder for moderne partikkelakseleratorer",
-    "lectures": [],
+    "lectures": [["tue", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forente ordinær undervisning.",
@@ -1929,8 +2263,12 @@
   {
     "subjectCode": "FYS9620",
     "subjectName": "Grunnleggende plasmafysikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1943,6 +2281,7 @@
     "subjectName": "Medisinsk strålingsfysikk for stråleterapi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1953,8 +2292,12 @@
   {
     "subjectCode": "FYS9740",
     "subjectName": "MR-teori og medisinsk diagnostikk",
-    "lectures": [],
+    "lectures": [
+      ["thu", "10:15-12:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1967,6 +2310,7 @@
     "subjectName": "CT- og røntgendiagnostikk",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2021",
@@ -1976,8 +2320,12 @@
   {
     "subjectCode": "FYS9762",
     "subjectName": "Medisinsk avbildning med ioniserende stråling",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dersom emnet tilbys kreves det minst 4 studenter for å ha ordinær undervisning. Hvis det er færre enn 4 studenter som deltar gis det eksamen, men man kan ikke forvente ordinær undervisning.",
@@ -1990,6 +2338,7 @@
     "subjectName": "Lithosphere and Asthenosphere: Composition and Evolution",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring and autumn\n      \n      \n        The course is taught in January 2024.",
@@ -2002,6 +2351,7 @@
     "subjectName": "Solid Earth - Fluid Earth Interactions",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        The course is taught in Spring 2024.",
@@ -2014,6 +2364,7 @@
     "subjectName": "Special Topics on Dynamics and Evolution of the Earth and Planets: Mineralogy of Planetary Surfaces and Biosignatures",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        This course is taught on an irregular basis.",
@@ -2026,6 +2377,7 @@
     "subjectName": "Earthquakes and Seismic Hazards",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2038,6 +2390,7 @@
     "subjectName": "Jordens indre og ytre prosesser",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2048,8 +2401,12 @@
   {
     "subjectCode": "GEO2110",
     "subjectName": "Mineralogi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "09:00-16:00"],
+      ["thu", "09:00-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2062,6 +2419,7 @@
     "subjectName": "Strukturgeologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      3. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2072,8 +2430,12 @@
   {
     "subjectCode": "GEO2140",
     "subjectName": "Faste jords geofysikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "08:15-10:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2084,8 +2446,9 @@
   {
     "subjectCode": "GEO2150",
     "subjectName": "Petrologi og geokjemi",
-    "lectures": [],
+    "lectures": [["wed", "09:00-17:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2098,6 +2461,7 @@
     "subjectName": "Paleontologi og paleoøkologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2108,8 +2472,12 @@
   {
     "subjectCode": "GEO2210",
     "subjectName": "Geomorfologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2120,8 +2488,12 @@
   {
     "subjectCode": "GEO2310",
     "subjectName": "Meteorologi",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 09:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2132,8 +2504,12 @@
   {
     "subjectCode": "GEO2330",
     "subjectName": "Hydrologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2146,6 +2522,7 @@
     "subjectName": "Bacheloroppgave i geofag",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2156,8 +2533,9 @@
   {
     "subjectCode": "GEO3010",
     "subjectName": "Felt- og kartkurs",
-    "lectures": [],
+    "lectures": [["wed", "12:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2168,8 +2546,9 @@
   {
     "subjectCode": "GEO3032",
     "subjectName": "Klimaforandringer og effekter",
-    "lectures": [],
+    "lectures": [["wed", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2180,8 +2559,9 @@
   {
     "subjectCode": "GEO3050",
     "subjectName": "Arbeidspraksis i geofag",
-    "lectures": [],
+    "lectures": [["tue", "13:15-15:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2192,8 +2572,9 @@
   {
     "subjectCode": "GEO3240",
     "subjectName": "Seismisk tolkning",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2206,6 +2587,7 @@
     "subjectName": "Landmåling, fotogrammetri og romlig analyse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2216,8 +2598,9 @@
   {
     "subjectCode": "GEO4012",
     "subjectName": "Scientific Writing and Presentation",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2230,6 +2613,7 @@
     "subjectName": "Basin Analysis Seminar and Field Course",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2240,8 +2624,12 @@
   {
     "subjectCode": "GEO4171",
     "subjectName": "Floods, Avalanches and Landslides",
-    "lectures": [],
+    "lectures": [
+      ["mon", "09:00-16:00"],
+      ["mon", "12:00-15:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2252,8 +2640,12 @@
   {
     "subjectCode": "GEO4214",
     "subjectName": "Palynology, Palaeobotany and Palaeoclimatology",
-    "lectures": [],
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 5 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2264,8 +2656,9 @@
   {
     "subjectCode": "GEO4240",
     "subjectName": "Seismisk tolkning",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -2276,8 +2669,12 @@
   {
     "subjectCode": "GEO4260",
     "subjectName": "Geophysical Monitoring",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2288,8 +2685,12 @@
   {
     "subjectCode": "GEO4340",
     "subjectName": "Fluvial Hydrology",
-    "lectures": [],
+    "lectures": [
+      ["mon", "09:00-16:00"],
+      ["mon", "12:00-15:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2300,8 +2701,9 @@
   {
     "subjectCode": "GEO4360",
     "subjectName": "Field Methods in Hydrogeology",
-    "lectures": [],
+    "lectures": [["thu", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2312,8 +2714,9 @@
   {
     "subjectCode": "GEO4432",
     "subjectName": "The Surface Energy Balance in Cold Environments",
-    "lectures": [],
+    "lectures": [["thu", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2326,6 +2729,7 @@
     "subjectName": "Landmåling, fotogrammetri og romlig analyse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 15:00\n      \n       (3 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -2336,8 +2740,13 @@
   {
     "subjectCode": "GEO4530",
     "subjectName": "Geodesy and Photogrammetry",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2350,6 +2759,7 @@
     "subjectName": "Seismic Waves and Seismology",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n        The course is taught on an irregular basis. Please contact the Student administration for more information.",
@@ -2362,6 +2772,7 @@
     "subjectName": "Tectonics",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2374,6 +2785,7 @@
     "subjectName": "Atmospheric Chemistry",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n      \n        \n          \n        \n\n        \n          The course is last held\n          spring 2023",
@@ -2386,6 +2798,7 @@
     "subjectName": "Turbulence in the Atmosphere and Ocean",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n      \n        \n          \n        \n\n        \n          The course is last held\n          spring 2023",
@@ -2398,6 +2811,7 @@
     "subjectName": "Turbulent Boundary Layers in the Atmosphere and Ocean",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2408,8 +2822,9 @@
   {
     "subjectCode": "GEO4928",
     "subjectName": "Clouds and Chemistry",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2420,8 +2835,12 @@
   {
     "subjectCode": "GEO4960",
     "subjectName": "The General Circulation of the Oceans",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2432,8 +2851,9 @@
   {
     "subjectCode": "GEO4962",
     "subjectName": "The General Circulation of the Atmosphere",
-    "lectures": [],
+    "lectures": [["tue", "12:15-15:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2446,6 +2866,7 @@
     "subjectName": "Prosesser og transport i øvre del av havet",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2023",
@@ -2458,6 +2879,7 @@
     "subjectName": "Data Analysis and Model Evaluation Tools in Environmental and Climate Science",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2470,6 +2892,7 @@
     "subjectName": "Seminar on Current Topics in Geoscience",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring and autumn",
@@ -2480,8 +2903,13 @@
   {
     "subjectCode": "GEO5900",
     "subjectName": "Chemical Processes in Soil and Ground Water",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-16:00"],
+      ["thu", "14:15-16:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -2494,6 +2922,7 @@
     "subjectName": "Ecological Climatology",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n        Every other spring starting 2022.",
@@ -2504,8 +2933,12 @@
   {
     "subjectCode": "GEO9260",
     "subjectName": "Geophysical Monitoring",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2516,8 +2949,9 @@
   {
     "subjectCode": "GEO9432",
     "subjectName": "The Surface Energy Balance in Cold Environments",
-    "lectures": [],
+    "lectures": [["thu", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2528,8 +2962,13 @@
   {
     "subjectCode": "GEO9530",
     "subjectName": "Geodesy and Photogrammetry",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2542,6 +2981,7 @@
     "subjectName": "Seminar on Current Topics in Geoscience",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring and autumn",
@@ -2554,6 +2994,7 @@
     "subjectName": "Seismic Waves and Seismology",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        The course is taught on an irregular basis. Please contact the Student administration for more information.",
@@ -2566,6 +3007,7 @@
     "subjectName": "Tectonics",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2576,8 +3018,13 @@
   {
     "subjectCode": "GEO9900",
     "subjectName": "Chemical Processes in Soil and Ground Water",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-16:00"],
+      ["thu", "14:15-16:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (3 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2590,6 +3037,7 @@
     "subjectName": "Atmospheric Chemistry",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n      \n        \n          \n        \n\n        \n          The course is last held\n          spring 2023",
@@ -2602,6 +3050,7 @@
     "subjectName": "Ecological Climatology",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Every other spring starting 2022.",
@@ -2614,6 +3063,7 @@
     "subjectName": "Turbulence in the Atmosphere and Ocean",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n      \n        \n          \n        \n\n        \n          The course is last held\n          spring 2023",
@@ -2626,6 +3076,7 @@
     "subjectName": "Turbulent Boundary Layers in the Atmosphere and Ocean",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2636,8 +3087,9 @@
   {
     "subjectCode": "GEO9928",
     "subjectName": "Clouds and Chemistry",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2648,8 +3100,12 @@
   {
     "subjectCode": "GEO9960",
     "subjectName": "The General Circulation of the Oceans",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2660,8 +3116,9 @@
   {
     "subjectCode": "GEO9962",
     "subjectName": "The General Circulation of the Atmosphere",
-    "lectures": [],
+    "lectures": [["tue", "12:15-15:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2674,6 +3131,7 @@
     "subjectName": "Data Analysis and Model Evaluation Tools in Environmental and Climate Science",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -2686,6 +3144,7 @@
     "subjectName": "Sikkerhet og fysisk miljø",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2698,6 +3157,7 @@
     "subjectName": "Utviklende læringsmiljø",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2710,6 +3170,7 @@
     "subjectName": "Laboratoriesikkerhet",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2722,6 +3183,7 @@
     "subjectName": "Feltsikkerhet",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2734,6 +3196,7 @@
     "subjectName": "El-sikkerhet",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2746,6 +3209,7 @@
     "subjectName": "Klinikksikkerhet",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2756,8 +3220,9 @@
   {
     "subjectCode": "HMS0507",
     "subjectName": "Brannsikkerhet",
-    "lectures": [],
+    "lectures": [["wed", "17:15-19:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 0.0,
     "level": "Bachelor",
     "teaching": "Vår og høst\n      \n      \n        Vår og høst.",
@@ -2768,8 +3233,9 @@
   {
     "subjectCode": "HON2200",
     "subjectName": "Data-drevne prosjekter",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2780,8 +3246,9 @@
   {
     "subjectCode": "IN1000",
     "subjectName": "Introduksjon til objektorientert programmering",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      30. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2792,8 +3259,12 @@
   {
     "subjectCode": "IN1010",
     "subjectName": "Objektorientert programmering",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      18. mars \n      \n      \n      kl. 09:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2804,8 +3275,9 @@
   {
     "subjectCode": "IN1030",
     "subjectName": "Systemer, krav og konsekvenser",
-    "lectures": [],
+    "lectures": [["thu", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "Tid: \n      3. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2816,8 +3288,12 @@
   {
     "subjectCode": "IN1060",
     "subjectName": "Bruksorientert design",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2828,8 +3304,9 @@
   {
     "subjectCode": "IN1080",
     "subjectName": "Mekatronikk",
-    "lectures": [],
+    "lectures": [["mon", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2840,8 +3317,12 @@
   {
     "subjectCode": "IN1150",
     "subjectName": "Logiske metoder",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      14. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -2852,8 +3333,12 @@
   {
     "subjectCode": "IN2000",
     "subjectName": "Software Engineering med prosjektarbeid",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      11. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 20.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2866,6 +3351,7 @@
     "subjectName": "Digital bildebehandling",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst\n      \n      \n        Emnet endret 2023 semester fra Vår til Høst.",
@@ -2876,8 +3362,12 @@
   {
     "subjectCode": "IN2080",
     "subjectName": "Beregninger og kompleksitet",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      6. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2888,8 +3378,9 @@
   {
     "subjectCode": "IN2100",
     "subjectName": "Logikk for systemanalyse",
-    "lectures": [],
+    "lectures": [["fri", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      13. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2900,8 +3391,9 @@
   {
     "subjectCode": "IN2110",
     "subjectName": "Språkteknologiske metoder",
-    "lectures": [],
+    "lectures": [["tue", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      27. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2912,8 +3404,12 @@
   {
     "subjectCode": "IN2140",
     "subjectName": "Introduksjon til operativsystemer og datakommunikasjon",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["wed", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      28. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2924,8 +3420,9 @@
   {
     "subjectCode": "IN2150",
     "subjectName": "IT i organisasjoner",
-    "lectures": [],
+    "lectures": [["thu", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2936,8 +3433,12 @@
   {
     "subjectCode": "IN3000",
     "subjectName": "Operativsystemer",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2948,8 +3449,9 @@
   {
     "subjectCode": "IN3010",
     "subjectName": "Transformativt design",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2960,8 +3462,12 @@
   {
     "subjectCode": "IN3020",
     "subjectName": "Databasesystemer",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      May 30 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2972,8 +3478,9 @@
   {
     "subjectCode": "IN3030",
     "subjectName": "Effektiv parallellprogrammering",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      May 27 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2984,8 +3491,9 @@
   {
     "subjectCode": "IN3050",
     "subjectName": "Introduksjon til kunstig intelligens og maskinlæring",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 6 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -2996,8 +3504,9 @@
   {
     "subjectCode": "IN3060",
     "subjectName": "Semantiske teknologier",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 11 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3010,6 +3519,7 @@
     "subjectName": "Prosjektoppgave i informatikk: Digital økonomi og ledelse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst\n      \n      \n        Vår",
@@ -3020,8 +3530,9 @@
   {
     "subjectCode": "IN3140",
     "subjectName": "Introduksjon til robotikk",
-    "lectures": [],
+    "lectures": [["thu", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      31. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3032,8 +3543,12 @@
   {
     "subjectCode": "IN3160",
     "subjectName": "Digital systemkonstruksjon",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3044,8 +3559,12 @@
   {
     "subjectCode": "IN3170",
     "subjectName": "Microelectronics",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3056,8 +3575,12 @@
   {
     "subjectCode": "IN3200",
     "subjectName": "High-Performance Computing and Numerical Projects",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3068,8 +3591,9 @@
   {
     "subjectCode": "IN3240",
     "subjectName": "Testing av programvare",
-    "lectures": [],
+    "lectures": [["wed", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3080,8 +3604,9 @@
   {
     "subjectCode": "IN3310",
     "subjectName": "Deep Learning for Image Analysis",
-    "lectures": [],
+    "lectures": [["mon", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 4 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Spring",
@@ -3092,8 +3617,12 @@
   {
     "subjectCode": "IN4000",
     "subjectName": "Operativsystemer",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3104,8 +3633,12 @@
   {
     "subjectCode": "IN4020",
     "subjectName": "Databasesystemer",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      May 30 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3116,8 +3649,9 @@
   {
     "subjectCode": "IN4030",
     "subjectName": "Introduksjon til bioinformatikk",
-    "lectures": [],
+    "lectures": [["tue", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      May 27 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3128,8 +3662,9 @@
   {
     "subjectCode": "IN4050",
     "subjectName": "Introduksjon til kunstig intelligens og maskinlæring",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 6 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3140,8 +3675,9 @@
   {
     "subjectCode": "IN4060",
     "subjectName": "Semantiske teknologier",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 11 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3152,8 +3688,9 @@
   {
     "subjectCode": "IN4140",
     "subjectName": "Introduksjon til robotikk",
-    "lectures": [],
+    "lectures": [["thu", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      31. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3164,8 +3701,12 @@
   {
     "subjectCode": "IN4160",
     "subjectName": "Digital systemkonstruksjon",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3176,8 +3717,12 @@
   {
     "subjectCode": "IN4170",
     "subjectName": "Microelectronics",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3188,8 +3733,9 @@
   {
     "subjectCode": "IN4180",
     "subjectName": "Cyber Operations",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      May 31 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3200,8 +3746,12 @@
   {
     "subjectCode": "IN4200",
     "subjectName": "High-Performance Computing and Numerical Projects",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3212,8 +3762,9 @@
   {
     "subjectCode": "IN4240",
     "subjectName": "Testing av programvare",
-    "lectures": [],
+    "lectures": [["wed", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3224,8 +3775,9 @@
   {
     "subjectCode": "IN4310",
     "subjectName": "Deep Learning for Image Analysis",
-    "lectures": [],
+    "lectures": [["mon", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 4 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3236,8 +3788,9 @@
   {
     "subjectCode": "IN4330",
     "subjectName": "Effektiv parallellprogrammering",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      May 27 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3248,8 +3801,9 @@
   {
     "subjectCode": "IN4380",
     "subjectName": "Digital Transformation of Healthcare",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3260,8 +3814,9 @@
   {
     "subjectCode": "IN5000",
     "subjectName": "Qualitative Research Methods",
-    "lectures": [],
+    "lectures": [["wed", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3272,8 +3827,9 @@
   {
     "subjectCode": "IN5010",
     "subjectName": "Design, Technology and Society",
-    "lectures": [],
+    "lectures": [["mon", "12:15-15:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring and autumn",
@@ -3284,8 +3840,9 @@
   {
     "subjectCode": "IN5030",
     "subjectName": "Protokoller og ruting i Internett",
-    "lectures": [],
+    "lectures": [["fri", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3296,8 +3853,9 @@
   {
     "subjectCode": "IN5050",
     "subjectName": "Programming heterogeneous multi-core architectures",
-    "lectures": [],
+    "lectures": [["fri", "12:15-15:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3308,8 +3866,9 @@
   {
     "subjectCode": "IN5080",
     "subjectName": "Sikkerhets- og risikostyring",
-    "lectures": [],
+    "lectures": [["mon", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3320,8 +3879,9 @@
   {
     "subjectCode": "IN5090",
     "subjectName": "Health data and decision-making",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3334,6 +3894,7 @@
     "subjectName": "Tangible interaction",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3344,8 +3905,9 @@
   {
     "subjectCode": "IN5160",
     "subjectName": "Digital Leadership",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3356,8 +3918,12 @@
   {
     "subjectCode": "IN5220",
     "subjectName": "Advanced mixed-signal CMOS integrated circuit design",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3370,6 +3936,7 @@
     "subjectName": "Seminar i aksjonsforskning",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3380,8 +3947,9 @@
   {
     "subjectCode": "IN5260",
     "subjectName": "Low Power IoT nodes",
-    "lectures": [],
+    "lectures": [["fri", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3392,8 +3960,12 @@
   {
     "subjectCode": "IN5340",
     "subjectName": "Statistisk signalbehandling",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3404,8 +3976,9 @@
   {
     "subjectCode": "IN5410",
     "subjectName": "Energiinformatikk",
-    "lectures": [],
+    "lectures": [["thu", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3416,8 +3989,9 @@
   {
     "subjectCode": "IN5420",
     "subjectName": "Distributed Blockchain Technologies",
-    "lectures": [],
+    "lectures": [["mon", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3428,8 +4002,9 @@
   {
     "subjectCode": "IN5431",
     "subjectName": "IT and Management",
-    "lectures": [],
+    "lectures": [["fri", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3440,8 +4015,12 @@
   {
     "subjectCode": "IN5450",
     "subjectName": "Array Signal Processing",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-16:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3454,6 +4033,7 @@
     "subjectName": "Avansert forskningstema i design av IT",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -3464,8 +4044,9 @@
   {
     "subjectCode": "IN5500",
     "subjectName": "IT-støttet samarbeid",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3476,8 +4057,9 @@
   {
     "subjectCode": "IN5550",
     "subjectName": "Neural Methods in Natural Language Processing",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3490,6 +4072,7 @@
     "subjectName": "Distribuerte objekter",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3500,8 +4083,9 @@
   {
     "subjectCode": "IN5580",
     "subjectName": "Computability theory",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3514,6 +4098,7 @@
     "subjectName": "Hurtig modellframstilling av robotikksystemer",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -3524,8 +4109,9 @@
   {
     "subjectCode": "IN5600",
     "subjectName": "Programmering av mobile applikasjoner i tingenes internett",
-    "lectures": [],
+    "lectures": [["tue", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3536,8 +4122,9 @@
   {
     "subjectCode": "IN5630",
     "subjectName": "Programming Language Implementation and Formalisation",
-    "lectures": [],
+    "lectures": [["wed", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3549,6 +4136,7 @@
     "subjectName": "Declarative Data Engineering",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring",
@@ -3559,8 +4147,9 @@
   {
     "subjectCode": "IN9000",
     "subjectName": "Qualitative Research Methods",
-    "lectures": [],
+    "lectures": [["wed", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3571,8 +4160,9 @@
   {
     "subjectCode": "IN9010",
     "subjectName": "Design, Technology and Society",
-    "lectures": [],
+    "lectures": [["mon", "12:15-15:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring and autumn",
@@ -3583,8 +4173,9 @@
   {
     "subjectCode": "IN9030",
     "subjectName": "Protokoller og ruting i Internett",
-    "lectures": [],
+    "lectures": [["fri", "09:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3595,8 +4186,9 @@
   {
     "subjectCode": "IN9050",
     "subjectName": "Programming heterogeneous multi-core architectures",
-    "lectures": [],
+    "lectures": [["fri", "12:15-15:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3609,6 +4201,7 @@
     "subjectName": "Tangible interaction",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår og høst",
@@ -3619,8 +4212,12 @@
   {
     "subjectCode": "IN9220",
     "subjectName": "Advanced mixed-signal CMOS integrated circuit design",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3631,8 +4228,9 @@
   {
     "subjectCode": "IN9260",
     "subjectName": "Low Power IoT nodes",
-    "lectures": [],
+    "lectures": [["fri", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3643,8 +4241,12 @@
   {
     "subjectCode": "IN9340",
     "subjectName": "Statistisk signalbehandling",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3655,8 +4257,9 @@
   {
     "subjectCode": "IN9410",
     "subjectName": "Energy Informatics",
-    "lectures": [],
+    "lectures": [["thu", "09:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3667,8 +4270,9 @@
   {
     "subjectCode": "IN9420",
     "subjectName": "Distributed Blockchain Technologies",
-    "lectures": [],
+    "lectures": [["mon", "09:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3679,8 +4283,12 @@
   {
     "subjectCode": "IN9450",
     "subjectName": "Array Signal Processing",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-16:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3691,8 +4299,9 @@
   {
     "subjectCode": "IN9500",
     "subjectName": "IT-støttet samarbeid",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3703,8 +4312,9 @@
   {
     "subjectCode": "IN9550",
     "subjectName": "Neural Methods in Natural Language Processing",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3717,6 +4327,7 @@
     "subjectName": "Distribuerte objekter",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3727,8 +4338,9 @@
   {
     "subjectCode": "IN9580",
     "subjectName": "Computability theory",
-    "lectures": [],
+    "lectures": [["tue", "10:15-12:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3738,8 +4350,9 @@
   {
     "subjectCode": "IN9600",
     "subjectName": "Programmering av mobile applikasjoner i tingenes internett",
-    "lectures": [],
+    "lectures": [["tue", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3750,8 +4363,9 @@
   {
     "subjectCode": "IN9630",
     "subjectName": "Programming Language Implementation and Formalisation",
-    "lectures": [],
+    "lectures": [["wed", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -3761,8 +4375,9 @@
   {
     "subjectCode": "INEC1831",
     "subjectName": "Strategi",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3773,8 +4388,12 @@
   {
     "subjectCode": "INF5110",
     "subjectName": "Kompilatorteknikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3787,6 +4406,7 @@
     "subjectName": "Seminar i aksjonsforskning",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -3799,6 +4419,7 @@
     "subjectName": "Digitalisering, IT og ledelse: Å være leder",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3810,6 +4431,7 @@
     "subjectName": "Gjennomføring av prosjekter i egen virksomhet",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -3822,6 +4444,7 @@
     "subjectName": "Plattformer og økosystemer",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3833,6 +4456,7 @@
     "subjectName": "Digital innovasjon og teknologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3844,6 +4468,7 @@
     "subjectName": "Ansvarlig digitalisering av helsesektoren",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3855,6 +4480,7 @@
     "subjectName": "IT, organisasjon og virksomhetsforståelse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3867,6 +4493,7 @@
     "subjectName": "Design av masteroppgaven",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -3879,6 +4506,7 @@
     "subjectName": "Ressursestimering, usikkerhetsvurdering, planlegging og budsjettering av IT-prosjekter",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3891,6 +4519,7 @@
     "subjectName": "Fra forretningsprosess til kravspesifikasjon",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3903,6 +4532,7 @@
     "subjectName": "Utvikling og vedlikehold av komplekse softwaresystemer",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3915,6 +4545,7 @@
     "subjectName": "Moderne systemutviklingsprosesser",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3927,6 +4558,7 @@
     "subjectName": "IT-arkitektur prosjektoppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -3936,8 +4568,9 @@
   {
     "subjectCode": "KJM-MENA5110",
     "subjectName": "Uorganisk strukturkjemi",
-    "lectures": [],
+    "lectures": [["mon", "10:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -3950,6 +4583,7 @@
     "subjectName": "Polymerer og makromolekyler",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet gis ikke våren 2024.\nUndervisningen kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -3962,6 +4596,7 @@
     "subjectName": "Uorganisk strukturkjemi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Emnet kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -3974,6 +4609,7 @@
     "subjectName": "Polymerer og makromolekyler",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Emnet gis ikke våren 2024.\nUndervisningen kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -3984,8 +4620,12 @@
   {
     "subjectCode": "KJM1111",
     "subjectName": "Organisk kjemi I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "09:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      14. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -3996,8 +4636,12 @@
   {
     "subjectCode": "KJM1121",
     "subjectName": "Uorganisk kjemi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "08:15-10:00"],
+      ["thu", "09:15-11:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4008,8 +4652,12 @@
   {
     "subjectCode": "KJM1140",
     "subjectName": "Biokjemi 1 for kjemikere",
-    "lectures": [],
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "09:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      28. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Emnet har endret undervisning fra høst til vår fra og med 2022",
@@ -4020,8 +4668,9 @@
   {
     "subjectCode": "KJM1700",
     "subjectName": "Miljø- og klimautfordringer",
-    "lectures": [],
+    "lectures": [["wed", "13:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4032,8 +4681,9 @@
   {
     "subjectCode": "KJM2500",
     "subjectName": "Syntese og karakterisering",
-    "lectures": [],
+    "lectures": [["thu", "10:15-11:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4046,6 +4696,7 @@
     "subjectName": "Prosjektoppgave I",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -4058,6 +4709,7 @@
     "subjectName": "Prosjektoppgave II",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -4070,6 +4722,7 @@
     "subjectName": "Prosjektoppgave III",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -4080,8 +4733,9 @@
   {
     "subjectCode": "KJM3050",
     "subjectName": "Kjemididaktikk",
-    "lectures": [],
+    "lectures": [["mon", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4092,8 +4746,12 @@
   {
     "subjectCode": "KJM3110",
     "subjectName": "Elektrokjemi",
-    "lectures": [],
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 9:00 AM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4104,8 +4762,12 @@
   {
     "subjectCode": "KJM3310",
     "subjectName": "Fysikalsk kjemi III - Statistisk termodynamikk for kjemi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4116,8 +4778,9 @@
   {
     "subjectCode": "KJM3400",
     "subjectName": "Analytisk kjemi II - separasjonsmetoder",
-    "lectures": [],
+    "lectures": [["mon", "14:15-16:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      4. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4130,6 +4793,7 @@
     "subjectName": "Kjemididaktikk",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4142,6 +4806,7 @@
     "subjectName": "Fysikalsk kjemi III - Statistisk termodynamikk for kjemi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4154,6 +4819,7 @@
     "subjectName": "Proteinkrystallografi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Hvert 4. semester. Undervisningen kan bli avlyst hvis fære enn 5 studenter melder seg.",
@@ -4164,8 +4830,12 @@
   {
     "subjectCode": "KJM5120",
     "subjectName": "Defektkjemi og reaksjoner",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Undervisningen kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -4176,8 +4846,12 @@
   {
     "subjectCode": "KJM5240",
     "subjectName": "Massespektrometri",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet kan bli avlyst hvis færre enn fem studenter melder seg.",
@@ -4188,8 +4862,9 @@
   {
     "subjectCode": "KJM5250",
     "subjectName": "Organisk NMR spektroskopi",
-    "lectures": [],
+    "lectures": [["tue", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet undervises annenhver vår.Undervisningen kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -4201,6 +4876,7 @@
     "subjectName": "BIOCAT - Strukturbiologiske teknikker",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet undervises annenhver vår fra 2018.",
@@ -4211,8 +4887,12 @@
   {
     "subjectCode": "KJM5500",
     "subjectName": "Overflate- og nanokjemi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Undervisningen kan bli avlyst hvis færre enn 5 studenter melder seg. Det vil likevel være mulig å gjennomføre obligatoriske aktiviteter og eksamen for studenter som ønsker det.",
@@ -4223,8 +4903,12 @@
   {
     "subjectCode": "KJM5810",
     "subjectName": "Heterogen katalyse",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Undervises hvert fjerde semester i partallsår.",
@@ -4237,6 +4921,7 @@
     "subjectName": "Strålevern",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Fra og med våren 2024 gis emnet om våren (ikke høst).",
@@ -4249,6 +4934,7 @@
     "subjectName": "Radiokjemiske måleteknikker",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet gis ikke våren 2024.",
@@ -4261,6 +4947,7 @@
     "subjectName": "Masteroppgave i kjemi, Lektorprogrammet",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -4272,6 +4959,7 @@
     "subjectName": "Kjemi. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -4284,6 +4972,7 @@
     "subjectName": "Defektkjemi og reaksjoner",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Undervisningen kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -4296,6 +4985,7 @@
     "subjectName": "Massespektrometri",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Emnet kan bli avlyst hvis færre enn fem studenter melder seg.",
@@ -4307,6 +4997,7 @@
     "subjectName": "Organisk NMR spektroskopi",
     "lectures": [],
     "grading": null,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår og høst\n      \n      \n        Emnet undervises annenhver vår.Undervisningen kan bli avlyst hvis færre enn 5 studenter melder seg til emnet sammen med KJM5250.",
@@ -4318,6 +5009,7 @@
     "subjectName": "BIOCAT - Strukturbiologiske teknikker",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Annenhver vår fra 2018.",
@@ -4330,6 +5022,7 @@
     "subjectName": "Proteinkrystallografi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Hvert 4. semester. Undervisningen kan bli avlyst hvis færre enn 5 studenter melder seg.",
@@ -4342,6 +5035,7 @@
     "subjectName": "Overflate- og nanokjemi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Emnet kan bli avlyst hvis færre enn fem studenter melder seg til undervisningen. Det vil likevel være mulig å gjennomføre obligatoriske aktiviteter og eksamen for studenter som ønsker det.",
@@ -4354,6 +5048,7 @@
     "subjectName": "Heterogen katalyse",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Undervises hvert fjerde semester i partallsår.",
@@ -4366,6 +5061,7 @@
     "subjectName": "Strålevern",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Fra og med våren 2024 gis emnet om våren (ikke høst).",
@@ -4378,6 +5074,7 @@
     "subjectName": "Radiokjemiske måleteknikker",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Emnet gis ikke våren 2024.",
@@ -4388,8 +5085,12 @@
   {
     "subjectCode": "LSI4005",
     "subjectName": "Introduction to innovation in life science",
-    "lectures": [],
+    "lectures": [
+      ["wed", "16:00-18:00"],
+      ["wed", "16:00-20:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "Master",
     "teaching": "Spring",
@@ -4400,8 +5101,12 @@
   {
     "subjectCode": "MAT1020",
     "subjectName": "Matematikk og bærekraftig forvaltning",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      10. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4412,8 +5117,12 @@
   {
     "subjectCode": "MAT1060",
     "subjectName": "Matematikk for anvendelser 2",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-16:00"],
+      ["wed", "08:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      30. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4424,8 +5133,12 @@
   {
     "subjectCode": "MAT1110",
     "subjectName": "Kalkulus og lineær algebra",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      22. mars \n      \n      \n      kl. 09:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4436,8 +5149,9 @@
   {
     "subjectCode": "MAT2000",
     "subjectName": "Prosjektarbeid i matematikk",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4448,8 +5162,13 @@
   {
     "subjectCode": "MAT2100",
     "subjectName": "Elementær reell analyse",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "10:15-12:00"],
+      ["thu", "08:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4460,8 +5179,13 @@
   {
     "subjectCode": "MAT2200",
     "subjectName": "Grupper, ringer og kropper",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 5 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4472,8 +5196,12 @@
   {
     "subjectCode": "MAT2250",
     "subjectName": "Diskret matematikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4484,8 +5212,9 @@
   {
     "subjectCode": "MAT2400",
     "subjectName": "Reell analyse",
-    "lectures": [],
+    "lectures": [["fri", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Time: \n      May 29 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4496,8 +5225,12 @@
   {
     "subjectCode": "MAT3100",
     "subjectName": "Lineær optimering",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4508,8 +5241,12 @@
   {
     "subjectCode": "MAT3360",
     "subjectName": "Innføring i partielle differensiallikninger",
-    "lectures": [],
+    "lectures": [
+      ["thu", "12:15-14:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4522,6 +5259,7 @@
     "subjectName": "Lineær analyse med anvendelser",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4532,8 +5270,12 @@
   {
     "subjectCode": "MAT3420",
     "subjectName": "Kvanteberegning",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4544,8 +5286,12 @@
   {
     "subjectCode": "MAT3440",
     "subjectName": "Dynamiske systemer",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4556,8 +5302,12 @@
   {
     "subjectCode": "MAT4010",
     "subjectName": "Skolematematikk fra et avansert synspunkt",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4568,8 +5318,13 @@
   {
     "subjectCode": "MAT4210",
     "subjectName": "Algebraisk geometri I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4580,8 +5335,13 @@
   {
     "subjectCode": "MAT4215",
     "subjectName": "Algebraisk geometri II",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4592,8 +5352,12 @@
   {
     "subjectCode": "MAT4305",
     "subjectName": "Partielle differensialligninger og Sobolev-rom I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4604,8 +5368,13 @@
   {
     "subjectCode": "MAT4400",
     "subjectName": "Lineær analyse med anvendelser",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4616,8 +5385,12 @@
   {
     "subjectCode": "MAT4430",
     "subjectName": "Kvanteinformasjonsteori",
-    "lectures": [],
+    "lectures": [
+      ["thu", "12:15-14:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4628,8 +5401,12 @@
   {
     "subjectCode": "MAT4450",
     "subjectName": "Videregående funksjonalanalyse",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4640,8 +5417,12 @@
   {
     "subjectCode": "MAT4520",
     "subjectName": "Mangfoldigheter",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4652,8 +5433,12 @@
   {
     "subjectCode": "MAT4530",
     "subjectName": "Algebraisk topologi I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4664,8 +5449,12 @@
   {
     "subjectCode": "MAT4750",
     "subjectName": "Matematisk finans: modellering og risikostyring",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4676,8 +5465,12 @@
   {
     "subjectCode": "MAT4770",
     "subjectName": "Stokastisk modellering i energi og råvaremarkeder",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -4690,6 +5483,7 @@
     "subjectName": "Innføring i flere komplekse variable",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.Vårsemesteret 2024: Emnet vil kun tilbys som selvstudiumsemne for masterstudenter ved Matematisk institutt.",
@@ -4701,6 +5495,7 @@
     "subjectName": "Graduate research",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Spring and autumn",
@@ -4713,6 +5508,7 @@
     "subjectName": "Masteroppgave i matematikk, Lektorprogrammet",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -4722,8 +5518,13 @@
   {
     "subjectCode": "MAT9210",
     "subjectName": "Algebraic Geometry I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -4734,8 +5535,13 @@
   {
     "subjectCode": "MAT9215",
     "subjectName": "Algebraic Geometry II",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -4746,8 +5552,12 @@
   {
     "subjectCode": "MAT9305",
     "subjectName": "Partial Differential Equations and Sobolev Spaces I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -4758,8 +5568,12 @@
   {
     "subjectCode": "MAT9390",
     "subjectName": "Topics in Operator Algebras",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["fri", "12:15-13:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring and autumn\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -4770,8 +5584,12 @@
   {
     "subjectCode": "MAT9520",
     "subjectName": "Manifolds",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -4782,8 +5600,12 @@
   {
     "subjectCode": "MAT9530",
     "subjectName": "Algebraic Topology I",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["tue", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -4794,8 +5616,12 @@
   {
     "subjectCode": "MAT9750",
     "subjectName": "Mathematical Finance: Modelling and Risk Management",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -4806,8 +5632,12 @@
   {
     "subjectCode": "MAT9770",
     "subjectName": "Stochastic Modelling in Energy and Commodity Markets",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -4820,6 +5650,7 @@
     "subjectName": "Feltteori og vektoranalyse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      21. mars \n      \n      \n      kl. 09:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4830,8 +5661,9 @@
   {
     "subjectCode": "MEK3200",
     "subjectName": "Prosjektarbeid i mekanikk",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4842,8 +5674,12 @@
   {
     "subjectCode": "MEK3700",
     "subjectName": "Aktuelle problemstillinger innen bio-mekanikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4854,8 +5690,12 @@
   {
     "subjectCode": "MEK3800",
     "subjectName": "Prosesser i fluidmekanikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4866,8 +5706,12 @@
   {
     "subjectCode": "MEK4320",
     "subjectName": "Hydrodynamisk bølgeteori",
-    "lectures": [],
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4878,8 +5722,9 @@
   {
     "subjectCode": "MEK4410",
     "subjectName": "Havvind og vindturbiners aerodynamikk",
-    "lectures": [],
+    "lectures": [["wed", "14:15-17:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4889,8 +5734,12 @@
   {
     "subjectCode": "MEK4420",
     "subjectName": "Marin hydrodynamikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4901,8 +5750,12 @@
   {
     "subjectCode": "MEK4470",
     "subjectName": "Beregningsorientert fluidmekanikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 12 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4913,8 +5766,12 @@
   {
     "subjectCode": "MEK4700",
     "subjectName": "Aktuelle problemstillinger innen bio-mekanikk",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4925,8 +5782,12 @@
   {
     "subjectCode": "MEK4800",
     "subjectName": "Prosesser i fluidmekanikk",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -4937,8 +5798,12 @@
   {
     "subjectCode": "MEK9320",
     "subjectName": "Hydrodynamic Wave Theory",
-    "lectures": [],
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -4949,8 +5814,9 @@
   {
     "subjectCode": "MEK9410",
     "subjectName": "Offshore wind and aerodynamics of wind turbines",
-    "lectures": [],
+    "lectures": [["wed", "14:15-17:00"]],
     "grading": false,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring and autumn\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -4959,8 +5825,12 @@
   {
     "subjectCode": "MEK9420",
     "subjectName": "Marine Hydrodynamics",
-    "lectures": [],
+    "lectures": [
+      ["tue", "12:15-14:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -4971,8 +5841,12 @@
   {
     "subjectCode": "MEK9470",
     "subjectName": "Computational Fluid Mechanics",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["tue", "14:15-16:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -4983,8 +5857,12 @@
   {
     "subjectCode": "MENA2000",
     "subjectName": "Faste materialers fundamentale oppbygning",
-    "lectures": [],
+    "lectures": [
+      ["tue", "14:15-16:00"],
+      ["thu", "08:15-10:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      29. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -4997,6 +5875,7 @@
     "subjectName": "Prosjektoppgave II",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 20.0,
     "level": "Bachelor",
     "teaching": "Vår og høst",
@@ -5007,8 +5886,9 @@
   {
     "subjectCode": "MENA3100",
     "subjectName": "Materialkarakterisering",
-    "lectures": [],
+    "lectures": [["tue", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      7. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5019,8 +5899,13 @@
   {
     "subjectCode": "MENA3201",
     "subjectName": "Energimaterialer",
-    "lectures": [],
+    "lectures": [
+      ["mon", "14:15-16:00"],
+      ["wed", "09:15-10:00"],
+      ["wed", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      27. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5031,8 +5916,12 @@
   {
     "subjectCode": "MENA3300",
     "subjectName": "Nanoteknologi",
-    "lectures": [],
+    "lectures": [
+      ["mon", "12:15-14:00"],
+      ["wed", "14:15-16:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      31. mai \n      \n      \n      kl. 09:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Emnet undervises hvert vårsemester fra og med våren 2020.",
@@ -5043,8 +5932,12 @@
   {
     "subjectCode": "MENA5010",
     "subjectName": "Nanophysics",
-    "lectures": [],
+    "lectures": [
+      ["mon", "09:15-12:00"],
+      ["fri", "10:15-13:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Spring\n      \n      \n        If the course is offered, a minimum of four students is required for ordinary lectures to take place. If less than four students participate, an exam will be given, but one should not expect ordinary teaching.",
@@ -5057,6 +5950,7 @@
     "subjectName": "Materialer, energi og nanoteknologi. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -5067,8 +5961,12 @@
   {
     "subjectCode": "MENA9010",
     "subjectName": "Nanophysics",
-    "lectures": [],
+    "lectures": [
+      ["mon", "09:15-12:00"],
+      ["fri", "10:15-13:00"]
+    ],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        If the course is offered, a minimum of four students is required for ordinary lectures to take place. If less than four students participate, an exam will be given, but one should not expect ordinary teaching.",
@@ -5079,8 +5977,9 @@
   {
     "subjectCode": "MNKOM3000",
     "subjectName": "Formidling og vitenskapsjournalistikk",
-    "lectures": [],
+    "lectures": [["mon", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5091,8 +5990,9 @@
   {
     "subjectCode": "MNKOM4000",
     "subjectName": "Formidling og vitenskapsjournalistikk",
-    "lectures": [],
+    "lectures": [["mon", "14:15-16:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5105,6 +6005,7 @@
     "subjectName": "Communicating Science",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring and autumn",
@@ -5117,6 +6018,7 @@
     "subjectName": "Teaching in STEM",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring and autumn",
@@ -5129,6 +6031,7 @@
     "subjectName": "Science, Ethics and Society",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring and autumn",
@@ -5139,8 +6042,13 @@
   {
     "subjectCode": "NAT2000",
     "subjectName": "Naturfag i praksis",
-    "lectures": [],
+    "lectures": [
+      ["tue", "10:15-12:00"],
+      ["thu", "08:15-10:00"],
+      ["fri", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5153,6 +6061,7 @@
     "subjectName": "Organisk kjemi og biologi i naturfaget 8-11",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 15.0,
     "level": "Bachelor",
     "teaching": "Vår\n      \n      \n        Emnet undervises ikke våren 2024.",
@@ -5165,6 +6074,7 @@
     "subjectName": "Naturfag 1: Celler, kropp og helse og praksiser i naturfag 8-13",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 15.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5177,6 +6087,7 @@
     "subjectName": "Naturfag 2: Karbonforbindelser, klima, evolusjon, økologi og praksiser i naturfag 8-13",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 15.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5189,6 +6100,7 @@
     "subjectName": "Naturfagdidaktikk for lærerutdannere",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Oppstart av undervisning vårsemesteret 2023. Emnet går over 2 år.Eksamen høstsemesteret 2024.",
@@ -5201,6 +6113,7 @@
     "subjectName": "Nukleærteknologi. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -5213,6 +6126,7 @@
     "subjectName": "Sannsynlighetsregning, modellering og dataanalyse for de fysiske fagene",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      20. mars \n      \n      \n      kl. 15:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5223,8 +6137,9 @@
   {
     "subjectCode": "STK-MAT2011",
     "subjectName": "Prosjektarbeid i finans, forsikring, risiko og dataanalyse",
-    "lectures": [],
+    "lectures": [["wed", "12:15-14:00"]],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5237,6 +6152,7 @@
     "subjectName": "Sannsynlighetsregning og statistisk modellering",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Tid: \n      20. mars \n      \n      \n      kl. 15:00\n      \n       (2 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5247,8 +6163,9 @@
   {
     "subjectCode": "STK2100",
     "subjectName": "Maskinlæring og statistiske metoder for prediksjon og klassifikasjon",
-    "lectures": [],
+    "lectures": [["tue", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      31. mai \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5259,8 +6176,9 @@
   {
     "subjectCode": "STK2130",
     "subjectName": "Modellering av stokastiske prosesser",
-    "lectures": [],
+    "lectures": [["thu", "12:15-14:00"]],
     "grading": true,
+    "examinationdate": "Tid: \n      5. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Bachelor",
     "teaching": "Vår",
@@ -5271,8 +6189,12 @@
   {
     "subjectCode": "STK4051",
     "subjectName": "Numeriske metoder for statistikk",
-    "lectures": [],
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -5283,8 +6205,12 @@
   {
     "subjectCode": "STK4141",
     "subjectName": "Grafiske sannsynlighetsmodeller",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -5295,8 +6221,12 @@
   {
     "subjectCode": "STK4150",
     "subjectName": "Miljøstatistikk og romlig statistikk",
-    "lectures": [],
+    "lectures": [
+      ["wed", "14:15-16:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 5 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n        Når behov og ressurser tilsier det. Kontakt studieinfo@math.uio.no hvis du er interessert i emnet.",
@@ -5307,8 +6237,12 @@
   {
     "subjectCode": "STK4500",
     "subjectName": "Livsforsikring og finans",
-    "lectures": [],
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": true,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5321,6 +6255,7 @@
     "subjectName": "Statistiske metoder og anvendelser",
     "lectures": [],
     "grading": true,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5331,8 +6266,12 @@
   {
     "subjectCode": "STK9051",
     "subjectName": "Computational Statistics",
-    "lectures": [],
+    "lectures": [
+      ["wed", "10:15-12:00"],
+      ["thu", "12:15-14:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -5343,8 +6282,12 @@
   {
     "subjectCode": "STK9141",
     "subjectName": "Probabilistic graphical models",
-    "lectures": [],
+    "lectures": [
+      ["mon", "10:15-12:00"],
+      ["fri", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "Tid: \n      12. juni \n      \n      \n      kl. 15:00\n      \n       (4 timer).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring and autumn\n      \n      \n        Taught according to demand and resources. Contact studieinfo@math.uio.no if you are interested in this course.",
@@ -5355,8 +6298,12 @@
   {
     "subjectCode": "STK9500",
     "subjectName": "Life Insurance and Finance",
-    "lectures": [],
+    "lectures": [
+      ["wed", "12:15-14:00"],
+      ["thu", "10:15-12:00"]
+    ],
     "grading": false,
+    "examinationdate": "Time: \n      June 10 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -5369,6 +6316,7 @@
     "subjectName": "Statistical Methods and Applications",
     "lectures": [],
     "grading": false,
+    "examinationdate": "Time: \n      June 7 \n      \n      \n      at 3:00 PM\n      \n       (4 hours).",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -5381,6 +6329,7 @@
     "subjectName": "Kybernetikk og autonome systemer. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -5393,6 +6342,7 @@
     "subjectName": "Kybernetikk og autonome systemer. Masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -5403,8 +6353,9 @@
   {
     "subjectCode": "TEK4050",
     "subjectName": "Stokastiske systemer",
-    "lectures": [],
+    "lectures": [["mon", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5417,6 +6368,7 @@
     "subjectName": "Mobilkommunikasjon",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår og høst\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2021",
@@ -5427,8 +6379,9 @@
   {
     "subjectCode": "TEK5030",
     "subjectName": "Maskinsyn",
-    "lectures": [],
+    "lectures": [["fri", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5439,8 +6392,9 @@
   {
     "subjectCode": "TEK5050",
     "subjectName": "Avbildning og deteksjon av optisk og infrarød stråling",
-    "lectures": [],
+    "lectures": [["mon", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5453,6 +6407,7 @@
     "subjectName": "Mobilitet i Internett og ad-hoc nettverk",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2021",
@@ -5465,6 +6420,7 @@
     "subjectName": "Antenner og radiobølgeutbredelse",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2022",
@@ -5477,6 +6433,7 @@
     "subjectName": "Fjernmåling med radar",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår\n      \n      \n        Emnet undervises ikke vår 2024.",
@@ -5487,8 +6444,9 @@
   {
     "subjectCode": "TEK5330",
     "subjectName": "Solenergisystemer",
-    "lectures": [],
+    "lectures": [["wed", "09:15-12:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5499,8 +6457,9 @@
   {
     "subjectCode": "TEK5340",
     "subjectName": "Energisystemanalyse: modellering, metoder og scenarioer",
-    "lectures": [],
+    "lectures": [["wed", "13:15-16:15"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5511,8 +6470,9 @@
   {
     "subjectCode": "TEK5380",
     "subjectName": "Prosjekt innen fornybar energi",
-    "lectures": [],
+    "lectures": [["mon", "13:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5523,8 +6483,9 @@
   {
     "subjectCode": "TEK5530",
     "subjectName": "Målbar sikkerhet for tingenes internett",
-    "lectures": [],
+    "lectures": [["thu", "09:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5537,6 +6498,7 @@
     "subjectName": "Avanserte områder innen kryptologi",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5547,8 +6509,9 @@
   {
     "subjectCode": "TEK5600",
     "subjectName": "Visualisering av vitenskapelige data",
-    "lectures": [],
+    "lectures": [["tue", "13:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5559,8 +6522,9 @@
   {
     "subjectCode": "TEK5710",
     "subjectName": "Design av småsatellitter",
-    "lectures": [],
+    "lectures": [["wed", "09:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5571,8 +6535,9 @@
   {
     "subjectCode": "TEK5720",
     "subjectName": "Prosjekt innen romsystemer",
-    "lectures": [],
+    "lectures": [["tue", "09:15-16:00"]],
     "grading": true,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Master",
     "teaching": "Vår",
@@ -5585,6 +6550,7 @@
     "subjectName": "Fornybare energisystemer, masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 30.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -5597,6 +6563,7 @@
     "subjectName": "Fornybare energisystemer, masteroppgave",
     "lectures": [],
     "grading": true,
+    "examinationdate": "",
     "credits": 60.0,
     "level": "Master",
     "teaching": "Vår og høst",
@@ -5609,6 +6576,7 @@
     "subjectName": "Maskinsyn",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5621,6 +6589,7 @@
     "subjectName": "Avbildning og deteksjon av optisk og infrarød stråling",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5633,6 +6602,7 @@
     "subjectName": "Mobilitet i Internett og ad-hoc nettverk",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2021",
@@ -5645,6 +6615,7 @@
     "subjectName": "Antenner og radiobølgeutbredelse",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n      \n        \n          \n        \n\n        \n          Undervisning tilbys siste gang\n          vår 2022",
@@ -5657,6 +6628,7 @@
     "subjectName": "Fjernmåling med radar",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår\n      \n      \n        Dette emnet undervises ikke vår 2024.",
@@ -5669,6 +6641,7 @@
     "subjectName": "Solenergisystemer",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5681,6 +6654,7 @@
     "subjectName": "Energisystemanalyse: modellering, metoder og scenarioer",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5693,6 +6667,7 @@
     "subjectName": "Interdisciplinary Research for Sustainability: A Toolkit for the Energy Transition",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 5.0,
     "level": "PhD",
     "teaching": "Spring",
@@ -5705,6 +6680,7 @@
     "subjectName": "Målbar sikkerhet for tingenes internett",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5717,6 +6693,7 @@
     "subjectName": "Avanserte områder innen kryptologi",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5729,6 +6706,7 @@
     "subjectName": "Visualisering av vitenskapelige data",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "Ph.d.",
     "teaching": "Vår",
@@ -5741,6 +6719,7 @@
     "subjectName": "Turbulence Theory",
     "lectures": [],
     "grading": false,
+    "examinationdate": "",
     "credits": 10.0,
     "level": "PhD",
     "teaching": "Spring\n      \n      \n      \n        \n          \n        \n\n        \n          The course is last held\n          spring 2021",
