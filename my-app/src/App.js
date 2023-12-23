@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import Courses from "./pages/Courses";
 import Schedule from "./pages/Schedule";
-import courses from "./jsonfiles/courses.json";
+import courses from "./jsonfiles/matnat-courses.json";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useState } from "react";
 import { Navigation } from "./Navigation";
