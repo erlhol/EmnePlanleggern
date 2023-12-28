@@ -5,7 +5,7 @@ import Schedule from "./pages/Schedule";
 import courses from "./jsonfiles/matnat-courses.json";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useState } from "react";
-import { Navigation } from "./Navigation";
+import { Navigation } from "./components/common/Navigation";
 import classes from "./App.module.css";
 import { generateRandomColor } from "./utilities/utility";
 import { Route, Routes, Navigate } from "react-router-dom";

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
-import { SelectedCourses } from "../SelectedCourses";
+import { SelectedCourses } from "../components/common/SelectedCourses";
 
 function search(element, searchWord) {
   /* Returns the elements that start with searchWord */

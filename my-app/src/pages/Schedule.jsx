@@ -2,7 +2,7 @@ import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import { useEffect, useState } from "react";
 import "moment/locale/en-gb";
-import { SelectedCourses } from "../SelectedCourses";
+import { SelectedCourses } from "../components/common/SelectedCourses";
 import { createDates } from "../utilities/dateUtility";
 
 function SmallSearch({ data }) {
@@ -88,10 +88,9 @@ function Schedule(props) {
   maxDate.setHours(20);
 
   const eventPropGetter = event => {
-    // Customize event properties based on your logic
     return {
       style: {
-        backgroundColor: event.backgroundColor, // You can set other styles as well
+        backgroundColor: event.backgroundColor,
       },
     };
   };
@@ -118,7 +117,7 @@ function Schedule(props) {
 
   return (
     <>
-      <h1>Calendar of selected courses!</h1>
+      <h1>Calendar</h1>
       <MyCalendar></MyCalendar>
       <SelectedCourses
         editSelected={onSetSelectedSubjects}
