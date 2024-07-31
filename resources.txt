@@ -1,0 +1,14 @@
+Useful resources:
+
+For searching: 
+- https://javascript.plainenglish.io/implementing-debouncing-in-react-f3316ef344f5
+
+UI libraries:
+- https://mantine.dev/
+- https://mui.com/material-ui/
+
+Writing code:
+- https://www.typescriptlang.org/docs/handbook/jsx.html
+
+Workflow tip:
+- Use google calendar
