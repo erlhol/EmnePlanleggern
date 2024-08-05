@@ -6,9 +6,9 @@ import courses from "./jsonfiles/matnat-courses.json";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useState } from "react";
 import { Navigation } from "./components/common/Navigation";
-import classes from "./App.module.css";
 import { generateRandomColor } from "./utilities/utility";
 import { Route, Routes, Navigate } from "react-router-dom";
+import classes from "./App.module.css";
 
 function App() {
   /* The entry point for the webapp
@@ -47,36 +47,37 @@ function App() {
 
   return (
     <div className="App">
-      <div className={classes.container}>
-        <div className={classes.left}>
+      <div className={classes.left}>
+        <nav className={classes.navbar}>
           <Navigation />
-        </div>
-        <div className={classes.right}>
-          <Routes>
-            <Route
-              path="/schedule"
-              element={
-                <Schedule
-                  allSubjects={courses}
-                  selected={selectedSubjects}
-                  changeSelected={onSetSelectedSubjects}
-                ></Schedule>
-              }
-            />
-            <Route
-              path="/courses"
-              element={
-                <Courses
-                  subjects={courses}
-                  selected={selectedSubjects}
-                  changeSelected={onSetSelectedSubjects}
-                ></Courses>
-              }
-            />
-            <Route path="*" element={<Navigate to="/schedule" />} />
-          </Routes>
-        </div>
+        </nav>
       </div>
+      <div className={classes.right}>
+        <Routes>
+          <Route
+            path="/schedule"
+            element={
+              <Schedule
+                allSubjects={courses}
+                selected={selectedSubjects}
+                changeSelected={onSetSelectedSubjects}
+              ></Schedule>
+            }
+          />
+          <Route
+            path="/courses"
+            element={
+              <Courses
+                subjects={courses}
+                selected={selectedSubjects}
+                changeSelected={onSetSelectedSubjects}
+              ></Courses>
+            }
+          />
+          <Route path="*" element={<Navigate to="/schedule" />} />
+        </Routes>
+      </div>
+
       <a href="mailto:erlinhol@uio.no">Kontakt Erling Holte på mail</a>
     </div>
   );
