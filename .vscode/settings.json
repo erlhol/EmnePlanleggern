@@ -31,5 +31,6 @@
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
   "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "typescript.preferences.includePackageJsonAutoImports": "on"
 }

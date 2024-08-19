@@ -1,13 +1,14 @@
 'use client';
 import { AppShell, Burger, Group, Skeleton, Text } from '@mantine/core';
 import { NavbarSimple } from './NavBar/NavbarSimple';
+import { Schedule } from '../components/Schedule/Schedule'
 
 export function BasicAppShell() {
 
   return (
     <AppShell
       header={{ height: 60 }}
-      navbar={{ width: 300, breakpoint: 'sm'}}
+      navbar={{ width: 300, breakpoint: 'sm' }}
       padding="md"
     >
       <AppShell.Header>
@@ -16,9 +17,11 @@ export function BasicAppShell() {
         </Group>
       </AppShell.Header>
       <AppShell.Navbar p="md">
-        <NavbarSimple/>
+        <NavbarSimple />
       </AppShell.Navbar>
-      <AppShell.Main>Main</AppShell.Main>
+      <AppShell.Main>
+        <Schedule />
+      </AppShell.Main>
     </AppShell>
   );
 }
