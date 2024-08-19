@@ -2372,7 +2372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:7.12.1":
+"@mantine/core@npm:^7.12.1":
   version: 7.12.1
   resolution: "@mantine/core@npm:7.12.1"
   dependencies:
@@ -2396,6 +2396,18 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 10c0/ad5df6f52adf5338f9005c6974bd13d1e15e15a3ae80041e0e98417c10031a0a6edcfa9522c8bb459f745f0b8989dbf10fea77e540e990cc43a9aa67e9094fa3
+  languageName: node
+  linkType: hard
+
+"@mantinex/mantine-logo@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@mantinex/mantine-logo@npm:1.0.1"
+  peerDependencies:
+    "@mantine/core": ">=7.0.0"
+    "@mantine/hooks": ">=7.0.0"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/d1628195eaf6681c4366c0154ee2e3adf1b863432ab15e6285a3f33ffbb33a17ec0b5a90a9ced2429cbf2841d4de11f72320ca3d37578d6908a5b9f194fea2d3
   languageName: node
   linkType: hard
 
@@ -5270,7 +5282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.3, chokidar@npm:^3.6.0":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.3, chokidar@npm:^3.6.0":
   version: 3.6.0
   resolution: "chokidar@npm:3.6.0"
   dependencies:
@@ -6837,6 +6849,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-prettier@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "eslint-config-prettier@npm:9.1.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 10c0/6d332694b36bc9ac6fdb18d3ca2f6ac42afa2ad61f0493e89226950a7091e38981b66bac2b47ba39d15b73fff2cd32c78b850a9cf9eed9ca9a96bfb2f3a2f10d
+  languageName: node
+  linkType: hard
+
 "eslint-import-resolver-node@npm:^0.3.9":
   version: 0.3.9
   resolution: "eslint-import-resolver-node@npm:0.3.9"
@@ -7797,7 +7820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.3.10":
+"glob@npm:10.3.10, glob@npm:^10.3.10":
   version: 10.3.10
   resolution: "glob@npm:10.3.10"
   dependencies:
@@ -7812,7 +7835,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2, glob@npm:^10.3.10":
+"glob@npm:^10.2.2":
   version: 10.4.5
   resolution: "glob@npm:10.4.5"
   dependencies:
@@ -8295,6 +8318,13 @@ __metadata:
   bin:
     image-size: bin/image-size.js
   checksum: 10c0/2660470096d12be82195f7e80fe03274689fbd14184afb78eaf66ade7cd06352518325814f88af4bde4b26647889fe49e573129f6e7ba8f5ff5b85cc7f559000
+  languageName: node
+  linkType: hard
+
+"immutable@npm:^4.0.0":
+  version: 4.3.7
+  resolution: "immutable@npm:4.3.7"
+  checksum: 10c0/9b099197081b22f6433003e34929da8ecddbbdc1474cdc8aa3b7669dee4adda349c06143de22def36016d1b6de5322b043eccd7a11db1dad2ca85dad4fff5435
   languageName: node
   linkType: hard
 
@@ -9911,8 +9941,9 @@ __metadata:
   resolution: "mantine-next-template@workspace:."
   dependencies:
     "@babel/core": "npm:^7.24.7"
-    "@mantine/core": "npm:7.12.1"
+    "@mantine/core": "npm:^7.12.1"
     "@mantine/hooks": "npm:7.12.1"
+    "@mantinex/mantine-logo": "npm:^1.0.1"
     "@next/bundle-analyzer": "npm:^14.2.4"
     "@next/eslint-plugin-next": "npm:^14.2.4"
     "@storybook/addon-essentials": "npm:^8.1.10"
@@ -9936,6 +9967,7 @@ __metadata:
     eslint-config-airbnb: "npm:19.0.4"
     eslint-config-airbnb-typescript: "npm:^18.0.0"
     eslint-config-mantine: "npm:3.2.0"
+    eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-import: "npm:^2.29.1"
     eslint-plugin-jest: "npm:^28.6.0"
     eslint-plugin-jsx-a11y: "npm:^6.9.0"
@@ -9949,8 +9981,9 @@ __metadata:
     postcss-preset-mantine: "npm:1.17.0"
     postcss-simple-vars: "npm:^7.0.1"
     prettier: "npm:^3.3.2"
-    react: "npm:18.3.1"
+    react: "npm:^18.3.1"
     react-dom: "npm:18.3.1"
+    sass: "npm:^1.77.8"
     storybook: "npm:^8.1.10"
     storybook-dark-mode: "npm:^4.0.2"
     stylelint: "npm:^16.6.1"
@@ -11791,7 +11824,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.3.1, react@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0, react@npm:^18.3.1":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
   dependencies:
@@ -12268,6 +12301,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass@npm:^1.77.8":
+  version: 1.77.8
+  resolution: "sass@npm:1.77.8"
+  dependencies:
+    chokidar: "npm:>=3.0.0 <4.0.0"
+    immutable: "npm:^4.0.0"
+    source-map-js: "npm:>=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: 10c0/2bfd62794070352c804f949e69bd8bb5b4ec846deeb924251b2c3f7b503170fb1ae186f513f0166907749eb34e0277dee747edcb78c886fb471aac01be1e864c
+  languageName: node
+  linkType: hard
+
 "saxes@npm:^6.0.0":
   version: 6.0.0
   resolution: "saxes@npm:6.0.0"
@@ -12630,7 +12676,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2, source-map-js@npm:^1.2.0":
+"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2, source-map-js@npm:^1.2.0":
   version: 1.2.0
   resolution: "source-map-js@npm:1.2.0"
   checksum: 10c0/7e5f896ac10a3a50fe2898e5009c58ff0dc102dcb056ed27a354623a0ece8954d4b2649e1a1b2b52ef2e161d26f8859c7710350930751640e71e374fe2d321a4
